@@ -48,6 +48,30 @@ function App() {
 
   const getManufacturer = (id) => manufacturersData.find(m => m.id === id);
 
+  const productCompletenessScores = useMemo(() => {
+    const countNonNull = (p) => {
+      let count = 0;
+      if (!p.specifications) return 0;
+      Object.values(p.specifications).forEach(category => {
+        Object.values(category).forEach(spec => {
+          if (spec && spec.value !== null && spec.value !== undefined && spec.value !== '') {
+            count++;
+          }
+        });
+      });
+      return count;
+    };
+
+    const counts = productsData.map(p => ({ id: p.id, count: countNonNull(p) }));
+    const maxCount = Math.max(...counts.map(c => c.count));
+    
+    const scores = {};
+    counts.forEach(c => {
+      scores[c.id] = maxCount > 0 ? Math.round((c.count / maxCount) * 100) : 0;
+    });
+    return scores;
+  }, []);
+
   const filteredDrawerProducts = useMemo(() => {
     return productsData.filter(p => {
       const matchSearch = drawerSearch === '' ||
@@ -433,7 +457,12 @@ function App() {
                     <div key={product.id} className={`product-card glass-panel hover-lift ${inCompare ? 'product-card--selected' : ''}`}>
                       <div className="card-header">
                         <span className="mfg-badge">{mfg ? mfg.name_en : ''}</span>
-                        <span className="category-badge">{product.category}</span>
+                        <div className="card-header-right">
+                          <span className="completeness-badge" title="Data completeness relative to the most detailed model in database">
+                            📊 {productCompletenessScores[product.id]}%
+                          </span>
+                          <span className="category-badge">{product.category}</span>
+                        </div>
                       </div>
                       
                       <div className="card-body">
@@ -592,6 +621,13 @@ function App() {
                 <div className="detail-meta-item">
                   <span className="detail-meta-label">Release Year</span>
                   <span className="detail-meta-val">{activeDetailProduct.release_year}</span>
+                </div>
+                <div className="detail-meta-item completeness-item" style={{ flexGrow: 1 }}>
+                  <span className="detail-meta-label">Data Completeness (数据完整度)</span>
+                  <div className="completeness-bar-wrapper" title="与本库中最全的机型数据进行横向对比的完整度得分">
+                    <div className="completeness-bar-fill" style={{ width: `${productCompletenessScores[activeDetailProduct.id]}%` }}></div>
+                    <span className="completeness-bar-text">{productCompletenessScores[activeDetailProduct.id]}%</span>
+                  </div>
                 </div>
                 {activeDetailProduct.fda_510k_number && (
                   <div className="detail-meta-item">

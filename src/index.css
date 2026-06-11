@@ -984,6 +984,7 @@ body {
 
 .detail-meta-row {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   margin-bottom: 24px;
   background: rgba(15, 23, 42, 0.4);
@@ -1114,5 +1115,61 @@ body {
   
   .detail-links-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* --- Card Header Right & Completeness Badges --- */
+.card-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.completeness-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent-purple);
+  background: rgba(129, 140, 248, 0.12);
+  border: 1px solid rgba(129, 140, 248, 0.2);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* --- Completeness Progress Bar in Details Modal --- */
+.completeness-bar-wrapper {
+  display: flex;
+  align-items: center;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border-light);
+  border-radius: 20px;
+  height: 20px;
+  padding: 2px 8px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.completeness-bar-fill {
+  background: linear-gradient(90deg, var(--accent-purple), var(--accent-blue));
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 20px;
+  transition: width 0.5s ease-in-out;
+  opacity: 0.85;
+}
+
+.completeness-bar-text {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  z-index: 1;
+  margin-left: auto;
+}
+
+@media (max-width: 480px) {
+  .completeness-item {
+    flex-basis: 100%;
   }
 }
