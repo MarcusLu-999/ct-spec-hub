@@ -617,27 +617,67 @@ body {
   text-align: left;
 }
 
-/* --- Mobile Floating Action Button (FAB) --- */
-.mobile-fab {
+/* --- Mobile Floating Action Buttons (FAB) --- */
+.mobile-fab-container {
   display: none;
   position: fixed;
   bottom: 24px;
   right: 24px;
   z-index: 999;
-  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 32px rgba(56, 189, 248, 0.4);
-  color: white;
-  padding: 14px 20px;
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 0.95rem;
+  gap: 12px;
+  align-items: center;
+}
+
+.mobile-fab-btn {
+  display: flex;
   align-items: center;
   gap: 8px;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.9rem;
   cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(15, 23, 42, 0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  color: white;
 }
-.mobile-fab .fab-icon {
-  font-size: 1.2rem;
+
+.mobile-fab-secondary {
+  background: rgba(30, 41, 59, 0.75) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.mobile-fab-secondary:hover {
+  background: rgba(30, 41, 59, 0.9) !important;
+  transform: translateY(-2px);
+}
+
+.mobile-fab-primary {
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue)) !important;
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 24px rgba(129, 140, 248, 0.35);
+}
+
+.mobile-fab-primary:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 12px 32px rgba(129, 140, 248, 0.5);
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    box-shadow: 0 8px 24px rgba(129, 140, 248, 0.35);
+  }
+  50% {
+    box-shadow: 0 8px 32px rgba(129, 140, 248, 0.6);
+    transform: translateY(-1px) scale(1.02);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s infinite ease-in-out;
 }
 
 /* --- Quick Select Drawer (Mobile) --- */
@@ -842,8 +882,8 @@ body {
     font-size: 0.95rem;
   }
 
-  /* Show floating Quick Select FAB */
-  .mobile-fab {
+  /* Show floating Quick Select FAB Container */
+  .mobile-fab-container {
     display: flex;
   }
 
@@ -1171,5 +1211,19 @@ body {
 @media (max-width: 480px) {
   .completeness-item {
     flex-basis: 100%;
+  }
+  .mobile-fab-secondary .mobile-fab-btn-text {
+    display: none;
+  }
+  .mobile-fab-btn {
+    padding: 10px 14px;
+  }
+  .mobile-fab-primary {
+    padding: 12px 18px;
+  }
+  .mobile-fab-container {
+    bottom: 16px;
+    right: 16px;
+    gap: 8px;
   }
 }

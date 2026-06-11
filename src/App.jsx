@@ -190,7 +190,13 @@ function App() {
           <p>Filtered Results</p>
         </div>
         {compareList.length > 0 && (
-          <div className="stat-card glass-panel stat-card--accent hover-lift" onClick={() => setShowCompare(!showCompare)}>
+          <div className="stat-card glass-panel stat-card--accent hover-lift" onClick={() => {
+            const nextShow = !showCompare;
+            setShowCompare(nextShow);
+            if (nextShow) {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          }}>
             <div className="compare-indicator">
               <h3>{compareList.length} <span className="text-sm">/ 4</span></h3>
             </div>
@@ -523,12 +529,23 @@ function App() {
         )}
       </main>
 
-      {/* Mobile Floating Action Button */}
+      {/* Mobile Floating Action Buttons */}
       {!showCompare && (
-        <button className="mobile-fab glass-panel hover-lift" onClick={() => setShowQuickSelect(true)}>
-          <span className="fab-icon">📊</span>
-          <span className="fab-text">Quick Select ({compareList.length}/4)</span>
-        </button>
+        <div className="mobile-fab-container">
+          <button className="mobile-fab-btn mobile-fab-secondary glass-panel hover-lift" onClick={() => setShowQuickSelect(true)}>
+            <span className="fab-icon">🔍</span>
+            <span className="mobile-fab-btn-text">Select ({compareList.length}/4)</span>
+          </button>
+          {compareList.length > 0 && (
+            <button className="mobile-fab-btn mobile-fab-primary hover-lift animate-pulse-subtle" onClick={() => {
+              setShowCompare(true);
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}>
+              <span className="fab-icon">📊</span>
+              <span className="mobile-fab-btn-text">Compare Now ({compareList.length})</span>
+            </button>
+          )}
+        </div>
       )}
 
       {/* Quick Select Drawer Component */}
@@ -590,6 +607,7 @@ function App() {
                 onClick={() => {
                   setShowCompare(true);
                   setShowQuickSelect(false);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
               >
                 📊 Compare Selected ({compareList.length})
