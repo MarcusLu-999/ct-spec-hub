@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Radar } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -28,7 +28,7 @@ const RADAR_AXES = [
   { key: 'max_reconstructed_slices', category: '成像链与物理硬件 (Imaging Chain)', label: '重建层数', invert: false },
   { key: 'bore_size', category: '物理几何与机械参数 (Physical Geometry)', label: '机架孔径', invert: false },
   { key: 'rotation_speed', category: '物理几何与机械参数 (Physical Geometry)', label: '最快转速', invert: true },
-  { key: 'temporal_resolution', category: '成像链与物理硬件 (Imaging Chain)', label: '时间分辨率(快)', invert: true },
+  { key: 'temporal_resolution', category: '成像链与物理硬件 (Imaging Chain)', label: ['时间分辨率', '(快)'], invert: true },
   { key: 'max_generator_power', category: '成像链与物理硬件 (Imaging Chain)', label: '发生器功率', invert: false },
   { key: 'tube_current_max', category: '成像链与物理硬件 (Imaging Chain)', label: '最大管电流', invert: false },
   { key: 'max_scan_speed', category: '物理几何与机械参数 (Physical Geometry)', label: '扫描速度', invert: false },
@@ -45,6 +45,27 @@ function App() {
   const [showQuickSelect, setShowQuickSelect] = useState(false);
   const [drawerSearch, setDrawerSearch] = useState('');
   const [activeDetailProduct, setActiveDetailProduct] = useState(null);
+  
+  const [isMobile, setIsMobile] = useState(false);
+  const [isCompact, setIsCompact] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // Auto compact logic on mobile when comparing > 2 products
+  useEffect(() => {
+    if (isMobile && compareList.length > 2) {
+      setIsCompact(true);
+    } else {
+      setIsCompact(false);
+    }
+  }, [compareList.length, isMobile]);
 
   const getManufacturer = (id) => manufacturersData.find(m => m.id === id);
 
@@ -299,14 +320,7 @@ function App() {
                     maintainAspectRatio: false,
                     plugins: {
                       legend: {
-                        position: 'bottom',
-                        labels: {
-                          color: '#e2e8f0',
-                          font: { family: 'Inter', size: 13, weight: '500' },
-                          padding: 24,
-                          usePointStyle: true,
-                          pointStyle: 'circle',
-                        },
+                        display: false, // Use custom CSS flex legend below instead
                       },
                       tooltip: {
                         backgroundColor: 'rgba(15, 23, 42, 0.95)',
@@ -337,16 +351,55 @@ function App() {
                         angleLines: { color: 'rgba(148, 163, 184, 0.25)' },
                         pointLabels: {
                           color: '#e2e8f0',
-                          font: { family: 'Inter', size: 12, weight: '500' },
+                          font: { 
+                            family: 'Inter', 
+                            size: isMobile ? 10 : 12, 
+                            weight: '500' 
+                          },
+                          padding: isMobile ? 6 : 10,
                         },
                       },
                     },
                   }}
                 />
               </div>
+              
+              {/* Custom CSS Flex Legend */}
+              <div className="radar-legend-container">
+                {compareProducts.map((p, idx) => {
+                  const color = RADAR_COLORS[idx % RADAR_COLORS.length];
+                  return (
+                    <div key={p.id} className="radar-legend-item">
+                      <span className="radar-legend-color" style={{ backgroundColor: color.border }}></span>
+                      <span className="radar-legend-text">{p.model_name}</span>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
 
-            <div className="compare-table-wrapper glass-panel">
+            <div className="compare-table-header-controls">
+              <h3 className="glass-title-small">Specification Comparison</h3>
+              <div className="view-density-toggle">
+                <span className="density-label">🔍 视图缩放 (Zoom):</span>
+                <button 
+                  className={`density-btn ${!isCompact ? 'active' : ''}`} 
+                  onClick={() => setIsCompact(false)}
+                  title="标准视图"
+                >
+                  100%
+                </button>
+                <button 
+                  className={`density-btn ${isCompact ? 'active' : ''}`} 
+                  onClick={() => setIsCompact(true)}
+                  title="紧凑缩放视图"
+                >
+                  80% (紧凑)
+                </button>
+              </div>
+            </div>
+
+            <div className={`compare-table-wrapper glass-panel ${isCompact ? 'compact-view' : ''}`}>
               <table className="compare-table">
                 <thead>
                   <tr>

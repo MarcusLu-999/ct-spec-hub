@@ -419,6 +419,127 @@ body {
   margin: 0 auto;
 }
 
+/* Custom CSS Flex Legend */
+.radar-legend-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin-top: 24px;
+  padding: 0 16px;
+}
+.radar-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.radar-legend-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 6px currentColor;
+}
+.radar-legend-text {
+  white-space: nowrap;
+}
+
+/* --- Compare Table Controls --- */
+.compare-table-header-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 36px;
+  margin-bottom: 16px;
+  padding: 0 4px;
+}
+.glass-title-small {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+.view-density-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(30, 41, 59, 0.4);
+  border: 1px solid var(--border-light);
+  padding: 4px;
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+}
+.density-label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  padding-left: 8px;
+  font-weight: 500;
+}
+.density-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.density-btn:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+}
+.density-btn.active {
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.4);
+}
+
+/* --- Compact View Overrides (Desktop Default) --- */
+.compare-table-wrapper.compact-view .compare-table {
+  font-size: 0.85rem;
+}
+.compare-table-wrapper.compact-view .compare-table th {
+  padding: 10px 12px;
+  min-width: 140px;
+}
+.compare-table-wrapper.compact-view .compare-table td {
+  padding: 10px 12px;
+  min-width: 140px;
+}
+.compare-table-wrapper.compact-view .th-mfg-name {
+  font-size: 0.7rem;
+}
+.compare-table-wrapper.compact-view .th-model-name {
+  font-size: 1rem;
+}
+.compare-table-wrapper.compact-view .th-tier-badge {
+  font-size: 0.7rem;
+  padding: 1px 6px;
+}
+.compare-table-wrapper.compact-view .spec-label-col {
+  width: 140px !important;
+  min-width: 140px !important;
+  padding: 10px 12px !important;
+}
+.compare-table-wrapper.compact-view .indented {
+  padding-left: 24px !important;
+}
+.compare-table-wrapper.compact-view .spec-val-number {
+  font-size: 0.95rem;
+}
+.compare-table-wrapper.compact-view .spec-val-unit {
+  font-size: 0.75rem;
+}
+.compare-table-wrapper.compact-view .best-badge {
+  font-size: 0.8rem;
+  right: 6px;
+  top: 6px;
+}
+
 /* --- Compare Table --- */
 .compare-table-wrapper {
   overflow-x: auto;
@@ -920,27 +1041,43 @@ body {
     font-size: 1rem;
   }
 
-  /* Radar chart height adjustment */
+  /* Radar chart height and padding adjustments on mobile */
+  .radar-section {
+    padding: 16px 12px;
+    margin-bottom: 20px;
+  }
   .radar-wrapper {
-    height: 350px;
+    height: 290px;
+  }
+  .radar-legend-container {
+    gap: 8px 12px;
+    margin-top: 12px;
+  }
+  .radar-legend-item {
+    font-size: 0.75rem;
+    gap: 6px;
+  }
+  .radar-legend-color {
+    width: 8px;
+    height: 8px;
   }
 
   /* Table styles overrides for mobile side-by-side horizontal swiping */
   .compare-table th {
-    min-width: 140px; /* column width on mobile */
-    padding: 12px;
+    min-width: 130px; /* column width on mobile */
+    padding: 10px;
   }
   .compare-table td {
-    padding: 12px;
+    padding: 10px;
   }
   .th-model-name {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .spec-label-col {
-    width: 120px; /* lock left column size */
-    min-width: 120px;
-    font-size: 0.85rem;
-    padding: 12px 8px !important;
+    width: 110px; /* lock left column size */
+    min-width: 110px;
+    font-size: 0.8rem;
+    padding: 10px 8px !important;
   }
   .indented {
     padding-left: 16px !important; /* reduce indent on mobile */
@@ -949,8 +1086,45 @@ body {
     font-size: 0.95rem;
   }
   .best-badge {
-    right: 8px;
+    right: 6px;
     top: 6px;
+  }
+
+  /* Compact View Overrides specifically for mobile */
+  .compare-table-wrapper.compact-view .compare-table th {
+    min-width: 90px !important;
+    padding: 8px 6px;
+  }
+  .compare-table-wrapper.compact-view .compare-table td {
+    min-width: 90px !important;
+    padding: 8px 6px;
+  }
+  .compare-table-wrapper.compact-view .th-mfg-name {
+    font-size: 0.6rem;
+  }
+  .compare-table-wrapper.compact-view .th-model-name {
+    font-size: 0.8rem;
+  }
+  .compare-table-wrapper.compact-view .th-tier-badge {
+    font-size: 0.6rem;
+    padding: 1px 4px;
+  }
+  .compare-table-wrapper.compact-view .spec-label-col {
+    width: 82px !important;
+    min-width: 82px !important;
+    padding: 8px 6px !important;
+    font-size: 0.7rem;
+  }
+  .compare-table-wrapper.compact-view .spec-val-number {
+    font-size: 0.8rem;
+  }
+  .compare-table-wrapper.compact-view .spec-val-unit {
+    font-size: 0.65rem;
+  }
+  .compare-table-wrapper.compact-view .best-badge {
+    font-size: 0.65rem;
+    right: 4px;
+    top: 4px;
   }
 }
 
