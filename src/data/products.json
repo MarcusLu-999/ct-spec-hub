@@ -40,16 +40,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gd2O2S (GOS / StellarInfinity)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 58,
@@ -67,9 +67,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vectron",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 0,
@@ -144,7 +144,7 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative ADMIRE)",
           "unit": "",
           "label": "深度学习重建算法"
         },
@@ -156,8 +156,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.24,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -228,19 +228,19 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 227,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 0,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 300,
@@ -248,16 +248,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gd2O2S (Stellar)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 38,
@@ -275,9 +275,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vectron",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 5,
@@ -285,8 +285,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 120,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -295,9 +295,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 12000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 100,
@@ -305,9 +305,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 100,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 1300,
@@ -315,14 +315,14 @@
           "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 150,
@@ -330,14 +330,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 736,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4608,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -357,15 +357,15 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "TwinBeam Dual Energy (双能光量子双能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.3,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -379,9 +379,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 50,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -451,16 +451,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Cadmium Telluride (CdTe / Direct Conversion Direct-Counting)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 60,
@@ -478,9 +478,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vectron",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 0,
@@ -555,7 +555,7 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Direct Quantum Reconstruction)",
           "unit": "",
           "label": "深度学习重建算法"
         },
@@ -567,8 +567,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.11,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -639,19 +639,19 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 227,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 0,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 372,
@@ -659,16 +659,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gd2O2S (Stellar)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 38,
@@ -686,9 +686,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Athlon",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 5,
@@ -696,8 +696,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 80,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -706,9 +706,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 5000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 160,
@@ -716,9 +716,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 75,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 825,
@@ -726,14 +726,14 @@
           "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 86,
@@ -741,14 +741,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 736,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4608,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -763,7 +763,7 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative ADMIRE)",
           "unit": "",
           "label": "深度学习重建算法"
         },
@@ -775,8 +775,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.33,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -790,9 +790,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 50,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -842,19 +842,19 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 227,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 0,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 2000,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 458,
@@ -862,16 +862,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gd2O2S (Stellar)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 38,
@@ -889,9 +889,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Straton MX",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 5,
@@ -899,8 +899,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 120,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -909,9 +909,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 5000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 160,
@@ -919,9 +919,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 80,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 750,
@@ -929,14 +929,14 @@
           "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 75,
@@ -944,14 +944,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 736,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4608,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -966,7 +966,7 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative ADMIRE)",
           "unit": "",
           "label": "深度学习重建算法"
         },
@@ -978,8 +978,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.33,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -993,9 +993,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 50,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1050,19 +1050,19 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 307,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 0,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 2000,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 262,
@@ -1070,16 +1070,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gd2O2S (Stellar)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 80,
@@ -1097,9 +1097,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vectron",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 5,
@@ -1107,8 +1107,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 120,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -1117,9 +1117,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 12000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 100,
@@ -1127,9 +1127,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 100,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 1300,
@@ -1137,14 +1137,14 @@
           "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 125,
@@ -1152,14 +1152,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 736,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4608,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -1179,15 +1179,15 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "TwinBeam Dual Energy (双能光量子双能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.3,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -1201,9 +1201,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 80,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1253,19 +1253,19 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 227,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 0,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 175,
@@ -1273,16 +1273,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gd2O2S (Stellar)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 38,
@@ -1300,9 +1300,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Athlon",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 6,
@@ -1320,9 +1320,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 5000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 75,
@@ -1330,9 +1330,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 75,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 825,
@@ -1340,14 +1340,14 @@
           "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 83,
@@ -1355,14 +1355,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 736,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4608,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -1389,8 +1389,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.35,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -1404,9 +1404,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 50,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1456,19 +1456,19 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 227,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 0,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 87,
@@ -1476,16 +1476,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gd2O2S (Stellar)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 22,
@@ -1503,9 +1503,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Athlon",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 5,
@@ -1513,8 +1513,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 80,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -1523,9 +1523,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 5000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 75,
@@ -1533,9 +1533,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 75,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 825,
@@ -1543,14 +1543,14 @@
           "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 165,
@@ -1558,14 +1558,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 736,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 3456,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -1580,20 +1580,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative SAFIRE)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None (不支持能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.35,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -1607,9 +1607,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 40,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1659,19 +1659,19 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 227,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 0,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 200,
@@ -1679,16 +1679,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gd2O2S (Stellar)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 22,
@@ -1706,9 +1706,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Chronon",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 5,
@@ -1716,8 +1716,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 80,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -1726,9 +1726,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 5000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 50,
@@ -1736,9 +1736,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 50,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 400,
@@ -1746,14 +1746,14 @@
           "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 400,
@@ -1761,14 +1761,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 736,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 3456,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -1783,20 +1783,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative SAFIRE)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None (不支持能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.35,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -1810,9 +1810,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 30,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1862,19 +1862,19 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 227,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 0,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 200,
@@ -1882,16 +1882,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gd2O2S (Stellar)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 11,
@@ -1909,9 +1909,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Chronon",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 5,
@@ -1919,8 +1919,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 80,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -1929,9 +1929,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 5000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 32,
@@ -1939,9 +1939,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 32,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 400,
@@ -1949,14 +1949,14 @@
           "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 400,
@@ -1964,14 +1964,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 736,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 3456,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -1986,20 +1986,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative SAFIRE)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None (不支持能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.35,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -2013,9 +2013,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 20,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -2074,9 +2074,9 @@
           "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 2000,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 437,
@@ -2084,16 +2084,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 8.3,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gemstone (Garnet Scintillator / 宝石探测器)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 160,
@@ -2111,9 +2111,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Quantix",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 8,
@@ -2141,9 +2141,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 130,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 1300,
@@ -2156,9 +2156,9 @@
           "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 29,
@@ -2166,14 +2166,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 888,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4800,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -2193,15 +2193,15 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "Gemstone Spectral Imaging (GSI / 宝石能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.23,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -2274,14 +2274,14 @@
           "label": "最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 0,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 150,
@@ -2289,16 +2289,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gemstone (Garnet Scintillator)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 40,
@@ -2316,9 +2316,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Performix",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 6.3,
@@ -2326,8 +2326,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 7.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -2336,9 +2336,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 2000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 72,
@@ -2346,9 +2346,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 72,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 600,
@@ -2361,9 +2361,9 @@
           "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 175,
@@ -2371,14 +2371,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 888,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -2398,15 +2398,15 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None (不支持光谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.35,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -2420,9 +2420,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 40,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -2476,14 +2476,14 @@
           "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 2000,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 200,
@@ -2491,16 +2491,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Yttrium Lutetium Silicate (YSO / NanoPanel Prism)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 80,
@@ -2518,9 +2518,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "MRC Ice",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 8,
@@ -2528,8 +2528,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 30,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -2538,9 +2538,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1600,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 100,
@@ -2548,9 +2548,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 100,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 1000,
@@ -2563,9 +2563,9 @@
           "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 135,
@@ -2573,14 +2573,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 672,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4800,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -2595,7 +2595,7 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "Precise Image (深度学习重建)",
           "unit": "",
           "label": "深度学习重建算法"
         },
@@ -2607,8 +2607,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.28,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -2673,36 +2673,36 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 204,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (NanoPanel)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 40,
@@ -2720,9 +2720,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "vMRC",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 8,
@@ -2730,8 +2730,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 8.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -2740,9 +2740,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1600,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 72,
@@ -2750,9 +2750,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 72,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 600,
@@ -2760,14 +2760,14 @@
           "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 80,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 175,
@@ -2775,14 +2775,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 672,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -2797,20 +2797,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "Precise Image (深度学习重建)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None (不支持能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.35,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -2824,9 +2824,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 40,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -2885,14 +2885,14 @@
           "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 2000,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 160,
@@ -2900,16 +2900,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 8.4,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (PUREViSION)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 160,
@@ -2927,9 +2927,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vistar",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 7.5,
@@ -2937,8 +2937,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 7.5,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -2947,9 +2947,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1386,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 100,
@@ -2957,9 +2957,9 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 100,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 1000,
@@ -2967,14 +2967,14 @@
           "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 80,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 135,
@@ -2982,14 +2982,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 896,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2910,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -3016,8 +3016,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.31,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -3092,9 +3092,9 @@
           "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 2000,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
           "value": 400,
@@ -3102,16 +3102,16 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gd2O2S (GOS / Scintillator)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 160,
@@ -3129,39 +3129,39 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Dunlee CTR2285",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
-          "value": null,
-          "unit": "",
+          "value": 30.0,
+          "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 30.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
-          "value": null,
+          "value": "Water-cooled",
           "unit": "",
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 5000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 120,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 120,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
           "value": 1500,
@@ -3174,9 +3174,9 @@
           "label": "最小管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 25,
@@ -3184,14 +3184,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 896,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4800,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -3211,15 +3211,15 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "Dual Energy (双能双排能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.25,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -3233,9 +3233,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 80,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -3288,96 +3288,96 @@
           "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 2000,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 200,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (Solid Scintillator)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 160,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 256,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 512,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Dunlee CT8000",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
-          "value": null,
-          "unit": "",
+          "value": 30.0,
+          "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 30.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
-          "value": null,
+          "value": "Water-cooled",
           "unit": "",
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 5000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 100,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 1000,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 125,
@@ -3385,14 +3385,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 672,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4800,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -3412,15 +3412,15 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "Dual Energy (双能双排能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.25,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -3434,9 +3434,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 60,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -3484,36 +3484,36 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 307,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 0,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 2000,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 300,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gemstone (Garnet Scintillator)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 160,
@@ -3531,9 +3531,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Quantix",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 8,
@@ -3551,9 +3551,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 5000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 100,
@@ -3561,24 +3561,24 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 100,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 1000,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 29,
@@ -3586,14 +3586,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 888,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4800,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -3608,20 +3608,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "TrueFidelity (DLIR 深度学习重建)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "Gemstone Spectral Imaging (GSI / 宝石能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.23,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -3635,9 +3635,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 60,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -3691,36 +3691,36 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 227,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 0,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Solarix (Scintillator)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 20,
@@ -3738,9 +3738,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Performix",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 6.3,
@@ -3748,8 +3748,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 7.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -3758,9 +3758,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1300,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 72,
@@ -3768,24 +3768,24 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 72,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 800,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 80,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 175,
@@ -3793,14 +3793,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 888,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -3815,20 +3815,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "TrueFidelity (DLIR 深度学习重建)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None (不支持能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.35,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -3842,9 +3842,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 40,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -3893,36 +3893,36 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 227,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Solarix",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 40,
@@ -3940,9 +3940,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Performix",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 6.3,
@@ -3950,8 +3950,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 7.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -3960,9 +3960,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1300,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 72,
@@ -3970,24 +3970,24 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 72,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 800,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 80,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 175,
@@ -3995,14 +3995,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 888,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -4017,20 +4017,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "TrueFidelity (DLIR 深度学习重建)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None (不支持能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.35,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -4044,9 +4044,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 40,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4095,36 +4095,36 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 227,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 2000,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 200,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "YSO / GOS (Double layer NanoPanel Prism)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 40,
@@ -4142,9 +4142,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "MRC Ice",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 8,
@@ -4152,8 +4152,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 30,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -4162,9 +4162,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1600,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 80,
@@ -4172,24 +4172,24 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 80,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 800,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 80,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 135,
@@ -4197,14 +4197,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 672,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4800,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -4219,7 +4219,7 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (iDose4 混合迭代重建)",
           "unit": "",
           "label": "深度学习重建算法"
         },
@@ -4231,8 +4231,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.28,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -4246,9 +4246,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 40,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4301,36 +4301,36 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 204,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 50,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (Solid Scintillator)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 20,
@@ -4348,9 +4348,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "vMRC",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 8,
@@ -4358,8 +4358,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 3.5,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -4368,9 +4368,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 800,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 28,
@@ -4378,24 +4378,24 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 28,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 300,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 80,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 375,
@@ -4403,14 +4403,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 672,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -4425,20 +4425,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (iDose4 混合迭代重建)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None (不支持能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.4,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -4452,9 +4452,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 20,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4506,36 +4506,36 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 300,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 2000,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 150,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 8.4,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (PUREViSION)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 160,
@@ -4553,9 +4553,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vistar",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 7.5,
@@ -4563,8 +4563,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 7.5,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -4573,9 +4573,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1386,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 100,
@@ -4583,24 +4583,24 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 100,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 1000,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 80,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 137,
@@ -4608,14 +4608,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 896,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2910,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -4630,20 +4630,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "AiCE (Advanced intelligent Clear-IQ Engine)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None (不支持能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.31,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -4657,9 +4657,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 80,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4712,36 +4712,36 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 220,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 2000,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 8.4,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (PUREViSION)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 40,
@@ -4759,9 +4759,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vistar",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 7.5,
@@ -4769,8 +4769,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 7.5,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -4779,9 +4779,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1386,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 72,
@@ -4789,24 +4789,24 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 72,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 800,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 80,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 175,
@@ -4814,14 +4814,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 896,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2910,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -4836,20 +4836,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "AiCE (Advanced intelligent Clear-IQ Engine)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None (不支持能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.31,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -4863,9 +4863,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 60,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4917,36 +4917,36 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 205,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 75,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (PUREViSION)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
           "value": 16,
@@ -4964,9 +4964,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vistar",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 7.5,
@@ -4974,8 +4974,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 5.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -4984,9 +4984,9 @@
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 860,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 32,
@@ -4994,24 +4994,24 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 32,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 400,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 80,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 250,
@@ -5019,14 +5019,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 896,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -5041,20 +5041,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "AiCE (Advanced intelligent Clear-IQ Engine)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None (不支持能谱成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.35,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -5068,9 +5068,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 30,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5119,101 +5119,101 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 205,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (Z-detector)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 80,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 160,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 320,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "UIH 30MHU Tube",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
-          "value": null,
-          "unit": "",
+          "value": 30.0,
+          "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 30.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
-          "value": null,
+          "value": "Water-cooled",
           "unit": "",
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 5000,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 100,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 1000,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 135,
@@ -5221,14 +5221,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 896,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4608,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -5248,15 +5248,15 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "Dual Energy (双能量成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.25,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -5270,9 +5270,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 60,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5320,41 +5320,41 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 205,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (Z-detector)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
           "value": 80,
@@ -5367,29 +5367,29 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "UIH 8MHU Tube",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
-          "value": null,
-          "unit": "",
+          "value": 8.0,
+          "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 8.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
-          "value": null,
+          "value": "Water-cooled",
           "unit": "",
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1600,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 100,
@@ -5402,19 +5402,19 @@
           "label": "发生器单管最大功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 800,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 175,
@@ -5422,14 +5422,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 896,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -5444,20 +5444,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.31,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -5471,9 +5471,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 40,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5522,41 +5522,41 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 205,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (Z-detector)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
           "value": 40,
@@ -5569,54 +5569,54 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "UIH 8MHU Tube",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
-          "value": null,
-          "unit": "",
+          "value": 8.0,
+          "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 8.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
-          "value": null,
+          "value": "Oil-cooled",
           "unit": "",
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1300,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 80,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 80,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 800,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 70,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 350,
@@ -5624,14 +5624,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 896,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -5646,20 +5646,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.31,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -5673,9 +5673,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 40,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5734,31 +5734,31 @@
           "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (Z-detector)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 20,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
           "value": 20,
@@ -5771,44 +5771,44 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "UIH 5.3MHU Tube",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
-          "value": null,
-          "unit": "",
+          "value": 5.3,
+          "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 5.3,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
-          "value": null,
+          "value": "Oil-cooled",
           "unit": "",
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 860,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 50,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 50,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 600,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
           "value": 70,
@@ -5816,9 +5816,9 @@
           "label": "最小管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 350,
@@ -5826,14 +5826,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 896,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -5848,20 +5848,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.35,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -5875,9 +5875,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 30,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5934,23 +5934,23 @@
           "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
@@ -5961,9 +5961,9 @@
           "label": "探测器材料/技术分代"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 20,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
           "value": 40,
@@ -5976,9 +5976,9 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "UIH 5.3MHU Tube",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
           "value": 5.3,
@@ -5986,12 +5986,12 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 5.3,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
-          "value": null,
+          "value": "Oil-cooled",
           "unit": "",
           "label": "球管冷却工程机制"
         },
@@ -6021,9 +6021,9 @@
           "label": "最小管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 350,
@@ -6031,14 +6031,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 896,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -6058,15 +6058,15 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.35,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -6080,9 +6080,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 30,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6139,36 +6139,36 @@
           "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1600,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (Z-detector)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
           "value": 64,
@@ -6181,29 +6181,29 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "UIH 8MHU Tube",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
-          "value": null,
-          "unit": "",
+          "value": 8.0,
+          "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 8.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
-          "value": null,
+          "value": "Water-cooled",
           "unit": "",
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1600,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
           "value": 100,
@@ -6216,9 +6216,9 @@
           "label": "发生器单管最大功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 800,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
           "value": 70,
@@ -6226,9 +6226,9 @@
           "label": "最小管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 175,
@@ -6236,14 +6236,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 896,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -6258,20 +6258,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.31,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -6285,9 +6285,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 40,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6338,101 +6338,101 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 205,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1650,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (Solid Scintillator)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Dunlee CTR2280",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
-          "value": null,
-          "unit": "",
+          "value": 8.0,
+          "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 8.0,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
-          "value": null,
+          "value": "Oil-cooled",
           "unit": "",
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1300,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 80,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 80,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 800,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 60,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 125,
@@ -6440,14 +6440,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 672,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -6462,20 +6462,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "Double Energy (双能双体成像)",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.33,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -6489,9 +6489,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 40,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6539,101 +6539,101 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": null,
+          "value": 205,
           "unit": "kg",
-          "label": "table_load_capacity"
+          "label": "检查床最大承重"
         },
         "gantry_tilt": {
-          "value": null,
+          "value": 30,
           "unit": "°",
-          "label": "gantry_tilt"
+          "label": "机架倾角"
         },
         "scan_range": {
-          "value": null,
+          "value": 1650,
           "unit": "mm",
-          "label": "scan_range"
+          "label": "最长扫描范围"
         },
         "max_scan_speed": {
-          "value": null,
+          "value": 100,
           "unit": "mm/s",
-          "label": "max_scan_speed"
+          "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 0,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "GOS (Solid Scintillator)",
           "unit": "",
-          "label": "detector_material"
+          "label": "探测器材质"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Dunlee CTR2280",
           "unit": "",
-          "label": "x_ray_tube_model"
+          "label": "X射线球管型号"
         },
         "anode_heat_capacity_physical": {
-          "value": null,
-          "unit": "",
+          "value": 7.5,
+          "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "",
+          "value": 7.5,
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
-          "value": null,
+          "value": "Oil-cooled",
           "unit": "",
           "label": "球管冷却工程机制"
         },
         "cooling_rate": {
-          "value": null,
+          "value": 1300,
           "unit": "kHU/min",
-          "label": "cooling_rate"
+          "label": "散热率"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 80,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 80,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "单侧发生器功率"
         },
         "tube_current_max": {
-          "value": null,
+          "value": 800,
           "unit": "mA",
-          "label": "tube_current_max"
+          "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 80,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最低管电压"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
-          "label": "kv_steps"
+          "label": "kV 调节步进"
         },
         "temporal_resolution": {
           "value": 175,
@@ -6641,14 +6641,14 @@
           "label": "时间分辨率"
         },
         "channels_per_row": {
-          "value": null,
+          "value": 672,
           "unit": "channels",
-          "label": "channels_per_row"
+          "label": "每排通道数"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 2304,
           "unit": "views/rot",
-          "label": "data_acquisition_rate"
+          "label": "最高采样率"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -6663,20 +6663,20 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": null,
+          "value": "None (Iterative)",
           "unit": "",
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": null,
+          "value": "None",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.33,
+          "unit": "lp/cm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -6690,9 +6690,9 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 40,
           "unit": "fps",
-          "label": "recon_speed"
+          "label": "最快重建速度"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6761,9 +6761,9 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
-          "label": "床面横向滑动范围"
+          "value": 0,
+          "unit": "cm",
+          "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -6778,14 +6778,14 @@
           "label": "单圈探测器覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
+          "value": 256,
+          "unit": "排",
           "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "重建层数"
+          "value": 512,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": "Vector PCCT Tube",
@@ -6877,9 +6877,9 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
-          "label": "商业宣传最高对比分辨率"
+          "value": 0.23,
+          "unit": "lp/cm",
+          "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
           "value": 16,
@@ -6966,9 +6966,9 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
-          "label": "床面横向滑动范围"
+          "value": 0,
+          "unit": "cm",
+          "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -6983,14 +6983,14 @@
           "label": "单圈探测器覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
+          "value": 160,
+          "unit": "排",
           "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "重建层数"
+          "value": 320,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": "uTube PCCT",
@@ -7082,9 +7082,9 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
-          "label": "商业宣传最高对比分辨率"
+          "value": 0.25,
+          "unit": "lp/cm",
+          "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
           "value": 18,
@@ -7171,9 +7171,9 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
-          "label": "床面横向滑动范围"
+          "value": 8.4,
+          "unit": "cm",
+          "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -7188,14 +7188,14 @@
           "label": "单圈探测器覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
+          "value": 320,
+          "unit": "排",
           "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "重建层数"
+          "value": 640,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": "PhotonClarity Tube",
@@ -7287,9 +7287,9 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
-          "label": "商业宣传最高对比分辨率"
+          "value": 0.11,
+          "unit": "lp/cm",
+          "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
           "value": 17,
@@ -7376,9 +7376,9 @@
           "label": "最大扫描速度"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
-          "label": "床面横向滑动范围"
+          "value": 0,
+          "unit": "cm",
+          "label": "检查床横向滑动位移"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -7393,14 +7393,14 @@
           "label": "单圈探测器覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
+          "value": 128,
+          "unit": "排",
           "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "重建层数"
+          "value": 256,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": "Philips SPCCT Tube",
@@ -7492,9 +7492,9 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
-          "label": "商业宣传最高对比分辨率"
+          "value": 0.11,
+          "unit": "lp/cm",
+          "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
           "value": 15,
