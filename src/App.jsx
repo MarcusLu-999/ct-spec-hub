@@ -44,6 +44,7 @@ function App() {
   const [expandedCategories, setExpandedCategories] = useState({});
   const [showQuickSelect, setShowQuickSelect] = useState(false);
   const [drawerSearch, setDrawerSearch] = useState('');
+  const [activeDetailProduct, setActiveDetailProduct] = useState(null);
 
   const getManufacturer = (id) => manufacturersData.find(m => m.id === id);
 
@@ -468,13 +469,21 @@ function App() {
                             <span key={i} className="feature-tag-sm">{f}</span>
                           ))}
                         </div>
-                        <button
-                          className={`compare-btn ${inCompare ? 'compare-btn--active' : ''}`}
-                          onClick={() => toggleCompare(product.id)}
-                          disabled={!inCompare && compareList.length >= 4}
-                        >
-                          {inCompare ? '✓ Selected' : '+ Compare'}
-                        </button>
+                        <div className="card-actions">
+                          <button
+                            className="details-btn glass-btn"
+                            onClick={() => setActiveDetailProduct(product)}
+                          >
+                            🔍 Details
+                          </button>
+                          <button
+                            className={`compare-btn ${inCompare ? 'compare-btn--active' : ''}`}
+                            onClick={() => toggleCompare(product.id)}
+                            disabled={!inCompare && compareList.length >= 4}
+                          >
+                            {inCompare ? '✓ Selected' : '+ Compare'}
+                          </button>
+                        </div>
                       </div>
                     </div>
                   );
@@ -556,6 +565,125 @@ function App() {
               >
                 📊 Compare Selected ({compareList.length})
               </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Product Details Modal Overlay */}
+      {activeDetailProduct && (
+        <div className="drawer-overlay animate-fade-in" onClick={() => setActiveDetailProduct(null)}>
+          <div className="detail-modal-content glass-panel" onClick={e => e.stopPropagation()}>
+            <div className="drawer-header">
+              <div className="detail-modal-title-group">
+                <span className="drawer-item-mfg">
+                  {getManufacturer(activeDetailProduct.manufacturer_id)?.name_en}
+                </span>
+                <h3>{activeDetailProduct.model_name}</h3>
+                <span className="th-tier-badge">{activeDetailProduct.category}</span>
+              </div>
+              <button className="drawer-close-btn" onClick={() => setActiveDetailProduct(null)}>✕</button>
+            </div>
+            
+            <div className="detail-modal-body">
+              <p className="detail-description">{activeDetailProduct.description}</p>
+              
+              <div className="detail-meta-row">
+                <div className="detail-meta-item">
+                  <span className="detail-meta-label">Release Year</span>
+                  <span className="detail-meta-val">{activeDetailProduct.release_year}</span>
+                </div>
+                {activeDetailProduct.fda_510k_number && (
+                  <div className="detail-meta-item">
+                    <span className="detail-meta-label">FDA 510(k)</span>
+                    <span className="detail-meta-val">
+                      <a 
+                        href={`https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=${activeDetailProduct.fda_510k_number}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="detail-link"
+                      >
+                        {activeDetailProduct.fda_510k_number} ↗
+                      </a>
+                    </span>
+                  </div>
+                )}
+              </div>
+              
+              <div className="detail-specs-section">
+                {Object.entries(activeDetailProduct.specifications).map(([catName, specsObj]) => {
+                  const hasSpecs = Object.values(specsObj).some(spec => spec.value !== null && spec.value !== undefined && spec.value !== '');
+                  if (!hasSpecs) return null;
+                  
+                  return (
+                    <div key={catName} className="detail-spec-category">
+                      <h4 className="detail-category-title">{catName}</h4>
+                      <div className="detail-spec-list">
+                        {Object.entries(specsObj).map(([key, spec]) => {
+                          if (spec.value === null || spec.value === undefined || spec.value === '') return null;
+                          return (
+                            <div key={key} className="detail-spec-row">
+                              <span className="detail-spec-label">{spec.label || key}</span>
+                              <span className="detail-spec-value">
+                                {spec.value} <span className="spec-val-unit">{spec.unit}</span>
+                              </span>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+
+              {activeDetailProduct.features && activeDetailProduct.features.length > 0 && (
+                <div className="detail-spec-category">
+                  <h4 className="detail-category-title">Key Features & Technologies</h4>
+                  <div className="feature-tags-row">
+                    {activeDetailProduct.features.map((f, i) => (
+                      <span key={i} className="feature-tag">{f}</span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {activeDetailProduct.clinical_trials && activeDetailProduct.clinical_trials.length > 0 && (
+                <div className="detail-spec-category">
+                  <h4 className="detail-category-title">Clinical Trials</h4>
+                  <div className="detail-links-grid">
+                    {activeDetailProduct.clinical_trials.map((trialId) => (
+                      <a
+                        key={trialId}
+                        href={`https://clinicaltrials.gov/study/${trialId}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="trial-link-badge"
+                      >
+                        🧬 {trialId} ↗
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {activeDetailProduct.service_manuals && activeDetailProduct.service_manuals.length > 0 && (
+                <div className="detail-spec-category">
+                  <h4 className="detail-category-title">Service Manuals & Documentation</h4>
+                  <div className="detail-links-grid">
+                    {activeDetailProduct.service_manuals.map((manual, i) => (
+                      <a
+                        key={i}
+                        href={manual.url || manual}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="manual-link-badge"
+                      >
+                        📖 {manual.title || `Service Manual ${i+1}`} ↗
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
