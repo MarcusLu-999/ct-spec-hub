@@ -1,0 +1,49 @@
+[
+  {
+    "id": "mfg_siemens",
+    "name_cn": "西门子医疗",
+    "name_en": "Siemens Healthineers",
+    "country": "Germany",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Siemens_Healthineers_logo.svg",
+    "description": "Global leader in medical technology, specializing in advanced CT imaging systems."
+  },
+  {
+    "id": "mfg_ge",
+    "name_cn": "GE医疗",
+    "name_en": "GE Healthcare",
+    "country": "USA",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/GE_Healthcare_logo.svg",
+    "description": "Leading global medical technology and digital solutions innovator."
+  },
+  {
+    "id": "mfg_united",
+    "name_cn": "联影医疗",
+    "name_en": "United Imaging",
+    "country": "China",
+    "logo_url": ""
+  },
+  {
+    "id": "mfg_philips",
+    "name_cn": "飞利浦医疗",
+    "name_en": "Philips Healthcare",
+    "country": "Netherlands",
+    "logo_url": "",
+    "description": "Global leader in health technology, specializing in Spectral CT."
+  },
+  {
+    "id": "mfg_canon",
+    "name_cn": "佳能医疗",
+    "name_en": "Canon Medical Systems",
+    "country": "Japan",
+    "logo_url": "",
+    "description": "Pioneers of ultra-high resolution and wide area detector CT."
+  },
+  {
+    "id": "mfg_neusoft",
+    "name_cn": "东软医疗",
+    "name_en": "Neusoft Medical Systems",
+    "country": "China",
+    "logo_url": "",
+    "description": "Leading domestic provider of comprehensive medical imaging solutions."
+  }
+]

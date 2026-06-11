@@ -1,0 +1,122 @@
+{
+  "ct_siemens_somatom_force": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_siemens_somatom_xcite": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_siemens_naeotom_alpha": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_siemens_somatom_propulse": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_siemens_somatom_drive": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_siemens_somatom_xceed": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_siemens_somatom_gotop": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_siemens_somatom_goall": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_siemens_somatom_goup": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_siemens_somatom_gonow": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_ge_revolution_apex_elite": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_ge_revolution_ascend": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_philips_spectral_7500": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_philips_incisive": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_canon_aquilion_one_prism": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_united_uct_960_plus": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_neusoft_neuviz_epoch": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_ge_revolution_ct": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_ge_revolution_maxima": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_ge_optima_660": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_philips_iqon": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_philips_access": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_canon_genesis": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_canon_prime_sp": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_canon_lightning": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_united_uct_860": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_united_uct_780": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_united_uct_528": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_neusoft_neuviz_glory": {
+    "has_manual": false,
+    "manuals": []
+  },
+  "ct_neusoft_neuviz_128": {
+    "has_manual": false,
+    "manuals": []
+  }
+}

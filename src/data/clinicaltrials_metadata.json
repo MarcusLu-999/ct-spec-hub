@@ -1,0 +1,286 @@
+{
+  "ct_siemens_somatom_force": {
+    "has_trials": true,
+    "trials": [
+      {
+        "nct_id": "NCT07049549",
+        "title": "Evaluation of the Effectiveness of Adjunctive Injectable Platelet-Rich Fibrin Application to Root Surface Debridement in Phase 1 Treatment of Smoking Patients With Periodontitis",
+        "sponsor": "Izmir Katip Celebi University",
+        "summary": "Periodontitis is a chronic, multifactorial inflammatory disease characterized by the progressive destruction of the tissues supporting the teeth, associated with dysbiotic plaque biofilms. The foundation of non-surgical periodontal treatment is the mechanical debridement of the tooth surfaces to reduce bacterial load. In this phase, dental calculus and bacterial deposits are removed, and root surfaces are smoothened. This helps eliminate the microorganisms responsible for inflammation. Following...",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT00442338",
+        "title": "MK-476 IV Formulation Phase III Open Label Exploratory Comparative Study - Acute Exacerbations of Asthma -",
+        "sponsor": "Organon and Co",
+        "summary": "The study estimates the efficacy and safety of MK0476 and aminophylline intravenous administration in adult participants with acute asthma....",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT06812338",
+        "title": "Effect of Different Positions During Traction on Pain, Function, and Range of Motion in Adults with Non-specific Low Back Pain",
+        "sponsor": "Prince Sattam Bin Abdulaziz University",
+        "summary": "Our primary purpose for this study is to investigate the effect of different positions during traction on pain, function, and range of motion in adults with non-specific low back pain....",
+        "inferred_protocol": null
+      }
+    ]
+  },
+  "ct_siemens_somatom_xcite": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_siemens_naeotom_alpha": {
+    "has_trials": true,
+    "trials": [
+      {
+        "nct_id": "NCT07603167",
+        "title": "p-PHOTOLARYNX- ANTHEM: Pilot Photon-Counting CT Evaluation of the Paraglottic Space and Cartilage Involvement in Laryngeal Cancer",
+        "sponsor": "Humanitas University",
+        "summary": "Laryngeal cancer can affect speaking, swallowing, and breathing. Treatment selection depends on accurately defining tumor spread within the larynx, particularly invasion of the paraglottic space, thyroid cartilage, and subglottic region. Understaging may lead to insufficient treatment and recurrence, whereas overstaging may result in unnecessarily aggressive surgery and impaired quality of life.\n\nCT and MRI are routinely used for local staging, but both have limitations. Conventional CT may have...",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT06017973",
+        "title": "The Role of Cerebral Functional, Structural and Spectral Imaging in the Diagnosis, Management and Prognosis of Status Epilepticus: a Prospective Study in Patients with the Ictal-interictal Continuum",
+        "sponsor": "Universitaire Ziekenhuizen KU Leuven",
+        "summary": "The investigators propose a prospective study of 20 control subjects and 180 consecutive patients with possible non-convulsive status epilepticus (NCSE). The investigators will obtain three functional images of the brain:\n\n1. Fluorodeoxyglucose positron emission tomography (FDG-PET)\n2. Perfusion (and structural) magnetic resonance (MR) images\n3. Computed tomography (CT) perfusion.\n\nBrain hypermetabolism/hyperperfusion is a strong argument to confirm a diagnosis of non-convulsive status epileptic...",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT05904418",
+        "title": "Robot-Assisted US-Based Vertebral Segmentation for Pedicle Screw Trajectory Identification: A Comparison With Handheld US-Reconstructions and Ground Truth CT-Data",
+        "sponsor": "Philipp Fürnstahl",
+        "summary": "This other clinical trial compares robot-assisted US scanning with handheld US scanning and ground-truth CT data of the lumbar spine in healthy, young volunteers. The main questions it aims to answer are:\n\n* Is a 3D reconstruction of a lumbar spine from robot-assisted US scanning equivalent to or better quality than a 3D reconstruction from handheld US scanning?\n* Can a machine learning algorithm automatically segment the bone anatomy from robot-assisted and handheld US scanning to generate 3D l...",
+        "inferred_protocol": null
+      }
+    ]
+  },
+  "ct_siemens_somatom_propulse": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_siemens_somatom_drive": {
+    "has_trials": true,
+    "trials": [
+      {
+        "nct_id": "NCT04401748",
+        "title": "A Randomized, Double-Blind, Phase 3 Study Evaluating the Safety and Efficacy of Venetoclax in Combination With Azacitidine in Patients Newly Diagnosed With Higher-Risk Myelodysplastic Syndrome (Higher-Risk MDS)",
+        "sponsor": "AbbVie",
+        "summary": "Myelodysplastic Syndrome (MDS) is a group of disorders that gradually affect the ability of a person's bone marrow (semi-liquid tissue present in many bones like backbones) to produce normal blood cells. Some people with MDS have a risk of the disease progressing to acute myeloid leukemia (AML), and a risk of death from the disease itself. Symptoms of MDS include fatigue, shortness of breath, unusual paleness due to anemia (low red blood cell count), easy or unusual bruising, and red spots just ...",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT07141160",
+        "title": "ADL+2.0: Intervention for Prevention of Cognitive Decline in Community-dwelling Older Adults.",
+        "sponsor": "Tan Tock Seng Hospital",
+        "summary": "Singapore's rising dementia incidence with an ageing population presents an urgent need for effective interventions that delay or prevent cognitive decline. While multi-domain intervention studies for dementia prevention show promise, there is a need for an effective personalised approach to address an individual's multifactorial risks for dementia, and to achieve cost-effective, scalable and sustainable outcomes for wider implementation.\n\nThe investigators propose the ADL+ 2.0 programme, an ove...",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT07257146",
+        "title": "Machine Learning Identification of Modifiable Access Barriers in Acute Ischemic Stroke: A Multimodal \"Digital Phenotyping\" Approach",
+        "sponsor": "Middle East North Africa Stroke and Interventional Neurotherapies Organization",
+        "summary": "This study aims to identify and quantify the non-clinical barriers (social, transport, and knowledge-based) that delay patient arrival at the hospital during an Acute Ischemic Stroke. By utilizing a multimodal approach that combines a validated patient questionnaire (SABI Tool), Geographic Information Systems (GIS) analysis, and biological markers (infarct volume), the investigators seek to develop a Machine Learning model capable of predicting high-risk phenotypes for pre-hospital delay. The ul...",
+        "inferred_protocol": null
+      }
+    ]
+  },
+  "ct_siemens_somatom_xceed": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_siemens_somatom_gotop": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_siemens_somatom_goall": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_siemens_somatom_goup": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_siemens_somatom_gonow": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_ge_revolution_apex_elite": {
+    "has_trials": true,
+    "trials": [
+      {
+        "nct_id": "NCT07192965",
+        "title": "ECG-less Coronary Computed Tomography Angiography in the Management of Patients Presenting With High-troponin Chest Pain",
+        "sponsor": "Universitair Ziekenhuis Brussel",
+        "summary": "Chest pain represents a common reason for consultation to emergency room. This symptom can be explained by a broad spectrum of conditions, from benign musculoskeletal or esophageal pain to life-threatening disease such as aortic dissection, pulmonary embolism, and myocardial infarction.\n\nThere are already different diagnostic tools to quickly identify most dangerous diseases, for example electrocardiogram, blood samples with specific markers of cardiac injury, chest X-ray and echography. In case...",
+        "inferred_protocol": null
+      }
+    ]
+  },
+  "ct_ge_revolution_ascend": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_philips_spectral_7500": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_philips_incisive": {
+    "has_trials": true,
+    "trials": [
+      {
+        "nct_id": "NCT07619404",
+        "title": "Clinical Application of AI Based Metal Artifact Reduction and Its Comparison With Orthopedic Metal Artifact Reduction (O-MAR) and Conventional Image",
+        "sponsor": "Philips Clinical & Medical Affairs Global",
+        "summary": "The study is going to enroll about 220 consecutive patients with screws in lumber spine after internal fixation surgery who underwent follow-up assessment using Incisive CT according to the department standard of care. Retrospective data sets will be reconstructed into conventional image, the O-MAR algorithm, and Precise-MAR. Three blinded, independent radiologists evaluate both qualitative and quantitative analysis of image quality of surrounding tissue and artifact. Statistical analysis includ...",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT05020262",
+        "title": "A Retrospective, Single-center, Readerblind, Nonrandomized Clinical Trial Was Conducted to Evaluate the Function of Incisive CT Precise Image and Precise Cardiac Function",
+        "sponsor": "Philips Healthcare (Suzhou) Co., Ltd.",
+        "summary": "The purpose of this study was to evaluate whether the new features of Incisive CT: Precise Image, (PI) and Precise Cardiac (PC) had the expected effectiveness...",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT07317453",
+        "title": "Clinical Study for Precise Image for Musculoskeletal CT for Incisive CT and CT 5300 Systems",
+        "sponsor": "Philips Clinical & Medical Affairs Global",
+        "summary": "The purpose of this clinical study is to evaluate the performance of the Precise Image reconstruction algorithm for musculoskeletal CT imaging (shoulder, hip, knee) of adult patients (\\>18 years old). Clinical data generated from this study is intended to support a proposed expansion of the Indications for Use of Precise Image.\n\nThe study has two objectives:\n\n1. To evaluate the image quality and diagnostic confidence of Precise Image compared to the standard-of-care reference (iDose4) for:\n\n   *...",
+        "inferred_protocol": null
+      }
+    ]
+  },
+  "ct_canon_aquilion_one_prism": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_united_uct_960_plus": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_neusoft_neuviz_epoch": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_ge_revolution_ct": {
+    "has_trials": true,
+    "trials": [
+      {
+        "nct_id": "NCT02813473",
+        "title": "SYNTAX III REVOLUTION Trial: A Randomized Study to Evaluate the Feasibility of Heart-Team Clinical Decision Making Regarding the Optimal (Surgical or Percutaneous Based) Revascularization Strategy in Patients With Complex Coronary Artery Disease, Based on Non-invasive Coronary CT Angiography (CTA) Imaging Utilising High-definition GE RevolutionTM Multi-slice CT and HeartFlow FFRCT Compared to the Current Standard of Care With Conventional Invasive Coronary Angiography (CA)",
+        "sponsor": "ECRI bv",
+        "summary": "The SYNTAX III Revolution trial is a randomized diagnostic research study that investigates the use of CT scan and angiogram of the heart to help doctors decide which method is the best to improve blood supply to the heart in patients with complex coronary artery disease. Each patient will undergo an angiogram and CT scan per standard of care. The randomization strategy in this study is not between patients but between two teams of doctors, the so-called \"Heart Teams\", will be randomized: in the...",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT02538861",
+        "title": "Acute Chest Pain Imaging in Emergency Department With Combined Approach of Coronary CT Angiography and CT Myocardial Perfusion",
+        "sponsor": "Baptist Health South Florida",
+        "summary": "This is a prospective open label two arms clinical trial. ARM-A patients will receive the standard of care diagnostic test at Baptist Hospital Main (BHM), which includes Single Photon Emission Computed Tomography (SPECT) imaging, while ARM-B patients will be randomized sequentially into two groups; Group-1 will receive CT Angiography and CT myocardial perfusion with new Revolution CT scanner (General Electric Healthcare) while the Group-2 will receive SPECT imaging test; both groups of ARM-B at ...",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT03851276",
+        "title": "A Multicentre, Single Arm Pilot Study to Evaluate the Safety and the Feasibility of Planning and Execution of Surgical Revascularization in Patients With Complex Coronary Artery Disease, Based Solely on Non-invasive MSCT Angiography Imaging Utilizing High-definition GE Healthcare RevolutionTM CT and HeartFlow FFRCT.",
+        "sponsor": "ECRI bv",
+        "summary": "The CABG-REVOLUTION study is an investigator-initiated single-arm, multicentre, prospective study for patients with 3-vessel disease (with or without left-main involvement) referred to CABG treatment. Surgical revascularization strategy and treatment planning will be solely based on MSCT (with FFRCT) without knowledge of the anatomy defined by conventional cine-angiography....",
+        "inferred_protocol": null
+      }
+    ]
+  },
+  "ct_ge_revolution_maxima": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_ge_optima_660": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_philips_iqon": {
+    "has_trials": true,
+    "trials": [
+      {
+        "nct_id": "NCT02747095",
+        "title": "Clinical Investigation Plan for IQon Spectral CT at Utrecht Medical Center (UMC)",
+        "sponsor": "Philips Healthcare",
+        "summary": "The CT examination on IQon Spectral CT would be a standard of care CT performed as per the clinical indication. The conventional CT images generated by the scanner will be used for clinical purposes as routinely practiced. And therefore, the primary study aim is to assess the impact of IQon Spectral CT scanner and applications on the clinical workflow of the site as well as the diagnostic confidence levels of the physicians reading the CT cases.\n\nIn addition to the aim mentioned above, the inves...",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT05181059",
+        "title": "Dual-layer Spectral Computerized Tomography for Breast Cancer Detection in Women With Dense Breasts: a Single Centre, Feasibility Study - The DECREAS Study",
+        "sponsor": "Rijnstate Hospital",
+        "summary": "The main objective of this project is to demonstrate the feasibility of DLSCT to detect breast cancer in women with dense breasts.\n\nPatients with locoregional advanced primary breast cancer and heterogeneously (n = 7) or extremely dense breasts (n = 7) as determined by mammography will be included in this study. These patients have an indication for a positron emission tomography computed tomography (PET-CT) scan to search for distant metastases. In this study the participants will undergo an ad...",
+        "inferred_protocol": null
+      }
+    ]
+  },
+  "ct_philips_access": {
+    "has_trials": true,
+    "trials": [
+      {
+        "nct_id": "NCT00747981",
+        "title": "Management and Assessment of Thoracic CT Scan for Diagnosis of Aspirated Foreign Bodies in Children",
+        "sponsor": "Assistance Publique - Hôpitaux de Paris",
+        "summary": "To access CT Scan as a diagnostic tool for foreign bodies aspiration....",
+        "inferred_protocol": null
+      }
+    ]
+  },
+  "ct_canon_genesis": {
+    "has_trials": true,
+    "trials": [
+      {
+        "nct_id": "NCT06956924",
+        "title": "CT-Based Abdominal Aortic Calcium Score and CAD-RADS 2.0 in Elderly Chest Pain: A Cohort Study",
+        "sponsor": "Chang Gung Memorial Hospital",
+        "summary": "Background: Abdominal aortic calcium (AAC) is a marker of systemic atherosclerosis and may predict cardiovascular outcomes similarly to coronary artery calcium (CAC). This study evaluates the predictive efficacy of CT-based AAC scores for coronary plaque burden and stenosis using the CAD-RADS 2.0 classification system.\n\nMethods: A prospective cohort of 68 patients (mean age 67.5 years) with chest pain underwent cardiac CT for CAC, AAC scoring, and coronary computed tomography angiography (CCTA) ...",
+        "inferred_protocol": null
+      },
+      {
+        "nct_id": "NCT04209972",
+        "title": "The Benefit of Ultra-high Resolution Computed Tomography: Precision of Repeated Volume Measurements of Pulmonary Nodules",
+        "sponsor": "Radboud University Medical Center",
+        "summary": "To assess the variability of semi-automated volume measurements of pulmonary nodules on same-day repeated scans of equal radiation dose from two different CT scanners: One high-end CT scanner with standard spatial resolution (CT1) and one UHRCT scanner (CT2), in patients with known or suspected pulmonary metastases....",
+        "inferred_protocol": null
+      }
+    ]
+  },
+  "ct_canon_prime_sp": {
+    "has_trials": true,
+    "trials": [
+      {
+        "nct_id": "NCT05836935",
+        "title": "Role of Imaging in Complications of Sinusitis.",
+        "sponsor": "Sohag University",
+        "summary": "This study aims to assess the diagnostic performance of CT and MRI in the diagnosis of complications of rhinosinusitis in comparison to clinical and operative findings....",
+        "inferred_protocol": null
+      }
+    ]
+  },
+  "ct_canon_lightning": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_united_uct_860": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_united_uct_780": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_united_uct_528": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_neusoft_neuviz_glory": {
+    "has_trials": false,
+    "trials": []
+  },
+  "ct_neusoft_neuviz_128": {
+    "has_trials": false,
+    "trials": []
+  }
+}

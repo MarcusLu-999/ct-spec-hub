@@ -1,0 +1,208 @@
+{
+  "ct_siemens_somatom_force": {
+    "k_number": "K142955",
+    "device_name": "SOMATOM Force, SOMATOM Definition Flash, SOMATOM Definition Edge, SOMATOM Definition AS/AS+, SOMATOM Definition AS Open, SOMATON Emotion 6/16, SOMATOM Sensation 64/Sensation Cardiac , SOMATOM Perspective SOMATOM Scope/ Scope Power",
+    "decision_date": "2015-11-24",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf14/K142955.pdf",
+    "matched_via_api": true
+  },
+  "ct_siemens_somatom_xcite": {
+    "k_number": "K211373",
+    "device_name": "SOMATOM go.Platform Scanners - SOMATOM go.Now, go.Up, go.All, go.Top, SOMATOM X. Platform Scanners - SOMATOM X.cite and SOMATOM X.ceed, Scan&GO Software",
+    "decision_date": "2021-08-27",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf21/K211373.pdf",
+    "matched_via_api": true
+  },
+  "ct_siemens_naeotom_alpha": {
+    "k_number": "K233657",
+    "device_name": "NAEOTOM Alpha",
+    "decision_date": "2024-03-28",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf23/K233657.pdf",
+    "matched_via_api": true
+  },
+  "ct_siemens_somatom_propulse": {
+    "k_number": "K250822",
+    "device_name": "SOMATOM go.Now; SOMATOM go.Up; SOMATOM go.All; SOMATOM go.Top; SOMATOM go.Sim; SOMATOM go.Open Pro; SOMATOM Pro.Pulse",
+    "decision_date": "2025-07-03",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf25/K250822.pdf",
+    "matched_via_api": true
+  },
+  "ct_siemens_somatom_drive": {
+    "k_number": "K161196",
+    "device_name": "SOMATOM Drive",
+    "decision_date": "2016-08-24",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf16/K161196.pdf",
+    "matched_via_api": true
+  },
+  "ct_siemens_somatom_xceed": {
+    "k_number": "K211373",
+    "device_name": "SOMATOM go.Platform Scanners - SOMATOM go.Now, go.Up, go.All, go.Top, SOMATOM X. Platform Scanners - SOMATOM X.cite and SOMATOM X.ceed, Scan&GO Software",
+    "decision_date": "2021-08-27",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf21/K211373.pdf",
+    "matched_via_api": true
+  },
+  "ct_siemens_somatom_gotop": {
+    "k_number": "K211373",
+    "device_name": "SOMATOM go.Platform Scanners - SOMATOM go.Now, go.Up, go.All, go.Top, SOMATOM X. Platform Scanners - SOMATOM X.cite and SOMATOM X.ceed, Scan&GO Software",
+    "decision_date": "2021-08-27",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf21/K211373.pdf",
+    "matched_via_api": true
+  },
+  "ct_siemens_somatom_goall": {
+    "k_number": "K211373",
+    "device_name": "SOMATOM go.Platform Scanners - SOMATOM go.Now, go.Up, go.All, go.Top, SOMATOM X. Platform Scanners - SOMATOM X.cite and SOMATOM X.ceed, Scan&GO Software",
+    "decision_date": "2021-08-27",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf21/K211373.pdf",
+    "matched_via_api": true
+  },
+  "ct_siemens_somatom_goup": {
+    "k_number": "K211373",
+    "device_name": "SOMATOM go.Platform Scanners - SOMATOM go.Now, go.Up, go.All, go.Top, SOMATOM X. Platform Scanners - SOMATOM X.cite and SOMATOM X.ceed, Scan&GO Software",
+    "decision_date": "2021-08-27",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf21/K211373.pdf",
+    "matched_via_api": true
+  },
+  "ct_siemens_somatom_gonow": {
+    "k_number": "K211373",
+    "device_name": "SOMATOM go.Platform Scanners - SOMATOM go.Now, go.Up, go.All, go.Top, SOMATOM X. Platform Scanners - SOMATOM X.cite and SOMATOM X.ceed, Scan&GO Software",
+    "decision_date": "2021-08-27",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf21/K211373.pdf",
+    "matched_via_api": true
+  },
+  "ct_ge_revolution_apex_elite": {
+    "k_number": "K250941",
+    "device_name": "Revolution Vibe",
+    "decision_date": "2025-08-01",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf25/K250941.pdf",
+    "matched_via_api": true
+  },
+  "ct_ge_revolution_ascend": {
+    "k_number": "K250941",
+    "device_name": "Revolution Vibe",
+    "decision_date": "2025-08-01",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf25/K250941.pdf",
+    "matched_via_api": true
+  },
+  "ct_philips_spectral_7500": {
+    "k_number": "K091195",
+    "device_name": "PHILIPS MX 16 SLICE CT SYSTEM PHASE11, MODEL 9896 056 56511",
+    "decision_date": "2009-05-27",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf09/K091195.pdf",
+    "matched_via_api": true
+  },
+  "ct_philips_incisive": {
+    "k_number": "K091195",
+    "device_name": "PHILIPS MX 16 SLICE CT SYSTEM PHASE11, MODEL 9896 056 56511",
+    "decision_date": "2009-05-27",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf09/K091195.pdf",
+    "matched_via_api": true
+  },
+  "ct_canon_aquilion_one_prism": {
+    "k_number": "K192828",
+    "device_name": "Aquilion ONE (TSX-306A/3) V10.0 with Spectral Imaging System",
+    "decision_date": "2020-02-13",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf19/K192828.pdf",
+    "matched_via_api": true
+  },
+  "ct_united_uct_960_plus": {
+    "k_number": null,
+    "device_name": null,
+    "pdf_url": null,
+    "matched_via_api": false
+  },
+  "ct_neusoft_neuviz_epoch": {
+    "k_number": null,
+    "device_name": null,
+    "pdf_url": null,
+    "matched_via_api": false
+  },
+  "ct_ge_revolution_ct": {
+    "k_number": "K250941",
+    "device_name": "Revolution Vibe",
+    "decision_date": "2025-08-01",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf25/K250941.pdf",
+    "matched_via_api": true
+  },
+  "ct_ge_revolution_maxima": {
+    "k_number": "K250941",
+    "device_name": "Revolution Vibe",
+    "decision_date": "2025-08-01",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf25/K250941.pdf",
+    "matched_via_api": true
+  },
+  "ct_ge_optima_660": {
+    "k_number": "K123596",
+    "device_name": "OPTIMA CT520",
+    "decision_date": "2013-02-08",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf12/K123596.pdf",
+    "matched_via_api": true
+  },
+  "ct_philips_iqon": {
+    "k_number": "K091195",
+    "device_name": "PHILIPS MX 16 SLICE CT SYSTEM PHASE11, MODEL 9896 056 56511",
+    "decision_date": "2009-05-27",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf09/K091195.pdf",
+    "matched_via_api": true
+  },
+  "ct_philips_access": {
+    "k_number": "K091195",
+    "device_name": "PHILIPS MX 16 SLICE CT SYSTEM PHASE11, MODEL 9896 056 56511",
+    "decision_date": "2009-05-27",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf09/K091195.pdf",
+    "matched_via_api": true
+  },
+  "ct_canon_genesis": {
+    "k_number": "K192828",
+    "device_name": "Aquilion ONE (TSX-306A/3) V10.0 with Spectral Imaging System",
+    "decision_date": "2020-02-13",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf19/K192828.pdf",
+    "matched_via_api": true
+  },
+  "ct_canon_prime_sp": {
+    "k_number": "K233334",
+    "device_name": "Aquilion Serve SP (TSX-307B/1) V1.3",
+    "decision_date": "2023-12-06",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf23/K233334.pdf",
+    "matched_via_api": true
+  },
+  "ct_canon_lightning": {
+    "k_number": "K201836",
+    "device_name": "Aquilion Lightning (TSX-036A/7) V10.2 with AiCE-i",
+    "decision_date": "2021-01-12",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf20/K201836.pdf",
+    "matched_via_api": true
+  },
+  "ct_united_uct_860": {
+    "k_number": null,
+    "device_name": null,
+    "pdf_url": null,
+    "matched_via_api": false
+  },
+  "ct_united_uct_780": {
+    "k_number": "K253173",
+    "device_name": "uCT 780 with uWS-CT-Dual Energy Analysis",
+    "decision_date": "2026-01-20",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf25/K253173.pdf",
+    "matched_via_api": true
+  },
+  "ct_united_uct_528": {
+    "k_number": "K183143",
+    "device_name": "uCT 520, uCT 528",
+    "decision_date": "2019-01-03",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf18/K183143.pdf",
+    "matched_via_api": true
+  },
+  "ct_neusoft_neuviz_glory": {
+    "k_number": null,
+    "device_name": null,
+    "pdf_url": null,
+    "matched_via_api": false
+  },
+  "ct_neusoft_neuviz_128": {
+    "k_number": "K151383",
+    "device_name": "NeuViz 128 Multi-slice CT Scanner System",
+    "decision_date": "2015-11-04",
+    "pdf_url": "https://www.accessdata.gov/cdrh_docs/pdf15/K151383.pdf",
+    "matched_via_api": true
+  }
+}

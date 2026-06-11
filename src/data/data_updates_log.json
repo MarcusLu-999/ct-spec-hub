@@ -1,0 +1,1336 @@
+[
+  {
+    "timestamp": "2026-06-11T03:22:11.420Z",
+    "updated_models": [
+      {
+        "id": "ct_ge_photonova_spectra",
+        "model_name": "Photonova Spectra",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 8
+          }
+        }
+      },
+      {
+        "id": "ct_canon_ultimion",
+        "model_name": "Ultimion",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 7.5
+          }
+        }
+      },
+      {
+        "id": "ct_philips_spcct",
+        "model_name": "Philips SPCCT",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 8
+          }
+        }
+      }
+    ],
+    "source_added": "openFDA API, Europe PMC, ClinicalTrials.gov, and Frank's Workshop Manuals"
+  },
+  {
+    "timestamp": "2026-06-11T02:48:11.036Z",
+    "updated_models": [
+      {
+        "id": "ct_siemens_somatom_force",
+        "model_name": "SOMATOM Force",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 0
+          },
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_equivalent": {
+            "old": null,
+            "new": 120
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "CARE Dose4D / CARE kV"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "SAFIRE"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> spectral_imaging_mechanism": {
+            "old": null,
+            "new": "Dual Source Split Filter (双源高电压配锡板，实现能谱纯化)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_siemens_somatom_xcite",
+        "model_name": "SOMATOM X.cite",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Air-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "CARE Dose4D / CARE kV"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "SAFIRE"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> deep_learning_reconstruction": {
+            "old": null,
+            "new": "myExam Companion AI (自动扫描参数优化)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_siemens_naeotom_alpha",
+        "model_name": "NAEOTOM Alpha",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 0
+          },
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_equivalent": {
+            "old": null,
+            "new": 120
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "CARE Dose4D / CARE kV"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "SAFIRE"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> spectral_imaging_mechanism": {
+            "old": null,
+            "new": "Dual Source Dual Energy (双源呈90°夹角不同管电压切换)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "1.5 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_siemens_somatom_propulse",
+        "model_name": "SOMATOM Pro.Pulse",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Air-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "CARE Dose4D / CARE kV"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "SAFIRE"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> spectral_imaging_mechanism": {
+            "old": null,
+            "new": "Dual Source Dual Energy (双源呈90°夹角不同管电压切换)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_siemens_somatom_drive",
+        "model_name": "SOMATOM Drive",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Air-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "CARE Dose4D / CARE kV"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "SAFIRE"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> spectral_imaging_mechanism": {
+            "old": null,
+            "new": "Dual Source Dual Energy (双源呈90°夹角不同管电压切换)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_siemens_somatom_xceed",
+        "model_name": "SOMATOM X.ceed",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Air-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "CARE Dose4D / CARE kV"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "SAFIRE"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> deep_learning_reconstruction": {
+            "old": null,
+            "new": "myExam Companion AI (自动扫描参数优化)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_siemens_somatom_gotop",
+        "model_name": "SOMATOM go.Top",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 6
+          },
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_equivalent": {
+            "old": null,
+            "new": 13.5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Air-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "CARE Dose4D / CARE kV"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "SAFIRE"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> deep_learning_reconstruction": {
+            "old": null,
+            "new": "myExam Companion AI (自动扫描参数优化)"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> spectral_imaging_mechanism": {
+            "old": null,
+            "new": "TwinBeam Dual Energy (单球管单探测器，金/锡物理分束滤过能谱)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 12
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "16 kW (暖通恒温温控设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.5 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_siemens_somatom_goall",
+        "model_name": "SOMATOM go.All",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Air-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "CARE Dose4D / CARE kV"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "SAFIRE"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 12
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "16 kW (暖通恒温温控设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.5 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_siemens_somatom_goup",
+        "model_name": "SOMATOM go.Up",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Air-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "CARE Dose4D / CARE kV"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "SAFIRE"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 11
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "10 kW (普通空调加配新风)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_siemens_somatom_gonow",
+        "model_name": "SOMATOM go.Now",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Air-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "CARE Dose4D / CARE kV"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "SAFIRE"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 11
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "10 kW (普通空调加配新风)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_ge_revolution_apex_elite",
+        "model_name": "Revolution Apex Elite",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 8
+          },
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_equivalent": {
+            "old": null,
+            "new": 30
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "Smart mA / Organ Dose Modulation (ODM)"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "ASiR-V"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> deep_learning_reconstruction": {
+            "old": null,
+            "new": "TrueFidelity DL (深度学习神经网络重建)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 15
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_ge_revolution_ascend",
+        "model_name": "Revolution Ascend",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 6.3
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "Smart mA / Organ Dose Modulation (ODM)"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "ASiR-V"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> deep_learning_reconstruction": {
+            "old": null,
+            "new": "TrueFidelity DL (深度学习神经网络重建)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 15
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "16 kW (暖通恒温温控设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.5 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_philips_spectral_7500",
+        "model_name": "Spectral CT 7500",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 8
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "DoseRight 智能管电流调节"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "iDose4"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> spectral_imaging_mechanism": {
+            "old": null,
+            "new": "Dual-layer Spectral Detector (双层闪烁晶体物理分层光谱吸收)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_philips_incisive",
+        "model_name": "Incisive CT",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 8
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "DoseRight 智能管电流调节"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "iDose4"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 12
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "16 kW (暖通恒温温控设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.5 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_canon_aquilion_one_prism",
+        "model_name": "Aquilion ONE PRISM",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 7.5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "SUREExposure 3D"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "AIDR 3D"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> deep_learning_reconstruction": {
+            "old": null,
+            "new": "AiCE (基于人工智能的像素降噪与分辨率恢复)"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> spectral_imaging_mechanism": {
+            "old": null,
+            "new": "Dual Energy (双能高低电压切换与基物质解析)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 15
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_united_uct_960_plus",
+        "model_name": "uCT 960+",
+        "changed_fields": {
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "uDose 智能曝光剂量控制"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "KARL 3D 迭代重建"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> deep_learning_reconstruction": {
+            "old": null,
+            "new": "uAI Vision / uAI Cardio Capture AI纠偏与定位"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_neusoft_neuviz_epoch",
+        "model_name": "NeuViz Epoch",
+        "changed_fields": {
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "O-Dose 智能剂量匹配"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "ClearView 迭代重建"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> deep_learning_reconstruction": {
+            "old": null,
+            "new": "ClearInfinity AI (人工智能神经网络降噪)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_ge_revolution_ct",
+        "model_name": "Revolution CT",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 8
+          },
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_equivalent": {
+            "old": null,
+            "new": 30
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "Smart mA / Organ Dose Modulation (ODM)"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "ASiR-V"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_ge_revolution_maxima",
+        "model_name": "Revolution Maxima",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 6.3
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "Smart mA / Organ Dose Modulation (ODM)"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "ASiR-V (自适应统计迭代重建)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 12
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "16 kW (暖通恒温温控设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.5 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_ge_optima_660",
+        "model_name": "Optima CT660",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 6.3
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "Smart mA / Organ Dose Modulation (ODM)"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "ASiR (第一代统计迭代重建)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 11
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "10 kW (普通空调加配新风)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_philips_iqon",
+        "model_name": "IQon Spectral CT",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 8
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "DoseRight 智能管电流调节"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "iDose4 (混合物理解析迭代)"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> spectral_imaging_mechanism": {
+            "old": null,
+            "new": "Dual-layer Spectral Detector (双层闪烁晶体物理分层光谱吸收)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_philips_access",
+        "model_name": "Access CT",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 8
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "DoseRight 智能管电流调节"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "iDose4 (混合物理解析迭代)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 11
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "10 kW (普通空调加配新风)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_canon_genesis",
+        "model_name": "Aquilion ONE GENESIS",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 7.5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "SUREExposure 3D"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "FIRST (全模型双域迭代重建)"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_canon_prime_sp",
+        "model_name": "Aquilion Prime SP",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 7.5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "SUREExposure 3D"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "AIDR 3D"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 12
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "16 kW (暖通恒温温控设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.5 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_canon_lightning",
+        "model_name": "Aquilion Lightning",
+        "changed_fields": {
+          "成像链与物理硬件 (Imaging Chain) -> anode_heat_capacity_physical": {
+            "old": null,
+            "new": 7.5
+          },
+          "成像链与物理硬件 (Imaging Chain) -> cooling_system_type": {
+            "old": null,
+            "new": "Water-cooled"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "SUREExposure 3D"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "AIDR 3D Enhanced"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 11
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "10 kW (普通空调加配新风)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_united_uct_860",
+        "model_name": "uCT 860",
+        "changed_fields": {
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "uDose 智能曝光剂量控制"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "KARL 3D 迭代重建"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> deep_learning_reconstruction": {
+            "old": null,
+            "new": "uAI Vision / uAI Cardio Capture AI纠偏与定位"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_united_uct_780",
+        "model_name": "uCT 780",
+        "changed_fields": {
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "uDose 智能曝光剂量控制"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "KARL 3D 迭代重建"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 12
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "16 kW (暖通恒温温控设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.5 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_united_uct_528",
+        "model_name": "uCT 528",
+        "changed_fields": {
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "uDose 智能曝光剂量控制"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "KARL 3D 迭代重建"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 11
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "10 kW (普通空调加配新风)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_neusoft_neuviz_glory",
+        "model_name": "NeuViz Glory",
+        "changed_fields": {
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "O-Dose 智能剂量匹配"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "ClearView 迭代重建"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 14
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.0 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "480V, 3-Phase (高瞬时瞬态功率补偿)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "24 kW (带冷水机组双回路设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "3.0 mm Pb (铅当量)"
+          }
+        }
+      },
+      {
+        "id": "ct_neusoft_neuviz_128",
+        "model_name": "NeuViz 128",
+        "changed_fields": {
+          "软件与算法代偿 (Software & Algorithms) -> dose_modulation_tech": {
+            "old": null,
+            "new": "O-Dose 智能曝光匹配"
+          },
+          "软件与算法代偿 (Software & Algorithms) -> iterative_reconstruction_algorithm": {
+            "old": null,
+            "new": "ClearView 迭代重建"
+          },
+          "图像质量与物理实测 (Image Quality) -> spatial_resolution_acr_mtf10": {
+            "old": null,
+            "new": 12
+          },
+          "图像质量与物理实测 (Image Quality) -> low_contrast_resolution_acr": {
+            "old": null,
+            "new": "2.2 mm @ 0.3%"
+          },
+          "场地建设与配电要求 (Site Requirements) -> electrical_requirement": {
+            "old": null,
+            "new": "380-480V, 3-Phase"
+          },
+          "场地建设与配电要求 (Site Requirements) -> heat_dissipation_hvac": {
+            "old": null,
+            "new": "16 kW (暖通恒温温控设计)"
+          },
+          "场地建设与配电要求 (Site Requirements) -> shielding_lead_equivalent": {
+            "old": null,
+            "new": "2.5 mm Pb (铅当量)"
+          }
+        }
+      }
+    ],
+    "source_added": "openFDA API, Europe PMC, ClinicalTrials.gov, and Frank's Workshop Manuals"
+  }
+]

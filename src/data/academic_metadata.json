@@ -1,0 +1,3746 @@
+{
+  "ct_siemens_somatom_force": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "An experimental method for direct measurement of CT detector presampling MTF from reconstructed images.",
+        "abstract": "",
+        "doi": "10.1002/mp.70507",
+        "pmcid": null,
+        "author": "Zhan L, Dong F, Chen GH, Li K.",
+        "journal": "Med Phys",
+        "year": "2026"
+      },
+      {
+        "title": "Sensitivity analysis of key CT simulation parameters and their impact on quality of virtual images.",
+        "abstract": "",
+        "doi": "10.1002/mp.70114",
+        "pmcid": "PMC13038297",
+        "author": "Montero I, Samei E, Abadi E.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "CT Radiation Dose Reduction With Preserved Diagnostic Performance: How Far Have We Come Over 25 Years?",
+        "abstract": "",
+        "doi": "10.2214/ajr.25.34450",
+        "pmcid": "PMC12969835",
+        "author": "McCollough CH, Yu L.",
+        "journal": "AJR Am J Roentgenol",
+        "year": "2026"
+      },
+      {
+        "title": "3d elastic-modulus imaging using ultrasound linear arrays and efficient data-driven training strategies.",
+        "abstract": "",
+        "doi": "10.1007/s10237-026-02056-8",
+        "pmcid": "PMC13035627",
+        "author": "Newman W, Ghaboussi J, Insana MF.",
+        "journal": "Biomech Model Mechanobiol",
+        "year": "2026"
+      },
+      {
+        "title": "Reproducibility of lung density quantification across photon-counting and conventional energy-integrating CT: a comparative study.",
+        "abstract": "",
+        "doi": "10.1093/bjr/tqaf103",
+        "pmcid": "PMC12659742",
+        "author": "Sotoudeh-Paima S, Samei E, Abadi E.",
+        "journal": "Br J Radiol",
+        "year": "2025"
+      },
+      {
+        "title": "FPGA-based reconfigurable scanning and data acquisition system for scanning electron microscopy.",
+        "abstract": "",
+        "doi": "10.1186/s42649-026-00137-7",
+        "pmcid": "PMC13198577",
+        "author": "Gong K, Kim J, Kim BG, Cho B.",
+        "journal": "Appl Microsc",
+        "year": "2026"
+      },
+      {
+        "title": "Measurement accuracy of CT systems: The importance of calibration phantoms.",
+        "abstract": "",
+        "doi": "10.1371/journal.pone.0332263",
+        "pmcid": "PMC12463237",
+        "author": "Scherberich J, Windfelder AG, Steinbart J, Krombach GA.",
+        "journal": "PLoS One",
+        "year": "2025"
+      },
+      {
+        "title": "Opto-Mechanical Integrated Analysis of Micro-Vibration Effects on the Imaging Performance of a Precision Optical System.",
+        "abstract": "",
+        "doi": "10.3390/mi17050519",
+        "pmcid": "PMC13208864",
+        "author": "Liu R, Liang Z, Zhang Y, Li Q.",
+        "journal": "Micromachines (Basel)",
+        "year": "2026"
+      },
+      {
+        "title": "Harmonized low-dose computed tomographic protocols for quantitative lung imaging using dose modulation and advanced reconstructions.",
+        "abstract": "",
+        "doi": "10.1002/mp.70125",
+        "pmcid": "PMC12596176",
+        "author": "Atha J, Eddy RL, Guo J, Newell JD, Castro M, Ranallo FN, Fain SB, Sieren JC, Hoffman EA, PrecISE study.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "A QuEST for Nursing Clinical Activity Exposure: Comparison of the Military Treatment Facility and a Civilian Level I Trauma Center.",
+        "abstract": "",
+        "doi": "10.1093/milmed/usaf333",
+        "pmcid": null,
+        "author": "Prendergast A, Conner M, Batra K, Oppong P, Garcha S, Bryant R, Gloor G, Fox J, Kilburn J.",
+        "journal": "Mil Med",
+        "year": "2026"
+      },
+      {
+        "title": "Balanced Extended Vision Procedure: Preclinical Analysis of a Non-diffractive Approach to Full Range of Vision After Cataract Surgery.",
+        "abstract": "",
+        "doi": "10.3928/1081597x-20260406-01",
+        "pmcid": null,
+        "author": "Dick HB, Chiu YF, Yang CH, Tseng WC, Lee W, Cerviño A.",
+        "journal": "J Refract Surg",
+        "year": "2026"
+      },
+      {
+        "title": "[Comparative study on &lt;i&gt;in vitro&lt;/i&gt; optical characteristics between refractive and other types of extended depth of focus intraocular lenses].",
+        "abstract": "",
+        "doi": "10.3760/cma.j.cn112142-20251216-00536",
+        "pmcid": null,
+        "author": "Song FQ, Zhang HY, Liu Q, Sun LL, Dai YH.",
+        "journal": "Zhonghua Yan Ke Za Zhi",
+        "year": "2026"
+      },
+      {
+        "title": "Spectral performance for iodine quantification of a dual-source, dual-kV photon counting detector CT.",
+        "abstract": "",
+        "doi": "10.1002/mp.17679",
+        "pmcid": "PMC12064377",
+        "author": "Winfree T, Treb K, McCollough C, Leng S.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Improved MTF Measurement of Medical Flat-Panel Detectors Based on a Slit Model.",
+        "abstract": "",
+        "doi": "10.3390/s25051341",
+        "pmcid": "PMC11902789",
+        "author": "Zhang H, Ji Z.",
+        "journal": "Sensors (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Photon counting CT versus energy-integrating CT: A comparative evaluation of advances in image resolution, noise, and dose efficiency.",
+        "abstract": "",
+        "doi": "10.1002/mp.17591",
+        "pmcid": "PMC11880643",
+        "author": "Heismann B, Kreisler B, Fasbender R.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Color-tunable hot-exciton organic glassy supramolecular scintillators enabled by host-guest co-melting.",
+        "abstract": "",
+        "doi": "10.1039/d6sc00159a",
+        "pmcid": "PMC13007790",
+        "author": "Ye YJ, Wei XL, Yang X, Chen YD, Weng MC, Chen HM, Lin MJ.",
+        "journal": "Chem Sci",
+        "year": "2026"
+      },
+      {
+        "title": "The Effect of the Capsular Bag on the Optical Performance of an IOL Measured in an Ex Vivo Model.",
+        "abstract": "",
+        "doi": "10.1167/iovs.67.3.46",
+        "pmcid": "PMC13012194",
+        "author": "Karaivanova M, Labuz G, Zielinska A, Wu Z, Britz L, Wohlfart S, Uhl P, Auffarth GU, Hammer M.",
+        "journal": "Invest Ophthalmol Vis Sci",
+        "year": "2026"
+      },
+      {
+        "title": "Impact of Spatial Resolution on CT Imaging of Middle Ear Prostheses: Comparison of Photon-Counting and Energy-Integrating Detectors.",
+        "abstract": "",
+        "doi": "10.3174/ajnr.a9103",
+        "pmcid": "PMC12853312",
+        "author": "Sadeghian M, Benson JC, Farnsworth PJ, Lane JI, Treb KJ, Khandalavala KR, Babajanian EE, Bruesewitz MR, Swicklik JR, McCollough CH, Carlson ML, Leng S.",
+        "journal": "AJNR Am J Neuroradiol",
+        "year": "2026"
+      },
+      {
+        "title": "High-Speed X-Ray Imager 'Hayaka' and Its Application for Quick Imaging XAFS and <i>in Coquendo</i> 4DCT Observation.",
+        "abstract": "",
+        "doi": "10.3390/s26020434",
+        "pmcid": "PMC12845620",
+        "author": "Yoneyama A, Yasuda M, Yashiro W, Setoyama H, Takeya S, Kawamoto M.",
+        "journal": "Sensors (Basel)",
+        "year": "2026"
+      },
+      {
+        "title": "Design of a Large-Format Scene Simulation System Based on Multi-DMD Optical Stitching",
+        "abstract": "",
+        "doi": null,
+        "pmcid": "PMC12944378",
+        "author": "Liu Z, Li J, Huang X, Liu P, Cui W, Zhang T.",
+        "journal": "Sensors (Basel)",
+        "year": "2026"
+      },
+      {
+        "title": "Imaging quantum chemistry in action with quantum attomicroscopy.",
+        "abstract": "",
+        "doi": "10.1038/s42004-026-02080-w",
+        "pmcid": "PMC13230974",
+        "author": "Golubev NV, Hassan MT.",
+        "journal": "Commun Chem",
+        "year": "2026"
+      },
+      {
+        "title": "The innovation imperative for an integrated Military Academic Health System: Aligning education, research, and clinical operations to sustain combat casualty readiness.",
+        "abstract": "",
+        "doi": "10.1097/ta.0000000000004976",
+        "pmcid": null,
+        "author": "Remondelli MH, Nye KD, Nye KD, Holt DB, Holt DB, Elster EA, Bradley MJ.",
+        "journal": "J Trauma Acute Care Surg",
+        "year": "2026"
+      },
+      {
+        "title": "Best of Both Worlds: Sharpening Hospital Medicine Skills in High-Volume Military-Civilian Partnership.",
+        "abstract": "",
+        "doi": "10.1093/milmed/usaf412",
+        "pmcid": null,
+        "author": "Fields JH, Oppong P, Buckland-Coffey D, Nunnelley M, Kilburn J.",
+        "journal": "Mil Med",
+        "year": "2026"
+      },
+      {
+        "title": "Polar solvent strategy enables scalable synthesis of perovskite nanocrystal scintillators for fast X-ray imaging.",
+        "abstract": "",
+        "doi": "10.1038/s41467-026-71288-0",
+        "pmcid": "PMC13216278",
+        "author": "Hu X, Wang Z, Thomas S, Nadinov I, Cai Q, Dai X, Huang Z, Wang Y, Gong J, Wu Y, Zhou R, Wen Y, Wang JX, Zeng H, Bakr OM, Alshareef HN, Li X, Mohammed OF.",
+        "journal": "Nat Commun",
+        "year": "2026"
+      },
+      {
+        "title": "Learned high resolution energy-integrating detector CT angiography: Harnessing the power of ultra-high-resolution photon counting detector CT.",
+        "abstract": "",
+        "doi": "10.1002/mp.17874",
+        "pmcid": "PMC12259352",
+        "author": "Koons EK, Chang S, Missert AD, Gong H, Thorne JE, Hoodeshenas S, Rajiah PS, McCollough CH, Leng S.",
+        "journal": "Med Phys",
+        "year": "2025"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_siemens_somatom_xcite": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Improved Computed Tomography Imaging Post-Flow Diverter Treatment Using a SOMATOM X.Cite Scanner.",
+        "abstract": "",
+        "doi": "10.5797/jnet.oa.2025-0075",
+        "pmcid": "PMC12834647",
+        "author": "Yamaki T, Kondo R, Satake K, Tanaka M, Shimokawa Y, Kuge A, Sonoda Y.",
+        "journal": "J Neuroendovasc Ther",
+        "year": "2026"
+      },
+      {
+        "title": "Diagnostic performance of non-contrast quiescent-interval slice-selective (QISS) magnetic resonance angiography for evaluation of the renal arterial vasculature compared to computed tomography angiography (CTA) as reference standard.",
+        "abstract": "",
+        "doi": "10.1016/j.ejro.2025.100706",
+        "pmcid": "PMC12648502",
+        "author": "Ghibes P, Hagen F, Martirosian P, Ursprung S, Nikolaou K, Raskin D, Levitin A, Kirksey L, Partovi S.",
+        "journal": "Eur J Radiol Open",
+        "year": "2025"
+      },
+      {
+        "title": "Accuracy of virtual non-contrast images from dual-energy integrating detector CT and photon-counting detector CT at high iodine concentrations.",
+        "abstract": "",
+        "doi": "10.1177/19714009261434498",
+        "pmcid": "PMC13021541",
+        "author": "Grkovski R, Kulcsar Z, Winklhofer S.",
+        "journal": "Neuroradiol J",
+        "year": "2026"
+      },
+      {
+        "title": "Cochlear implant imaging with accelerated flat panel computed tomography: Image quality and dosimetry comparison to conventional high-resolution multislice computed tomography.",
+        "abstract": "",
+        "doi": "10.1177/19714009251347856",
+        "pmcid": "PMC12145409",
+        "author": "Diamandis E, Müller SJ, Khadhraoui E, Klebingat S, Durisin M, Albrecht A, Behme D.",
+        "journal": "Neuroradiol J",
+        "year": "2026"
+      },
+      {
+        "title": "Radiation Dose Reduction in Cancer Imaging with New-Model CT Scanners: A Quality of Care Evaluation.",
+        "abstract": "",
+        "doi": "10.3390/cancers17111815",
+        "pmcid": "PMC12153870",
+        "author": "Rizzo S, Bellesi L, Khalifa EB, Presilla S, D'Ermo A, Magoga F, Merli M, Rezzonico E, D'Ecclesiis O, Del Grande F.",
+        "journal": "Cancers (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Diagnostic accuracy of rib fracture detection in forensic post-mortem photon counting CT.",
+        "abstract": "",
+        "doi": "10.1007/s00414-025-03597-w",
+        "pmcid": "PMC12808174",
+        "author": "Lombardo P, Hartmann C, Fridle C, von Tengg-Kobligk H, Ruder TD, Zech WD.",
+        "journal": "Int J Legal Med",
+        "year": "2026"
+      },
+      {
+        "title": "Quantification of skeletal muscle density, mass and fat fraction using single-energy computed tomography.",
+        "abstract": "",
+        "doi": "10.1016/j.jot.2026.101094",
+        "pmcid": "PMC13185934",
+        "author": "Bammessel J, Bartenschlager S, Chaudry O, Krekiehn N, Johannesdottir F, Wang L, Uder M, Schett G, Engelke K.",
+        "journal": "J Orthop Translat",
+        "year": "2026"
+      },
+      {
+        "title": "ErisNet: A Deep Learning Model for Noise Reduction in CT Images.",
+        "abstract": "",
+        "doi": "10.3390/bioengineering12090997",
+        "pmcid": "PMC12467190",
+        "author": "Mattiussi F, Magoga F, Cozzi A, Ferraro S, Cadei G, Martini C, Leu S, Khalifa EB, Azzena AA, Pileggi M, Rezzonico E, Rizzo S.",
+        "journal": "Bioengineering (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Ultra-high resolution CT angiography for the assessment of intracranial stents and flow diverters using photon counting detector CT.",
+        "abstract": "",
+        "doi": "10.1136/jnis-2024-022041",
+        "pmcid": "PMC12573315",
+        "author": "Ludovichetti R, Gorup D, Krepuska M, Winklhofer S, Thurner P, Madjidyar J, Flohr T, Piccirelli M, Michels L, Alkadhi H, Mergen V, Kulcsar Z, Schubert T.",
+        "journal": "J Neurointerv Surg",
+        "year": "2025"
+      },
+      {
+        "title": "Comparison of thoracic computed tomography and surgical reports in dogs and cats.",
+        "abstract": "",
+        "doi": "10.3389/fvets.2025.1566436",
+        "pmcid": "PMC12319340",
+        "author": "Brložnik M, Immler M, Prüllage ML, Grünzweil OM, Lyrakis M, Ludewig E, Kneissl SM.",
+        "journal": "Front Vet Sci",
+        "year": "2025"
+      },
+      {
+        "title": "Accelerated flat panel computed tomography for pre-operative temporal bone imaging: Image quality and dosimetry comparison to conventional high resolution multislice computed tomography.",
+        "abstract": "",
+        "doi": "10.1007/s00234-025-03592-3",
+        "pmcid": "PMC12391175",
+        "author": "Diamandis E, Müller SJ, Khadhraoui E, Klebingat S, Einspänner E, Durisin M, Albrecht A, Behme D.",
+        "journal": "Neuroradiology",
+        "year": "2025"
+      },
+      {
+        "title": "3D-cell phantom-experimental setup to assess thermal effects and cell viability of lung tumor cells after electroporation.",
+        "abstract": "",
+        "doi": "10.1038/s41598-024-78339-w",
+        "pmcid": "PMC11543935",
+        "author": "Müller N, Gylstorff S, Walles H, Gerlach T, Belker O, Zanasi A, Punzet D, Kopp S.",
+        "journal": "Sci Rep",
+        "year": "2024"
+      },
+      {
+        "title": "Accuracy of Ultra-Fast Low-Field MRI (0.55 T) for Lung Nodule Detection with Ultra-Short Echo Time Sequences.",
+        "abstract": "",
+        "doi": "10.3390/tomography11120132",
+        "pmcid": "PMC12736920",
+        "author": "Hinsen M, Nagel AM, Bayerl N, Fautz HP, Benkert T, May MS, Uder M, Heiss R.",
+        "journal": "Tomography",
+        "year": "2025"
+      },
+      {
+        "title": "Contemporary 0.55 T MRI to visualize interstitial lung disease - An exploratory study.",
+        "abstract": "",
+        "doi": "10.1016/j.ejro.2025.100720",
+        "pmcid": "PMC12810502",
+        "author": "Bayerl N, Mathy CS, Bergmann C, Bäuerle T, Adams LC, Nagel AM, Distler JHW, Gerhalter T, Uder M, Heiss R, Ellmann S.",
+        "journal": "Eur J Radiol Open",
+        "year": "2026"
+      },
+      {
+        "title": "Impact of Phantom Size on Low-Energy Virtual Monoenergetic Images of Three Dual-Energy CT Platforms.",
+        "abstract": "",
+        "doi": "10.3390/diagnostics13193039",
+        "pmcid": "PMC10572153",
+        "author": "Greffier J, Van Ngoc Ty C, Fitton I, Frandon J, Beregi JP, Dabli D.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2023"
+      },
+      {
+        "title": "CT-augmented digital tomosynthesis image reconstruction in image-guided bronchoscopy interventions.",
+        "abstract": "",
+        "doi": "10.1002/mp.17551",
+        "pmcid": "PMC11880646",
+        "author": "Saad F, Frysch R, Saalfeld S, Kellnberger S, Schulz J, Fahrig R, Bhadra K, Nürnberger A, Rose G.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Diagnostic accuracy of dual-energy computed tomography in the diagnosis of neurological complications after endovascular treatment of acute ischaemic stroke: a systematic review and meta-analysis.",
+        "abstract": "",
+        "doi": "10.1093/bjr/tqad007",
+        "pmcid": "PMC11027317",
+        "author": "Ebaid NY, Mouffokes A, Yasen NS, Elrosasy AM, Philip KG, Assy MM, Alsowey AM.",
+        "journal": "Br J Radiol",
+        "year": "2024"
+      },
+      {
+        "title": "Oral Presentations",
+        "abstract": "",
+        "doi": null,
+        "pmcid": "PMC11086049",
+        "author": "",
+        "journal": "Global Spine Journal",
+        "year": "2024"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_siemens_naeotom_alpha": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "An experimental method for direct measurement of CT detector presampling MTF from reconstructed images.",
+        "abstract": "",
+        "doi": "10.1002/mp.70507",
+        "pmcid": null,
+        "author": "Zhan L, Dong F, Chen GH, Li K.",
+        "journal": "Med Phys",
+        "year": "2026"
+      },
+      {
+        "title": "Ultra-high Resolution Photon Counting Detector Computed Tomography Imaging for Quantitative Lung Assessment: An Anthropomorphic Phantom Study.",
+        "abstract": "",
+        "doi": "10.1097/rli.0000000000001227",
+        "pmcid": "PMC13248997",
+        "author": "Sieren JC, Schroeder KE, Kitzmann J, Knoernschild K, Atha J, Alarab N, Guo J, Fain SB, Hoffman EA.",
+        "journal": "Invest Radiol",
+        "year": "2026"
+      },
+      {
+        "title": "Pushing the limits of spatial resolution in clinical PCD-CT using a dedicated high-resolution convolutional neural network (HR-CNN).",
+        "abstract": "",
+        "doi": "10.1002/mp.70382",
+        "pmcid": "PMC13037682",
+        "author": "Zhou Z, Bratt AK, Koo CW, Horst KK, McCollough CH, Yu L.",
+        "journal": "Med Phys",
+        "year": "2026"
+      },
+      {
+        "title": "Impact of Spatial Resolution on CT Imaging of Middle Ear Prostheses: Comparison of Photon-Counting and Energy-Integrating Detectors.",
+        "abstract": "",
+        "doi": "10.3174/ajnr.a9103",
+        "pmcid": "PMC12853312",
+        "author": "Sadeghian M, Benson JC, Farnsworth PJ, Lane JI, Treb KJ, Khandalavala KR, Babajanian EE, Bruesewitz MR, Swicklik JR, McCollough CH, Carlson ML, Leng S.",
+        "journal": "AJNR Am J Neuroradiol",
+        "year": "2026"
+      },
+      {
+        "title": "Nonprewhitening model observers in the Fourier and spatial domain: a comparison of predictions for iterative and deep learning reconstruction in computed tomography.",
+        "abstract": "",
+        "doi": "10.1093/rpd/ncaf160",
+        "pmcid": "PMC13152208",
+        "author": "Poludniowski G, Titternes R, Flores J, Thor D.",
+        "journal": "Radiat Prot Dosimetry",
+        "year": "2026"
+      },
+      {
+        "title": "Diagnostic Performance of Photon-Counting CT Angiography in Vascular Stenosis Assessment: A Systematic Review and Meta-Analysis.",
+        "abstract": "",
+        "doi": "10.3390/diagnostics16060881",
+        "pmcid": "PMC13024787",
+        "author": "Alzahrani NM, Alzahrani A, Almutlaq ZM, Alghamdi A, Almukhlifi Y, Alotaibi SA, Alyami J.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2026"
+      },
+      {
+        "title": "In silico modeling of a clinical photon-counting CT system: Verification and validation.",
+        "abstract": "",
+        "doi": "10.1002/mp.17886",
+        "pmcid": "PMC12285274",
+        "author": "McCabe C, Harrawood B, Samei E, Abadi E.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "CT Radiation Dose Reduction With Preserved Diagnostic Performance: How Far Have We Come Over 25 Years?",
+        "abstract": "",
+        "doi": "10.2214/ajr.25.34450",
+        "pmcid": "PMC12969835",
+        "author": "McCollough CH, Yu L.",
+        "journal": "AJR Am J Roentgenol",
+        "year": "2026"
+      },
+      {
+        "title": "Ultra-high spatial resolution at photon-counting computed tomography: technical insights and sustainable applications in cardiothoracic imaging.",
+        "abstract": "",
+        "doi": "10.1186/s41747-025-00656-0",
+        "pmcid": "PMC12770191",
+        "author": "Occhipinti M, Clemente A, De Gori C, Positano V, Neglia D, Celi S, Meloni A, Berti S, Cademartiri F.",
+        "journal": "Eur Radiol Exp",
+        "year": "2026"
+      },
+      {
+        "title": "Denoising pediatric cardiac photon-counting CT data with sparse coding and data-adaptive, self-supervised deep learning.",
+        "abstract": "",
+        "doi": "10.1002/mp.17918",
+        "pmcid": "PMC12416440",
+        "author": "Clark DP, Cao JY, Badea CT.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Simultaneous ultra-high resolution multi-energy cardiac imaging in a dual-source photon counting detector CT system.",
+        "abstract": "",
+        "doi": "10.1093/bjr/tqaf069",
+        "pmcid": "PMC12486180",
+        "author": "Shanblatt E, Rajendran K, Swicklik JR, Allmendinger T, Schmidt B, Flohr T, McCollough CH, Leng S.",
+        "journal": "Br J Radiol",
+        "year": "2025"
+      },
+      {
+        "title": "Photon counting CT versus energy-integrating CT: A comparative evaluation of advances in image resolution, noise, and dose efficiency.",
+        "abstract": "",
+        "doi": "10.1002/mp.17591",
+        "pmcid": "PMC11880643",
+        "author": "Heismann B, Kreisler B, Fasbender R.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Feasibility of opportunistic dental diagnostics in routine photon-counting CT examinations of the cervical spine.",
+        "abstract": "",
+        "doi": "10.1186/s12903-025-07585-9",
+        "pmcid": "PMC12871002",
+        "author": "Sawall S, Maier J, Sen S, Gehrig H, Kim TS, Ziener CH, Schlemmer HP, Schoenberg SO, Froelich MF, Kachelrieß M, Ruetters M.",
+        "journal": "BMC Oral Health",
+        "year": "2026"
+      },
+      {
+        "title": "Photon-counting CT versus energy-integrating detectors for cardiac imaging: a systematic review of evidence from in vivo human studies on image quality and radiation dose.",
+        "abstract": "",
+        "doi": "10.1186/s12880-025-01825-8",
+        "pmcid": "PMC12297571",
+        "author": "Rønning M, Johansen E, Rusandu A.",
+        "journal": "BMC Med Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "Multi-reader Comparison of Photon-Counting Detector CT Reconstructions for Evaluation of Temporal Bone Cochlear Implants.",
+        "abstract": "",
+        "doi": "10.3174/ajnr.a9205",
+        "pmcid": null,
+        "author": "Dogra S, O'Donnell T, Nayak G, Hagiwara M, Moonis G.",
+        "journal": "AJNR Am J Neuroradiol",
+        "year": "2026"
+      },
+      {
+        "title": "Photon-Counting CT in Cardiovascular Imaging: Clinical Applications.",
+        "abstract": "",
+        "doi": "10.3348/kjr.2024.0261",
+        "pmcid": "PMC12936579",
+        "author": "Rajiah PS, Williams JM, LaVere M, Leng S, Young PM.",
+        "journal": "Korean J Radiol",
+        "year": "2026"
+      },
+      {
+        "title": "Learned high resolution energy-integrating detector CT angiography: Harnessing the power of ultra-high-resolution photon counting detector CT.",
+        "abstract": "",
+        "doi": "10.1002/mp.17874",
+        "pmcid": "PMC12259352",
+        "author": "Koons EK, Chang S, Missert AD, Gong H, Thorne JE, Hoodeshenas S, Rajiah PS, McCollough CH, Leng S.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Reproducibility of lung density quantification across photon-counting and conventional energy-integrating CT: a comparative study.",
+        "abstract": "",
+        "doi": "10.1093/bjr/tqaf103",
+        "pmcid": "PMC12659742",
+        "author": "Sotoudeh-Paima S, Samei E, Abadi E.",
+        "journal": "Br J Radiol",
+        "year": "2025"
+      },
+      {
+        "title": "Assessment of Image Quality Performance of a Photon-Counting Computed Tomography Scanner Approved for Whole-Body Clinical Applications.",
+        "abstract": "",
+        "doi": "10.3390/s25237338",
+        "pmcid": "PMC12693879",
+        "author": "Maddaloni FS, Sarno A, Loria A, Piai A, Lenardi C, Esposito A, Del Vecchio A.",
+        "journal": "Sensors (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Photon-counting computed tomography versus energy-integrating computed tomography for detection of small liver lesions: comparison using a virtual framework imaging.",
+        "abstract": "",
+        "doi": "10.1117/1.jmi.11.5.053502",
+        "pmcid": "PMC11486217",
+        "author": "Felice N, Wildman-Tobriner B, Segars WP, Bashir MR, Marin D, Samei E, Abadi E.",
+        "journal": "J Med Imaging (Bellingham)",
+        "year": "2024"
+      },
+      {
+        "title": "Optimizing Reconstruction Parameters for Detecting Peripheral In-Stent Restenosis with Photon-Counting Detector CT: A Phantom Study.",
+        "abstract": "",
+        "doi": "10.3390/diagnostics16091253",
+        "pmcid": "PMC13162608",
+        "author": "Tan Y, Hop JF, Dobrolinska M, Zheng X, Hoeijmakers EJI, de Vries JPM, Greuter MJW, Bokkers RPH.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2026"
+      },
+      {
+        "title": "Applications of photon-counting CT in oncologic imaging: A systematic review.",
+        "abstract": "",
+        "doi": "10.4329/wjr.v17.i8.107732",
+        "pmcid": "PMC12400258",
+        "author": "Perera Molligoda Arachchige AS, Dashiell A, Jesuraj AS, D'Urso AI, Fiore B, Cattaneo M, Pierzynska E, Szydelko S, Centini FR, Verma Y.",
+        "journal": "World J Radiol",
+        "year": "2025"
+      },
+      {
+        "title": "Photon-Counting CT: Technology, Current and Potential Future Clinical Applications, and Overview of Approved Systems and Those in Various Stages of Research and Development.",
+        "abstract": "",
+        "doi": "10.1148/radiol.240662",
+        "pmcid": "PMC11950899",
+        "author": "Schwartz FR, Sodickson AD, Pickhardt PJ, Sahani DV, Lev MH, Gupta R.",
+        "journal": "Radiology",
+        "year": "2025"
+      },
+      {
+        "title": "Spectral performance for iodine quantification of a dual-source, dual-kV photon counting detector CT.",
+        "abstract": "",
+        "doi": "10.1002/mp.17679",
+        "pmcid": "PMC12064377",
+        "author": "Winfree T, Treb K, McCollough C, Leng S.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Airway quantifications of bronchitis patients with photon-counting and energy-integrating computed tomography.",
+        "abstract": "",
+        "doi": "10.1117/1.jmi.13.1.013501",
+        "pmcid": "PMC12863983",
+        "author": "Ho FC, Segars WP, Samei E, Abadi E.",
+        "journal": "J Med Imaging (Bellingham)",
+        "year": "2026"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_siemens_somatom_propulse": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Abdominal image quality and dose reduction with energy-integrating or photon-counting detectors dual-source CT: A phantom study.",
+        "abstract": "",
+        "doi": "10.1016/j.diii.2024.05.002",
+        "pmcid": null,
+        "author": "Greffier J, Dabli D, Faby S, Pastor M, Croisille C, de Oliveira F, Erath J, Beregi JP.",
+        "journal": "Diagn Interv Imaging",
+        "year": "2024"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_siemens_somatom_drive": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Correlation between exposure (mAs) and image quality for a rapid cone-beam CT on a ring gantry linear accelerator.",
+        "abstract": "",
+        "doi": "10.1002/acm2.70374",
+        "pmcid": "PMC12626742",
+        "author": "Zhao H, Nelson N, Streitmatter S, Nordin B, Martin T, Price RG, Kunz JN, Bhagroo S, Huang YJ, Nelson G.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Quantitative CT reconstruction kernel harmonization for multi-site lung cancer screening.",
+        "abstract": "",
+        "doi": "10.1002/acm2.70325",
+        "pmcid": "PMC12594606",
+        "author": "Jordan DW, Misseldine RE.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Development and evaluation of an ultra-high-resolution cone-beam computed tomography system for hand and foot.",
+        "abstract": "",
+        "doi": "10.1007/s00256-025-05077-z",
+        "pmcid": "PMC13139293",
+        "author": "Tani W, Ichikawa K, Kawashima H, Tada K.",
+        "journal": "Skeletal Radiol",
+        "year": "2026"
+      },
+      {
+        "title": "Ultra-high Resolution Photon Counting Detector Computed Tomography Imaging for Quantitative Lung Assessment: An Anthropomorphic Phantom Study.",
+        "abstract": "",
+        "doi": "10.1097/rli.0000000000001227",
+        "pmcid": "PMC13248997",
+        "author": "Sieren JC, Schroeder KE, Kitzmann J, Knoernschild K, Atha J, Alarab N, Guo J, Fain SB, Hoffman EA.",
+        "journal": "Invest Radiol",
+        "year": "2026"
+      },
+      {
+        "title": "GMRVGG: A Bearing Fault Diagnosis Method Based on Tri-Modal Image Feature Fusion.",
+        "abstract": "",
+        "doi": "10.3390/s26082426",
+        "pmcid": "PMC13120031",
+        "author": "Li A, Li Y, Wang X, Yin J.",
+        "journal": "Sensors (Basel)",
+        "year": "2026"
+      },
+      {
+        "title": "High-Speed X-Ray Imager 'Hayaka' and Its Application for Quick Imaging XAFS and <i>in Coquendo</i> 4DCT Observation.",
+        "abstract": "",
+        "doi": "10.3390/s26020434",
+        "pmcid": "PMC12845620",
+        "author": "Yoneyama A, Yasuda M, Yashiro W, Setoyama H, Takeya S, Kawamoto M.",
+        "journal": "Sensors (Basel)",
+        "year": "2026"
+      },
+      {
+        "title": "Harmonized low-dose computed tomographic protocols for quantitative lung imaging using dose modulation and advanced reconstructions.",
+        "abstract": "",
+        "doi": "10.1002/mp.70125",
+        "pmcid": "PMC12596176",
+        "author": "Atha J, Eddy RL, Guo J, Newell JD, Castro M, Ranallo FN, Fain SB, Sieren JC, Hoffman EA, PrecISE study.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Iodine quantification performance with deep silicon-based Photon-Counting CT: A virtual imaging trial study.",
+        "abstract": "",
+        "doi": "10.1016/j.ejmp.2025.105003",
+        "pmcid": "PMC13023031",
+        "author": "Panta RK, Yin Z, Grönberg F, Bhattarai M, Abadi E, Segars P, Samei E.",
+        "journal": "Phys Med",
+        "year": "2025"
+      },
+      {
+        "title": "3d elastic-modulus imaging using ultrasound linear arrays and efficient data-driven training strategies.",
+        "abstract": "",
+        "doi": "10.1007/s10237-026-02056-8",
+        "pmcid": "PMC13035627",
+        "author": "Newman W, Ghaboussi J, Insana MF.",
+        "journal": "Biomech Model Mechanobiol",
+        "year": "2026"
+      },
+      {
+        "title": "AI-driven saliency-guided retinal vessel segmentation framework for sustainable digital pathology.",
+        "abstract": "",
+        "doi": "10.3389/fmed.2026.1801480",
+        "pmcid": "PMC13171390",
+        "author": "Guha Thakurta R, Seno ME, Ur Rehman M, Haider SA, Halwani MA, Bhosale SA, Soni M.",
+        "journal": "Front Med (Lausanne)",
+        "year": "2026"
+      },
+      {
+        "title": "Superferromagnetic Disk Particles for Magnetic Particle Imaging.",
+        "abstract": "",
+        "doi": "10.1002/smtd.202501349",
+        "pmcid": "PMC12716192",
+        "author": "Mayr EM, Ackers J, Gogos A, Scheibler S, Krupinski M, Graeser M, Herrmann IK, Hug HJ.",
+        "journal": "Small Methods",
+        "year": "2025"
+      },
+      {
+        "title": "High sensitivity cameras can lower spatial resolution in high-resolution optical microscopy.",
+        "abstract": "",
+        "doi": "10.1038/s41467-024-53198-1",
+        "pmcid": "PMC11480200",
+        "author": "Ortkrass H, Müller M, Engdahl AK, Holst G, Huser T.",
+        "journal": "Nat Commun",
+        "year": "2024"
+      },
+      {
+        "title": "Digital Domain TDI-CMOS Imaging Based on Minimum Search Domain Alignment.",
+        "abstract": "",
+        "doi": "10.3390/s25113490",
+        "pmcid": "PMC12158263",
+        "author": "Liu H, Tao S, Feng Q, Li Z.",
+        "journal": "Sensors (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Ultrasound synthetic aperture non-line-of-sight imaging.",
+        "abstract": "",
+        "doi": "10.1038/s42005-025-02335-3",
+        "pmcid": "PMC12642816",
+        "author": "Li T, Starshynov I, Kassem K, Xie Z, Ren G, Luo Y, Faccio D.",
+        "journal": "Commun Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Acquisition time/dose reduction in pediatric PET imaging using patch-based deep learning.",
+        "abstract": "",
+        "doi": "10.1186/s40658-026-00876-2",
+        "pmcid": null,
+        "author": "Han C, Trout AT, Li A, Meier JG, Alves VPV, MacLean J, Abu Ata N, Li Y, Sharp SE, Anton CG, Tang J.",
+        "journal": "EJNMMI Phys",
+        "year": "2026"
+      },
+      {
+        "title": "Analysis of visual quality after implantation of diffractive multifocal intraocular lens Diff - aA in cataract patients.",
+        "abstract": "",
+        "doi": "10.1186/s12886-026-04820-x",
+        "pmcid": "PMC13188292",
+        "author": "Jingwen Z, Louxun S, Yifan Y, Shanshan D, Jingzhi S, Fengyan Z.",
+        "journal": "BMC Ophthalmol",
+        "year": "2026"
+      },
+      {
+        "title": "Timbre Encoding in the Inferior Colliculus.",
+        "abstract": "",
+        "doi": "10.1523/jneurosci.1104-25.2026",
+        "pmcid": "PMC13217535",
+        "author": "Fritzinger JB, Carney LH.",
+        "journal": "J Neurosci",
+        "year": "2026"
+      },
+      {
+        "title": "Characterizing Emerging Detector Materials for Low-Dose X-Ray Imaging.",
+        "abstract": "",
+        "doi": "10.1002/adma.202512795",
+        "pmcid": "PMC12483158",
+        "author": "Sakhatskyi K, Bartosh V, Zhou Y, Matt GJ, Zhao J, Yakunin S, Huang J, Kovalenko MV.",
+        "journal": "Adv Mater",
+        "year": "2025"
+      },
+      {
+        "title": "Denoising pediatric cardiac photon-counting CT data with sparse coding and data-adaptive, self-supervised deep learning.",
+        "abstract": "",
+        "doi": "10.1002/mp.17918",
+        "pmcid": "PMC12416440",
+        "author": "Clark DP, Cao JY, Badea CT.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Late adolescent nonmedical prescription stimulant sources and links to young adult nonmedical stimulant use and sources.",
+        "abstract": "",
+        "doi": "10.1016/j.addbeh.2026.108682",
+        "pmcid": "PMC13213616",
+        "author": "Schepis TS, McCabe SE, West BT, Ford JA, Jardine J, Veliz PT.",
+        "journal": "Addict Behav",
+        "year": "2026"
+      },
+      {
+        "title": "Supramolecular Self-Assembly of Organic Cu(I) Iodides as Green and Recyclable Paper-Based Customizable Large-Area Flexible Film for Plant Grow Lighting and Plant Root X-Ray Imaging.",
+        "abstract": "",
+        "doi": "10.1002/advs.202513081",
+        "pmcid": "PMC12752624",
+        "author": "Yuan S, Peng H, Zhang H, Xu O, Wang F, Yang W, Du Z, Zou B.",
+        "journal": "Adv Sci (Weinh)",
+        "year": "2025"
+      },
+      {
+        "title": "High sensitivity cameras can lower spatial resolution in high-resolution optical microscopy",
+        "abstract": "",
+        "doi": "10.1101/2024.02.23.581754",
+        "pmcid": null,
+        "author": "Ortkrass H, Müller M, Engdahl AK, Holst G, Huser T.",
+        "journal": "",
+        "year": "2024"
+      },
+      {
+        "title": "Zinc-Induced PKCδ-dependent Phosphorylation of MTF-1 Promotes Pulmonary Vascular Remodeling in Hypoxic Pulmonary Hypertension.",
+        "abstract": "",
+        "doi": "10.7150/ijbs.124664",
+        "pmcid": "PMC12781076",
+        "author": "Chen A, Yan Y, Cao R, Cai K, Lian G, Cai W, Zhou J, Xie L.",
+        "journal": "Int J Biol Sci",
+        "year": "2026"
+      },
+      {
+        "title": "Wearable Dual-Mode Biosensing System for Dynamic Light Dosimetry in Tissues.",
+        "abstract": "",
+        "doi": "10.3390/bios16050263",
+        "pmcid": "PMC13204419",
+        "author": "Wei J, Ma L, Li W, Xu P, Wang Y, Zhou F, Cai F.",
+        "journal": "Biosensors (Basel)",
+        "year": "2026"
+      },
+      {
+        "title": "Preoperative Suboptimal Correction and Early Visual Recovery After SMILE: How Full vs Under/Over-Correction Shapes Outcomes.",
+        "abstract": "",
+        "doi": "10.2147/opth.s569562",
+        "pmcid": "PMC12766122",
+        "author": "Ma L, Huang Y, Nan W, Yan X, Zhu Y, Chen Q, Zhang Y.",
+        "journal": "Clin Ophthalmol",
+        "year": "2025"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_siemens_somatom_xceed": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Low-contrast detectability of a mobile head CT compared with conventional CT.",
+        "abstract": "",
+        "doi": "10.1016/j.ejmp.2025.105177",
+        "pmcid": null,
+        "author": "Vorbau R, Hulthén M, Hillergren P, Omar A.",
+        "journal": "Phys Med",
+        "year": "2025"
+      },
+      {
+        "title": "Dose optimization for CT scans of the temporal bone using spectral shaping tin filter.",
+        "abstract": "",
+        "doi": "10.1002/acm2.70359",
+        "pmcid": "PMC12745887",
+        "author": "von Hessling A, Gomes CV, Niederau P, Lima T, Roos J, Saltybaeva N.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2026"
+      },
+      {
+        "title": "Radiation Dose Reduction in Cancer Imaging with New-Model CT Scanners: A Quality of Care Evaluation.",
+        "abstract": "",
+        "doi": "10.3390/cancers17111815",
+        "pmcid": "PMC12153870",
+        "author": "Rizzo S, Bellesi L, Khalifa EB, Presilla S, D'Ermo A, Magoga F, Merli M, Rezzonico E, D'Ecclesiis O, Del Grande F.",
+        "journal": "Cancers (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Real-Time MR-Guided Lumbosacral Periradicular Injection Therapy Using a 0.55 T MRI System: A Phantom Study.",
+        "abstract": "",
+        "doi": "10.3390/diagnostics15111413",
+        "pmcid": "PMC12154321",
+        "author": "Saeed S, Boriesosdick J, Michael A, Haag NP, Schreck J, Schoenbeck D, Woeltjen MM, Niehoff JH, Moenninghoff C, Borggrefe J, Kroeger JR.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Quantitative measurement using panretinal optical coherence tomography with three-dimensional curve distortion correction.",
+        "abstract": "",
+        "doi": "10.1364/boe.568715",
+        "pmcid": "PMC12684008",
+        "author": "Bayhaqi YA, Ni S, Ng R, Jackson JD, Ostmo S, Merz B, Huang D, Skalet AH, Campbell JP, Young BK, Jian Y.",
+        "journal": "Biomed Opt Express",
+        "year": "2025"
+      },
+      {
+        "title": "Evaluation of Image Quality of Overweight and Obese Patients in CT Using High Data Rate Detectors.",
+        "abstract": "",
+        "doi": "10.21873/invivo.13194",
+        "pmcid": "PMC10188035",
+        "author": "Feldmane I, Gampp C, Hausmann D, Mavridis S, Euler A, Hefermehl LJ, Knoth F, Kubik-Huch RA, Nocito A, Niemann T.",
+        "journal": "In Vivo",
+        "year": "2023"
+      },
+      {
+        "title": "Ultra-high-resolution synchrotron phase-contrast CT enables microstructural pulmonary imaging at clinical dose levels.",
+        "abstract": "",
+        "doi": "10.1186/s12931-026-03561-1",
+        "pmcid": "PMC12958687",
+        "author": "Benke CV, Reiser J, D'Amico L, Sagar MMR, Sodini N, Dreossi D, Contillo A, Longo E, Prašek M, Stern S, Baratella E, Cova MA, Confalonieri M, Confalonieri P, Zanconati F, D'Errico S, Radaelli D, Bruscagin T, Bonazza D, Bayat S, Nolte P, Neubert L, Petzold-Mügge C, Werlein C, Knudsen L, Shin HO, Kamp JC, Hosseini ASA, Wagner WL, Wielpütz MO, Biederer J, Kauczor HU, Alves F, Tromba G, Dullin C.",
+        "journal": "Respir Res",
+        "year": "2026"
+      },
+      {
+        "title": "Low-Field MRI for Dental Imaging in Pediatric Patients With Supernumerary and Ectopic Teeth: A Comparative Study of 0.55 T and Ultra-Low-Dose CT.",
+        "abstract": "",
+        "doi": "10.1097/rli.0000000000001129",
+        "pmcid": "PMC12129386",
+        "author": "Willershausen I, Evangeliou S, Fautz HP, Amarteifio P, May MS, Stroebel A, Zeilinger M, Uder M, Goelz L, Kopp M.",
+        "journal": "Invest Radiol",
+        "year": "2025"
+      },
+      {
+        "title": "Assessment of Image Quality in Chest CT With Precision Matrix and Increased Framing Rate Using Single Source CT: A Phantom Study.",
+        "abstract": "",
+        "doi": "10.21873/invivo.13058",
+        "pmcid": "PMC9843783",
+        "author": "Mavridis S, El-Gedaily M, Kubik-Huch RA, Knoth F, Leon JF, Euler A, Hefermehl L, Niemann T.",
+        "journal": "In Vivo",
+        "year": "2023"
+      },
+      {
+        "title": "Feasibility of 3 Tesla MRI for the assessment of mid-palatal suture maturation: a retrospective pilot study.",
+        "abstract": "",
+        "doi": "10.1007/s10266-024-00950-0",
+        "pmcid": "PMC11717790",
+        "author": "Willershausen I, Kopp M, Scholz M, Ströbel A, Seidel CL, Paulsen F, Uder M, Gölz L, May MS.",
+        "journal": "Odontology",
+        "year": "2025"
+      },
+      {
+        "title": "Computed Tomography 2.0: New Detector Technology, AI, and Other Developments.",
+        "abstract": "",
+        "doi": "10.1097/rli.0000000000000995",
+        "pmcid": "PMC10332658",
+        "author": "Lell M, Kachelrieß M.",
+        "journal": "Invest Radiol",
+        "year": "2023"
+      },
+      {
+        "title": "Diagnostic accuracy of contrast-enhanced computed tomography in assessing bone invasion in patients with oral squamous cell carcinoma.",
+        "abstract": "",
+        "doi": "10.1007/s00784-024-05705-3",
+        "pmcid": "PMC11096202",
+        "author": "Struckmeier AK, Buchbender M, Agaimy A, Kesting M.",
+        "journal": "Clin Oral Investig",
+        "year": "2024"
+      },
+      {
+        "title": "Pericardial tamponade, a diagnostic chameleon: from the historical perspectives to contemporary management.",
+        "abstract": "",
+        "doi": "10.1186/s13019-023-02174-9",
+        "pmcid": "PMC9898697",
+        "author": "Kaemmerer AS, Alkhalaileh K, Suleiman MN, Kopp M, Hauer C, May MS, Uder M, Weyand M, Harig F.",
+        "journal": "J Cardiothorac Surg",
+        "year": "2023"
+      },
+      {
+        "title": "Diagnostic Accuracy and Performance Analysis of a Scanner-Integrated Artificial Intelligence Model for the Detection of Intracranial Hemorrhages in a Traumatology Emergency Department.",
+        "abstract": "",
+        "doi": "10.3390/bioengineering10121362",
+        "pmcid": "PMC10740704",
+        "author": "Kiefer J, Kopp M, Ruettinger T, Heiss R, Wuest W, Amarteifio P, Stroebel A, Uder M, May MS.",
+        "journal": "Bioengineering (Basel)",
+        "year": "2023"
+      },
+      {
+        "title": "Diagnostic accuracy of contrast-enhanced computed tomography in assessing cervical lymph node status in patients with oral squamous cell carcinoma.",
+        "abstract": "",
+        "doi": "10.1007/s00432-023-05470-y",
+        "pmcid": "PMC10657302",
+        "author": "Struckmeier AK, Yekta E, Agaimy A, Kopp M, Buchbender M, Moest T, Lutz R, Kesting M.",
+        "journal": "J Cancer Res Clin Oncol",
+        "year": "2023"
+      },
+      {
+        "title": "ECR 2024 Book of Abstracts",
+        "abstract": "",
+        "doi": null,
+        "pmcid": "PMC11408449",
+        "author": "",
+        "journal": "Insights Imaging",
+        "year": "2024"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_siemens_somatom_gotop": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Automated calculation of slice-specific volume computed tomography dose index, water-equivalent diameter, and size-specific dose estimation for computed tomography scans.",
+        "abstract": "",
+        "doi": "10.4274/dir.2025.253555",
+        "pmcid": "PMC13136667",
+        "author": "Sookpeng S, Lopez-Gonzalez R, Chanlaor S, Kadman B.",
+        "journal": "Diagn Interv Radiol",
+        "year": "2026"
+      },
+      {
+        "title": "Human visual perception-based grayscale contrast enhancement with adaptive window settings in computed tomography images.",
+        "abstract": "",
+        "doi": "10.1002/acm2.70212",
+        "pmcid": "PMC12462540",
+        "author": "Zhou W, Tian Y.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Successful conservative management of multiple skull fracture and quadrate-mandibular medial luxation in a blue-and-yellow macaw (Ara ararauna).",
+        "abstract": "",
+        "doi": "10.1186/s12917-025-04551-z",
+        "pmcid": "PMC11869715",
+        "author": "Cococcetta C, Collarile T, Vetere A, Di Ianni F, De Palma V, Gros L.",
+        "journal": "BMC Vet Res",
+        "year": "2025"
+      },
+      {
+        "title": "Quantification of skeletal muscle density, mass and fat fraction using single-energy computed tomography.",
+        "abstract": "",
+        "doi": "10.1016/j.jot.2026.101094",
+        "pmcid": "PMC13185934",
+        "author": "Bammessel J, Bartenschlager S, Chaudry O, Krekiehn N, Johannesdottir F, Wang L, Uder M, Schett G, Engelke K.",
+        "journal": "J Orthop Translat",
+        "year": "2026"
+      },
+      {
+        "title": "Accuracy of Ultra-Fast Low-Field MRI (0.55 T) for Lung Nodule Detection with Ultra-Short Echo Time Sequences.",
+        "abstract": "",
+        "doi": "10.3390/tomography11120132",
+        "pmcid": "PMC12736920",
+        "author": "Hinsen M, Nagel AM, Bayerl N, Fautz HP, Benkert T, May MS, Uder M, Heiss R.",
+        "journal": "Tomography",
+        "year": "2025"
+      },
+      {
+        "title": "Contemporary 0.55 T MRI to visualize interstitial lung disease - An exploratory study.",
+        "abstract": "",
+        "doi": "10.1016/j.ejro.2025.100720",
+        "pmcid": "PMC12810502",
+        "author": "Bayerl N, Mathy CS, Bergmann C, Bäuerle T, Adams LC, Nagel AM, Distler JHW, Gerhalter T, Uder M, Heiss R, Ellmann S.",
+        "journal": "Eur J Radiol Open",
+        "year": "2026"
+      },
+      {
+        "title": "Dual-Energy and Photon-Counting Computed Tomography in Vascular Applications—Technical Background and Post-Processing Techniques",
+        "abstract": "",
+        "doi": null,
+        "pmcid": "PMC11202784",
+        "author": "Stański M, Michałowska I, Lemanowicz A, Karmelita-Katulska K, Ratajczak P, Sławińska A, Serafin Z.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2024"
+      },
+      {
+        "title": "CycleGan-based kV-to-MV image translation for potential in vivo dosimetry application: concept proposal and cross-institutional validation.",
+        "abstract": "",
+        "doi": "10.1186/s12880-025-02111-3",
+        "pmcid": "PMC12801567",
+        "author": "Qu R, Song Z, Lu Q, Hu H, Dong Z, Yu S, Liu J, Deng J, Mei G, Yin C, Li Q, Xiang F, Li T, Lin C, Qi J, Le X, Zhang Y.",
+        "journal": "BMC Med Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "A Comparative Analysis between Intraoperative Fluorescein Sodium Videoangiography and Postoperative Imaging for Evaluating Clipped Intracranial Aneurysms.",
+        "abstract": "",
+        "doi": "10.1055/s-0045-1809049",
+        "pmcid": "PMC12370349",
+        "author": "Dellaretti M, Soares AG, Lima ADO, Melo MT, Acherman ND, Almeida JC, Gonçalves VDRR, Costa BS.",
+        "journal": "Asian J Neurosurg",
+        "year": "2025"
+      },
+      {
+        "title": "Mapping the Maxillary Artery and Lateral Pterygoid Muscle Relationship: Insights from Radiological and Meta-Analytic Evidence.",
+        "abstract": "",
+        "doi": "10.3390/medicina61071201",
+        "pmcid": "PMC12299694",
+        "author": "Piagkou M, Triantafyllou G, Papadopoulos-Manolarakis P, Demetriou F, Tsakotos G, Olewnik Ł, Duparc F.",
+        "journal": "Medicina (Kaunas)",
+        "year": "2025"
+      },
+      {
+        "title": "Radiomics Analysis of Whole-Kidney Non-Contrast CT for Early Identification of Chronic Kidney Disease Stages 1-3.",
+        "abstract": "",
+        "doi": "10.3390/bioengineering12050454",
+        "pmcid": "PMC12109281",
+        "author": "Zhang G, Zhang P, Xia Y, Shi F, Zhang Y, Ding D.",
+        "journal": "Bioengineering (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Initial experience on abdominal photon-counting computed tomography in clinical routine: general image quality and dose exposure.",
+        "abstract": "",
+        "doi": "10.1007/s00330-022-09278-1",
+        "pmcid": "PMC10017564",
+        "author": "Becker BV, Kaatsch HL, Nestler K, Overhoff D, Schneider J, Dillinger D, Piechotka J, Brockmann MA, Ullmann R, Port M, Scherthan H, Waldeck S.",
+        "journal": "Eur Radiol",
+        "year": "2023"
+      },
+      {
+        "title": "Deep learning versus human assessors: forensic sex estimation from three-dimensional computed tomography scans.",
+        "abstract": "",
+        "doi": "10.1038/s41598-024-81718-y",
+        "pmcid": "PMC11615306",
+        "author": "Lye R, Min H, Dowling J, Obertová Z, Obertová Z, Estai M, Bachtiar NA, Franklin D.",
+        "journal": "Sci Rep",
+        "year": "2024"
+      },
+      {
+        "title": "Review of Clinical Applications of Dual-Energy CT in Patients after Endovascular Aortic Repair.",
+        "abstract": "",
+        "doi": "10.3390/jcm12247766",
+        "pmcid": "PMC10743598",
+        "author": "Kazimierczak W, Kazimierczak N, Serafin Z.",
+        "journal": "J Clin Med",
+        "year": "2023"
+      },
+      {
+        "title": "A Methodological Framework for AI-Assisted Diagnosis of Ovarian Masses Using CT and MR Imaging.",
+        "abstract": "",
+        "doi": "10.3390/jpm15020076",
+        "pmcid": "PMC11856859",
+        "author": "Adusumilli P, Ravikumar N, Hall G, Scarsbrook AF.",
+        "journal": "J Pers Med",
+        "year": "2025"
+      },
+      {
+        "title": "Pseudoprogression of thoracic tumor after radiotherapy in the era of immunotherapy: a case series.",
+        "abstract": "",
+        "doi": "10.3389/fonc.2023.1021253",
+        "pmcid": "PMC10419187",
+        "author": "Xiang Y, Tang W, Wang J, Wang Z, Bi N.",
+        "journal": "Front Oncol",
+        "year": "2023"
+      },
+      {
+        "title": "Assessment of pulmonary vascular anatomy: comparing augmented reality by holograms versus standard CT images/reconstructions using surgical findings as reference standard.",
+        "abstract": "",
+        "doi": "10.1186/s41747-024-00458-w",
+        "pmcid": "PMC11082107",
+        "author": "Petrella F, Rizzo SMR, Rampinelli C, Casiraghi M, Bagnardi V, Frassoni S, Pozzi S, Pappalardo O, Pravettoni G, Spaggiari L.",
+        "journal": "Eur Radiol Exp",
+        "year": "2024"
+      },
+      {
+        "title": "A New Method to Design and Manufacture a Low-Cost Custom-Made Template for Mandible Cut and Repositioning Using Standard Plates in BSSO Surgery.",
+        "abstract": "",
+        "doi": "10.3390/bioengineering11070668",
+        "pmcid": "PMC11273722",
+        "author": "Di Brigida L, Cortese A, Cataldo E, Naddeo A.",
+        "journal": "Bioengineering (Basel)",
+        "year": "2024"
+      },
+      {
+        "title": "SCOAT-Net: A Novel Network for Segmenting COVID-19 Lung Opacification from CT Images",
+        "abstract": "",
+        "doi": "10.1101/2020.09.23.20191726",
+        "pmcid": null,
+        "author": "Zhao S, Li Z, Chen Y, Zhao W, Xie X, Liu J, Zhao D, Li Y.",
+        "journal": "",
+        "year": "2020"
+      },
+      {
+        "title": "Assessment of glenoid bone loss and other osseous shoulder pathologies comparing MR-based CT-like images with conventional CT.",
+        "abstract": "",
+        "doi": "10.1007/s00330-023-09939-9",
+        "pmcid": "PMC10667374",
+        "author": "Feuerriegel GC, Kronthaler S, Weiss K, Haller B, Leonhardt Y, Neumann J, Pfeiffer D, Hesse N, Erber B, Schwaiger BJ, Makowski MR, Woertler K, Karampinos DC, Wurm M, Gersing AS.",
+        "journal": "Eur Radiol",
+        "year": "2023"
+      },
+      {
+        "title": "Association of subpleural ground-glass opacities with respiratory failure and RNAemia in COVID-19.",
+        "abstract": "",
+        "doi": "10.1007/s00330-023-09427-0",
+        "pmcid": "PMC9896440",
+        "author": "Nagaoka K, Kawasuji H, Takegoshi Y, Murai Y, Kaneda M, Ueno A, Miyajima Y, Wakasugi M, Noguchi K, Morimoto S, Morinaga Y, Yamamoto Y.",
+        "journal": "Eur Radiol",
+        "year": "2023"
+      },
+      {
+        "title": "Circulating Type I Interferon Levels in the Early Phase of COVID-19 Are Associated With the Development of Respiratory Failure.",
+        "abstract": "",
+        "doi": "10.3389/fimmu.2022.844304",
+        "pmcid": "PMC8882823",
+        "author": "Nagaoka K, Kawasuji H, Murai Y, Kaneda M, Ueno A, Miyajima Y, Fukui Y, Morinaga Y, Yamamoto Y.",
+        "journal": "Front Immunol",
+        "year": "2022"
+      },
+      {
+        "title": "SCOAT-Net: A novel network for segmenting COVID-19 lung opacification from CT images.",
+        "abstract": "",
+        "doi": "10.1016/j.patcog.2021.108109",
+        "pmcid": "PMC8189738",
+        "author": "Zhao S, Li Z, Chen Y, Zhao W, Xie X, Liu J, Zhao D, Li Y.",
+        "journal": "Pattern Recognit",
+        "year": "2021"
+      },
+      {
+        "title": "ECR 2025 Book of Abstracts.",
+        "abstract": "",
+        "doi": "10.1186/s13244-025-02003-8",
+        "pmcid": "PMC12270984",
+        "author": "",
+        "journal": "Insights Imaging",
+        "year": "2025"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_siemens_somatom_goall": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "A Methodological Framework for AI-Assisted Diagnosis of Ovarian Masses Using CT and MR Imaging.",
+        "abstract": "",
+        "doi": "10.3390/jpm15020076",
+        "pmcid": "PMC11856859",
+        "author": "Adusumilli P, Ravikumar N, Hall G, Scarsbrook AF.",
+        "journal": "J Pers Med",
+        "year": "2025"
+      },
+      {
+        "title": "Dual-energy computed tomography pulmonary angiography with ultra-low dose contrast administration: Comparison of image quality with standard computed tomography pulmonary angiography.",
+        "abstract": "",
+        "doi": "10.5606/tgkdc.dergisi.2022.21976",
+        "pmcid": "PMC9801459",
+        "author": "Çeltikçi P, Hekimoğlu K, Kahraman G, Murat Haberal K, Kılıç D.",
+        "journal": "Turk Gogus Kalp Damar Cerrahisi Derg",
+        "year": "2022"
+      },
+      {
+        "title": "New challenges for management of COVID-19 patients: Analysis of MDCT based \"Automated pneumonia analysis program\".",
+        "abstract": "",
+        "doi": "10.1016/j.ejro.2021.100370",
+        "pmcid": "PMC8289632",
+        "author": "Sezer R, Esendagli D, Erol C, Hekimoglu K.",
+        "journal": "Eur J Radiol Open",
+        "year": "2021"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_siemens_somatom_goup": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Integrating radiomics with clinical data for enhanced prediction of vertebral fracture risk.",
+        "abstract": "",
+        "doi": "10.3389/fbioe.2024.1485364",
+        "pmcid": "PMC11620855",
+        "author": "Saravi B, Zink A, Tabukashvili E, Güzel HE, Ülkümen S, Couillard-Despres S, Lang GM, Hassel F.",
+        "journal": "Front Bioeng Biotechnol",
+        "year": "2024"
+      },
+      {
+        "title": "Personalized Chest Computed Tomography: Minimum Diagnostic Radiation Dose Levels for the Detection of Fibrosis, Nodules, and Pneumonia.",
+        "abstract": "",
+        "doi": "10.1097/rli.0000000000000822",
+        "pmcid": "PMC8826613",
+        "author": "May M, Heiss R, Koehnen J, Wetzl M, Wiesmueller M, Treutlein C, Braeuer L, Uder M, Kopp M.",
+        "journal": "Invest Radiol",
+        "year": "2022"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_siemens_somatom_gonow": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Equivalence assessment of weight bearing cone beam CT and multidetector CT through 3D Knee bone modelling.",
+        "abstract": "",
+        "doi": "10.1038/s41598-025-06626-1",
+        "pmcid": "PMC12215468",
+        "author": "Li X, Ivie C, Overschelde PV, Hussain SM, Tran K, Singh S, Peng Y.",
+        "journal": "Sci Rep",
+        "year": "2025"
+      },
+      {
+        "title": "From Scan to Surgery: Evaluating High-Resolution Computed Tomography (HRCT) and Diffusion-Weighted Magnetic Resonance Imaging (DWI) Accuracy in Detecting Cholesteatoma.",
+        "abstract": "",
+        "doi": "10.7759/cureus.97439",
+        "pmcid": "PMC12718604",
+        "author": "Gupta A, Murugan G, Baskar A, Nunes NA.",
+        "journal": "Cureus",
+        "year": "2025"
+      },
+      {
+        "title": "Automated grading and diagnosis of sacroiliitis on CT images using a 3D convolutional neural network: a multicenter retrospective study.",
+        "abstract": "",
+        "doi": "10.1038/s41598-026-44911-9",
+        "pmcid": "PMC13136426",
+        "author": "Du YK, Liu R, Guo H, Li C, Chen P, Qiu H, Shi DD, Cheng J, Yan J, Li YS.",
+        "journal": "Sci Rep",
+        "year": "2026"
+      },
+      {
+        "title": "Automated development of the contrast-detail curve based on statistical low-contrast detectability in CT images.",
+        "abstract": "",
+        "doi": "10.1002/acm2.13719",
+        "pmcid": "PMC9512356",
+        "author": "Anam C, Naufal A, Fujibuchi T, Matsubara K, Dougherty G.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2022"
+      },
+      {
+        "title": "Methylene Blue Alleviates Inflammatory and Oxidative Lung Injury in a Rat Model of Feces-Induced Peritonitis.",
+        "abstract": "",
+        "doi": "10.3390/medicina61081456",
+        "pmcid": "PMC12388677",
+        "author": "Dibekoğlu C, Kemertaş K, Aygun H, Erbas O.",
+        "journal": "Medicina (Kaunas)",
+        "year": "2025"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_ge_revolution_apex_elite": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Diagnostic Accuracy of Dual Energy CT for Bone Marrow Edema of the Sacroiliac Joints Compared with MRI: A Systematic Review.",
+        "abstract": "",
+        "doi": "10.3390/jcm15093337",
+        "pmcid": "PMC13164143",
+        "author": "Perrella A, Di Meglio N, Bagnacci G, Tini P, Roviello G, Martini N, Piscitello C, Giraudo C, Cantarini L, Frediani B, Mazzei MA.",
+        "journal": "J Clin Med",
+        "year": "2026"
+      },
+      {
+        "title": "Computed Tomography 2.0: New Detector Technology, AI, and Other Developments.",
+        "abstract": "",
+        "doi": "10.1097/rli.0000000000000995",
+        "pmcid": "PMC10332658",
+        "author": "Lell M, Kachelrieß M.",
+        "journal": "Invest Radiol",
+        "year": "2023"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_ge_revolution_ascend": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Bone-marrow edema estimation with a microwave imaging open-ended coaxial probe array in ex vivo bovine long bones: comparison with CT.",
+        "abstract": "",
+        "doi": "10.1186/s41747-026-00706-1",
+        "pmcid": "PMC13076706",
+        "author": "Conti N, Giaccaglia P, Lidoni V, Rosa A, Sconfienza LM.",
+        "journal": "Eur Radiol Exp",
+        "year": "2026"
+      },
+      {
+        "title": "Bone biopsies guided by augmented reality: a pilot study.",
+        "abstract": "",
+        "doi": "10.1186/s41747-023-00353-w",
+        "pmcid": "PMC10356701",
+        "author": "Albano D, Messina C, Gitto S, Chianca V, Sconfienza LM.",
+        "journal": "Eur Radiol Exp",
+        "year": "2023"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_philips_spectral_7500": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Quantitative CT reconstruction kernel harmonization for multi-site lung cancer screening.",
+        "abstract": "",
+        "doi": "10.1002/acm2.70325",
+        "pmcid": "PMC12594606",
+        "author": "Jordan DW, Misseldine RE.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Impact of Spatial Resolution on CT Imaging of Middle Ear Prostheses: Comparison of Photon-Counting and Energy-Integrating Detectors.",
+        "abstract": "",
+        "doi": "10.3174/ajnr.a9103",
+        "pmcid": "PMC12853312",
+        "author": "Sadeghian M, Benson JC, Farnsworth PJ, Lane JI, Treb KJ, Khandalavala KR, Babajanian EE, Bruesewitz MR, Swicklik JR, McCollough CH, Carlson ML, Leng S.",
+        "journal": "AJNR Am J Neuroradiol",
+        "year": "2026"
+      },
+      {
+        "title": "Impact of acquisition and reconstruction parameters on quantitative accuracy in dual-layer spectral CT: A phantom study.",
+        "abstract": "",
+        "doi": "10.1002/acm2.70423",
+        "pmcid": "PMC12703825",
+        "author": "Leng L, Zhu Q, Qu H, Zhou B, Li W, Zhang F, Yang B, Qiu J.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Influence of Off-Centre Positioning, Scan Direction, and Localiser Projection Angle on Organ-Specific Radiation Doses in Low-Dose Chest CT: A Simulation Study Across Four Scanner Models.",
+        "abstract": "",
+        "doi": "10.3390/jimaging12030123",
+        "pmcid": "PMC13028044",
+        "author": "D'hondt L, Haentjens C, Kellens PJ, Snoeckx A, Bacher K.",
+        "journal": "J Imaging",
+        "year": "2026"
+      },
+      {
+        "title": "Acute stroke diagnosis: diagnostic efficacy of dual-layer spectral computed tomography for non-contrast ischemic sign detection.",
+        "abstract": "",
+        "doi": "10.21037/qims-2025-1005",
+        "pmcid": "PMC12591734",
+        "author": "Wang Y, Wu W, Liu W, Yang S, Qin J, Liu B, Zhu H.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2025"
+      },
+      {
+        "title": "Quantitative spectral computed tomography detects different patterns of airway wall thickening and contrast enhancement in infective lung disease: a feasibility study.",
+        "abstract": "",
+        "doi": "10.1007/s00330-025-11752-5",
+        "pmcid": "PMC12634729",
+        "author": "Konietzke P, Thomä J, Weinheimer O, Do TD, Wagner WL, Bodenberger AL, Stiller W, Weber TF, Heußel CP, Kauczor HU, Wielpütz MO.",
+        "journal": "Eur Radiol",
+        "year": "2025"
+      },
+      {
+        "title": "Lifelike and Deformable Lung Phantoms for 4DCT Imaging: A Three-Dimensional Printing Approach.",
+        "abstract": "",
+        "doi": null,
+        "pmcid": "PMC11751626",
+        "author": "Im JY, Micah N, Perkins AE, Geagan M, Kabus S, Mei K, Noël PB.",
+        "journal": "Conf Proc Int Conf Image Form Xray Comput Tomogr",
+        "year": "2024"
+      },
+      {
+        "title": "Infant and toddler's preoperative chest imaging on photon-counting detector CT: a paired-sample comparison with energy-integrating detector CT on image quality and radiation dose.",
+        "abstract": "",
+        "doi": "10.1186/s12880-026-02339-7",
+        "pmcid": "PMC13202762",
+        "author": "Liu XY, Zhou W, Shi RY, Xie WH, Qiao WD, Sun TX, Xu SY, Wang J, Wu LM.",
+        "journal": "BMC Med Imaging",
+        "year": "2026"
+      },
+      {
+        "title": "Comparison of Low-Iodine Concentration Quantification Accuracy and Contrast-To-Noise Ratio Across Three Dual-Energy CT Techniques: A Phantom Study.",
+        "abstract": "",
+        "doi": "10.1002/jmrs.70070",
+        "pmcid": "PMC13238875",
+        "author": "Sirituenlee C, Kraison S, Wongpan P, Supawarapong P, Pataraphitakpong T, Kawvised S, Kittipayak S, Phonlakrai M.",
+        "journal": "J Med Radiat Sci",
+        "year": "2026"
+      },
+      {
+        "title": "Feasibility of reducing the contrast dose in infants and children with complex congenital heart disease using virtual monoenergetic images on dual-layer spectral detector computed tomography.",
+        "abstract": "",
+        "doi": "10.1007/s00247-026-06599-x",
+        "pmcid": "PMC13212664",
+        "author": "Cao X, Hu W, Li J, Liu X, Liu H, Liu H.",
+        "journal": "Pediatr Radiol",
+        "year": "2026"
+      },
+      {
+        "title": "Detection of myeloma-associated osteolytic bone lesions with energy-integrating and photon-counting detector CT.",
+        "abstract": "",
+        "doi": "10.1007/s00117-024-01344-7",
+        "pmcid": "PMC12662884",
+        "author": "Grözinger M, Wennmann M, Sawall S, Wehrse E, Sedaghat S, Neelsen C, Bauer F, Goldschmidt H, Weru V, Ziener CH, Kopp-Schneider A, Schlemmer HP, Rotkopf LT.",
+        "journal": "Radiologie (Heidelb)",
+        "year": "2024"
+      },
+      {
+        "title": "Computed Tomography 2.0: New Detector Technology, AI, and Other Developments.",
+        "abstract": "",
+        "doi": "10.1097/rli.0000000000000995",
+        "pmcid": "PMC10332658",
+        "author": "Lell M, Kachelrieß M.",
+        "journal": "Invest Radiol",
+        "year": "2023"
+      },
+      {
+        "title": "Optimizing computed tomography enterography with virtual monoenergetic imaging of second-generation dual-layer spectral CT in inflammatory bowel disease.",
+        "abstract": "",
+        "doi": "10.21037/qims-2025-1192",
+        "pmcid": "PMC12682477",
+        "author": "Mao Y, Mao Y, Xu Z, Li J, Xu M, Fan Y, Zheng S.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2025"
+      },
+      {
+        "title": "Low KeV virtual monoenergetic images for detecting low dose iodine- or alternative Gd-based IV contrast agents.",
+        "abstract": "",
+        "doi": "10.1016/j.heliyon.2024.e35210",
+        "pmcid": "PMC11334640",
+        "author": "Li G, Rednam N, Kundra V.",
+        "journal": "Heliyon",
+        "year": "2024"
+      },
+      {
+        "title": "Dose robustness of deep learning models for anatomic segmentation of computed tomography images.",
+        "abstract": "",
+        "doi": "10.1117/1.jmi.11.4.044005",
+        "pmcid": "PMC11293838",
+        "author": "Tsanda A, Nickisch H, Wissel T, Klinder T, Knopp T, Grass M.",
+        "journal": "J Med Imaging (Bellingham)",
+        "year": "2024"
+      },
+      {
+        "title": "Comparability of Pulmonary Nodule Size Measurements among Different Scanners and Protocols: Should Diameter Be Favorized over Volume?",
+        "abstract": "",
+        "doi": "10.3390/diagnostics13040631",
+        "pmcid": "PMC9955074",
+        "author": "Gross CF, Jungblut L, Schindera S, Messerli M, Fretz V, Frauenfelder T, Martini K.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2023"
+      },
+      {
+        "title": "Early rectal neoplasm in dual-layer spectral detector computed tomography: dual-layer spectral computed tomography (CT) images improve tumor detection and staging.",
+        "abstract": "",
+        "doi": "10.21037/qims-24-769",
+        "pmcid": "PMC11651995",
+        "author": "Pan X, Wu Z, Zhao J, Zhang X, Zhang X, Tang L, Yang J, Deng K.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2024"
+      },
+      {
+        "title": "Dual-layer spectral detector computed tomography for adrenal adenoma characterization: radiation dose reduction and quantitative agreement of multiphase virtual noncontrast with true noncontrast imaging.",
+        "abstract": "",
+        "doi": "10.21037/qims-2025-854",
+        "pmcid": "PMC12397641",
+        "author": "Wen D, Li W, Zhao L, Du Q, Tong X, Liang A, Wang T, Li Z, Zhang X, Liu H, Ren Y, Sun J.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2025"
+      },
+      {
+        "title": "Variation in Hounsfield unit calculated using dual-energy computed tomography: comparison of dual-layer, dual-source, and fast kilovoltage switching technique.",
+        "abstract": "",
+        "doi": "10.1007/s12194-024-00802-0",
+        "pmcid": "PMC11128400",
+        "author": "Ohira S, Mochizuki J, Niwa T, Endo K, Minamitani M, Yamashita H, Katano A, Imae T, Nishio T, Koizumi M, Nakagawa K.",
+        "journal": "Radiol Phys Technol",
+        "year": "2024"
+      },
+      {
+        "title": "Comparison of virtual and true non-contrast images from dual-layer spectral detector computed tomography (CT) in patients with colorectal cancer.",
+        "abstract": "",
+        "doi": "10.21037/qims-24-535",
+        "pmcid": "PMC11400675",
+        "author": "Wen D, Pu Q, Peng P, Yue X, Ming Y, Yang H, Yang J, Zhang X, Liu H, Yang L, Sun J.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2024"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_philips_incisive": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "A CT deep learning reconstruction algorithm: Image quality evaluation for brain protocol at decreasing dose indexes in comparison with FBP and statistical iterative reconstruction algorithms.",
+        "abstract": "",
+        "doi": "10.1016/j.ejmp.2024.103319",
+        "pmcid": null,
+        "author": "Tomasi S, Szilagyi KE, Barca P, Bisello F, Spagnoli L, Domenichelli S, Strigari L.",
+        "journal": "Phys Med",
+        "year": "2024"
+      },
+      {
+        "title": "Study of displayed radiation dose and size-specific dose estimate from computed tomography brain examinations in accordance to head sizes.",
+        "abstract": "",
+        "doi": "10.4329/wjr.v18.i4.119450",
+        "pmcid": "PMC13122088",
+        "author": "Chauhan A, Sharma S, Mishra A, Pathak A, Mittal KK.",
+        "journal": "World J Radiol",
+        "year": "2026"
+      },
+      {
+        "title": "Low Dose Contrast Enhanced CT Thorax Protocol: Comparison of Low Kilovoltage, Low Contrast Volume Using Iterative Reconstruction Technique with Standard Protocol.",
+        "abstract": "",
+        "doi": "10.4314/ejhs.v35i2.2",
+        "pmcid": "PMC12153069",
+        "author": "Sirdeshpande C, Hebbar KD, Pendem S.",
+        "journal": "Ethiop J Health Sci",
+        "year": "2025"
+      },
+      {
+        "title": "Impact of slice thickness on reproducibility of CT radiomic features of lung tumors.",
+        "abstract": "",
+        "doi": "10.12688/f1000research.141148.2",
+        "pmcid": "PMC10918310",
+        "author": "Gupta S, Nayak K, Pendem S.",
+        "journal": "F1000Res",
+        "year": "2023"
+      },
+      {
+        "title": "Correlation of patient characteristics with peak enhancement time for pediatric cardiac computed tomography in congenital heart disease.",
+        "abstract": "",
+        "doi": "10.25259/jcis_153_2024",
+        "pmcid": "PMC11704290",
+        "author": "Visakh T, Priya PS, Panakkal NC, Banga G, Prakashini K.",
+        "journal": "J Clin Imaging Sci",
+        "year": "2024"
+      },
+      {
+        "title": "Advancements in radiation dose reduction for pediatric CT head Imaging: A scoping review of emerging Technologies, Protocols, and optimization strategies.",
+        "abstract": "",
+        "doi": "10.1016/j.tipsro.2026.100374",
+        "pmcid": "PMC12816896",
+        "author": "Patil NB, Priyanka, S PP, Kadavigere R, Pendem S.",
+        "journal": "Tech Innov Patient Support Radiat Oncol",
+        "year": "2026"
+      },
+      {
+        "title": "Computed Tomography 2.0: New Detector Technology, AI, and Other Developments.",
+        "abstract": "",
+        "doi": "10.1097/rli.0000000000000995",
+        "pmcid": "PMC10332658",
+        "author": "Lell M, Kachelrieß M.",
+        "journal": "Invest Radiol",
+        "year": "2023"
+      },
+      {
+        "title": "A comparison of the image quality between deep learning reconstruction algorithm and iDose4 using low dose abdominopelvic computed tomography for individuals with normal BMI.",
+        "abstract": "",
+        "doi": "10.1177/20503121251336046",
+        "pmcid": "PMC12374083",
+        "author": "Marike Shivakumar T, Panakkal NC, Nayak S, Kadavigere R, Kamath TR, Sukumar S.",
+        "journal": "SAGE Open Med",
+        "year": "2025"
+      },
+      {
+        "title": "Deep Learning-Based Estimated Pulmonary Biological Age From Chest Computed Tomography Images in Healthy Adults: Model Development and Validation Study.",
+        "abstract": "",
+        "doi": "10.2196/78243",
+        "pmcid": "PMC12981372",
+        "author": "Zuo L, Zhu N, Wang B, Li D, Fan J, Fan Z, Shang Y, Wang Y, Xu L, Zhou P, Cai W, Yu D.",
+        "journal": "JMIR Aging",
+        "year": "2026"
+      },
+      {
+        "title": "Impact of a deep-learning image reconstruction algorithm on image quality and detection of solid lung lesions.",
+        "abstract": "",
+        "doi": "10.1016/j.redii.2025.100062",
+        "pmcid": "PMC12159203",
+        "author": "Greffier J, Pastor M, Durand Q, Sales R, Serrand C, Beregi JP, Dabli D, Frandon J.",
+        "journal": "Res Diagn Interv Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "First Results of a New Deep Learning Reconstruction Algorithm on Image Quality and Liver Metastasis Conspicuity for Abdominal Low-Dose CT.",
+        "abstract": "",
+        "doi": "10.3390/diagnostics13061182",
+        "pmcid": "PMC10047497",
+        "author": "Greffier J, Durand Q, Serrand C, Sales R, de Oliveira F, Beregi JP, Dabli D, Frandon J.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2023"
+      },
+      {
+        "title": "Robotic Tissue Sampling for Safe Post-Mortem Biopsy in Infectious Corpses.",
+        "abstract": "",
+        "doi": "10.1109/tmrb.2022.3146440",
+        "pmcid": "PMC8956373",
+        "author": "Neidhardt M, Gerlach S, Mieling R, Laves MH, Weib T, Gromniak M, Fitzek A, Mobius D, Kniep I, Ron A, Schadler J, Heinemann A, Puschel K, Ondruschka B, Schlaefer A.",
+        "journal": "IEEE Trans Med Robot Bionics",
+        "year": "2022"
+      },
+      {
+        "title": "Robotic Tissue Sampling for Safe Post-mortem Biopsy in Infectious Corpses",
+        "abstract": "",
+        "doi": null,
+        "pmcid": null,
+        "author": "Neidhardt M, Gerlach S, Mieling R, Laves M, Weiß T, Gromniak M, Fitzek A, Möbius D, Kniep I, Ron A, Schädler J, Heinemann A, Püschel K, Ondruschka B, Schlaefer A.",
+        "journal": "",
+        "year": "2022"
+      },
+      {
+        "title": "ECR 2024 Book of Abstracts",
+        "abstract": "",
+        "doi": null,
+        "pmcid": "PMC11408449",
+        "author": "",
+        "journal": "Insights Imaging",
+        "year": "2024"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_canon_aquilion_one_prism": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Phantom-based performance comparison of two commercial deep learning CT reconstruction algorithms with super- and normal-resolution settings.",
+        "abstract": "",
+        "doi": "10.1186/s41747-025-00670-2",
+        "pmcid": "PMC12834881",
+        "author": "Greffier J, Roy C, Dabli D, Beregi JP, Pastor M.",
+        "journal": "Eur Radiol Exp",
+        "year": "2026"
+      },
+      {
+        "title": "Quantitative Accuracy of CT Protocols for Cross-sectional and Longitudinal Assessment of COPD: A Virtual Imaging Study.",
+        "abstract": "",
+        "doi": "10.1117/12.3046945",
+        "pmcid": "PMC12035825",
+        "author": "Bhattarai M, Shin DW, Ho FC, Sotoudeh-Paima S, Hein I, Ross S, Akino N, Boedeker KL, Samei E, Abadi E.",
+        "journal": "Proc SPIE Int Soc Opt Eng",
+        "year": "2025"
+      },
+      {
+        "title": "Utilization of spectral filteration for ultra-low dose brain CT in pediatric patients for diagnosis of craniosynostosis: A phantom study.",
+        "abstract": "",
+        "doi": "10.1002/acm2.70176",
+        "pmcid": "PMC12257353",
+        "author": "Braniff C, Ditchfield M, Gubser M, Kuganesan A, Badawy MK.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Comparative evaluation of volume and helical four-dimensional computed tomography using canon system.",
+        "abstract": "",
+        "doi": "10.1002/acm2.70351",
+        "pmcid": "PMC12618175",
+        "author": "Kim C, Lee E, Yu JH, Kim H, Park S, Han S, Kim TH, Han MC, Hong CS, Kim JS.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Computationally efficient x-ray simulation framework using parameterized material attenuation models in anatomically detailed imaging.",
+        "abstract": "",
+        "doi": "10.1002/mp.70255",
+        "pmcid": "PMC12783016",
+        "author": "Nassi M, Mikerov M, Michielsen K, Sechopoulos I.",
+        "journal": "Med Phys",
+        "year": "2026"
+      },
+      {
+        "title": "Detection of intracranial hemorrhage using ultralow-dose brain computed tomography with deep learning reconstruction versus conventional-dose computed tomography.",
+        "abstract": "",
+        "doi": "10.1186/s12880-025-02082-5",
+        "pmcid": "PMC12751909",
+        "author": "Otgonbaatar C, Kim H, Jeon PH, Jeon SH, Cha SJ, Ryu JK, Shim H, Ko SM, Kim JW.",
+        "journal": "BMC Med Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "Development, validation, and simplification of a scanner-specific CT simulator.",
+        "abstract": "",
+        "doi": "10.1002/mp.16679",
+        "pmcid": "PMC10904672",
+        "author": "Tunissen SAM, Oostveen LJ, Moriakov N, Teuwen J, Michielsen K, Smit EJ, Sechopoulos I.",
+        "journal": "Med Phys",
+        "year": "2024"
+      },
+      {
+        "title": "Hybrid phantom for lung CT: Design and validation.",
+        "abstract": "",
+        "doi": "10.1002/mp.17990",
+        "pmcid": "PMC12334903",
+        "author": "Costa PR, Boiset GR, Pimenta EB, Rocha RMV, Moura RAS, Marques WH, Oostveen LJ, Geurts B, Sawamura MVY, Nersissian DY, Yoshimura EM, Sechopoulos I.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Improved stent sharpness evaluation with super-resolution deep learning reconstruction in coronary CT angiography.",
+        "abstract": "",
+        "doi": "10.1093/bjr/tqae094",
+        "pmcid": "PMC11186566",
+        "author": "Ryu JK, Kim KH, Otgonbaatar C, Kim DS, Shim H, Seo JW.",
+        "journal": "Br J Radiol",
+        "year": "2024"
+      },
+      {
+        "title": "[Possible Radiation Dose Reduction in Abdominal Plain CT Using Deep Learning Reconstruction].",
+        "abstract": "",
+        "doi": "10.6009/jjrt.2023-1289",
+        "pmcid": null,
+        "author": "Onizuka Y, Sakai Y, Shirasaka T, Kondo M, Kato T.",
+        "journal": "Nihon Hoshasen Gijutsu Gakkai Zasshi",
+        "year": "2023"
+      },
+      {
+        "title": "Perceptual thresholds for differences in CT noise texture.",
+        "abstract": "",
+        "doi": "10.1117/1.jmi.11.3.035501",
+        "pmcid": "PMC11086665",
+        "author": "Oostveen LJ, Boedeker K, Shin D, Abbey CK, Sechopoulos I.",
+        "journal": "J Med Imaging (Bellingham)",
+        "year": "2024"
+      },
+      {
+        "title": "Deep Learning-Based Versus Iterative Image Reconstruction for Unenhanced Brain CT: A Quantitative Comparison of Image Quality.",
+        "abstract": "",
+        "doi": "10.3390/tomography9050130",
+        "pmcid": "PMC10514884",
+        "author": "Cozzi A, Cè M, De Padova G, Libri D, Caldarelli N, Zucconi F, Oliva G, Cellina M.",
+        "journal": "Tomography",
+        "year": "2023"
+      },
+      {
+        "title": "Superior objective and subjective image quality of deep learning reconstruction for low-dose abdominal CT imaging in comparison with model-based iterative reconstruction and filtered back projection.",
+        "abstract": "",
+        "doi": "10.1259/bjr.20201357",
+        "pmcid": "PMC8248220",
+        "author": "Tamura A, Mukaida E, Ota Y, Kamata M, Abe S, Yoshioka K.",
+        "journal": "Br J Radiol",
+        "year": "2021"
+      },
+      {
+        "title": "Computed Tomography 2.0: New Detector Technology, AI, and Other Developments.",
+        "abstract": "",
+        "doi": "10.1097/rli.0000000000000995",
+        "pmcid": "PMC10332658",
+        "author": "Lell M, Kachelrieß M.",
+        "journal": "Invest Radiol",
+        "year": "2023"
+      },
+      {
+        "title": "Super-resolution deep learning reconstruction at coronary computed tomography angiography to evaluate the coronary arteries and in-stent lumen: an initial experience.",
+        "abstract": "",
+        "doi": "10.1186/s12880-023-01139-7",
+        "pmcid": "PMC10617195",
+        "author": "Orii M, Sone M, Osaki T, Ueyama Y, Chiba T, Sasaki T, Yoshioka K.",
+        "journal": "BMC Med Imaging",
+        "year": "2023"
+      },
+      {
+        "title": "Super-resolution deep learning image reconstruction: image quality and myocardial homogeneity in coronary computed tomography angiography.",
+        "abstract": "",
+        "doi": "10.1186/s44348-024-00031-4",
+        "pmcid": "PMC11414070",
+        "author": "Otgonbaatar C, Kim H, Jeon PH, Jeon SH, Cha SJ, Ryu JK, Jung WB, Shim H, Ko SM.",
+        "journal": "J Cardiovasc Imaging",
+        "year": "2024"
+      },
+      {
+        "title": "A preliminary study of super-resolution deep learning reconstruction with cardiac option for evaluation of endovascular-treated intracranial aneurysms.",
+        "abstract": "",
+        "doi": "10.1093/bjr/tqae117",
+        "pmcid": "PMC11256923",
+        "author": "Otgonbaatar C, Kim H, Jeon PH, Jeon SH, Cha SJ, Ryu JK, Jung WB, Shim H, Ko SM, Kim JW.",
+        "journal": "Br J Radiol",
+        "year": "2024"
+      },
+      {
+        "title": "Pros and Cons of Dual-Energy CT Systems: \"One Does Not Fit All\".",
+        "abstract": "",
+        "doi": "10.3390/tomography9010017",
+        "pmcid": "PMC9964233",
+        "author": "Borges AP, Antunes C, Curvo-Semedo L.",
+        "journal": "Tomography",
+        "year": "2023"
+      },
+      {
+        "title": "Super-resolution deep learning reconstruction to improve image quality of coronary CT angiography.",
+        "abstract": "",
+        "doi": "10.1093/radadv/umae001",
+        "pmcid": "PMC12428329",
+        "author": "Tomizawa N, Nozaki Y, Sato H, Kawaguchi Y, Kudo A, Takahashi D, Takamura K, Hiki M, Fujimoto S, Okai I, Koga S, Okazaki S, Kumamaru KK, Minamino T, Aoki S.",
+        "journal": "Radiol Adv",
+        "year": "2024"
+      },
+      {
+        "title": "Comparison of image quality of two versions of deep-learning image reconstruction algorithm on a rapid kV-switching CT: a phantom study.",
+        "abstract": "",
+        "doi": "10.1186/s41747-022-00314-9",
+        "pmcid": "PMC9826773",
+        "author": "Dabli D, Loisy M, Frandon J, de Oliveira F, Meerun AM, Guiu B, Beregi JP, Greffier J.",
+        "journal": "Eur Radiol Exp",
+        "year": "2023"
+      },
+      {
+        "title": "Material decomposition approaches for monosodium urate (MSU) quantification in gouty arthritis: a (bio)phantom study.",
+        "abstract": "",
+        "doi": "10.1186/s41747-024-00528-z",
+        "pmcid": "PMC11549270",
+        "author": "Diekhoff T, Schmolke SA, Khayata K, Mews J, Kotlyarov M.",
+        "journal": "Eur Radiol Exp",
+        "year": "2024"
+      },
+      {
+        "title": "Comparison of virtual monoenergetic imaging between a rapid kilovoltage switching dual-energy computed tomography with deep-learning and four dual-energy CTs with iterative reconstruction.",
+        "abstract": "",
+        "doi": "10.21037/qims-21-708",
+        "pmcid": "PMC8739122",
+        "author": "Greffier J, Si-Mohamed S, Guiu B, Frandon J, Loisy M, de Oliveira F, Douek P, Beregi JP, Dabli D.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2022"
+      },
+      {
+        "title": "Impact of a reduced iodine load with deep learning reconstruction on abdominal MDCT.",
+        "abstract": "",
+        "doi": "10.1097/md.0000000000034579",
+        "pmcid": "PMC10476859",
+        "author": "Ludes G, Ohana M, Labani A, Meyer N, Moliére S, Roy C.",
+        "journal": "Medicine (Baltimore)",
+        "year": "2023"
+      },
+      {
+        "title": "Improvement in Image Quality and Visibility of Coronary Arteries, Stents, and Valve Structures on CT Angiography by Deep Learning Reconstruction.",
+        "abstract": "",
+        "doi": "10.3348/kjr.2022.0127",
+        "pmcid": "PMC9614292",
+        "author": "Otgonbaatar C, Ryu JK, Shin J, Woo JY, Seo JW, Shim H, Hwang DH.",
+        "journal": "Korean J Radiol",
+        "year": "2022"
+      },
+      {
+        "title": "Channelized hotelling observer-based low-contrast detectability on the ACR CT accreditation phantom: Part II. Repeatability study.",
+        "abstract": "",
+        "doi": "10.1002/mp.16961",
+        "pmcid": "PMC10939955",
+        "author": "Fan M, Zhou Z, McCollough C, Yu L.",
+        "journal": "Med Phys",
+        "year": "2024"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_united_uct_960_plus": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Impact of scanning parameters on deep learning coronary artery calcium scoring in non‑gated chest CT.",
+        "abstract": "",
+        "doi": "10.1186/s12880-026-02306-2",
+        "pmcid": "PMC13141391",
+        "author": "Chen Y, Wang Y, Wang Q, Yan R, Zhao W, Qin S, Zhang Y, Lang N.",
+        "journal": "BMC Med Imaging",
+        "year": "2026"
+      },
+      {
+        "title": "Reduced contrast agent volume using a heart-rate dependent and free-breathing scanning protocol in coronary computed tomography angiography (CTA) for patients with chronic obstructive pulmonary disease (COPD).",
+        "abstract": "",
+        "doi": "10.1186/s12872-024-04437-2",
+        "pmcid": "PMC11721589",
+        "author": "Wang Z, Chen G, Song D, Xu X, Chu C, Zhang S, Chai H, Yu H, Luan X, Song P.",
+        "journal": "BMC Cardiovasc Disord",
+        "year": "2025"
+      },
+      {
+        "title": "Achieving low radiation dose and contrast agents dose in coronary CT angiography at 60-kVp ultra-low tube voltage.",
+        "abstract": "",
+        "doi": "10.1186/s12880-025-01608-1",
+        "pmcid": "PMC11877812",
+        "author": "He W, Huang F, Wu X, Xie A, Sun W, Liu P, Hu R.",
+        "journal": "BMC Med Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "Evaluation of Measurement Errors in Rotational Stitching, One-Shot, and Slot-Scanning Full-Length Radiography.",
+        "abstract": "",
+        "doi": "10.3390/bioengineering12090999",
+        "pmcid": "PMC12467733",
+        "author": "Li Z, Xia J, Wang C, Zhu Z, Zhang F, Tsai TY, Zhu Z, Yang K.",
+        "journal": "Bioengineering (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Reduced-dose deep learning iterative reconstruction for abdominal computed tomography with low tube voltage and tube current.",
+        "abstract": "",
+        "doi": "10.1186/s12911-024-02811-w",
+        "pmcid": "PMC11658360",
+        "author": "Zhu S, Zhang B, Tian Q, Li A, Liu Z, Hou W, Zhao W, Huang X, Xiao Y, Wang Y, Wang R, Li Y, Yang J, Jin C.",
+        "journal": "BMC Med Inform Decis Mak",
+        "year": "2024"
+      },
+      {
+        "title": "Exploring the Low-Dose Limit for Focal Hepatic Lesion Detection with a Deep Learning-Based CT Reconstruction Algorithm: A Simulation Study on Patient Images.",
+        "abstract": "",
+        "doi": "10.1007/s10278-024-01080-3",
+        "pmcid": "PMC11522246",
+        "author": "You Y, Zhong S, Zhang G, Wen Y, Guo D, Li W, Li Z.",
+        "journal": "J Imaging Inform Med",
+        "year": "2024"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_neusoft_neuviz_epoch": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "The impact of a novel deep learning reconstruction algorithm on image quality in ultralow-dose CT: a quantitative phantom study.",
+        "abstract": "",
+        "doi": "10.1186/s41747-026-00751-w",
+        "pmcid": "PMC13247107",
+        "author": "Su T, Jia Y, Shen Y, Zhang H.",
+        "journal": "Eur Radiol Exp",
+        "year": "2026"
+      },
+      {
+        "title": "Ultra-low-dose hepatic computed tomography with a novel real-time deep learning-based noise reduction algorithm: a prospective cross-sectional analysis of image quality and lesion detection.",
+        "abstract": "",
+        "doi": "10.21037/qims-2025-365",
+        "pmcid": "PMC12332563",
+        "author": "Hou P, Feng X, Chen Y, Wang X, Jiang Y, Liu J, Xu C, Lyu P, Zhou Z, Gao J.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2025"
+      },
+      {
+        "title": "A Review of Factors Affecting Radiation Dose and Image Quality in Coronary CTA Performed with Wide-Detector CT.",
+        "abstract": "",
+        "doi": "10.3390/tomography10110127",
+        "pmcid": "PMC11598146",
+        "author": "Fan Y, Qin T, Sun Q, Wang M, Liang B.",
+        "journal": "Tomography",
+        "year": "2024"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_ge_revolution_ct": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Quantitative CT reconstruction kernel harmonization for multi-site lung cancer screening.",
+        "abstract": "",
+        "doi": "10.1002/acm2.70325",
+        "pmcid": "PMC12594606",
+        "author": "Jordan DW, Misseldine RE.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "System design options for a high-resolution, conventional scintillator detector.",
+        "abstract": "",
+        "doi": "10.1117/12.3085929",
+        "pmcid": "PMC13095171",
+        "author": "Hsieh SS.",
+        "journal": "Proc SPIE Int Soc Opt Eng",
+        "year": "2026"
+      },
+      {
+        "title": "Harmonized low-dose computed tomographic protocols for quantitative lung imaging using dose modulation and advanced reconstructions.",
+        "abstract": "",
+        "doi": "10.1002/mp.70125",
+        "pmcid": "PMC12596176",
+        "author": "Atha J, Eddy RL, Guo J, Newell JD, Castro M, Ranallo FN, Fain SB, Sieren JC, Hoffman EA, PrecISE study.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Nonprewhitening model observers in the Fourier and spatial domain: a comparison of predictions for iterative and deep learning reconstruction in computed tomography.",
+        "abstract": "",
+        "doi": "10.1093/rpd/ncaf160",
+        "pmcid": "PMC13152208",
+        "author": "Poludniowski G, Titternes R, Flores J, Thor D.",
+        "journal": "Radiat Prot Dosimetry",
+        "year": "2026"
+      },
+      {
+        "title": "Quantitative Evaluation of Low-Dose CT Image Quality Using Deep Learning Reconstruction: A Comparative Study of Philips Precise Image and GE TrueFidelity.",
+        "abstract": "",
+        "doi": "10.3390/jimaging11090317",
+        "pmcid": "PMC12470537",
+        "author": "Shim J, Lee Y, Kim K.",
+        "journal": "J Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "Quantitative analysis of small coronary artery calcium detectability with an accurate simulation and validation on a clinical CT scanner.",
+        "abstract": "",
+        "doi": "10.1002/mp.16652",
+        "pmcid": "PMC12039861",
+        "author": "Severance LM, Pack JD, Contijoch FJ, McVeigh ER.",
+        "journal": "Med Phys",
+        "year": "2023"
+      },
+      {
+        "title": "Enhancing mesenteric vascular imaging with dual-energy CTA: a comparison of DLIR and ASIR-V using low contrast agent and low radiation dose protocols.",
+        "abstract": "",
+        "doi": "10.1186/s12880-026-02355-7",
+        "pmcid": "PMC13231760",
+        "author": "Wu Y, Long J, Wang C, Wang Z, Fan L, Liu X, Wang X, Song H, Sun A, Xu K, Meng Y.",
+        "journal": "BMC Med Imaging",
+        "year": "2026"
+      },
+      {
+        "title": "Comparison of image quality in 40 keV virtual monoenergetic images of dual-energy CT pulmonary angiography using deep learning and iterative reconstruction algorithms under optimized low dose scanning protocols.",
+        "abstract": "",
+        "doi": "10.21037/qims-2025-1420",
+        "pmcid": "PMC12682530",
+        "author": "Zhang D, Zhang L, Long J, Wu Y, Zhang H, Wang C, Sun B, Wang C, Zhang H, Sun X, Sun A, Meng Y, Hu C, Xu K.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2025"
+      },
+      {
+        "title": "Comparison of image quality, arterial depiction, and radiation dose between two rapid kVp-switching dual-energy CT scanners in CT angiography at 40-keV.",
+        "abstract": "",
+        "doi": "10.1007/s11604-023-01448-5",
+        "pmcid": "PMC10613589",
+        "author": "Kaga T, Noda Y, Nagata S, Kawai N, Miyoshi T, Hyodo F, Kato H, Matsuo M.",
+        "journal": "Jpn J Radiol",
+        "year": "2023"
+      },
+      {
+        "title": "Influence of Off-Centre Positioning, Scan Direction, and Localiser Projection Angle on Organ-Specific Radiation Doses in Low-Dose Chest CT: A Simulation Study Across Four Scanner Models.",
+        "abstract": "",
+        "doi": "10.3390/jimaging12030123",
+        "pmcid": "PMC13028044",
+        "author": "D'hondt L, Haentjens C, Kellens PJ, Snoeckx A, Bacher K.",
+        "journal": "J Imaging",
+        "year": "2026"
+      },
+      {
+        "title": "Improving visibility of small anatomical details on low and ultra-low dose computed tomography with artificial intelligence-based image reconstructions.",
+        "abstract": "",
+        "doi": "10.1093/rpd/ncaf171",
+        "pmcid": "PMC13046040",
+        "author": "Diniz MO, Johnsson ÅA, Norrlund RR, Vikgren J, Ramirez WC, Ku S, Båth M, Svalkvist A.",
+        "journal": "Radiat Prot Dosimetry",
+        "year": "2026"
+      },
+      {
+        "title": "Relationship between size-specific dose estimates and image quality in coronary computed tomography angiography depending on tube voltage and scan field of view.",
+        "abstract": "",
+        "doi": "10.21037/qims-2025-2065",
+        "pmcid": "PMC13066883",
+        "author": "Fan Y, Sun Q, Wang J, Qin T, Liang B.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2026"
+      },
+      {
+        "title": "A practical approach to the spatial-domain calculation of nonprewhitening model observers in computed tomography.",
+        "abstract": "",
+        "doi": "10.1002/mp.17599",
+        "pmcid": "PMC11972039",
+        "author": "Poludniowski G, Titternes R, Thor D.",
+        "journal": "Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Application of the Novel Two-Compartmental Model to Quantify Coronary Artery Calcium: A Pilot Study",
+        "abstract": "",
+        "doi": null,
+        "pmcid": "PMC12986234",
+        "author": "Shih Y, Lin Z, Wu J.",
+        "journal": "J Clin Med",
+        "year": "2026"
+      },
+      {
+        "title": "Deep-learning image reconstruction for image quality evaluation and accurate bone mineral density measurement on quantitative CT: A phantom-patient study.",
+        "abstract": "",
+        "doi": "10.3389/fendo.2022.884306",
+        "pmcid": "PMC9403270",
+        "author": "Li Y, Jiang Y, Yu X, Ren B, Wang C, Chen S, Ma D, Su D, Liu H, Ren X, Yang X, Gao J, Wu Y.",
+        "journal": "Front Endocrinol (Lausanne)",
+        "year": "2022"
+      },
+      {
+        "title": "A phantom study comparing low-dose CT physical image quality from five different CT scanners.",
+        "abstract": "",
+        "doi": "10.21037/qims-21-245",
+        "pmcid": "PMC8666789",
+        "author": "Li Y, Jiang Y, Liu H, Yu X, Chen S, Ma D, Gao J, Wu Y.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2022"
+      },
+      {
+        "title": "Task-based image quality assessment of an intraoperative CBCT for spine surgery compared with conventional CT.",
+        "abstract": "",
+        "doi": "10.1016/j.ejmp.2024.103426",
+        "pmcid": null,
+        "author": "Vorbau R, Hulthén M, Omar A.",
+        "journal": "Phys Med",
+        "year": "2024"
+      },
+      {
+        "title": "Feasibility of 3D echocardiography-CT/CMR fusion to create atrioventricular valve-integrated 3D printed heart models in complex congenital heart disease: greater incremental benefit for surgeons than cardiac imagers.",
+        "abstract": "",
+        "doi": "10.1186/s41205-026-00324-y",
+        "pmcid": "PMC13214205",
+        "author": "Villalobos-Lizardi JC, Yoo SJ, Peel B, Bertelli F, Dragulescu A, Arbic N, Barron D, Honjo O, Haller C, Daskalo C, Mertens L, Valverde I.",
+        "journal": "3D Print Med",
+        "year": "2026"
+      },
+      {
+        "title": "Evaluation of Spatial Resolution of Virtual Monochromatic Imaging In Vitro: Effect of Energy Level and Contrast.",
+        "abstract": "",
+        "doi": "10.1097/rct.0000000000001046",
+        "pmcid": null,
+        "author": "Suzuki S, Fukui R, Yamamoto Y, Nakayama S, Suzuki M, Kuwahara S.",
+        "journal": "J Comput Assist Tomogr",
+        "year": "2021"
+      },
+      {
+        "title": "Deep learning-based reconstruction improves image quality in low-dose head CT angiography.",
+        "abstract": "",
+        "doi": "10.4314/mmj.v37i2.8",
+        "pmcid": "PMC12538262",
+        "author": "Huang X, Shang J, Xiao Y, Hou W, Mu G, Li D, Qian H, Li J.",
+        "journal": "Malawi Med J",
+        "year": "2025"
+      },
+      {
+        "title": "Utilization of aorta-specific fat attenuation index in evaluating disease activity and inflammation in Takayasu arteritis.",
+        "abstract": "",
+        "doi": "10.1186/s13244-026-02237-0",
+        "pmcid": "PMC13035962",
+        "author": "Jian Z, Zhang H, Liu H, Sun J, Yang J, An Q, Luo J, Cheng L.",
+        "journal": "Insights Imaging",
+        "year": "2026"
+      },
+      {
+        "title": "Quantification of abdominal aortic calcification using photon-counting CT angiography: an imaging biomarker for high-risk cardiovascular patients.",
+        "abstract": "",
+        "doi": "10.1007/s11547-025-01978-0",
+        "pmcid": "PMC12185644",
+        "author": "Ota T, Nakamoto A, Hori M, Fukui H, Onishi H, Tatsumi M, Tomiyama N.",
+        "journal": "Radiol Med",
+        "year": "2025"
+      },
+      {
+        "title": "Advancements in radiation dose reduction for pediatric CT head Imaging: A scoping review of emerging Technologies, Protocols, and optimization strategies.",
+        "abstract": "",
+        "doi": "10.1016/j.tipsro.2026.100374",
+        "pmcid": "PMC12816896",
+        "author": "Patil NB, Priyanka, S PP, Kadavigere R, Pendem S.",
+        "journal": "Tech Innov Patient Support Radiat Oncol",
+        "year": "2026"
+      },
+      {
+        "title": "New Fast kVp Switching Dual-Energy CT: Reduced Severity of Beam Hardening Artifacts and Improved Image Quality in Reduced-Iodine Virtual Monochromatic Imaging.",
+        "abstract": "",
+        "doi": "10.1016/j.acra.2019.11.015",
+        "pmcid": null,
+        "author": "Sugawara H, Takayanagi T, Ishikawa T, Katada Y, Fukui R, Yamamoto Y, Suzuki S.",
+        "journal": "Acad Radiol",
+        "year": "2020"
+      },
+      {
+        "title": "AI-Driven multi-view learning from CCTA for myocardial infarction diagnosis.",
+        "abstract": "",
+        "doi": "10.1007/s10554-025-03523-6",
+        "pmcid": "PMC12987834",
+        "author": "Gwizdala J, Salihu A, Senouf O, Meier D, Rotzinger D, Qanadli S, Muller O, Frossard P, Abbe E, Thanou D, Fournier S, Auberson D.",
+        "journal": "Int J Cardiovasc Imaging",
+        "year": "2026"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_ge_revolution_maxima": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Prevalence and CT angiographic evaluation of coronary artery anomalies in 20,243 consecutive patients: a retrospective study.",
+        "abstract": "",
+        "doi": "10.1186/s43044-026-00744-5",
+        "pmcid": "PMC13187100",
+        "author": "Adimoulame SP, C R RK, Ramalingam R, Barthur A, Hegde M, Kumbhalkar A, Sankar S.",
+        "journal": "Egypt Heart J",
+        "year": "2026"
+      },
+      {
+        "title": "Establishing Local Diagnostic Reference Levels (DRLs) for Adult Computed Tomography in Emirates Health Services Hospitals: A Multicenter Dose Survey.",
+        "abstract": "",
+        "doi": "10.3390/diagnostics16091353",
+        "pmcid": "PMC13163279",
+        "author": "Aljasmi A, Almsafri S, Alameen S, Ghonim H, Alhajri M, Alshamsi A, Elkelsh SH, Abuzaid M.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2026"
+      },
+      {
+        "title": "AI-based automatic patient positioning in a digital-BGO PET/CT scanner: efficacy and impact.",
+        "abstract": "",
+        "doi": "10.1186/s40658-025-00715-w",
+        "pmcid": "PMC11746997",
+        "author": "Kennedy JA, Palchan-Hazan T, Keidar Z.",
+        "journal": "EJNMMI Phys",
+        "year": "2025"
+      },
+      {
+        "title": "The value of contrast-enhanced ultrasound fusion imaging in percutaneous liver biopsy for liver lesions invisible on conventional B-mode ultrasound",
+        "abstract": "",
+        "doi": null,
+        "pmcid": "PMC11847198",
+        "author": "",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2025"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_ge_optima_660": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Establishing Local Diagnostic Reference Levels (DRLs) for Adult Computed Tomography in Emirates Health Services Hospitals: A Multicenter Dose Survey.",
+        "abstract": "",
+        "doi": "10.3390/diagnostics16091353",
+        "pmcid": "PMC13163279",
+        "author": "Aljasmi A, Almsafri S, Alameen S, Ghonim H, Alhajri M, Alshamsi A, Elkelsh SH, Abuzaid M.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2026"
+      },
+      {
+        "title": "Application and Evaluation of Spiral CT in the Diagnosis of Congenital Heart Disease in Children.",
+        "abstract": "",
+        "doi": "10.2147/ijgm.s506437",
+        "pmcid": "PMC12034249",
+        "author": "Chen W, Pan P.",
+        "journal": "Int J Gen Med",
+        "year": "2025"
+      },
+      {
+        "title": "Optimizing the Diagnosis of Ureteral Complications After Kidney Transplantation Using Retrograde Multidetector Computed Tomography Urography: A Case Series.",
+        "abstract": "",
+        "doi": "10.7759/cureus.103538",
+        "pmcid": "PMC12989737",
+        "author": "SidiropouIou M, Gkana A, Kofinas A, Anastasiou A.",
+        "journal": "Cureus",
+        "year": "2026"
+      },
+      {
+        "title": "Multi-modal and Multi-view Cervical Spondylosis Imaging Dataset.",
+        "abstract": "",
+        "doi": "10.1038/s41597-025-05403-z",
+        "pmcid": "PMC12219229",
+        "author": "Yu QS, Shan JY, Ma J, Gao G, Tao BZ, Qiao GY, Zhang JN, Wang T, Zhao YF, Qin XL, Yin YH.",
+        "journal": "Sci Data",
+        "year": "2025"
+      },
+      {
+        "title": "Pre-operative High-Resolution CT and MRI Evaluation in Pediatric Cochlear Implant Candidates: Correlation With Surgical Findings and Outcomes.",
+        "abstract": "",
+        "doi": "10.7759/cureus.103441",
+        "pmcid": "PMC12988004",
+        "author": "Mehta N, Patel V, Amin U, Bhatt J, Mishra G, Patel M, Shah N, Gohil R.",
+        "journal": "Cureus",
+        "year": "2026"
+      },
+      {
+        "title": "Pre-contrast computed tomography reveals distinct characteristics and anatomical distribution of presumably lymphomatous lymph nodes in canine multicentric lymphoma.",
+        "abstract": "",
+        "doi": "10.14202/vetworld.2026.1521-1532",
+        "pmcid": "PMC13231333",
+        "author": "Sutthigran S, Horoongruang K, Sarachitti S, Thanaboonnipat C, Rungsipipat A, Choisunirachon N.",
+        "journal": "Vet World",
+        "year": "2026"
+      },
+      {
+        "title": "Rare Case of Grade 3 Undifferentiated Pleomorphic Sarcoma in Left Atrium, Mitral Valve, and Papillary Muscle.",
+        "abstract": "",
+        "doi": "10.3390/jcm14093053",
+        "pmcid": "PMC12072867",
+        "author": "Preda S, Gangangari KK, Gangangari KK, Tiganasu R, Liciu A, Nica C, Voicu A, Ichim V, Moldovan H.",
+        "journal": "J Clin Med",
+        "year": "2025"
+      },
+      {
+        "title": "Why? What? When? Utility of 4DCT in the preoperative imaging algorithm of primary hyperparathyroidism.",
+        "abstract": "",
+        "doi": "10.4102/sajr.v29i1.3094",
+        "pmcid": "PMC12224014",
+        "author": "Joshi SP, Chowdhary J, Gupta S, Mishra V.",
+        "journal": "SA J Radiol",
+        "year": "2025"
+      },
+      {
+        "title": "Dynamic Changes in Optic Nerve Sheath Diameter on Computed Tomography Predict Decompressive Efficacy and Outcomes in Severe Traumatic Brain Injury.",
+        "abstract": "",
+        "doi": "10.3390/life16050817",
+        "pmcid": "PMC13208293",
+        "author": "Serban NL, Florian IS, Bodog TM, Baltac MI, Gache AC, Ionescu D.",
+        "journal": "Life (Basel)",
+        "year": "2026"
+      },
+      {
+        "title": "Optimizing Radiation Dose in High-Resolution Chest CT: The Impact of Patient-Specific Factors and Size-Specific Dose Estimates.",
+        "abstract": "",
+        "doi": "10.3390/diagnostics15060740",
+        "pmcid": "PMC11941391",
+        "author": "Abuzaid M.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Evaluation of Intracranial Arteriovenous Malformations Using Ischemic Stroke Color-Coded Maps Software, a New Rapid Post-Processing Tool in CT Angiography.",
+        "abstract": "",
+        "doi": "10.3390/jcm14165833",
+        "pmcid": "PMC12387073",
+        "author": "D'Argento F, Verdolotti T, D'Abronzo R, De Leoni D, Ferravante E, Arbia F, Iacobucci M, Gaudino S, Mancino M, Schiarelli C, Garignano G, Pedicelli A.",
+        "journal": "J Clin Med",
+        "year": "2025"
+      },
+      {
+        "title": "Development of a combined radiomics and CT feature-based model for differentiating malignant from benign subcentimeter solid pulmonary nodules.",
+        "abstract": "",
+        "doi": "10.1186/s41747-023-00400-6",
+        "pmcid": "PMC10792135",
+        "author": "Liu J, Qi L, Wang Y, Li F, Chen J, Cui S, Cheng S, Zhou Z, Li L, Wang J.",
+        "journal": "Eur Radiol Exp",
+        "year": "2024"
+      },
+      {
+        "title": "A Methodological Framework for AI-Assisted Diagnosis of Ovarian Masses Using CT and MR Imaging.",
+        "abstract": "",
+        "doi": "10.3390/jpm15020076",
+        "pmcid": "PMC11856859",
+        "author": "Adusumilli P, Ravikumar N, Hall G, Scarsbrook AF.",
+        "journal": "J Pers Med",
+        "year": "2025"
+      },
+      {
+        "title": "Europium-doped cerium oxide nanoparticle-impregnated Hyalgan® (CartiOxgel): an intra-articular contrast agent for X-ray CT and optical imaging.",
+        "abstract": "",
+        "doi": "10.1039/d5ra01830g",
+        "pmcid": "PMC12230787",
+        "author": "Masanam HB, Jafari S, Narasimhan AK, Premanth P, Salomi M, Lazar VR, Aiyappan SK, Alex SA.",
+        "journal": "RSC Adv",
+        "year": "2025"
+      },
+      {
+        "title": "Evaluation of respiratory bronchiolitis nodules with maximum intensity projection images.",
+        "abstract": "",
+        "doi": "10.1590/1806-9282.20230297",
+        "pmcid": "PMC10645165",
+        "author": "Kızıloğlu HA, Beyhan M, Gökçe E.",
+        "journal": "Rev Assoc Med Bras (1992)",
+        "year": "2023"
+      },
+      {
+        "title": "Magnetic resonance imaging scanning susceptibility weighted imaging sequences in the diagnosis and prognostic evaluation of neonatal hypoxic-ischemic encephalopathy.",
+        "abstract": "",
+        "doi": "10.12998/wjcc.v12.i17.3012",
+        "pmcid": "PMC11185372",
+        "author": "Zhao H, Wang HT.",
+        "journal": "World J Clin Cases",
+        "year": "2024"
+      },
+      {
+        "title": "Automatic intracranial abnormality detection and localization in head CT scans by learning from free-text reports.",
+        "abstract": "",
+        "doi": "10.1016/j.xcrm.2023.101164",
+        "pmcid": "PMC10518589",
+        "author": "Liu A, Guo Y, Lyu J, Xie J, Xu F, Lou X, Yong JH, Dai Q.",
+        "journal": "Cell Rep Med",
+        "year": "2023"
+      },
+      {
+        "title": "Contribution of an Artificial Intelligence Tool in the Detection of Incidental Pulmonary Embolism on Oncology Assessment Scans.",
+        "abstract": "",
+        "doi": "10.3390/life14111347",
+        "pmcid": "PMC11595865",
+        "author": "Ammari S, Camez AO, Ayobi A, Quenet S, Zemmouri A, Mniai EM, Chaibi Y, Franciosini A, Clavel L, Bidault F, Muller S, Lassau N, Balleyguier C, Assi T.",
+        "journal": "Life (Basel)",
+        "year": "2024"
+      },
+      {
+        "title": "Decreased concentration of transcription factor 21 in patients with chronic schizophrenia is associated with an increased coronary artery calcium score.",
+        "abstract": "",
+        "doi": "10.1186/s12888-026-07952-y",
+        "pmcid": "PMC13045077",
+        "author": "Lee TL, Lu NH, Hsuan CF, Tsai IT, Hsu CC, Wang CP, Hung WC, Tang CH, Chung FM, Lee YJ, Tang WH.",
+        "journal": "BMC Psychiatry",
+        "year": "2026"
+      },
+      {
+        "title": "Feasibility of a method for low contrast CT image quality assessment using difference detail curves for abdominal scans.",
+        "abstract": "",
+        "doi": "10.1016/j.zemedi.2022.01.001",
+        "pmcid": "PMC9948851",
+        "author": "Sommer C, Özden I, Weyland MS, Duran C, Lutters G, Scheidegger S.",
+        "journal": "Z Med Phys",
+        "year": "2022"
+      },
+      {
+        "title": "Development of a nomogram-based model incorporating radiomic features from follow-up longitudinal lung CT images to distinguish invasive adenocarcinoma from benign lesions: a retrospective study.",
+        "abstract": "",
+        "doi": "10.1186/s12890-024-03360-8",
+        "pmcid": "PMC11515265",
+        "author": "Wang Z, Wang F, Yang Y, Fan W, Wen L, Zhang D.",
+        "journal": "BMC Pulm Med",
+        "year": "2024"
+      },
+      {
+        "title": "The Flashlight-Sign: A Novel B-Flow Based Ultrasound Finding for Detection of Intraluminal, Wall-Adherent, Floating Structures of the Abdominal Aorta and Peripheral Arteries.",
+        "abstract": "",
+        "doi": "10.3390/diagnostics12071708",
+        "pmcid": "PMC9319488",
+        "author": "Lottspeich C, Puhr-Westerheide D, Stana J, Hoffmann U, Czihal M.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2022"
+      },
+      {
+        "title": "Computed Tomographic Characteristics of Feline Renal Cell Carcinoma and Renal Lymphoma: A Comparative Analysis.",
+        "abstract": "",
+        "doi": "10.3390/vetsci12040360",
+        "pmcid": "PMC12031452",
+        "author": "Shin C, Eom K, Kim J, Nam A, Joo Y, Jung I, Park J, Park NW, Lee M, Lee DG, Yeo S, Yu H.",
+        "journal": "Vet Sci",
+        "year": "2025"
+      },
+      {
+        "title": "Epicardial adipose tissue, cardiac damage, and mortality in patients undergoing TAVR for aortic stenosis.",
+        "abstract": "",
+        "doi": "10.1007/s10554-024-03307-4",
+        "pmcid": "PMC11811257",
+        "author": "Piña P, Lorenzatti D, Filtz A, Scotti A, Gil EV, Torres JD, Perea CM, Shaw LJ, Lavie CJ, Berman DS, Iacobellis G, Slomka PJ, Pibarot P, Dweck MR, Dey D, Garcia MJ, Latib A, Slipczuk L.",
+        "journal": "Int J Cardiovasc Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "Pseudoprogression of thoracic tumor after radiotherapy in the era of immunotherapy: a case series.",
+        "abstract": "",
+        "doi": "10.3389/fonc.2023.1021253",
+        "pmcid": "PMC10419187",
+        "author": "Xiang Y, Tang W, Wang J, Wang Z, Bi N.",
+        "journal": "Front Oncol",
+        "year": "2023"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_philips_iqon": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "A case of breast lymphoma diagnosed by IQon spectral computed tomography.",
+        "abstract": "",
+        "doi": "10.21037/qims-24-478",
+        "pmcid": "PMC11651991",
+        "author": "Ma W, Xiong S.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2024"
+      },
+      {
+        "title": "Dual-Layer Spectral CT for in Vivo Thermometry During Thermal Ablation.",
+        "abstract": "",
+        "doi": "10.1007/s00270-025-04316-z",
+        "pmcid": "PMC12963214",
+        "author": "Varble NA, Saccenti L, Favazza C, Ferrero A, Huber N, Bakhutashvili I, Karanian JW, Wood BJ, Pritchard WF.",
+        "journal": "Cardiovasc Intervent Radiol",
+        "year": "2026"
+      },
+      {
+        "title": "Development of a Three-Dimensional Mucosal Surface Cast of the Caprine &lt;i&gt;Ruminoreticulum&lt;/i&gt;.",
+        "abstract": "",
+        "doi": "10.3390/vetsci13040390",
+        "pmcid": "PMC13120466",
+        "author": "Truelsen J, Hollenbach J, Engelke E, Lüpke M, Pückler KV, Ott L, Haumann JM, Wissing S, Elfers K, Pfarrer C.",
+        "journal": "Vet Sci",
+        "year": "2026"
+      },
+      {
+        "title": "Quantitative spectral computed tomography detects different patterns of airway wall thickening and contrast enhancement in infective lung disease: a feasibility study.",
+        "abstract": "",
+        "doi": "10.1007/s00330-025-11752-5",
+        "pmcid": "PMC12634729",
+        "author": "Konietzke P, Thomä J, Weinheimer O, Do TD, Wagner WL, Bodenberger AL, Stiller W, Weber TF, Heußel CP, Kauczor HU, Wielpütz MO.",
+        "journal": "Eur Radiol",
+        "year": "2025"
+      },
+      {
+        "title": "Photon-Counting Computed Tomography of the Paranasal Sinuses Improves Intraoperative Accuracy of Image-Guided Surgery.",
+        "abstract": "",
+        "doi": "10.3390/diagnostics15212777",
+        "pmcid": "PMC12608828",
+        "author": "Ernst BP, Burck I, Schliwa S, Becker S, Albrecht T, Vogl TJ, Scholtz JE, Levi A, Loth AG, Bärhold F, Strieth S, Froelich MF, Hertel A, Layer YC, Kuetting D, Eckrich J.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Comparison of bone mineral density quantification in dogs using spectral detector computed tomography versus phantom-based conventional computed tomography.",
+        "abstract": "",
+        "doi": "10.3389/fvets.2025.1572887",
+        "pmcid": "PMC12202224",
+        "author": "Hörmann A, Neubert T, Campbell G, Wang-Leandro A, Pees M, Strube C, Merhof K.",
+        "journal": "Front Vet Sci",
+        "year": "2025"
+      },
+      {
+        "title": "Robust filtering of thin-slice reconstructions improves lacunar stroke detection in CT perfusion imaging.",
+        "abstract": "",
+        "doi": "10.1002/mp.70271",
+        "pmcid": "PMC12802825",
+        "author": "Vromans J, Bennink E, Dankbaar JW, Velthuis BK, de Jong HWAM.",
+        "journal": "Med Phys",
+        "year": "2026"
+      },
+      {
+        "title": "Case Report: Diagnostic value of spectral CT in primary adrenal lymphoma.",
+        "abstract": "",
+        "doi": "10.3389/fonc.2026.1639755",
+        "pmcid": "PMC13062790",
+        "author": "Zhuang X, Jin XX, Feng LW, Zhang H.",
+        "journal": "Front Oncol",
+        "year": "2026"
+      },
+      {
+        "title": "Design and fabrication of 3D-printed patient-specific soft tissue and bone phantoms for CT imaging.",
+        "abstract": "",
+        "doi": "10.1038/s41598-023-44602-9",
+        "pmcid": "PMC10577126",
+        "author": "Mei K, Pasyar P, Geagan M, Liu LP, Shapira N, Gang GJ, Stayman JW, Noël PB.",
+        "journal": "Sci Rep",
+        "year": "2023"
+      },
+      {
+        "title": "Spectral photon-counting CT in first-pass myocardial perfusion imaging for very high-risk patients: a comparison with dual-energy CT.",
+        "abstract": "",
+        "doi": "10.1186/s41747-025-00624-8",
+        "pmcid": "PMC12450193",
+        "author": "Fahrni G, Si-Mohamed S, Wiemker R, Rotzinger DC, Houmeau A, Prieur C, Douek P, Boccalini S.",
+        "journal": "Eur Radiol Exp",
+        "year": "2025"
+      },
+      {
+        "title": "Dual-layer spectral detector computed tomography for improving the demonstration of the communication between intraductal papillary mucinous neoplasms and pancreatic duct.",
+        "abstract": "",
+        "doi": "10.21037/qims-24-2196",
+        "pmcid": "PMC12514668",
+        "author": "Lv L, Zou Y, Zou XH, Zhou B, Liu Q, Zhang XD, Cui HF, Zhang D.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2025"
+      },
+      {
+        "title": "Technical note: Exploring the detectability of coronary calcification using ultra-high-resolution photon-counting-detector CT.",
+        "abstract": "",
+        "doi": "10.1002/mp.16712",
+        "pmcid": "PMC10841095",
+        "author": "Chang S, Ren L, Tang S, Marsh JF, Hsieh S, McCollough CH, Leng S.",
+        "journal": "Med Phys",
+        "year": "2023"
+      },
+      {
+        "title": "Photon-counting CT in cancer radiotherapy: technological advances and clinical benefits.",
+        "abstract": "",
+        "doi": "10.1088/1361-6560/add4ba",
+        "pmcid": "PMC12086776",
+        "author": "Shah KD, Zhou J, Roper J, Dhabaan A, Al-Hallaq H, Pourmorteza A, Yang X.",
+        "journal": "Phys Med Biol",
+        "year": "2025"
+      },
+      {
+        "title": "Longitudinal assessment of changes in muscle composition using proton density fat fraction and T2* in patients with and without incidental vertebral compression fractures.",
+        "abstract": "",
+        "doi": "10.3389/fendo.2025.1549068",
+        "pmcid": "PMC11911184",
+        "author": "Stohldreier Y, Leonhardt Y, Ketschau J, Gassert FT, Makowski MR, Kirschke JS, Feuerriegel GC, Braun P, Schwaiger BJ, Karampinos DC, Hesse N, Gersing AS.",
+        "journal": "Front Endocrinol (Lausanne)",
+        "year": "2025"
+      },
+      {
+        "title": "Reduction of artifacts from contrast media in spectral-detector CT by combined use of virtual monoenergetic images and orthopedic metal-artifact-reduction algorithm.",
+        "abstract": "",
+        "doi": "10.1097/md.0000000000042370",
+        "pmcid": "PMC12091650",
+        "author": "Pan N, Liu J, Wang S, Miao Z.",
+        "journal": "Medicine (Baltimore)",
+        "year": "2025"
+      },
+      {
+        "title": "Dual-Energy and Photon-Counting Computed Tomography in Vascular Applications—Technical Background and Post-Processing Techniques",
+        "abstract": "",
+        "doi": null,
+        "pmcid": "PMC11202784",
+        "author": "Stański M, Michałowska I, Lemanowicz A, Karmelita-Katulska K, Ratajczak P, Sławińska A, Serafin Z.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2024"
+      },
+      {
+        "title": "Comparative subcutaneous and submuscular implantation of an electroencephalography device for long term electroencephalographic monitoring in dogs.",
+        "abstract": "",
+        "doi": "10.3389/fvets.2024.1419792",
+        "pmcid": "PMC11272624",
+        "author": "Rogers CB, Meller S, Meyerhoff N, Volk HA.",
+        "journal": "Front Vet Sci",
+        "year": "2024"
+      },
+      {
+        "title": "Accuracy and consistency of subtraction dual-layer spectral computed tomography in diagnosing coronary stenosis: invasive coronary angiography validation study.",
+        "abstract": "",
+        "doi": "10.21037/qims-24-1810",
+        "pmcid": "PMC12290634",
+        "author": "Li X, Xu Y, Sun Z, Chen W, Chen X, Hu CH.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2025"
+      },
+      {
+        "title": "Prediction of brain metastasis in patients with epidermal growth factor receptor-positive lung adenocarcinoma based on lung computed tomography-derived radiomics features.",
+        "abstract": "",
+        "doi": "10.1186/s12880-025-02059-4",
+        "pmcid": "PMC12751951",
+        "author": "Zhang J, Guo W, Lin L, Lin X, Song Y, Cao D, Chen D.",
+        "journal": "BMC Med Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "Artifact reduction and diagnostic value of monoenergetic reconstructions from split-filter and dual-layer spectral detector dual-energy CT in early gastric cancer with titanium clip localization.",
+        "abstract": "",
+        "doi": "10.1186/s12880-025-02007-2",
+        "pmcid": "PMC12683854",
+        "author": "Li H, Chen C, Wang L, Zhang M, Liu Z.",
+        "journal": "BMC Med Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "Detection of myeloma-associated osteolytic bone lesions with energy-integrating and photon-counting detector CT.",
+        "abstract": "",
+        "doi": "10.1007/s00117-024-01344-7",
+        "pmcid": "PMC12662884",
+        "author": "Grözinger M, Wennmann M, Sawall S, Wehrse E, Sedaghat S, Neelsen C, Bauer F, Goldschmidt H, Weru V, Ziener CH, Kopp-Schneider A, Schlemmer HP, Rotkopf LT.",
+        "journal": "Radiologie (Heidelb)",
+        "year": "2024"
+      },
+      {
+        "title": "Deep Learning-Based Estimated Pulmonary Biological Age From Chest Computed Tomography Images in Healthy Adults: Model Development and Validation Study.",
+        "abstract": "",
+        "doi": "10.2196/78243",
+        "pmcid": "PMC12981372",
+        "author": "Zuo L, Zhu N, Wang B, Li D, Fan J, Fan Z, Shang Y, Wang Y, Xu L, Zhou P, Cai W, Yu D.",
+        "journal": "JMIR Aging",
+        "year": "2026"
+      },
+      {
+        "title": "Development of a new threshold for pericoronary fat attenuation based on 40 keV virtual monoenergetic images from dual-energy spectral CT.",
+        "abstract": "",
+        "doi": "10.3389/fcvm.2025.1679078",
+        "pmcid": "PMC12672532",
+        "author": "Chen J, Zhou S, Gu M, Li K.",
+        "journal": "Front Cardiovasc Med",
+        "year": "2025"
+      },
+      {
+        "title": "PixelPrint: A collection of three-dimensional printed CT phantoms of different respiratory diseases.",
+        "abstract": "",
+        "doi": "10.1117/12.2654343",
+        "pmcid": "PMC10584041",
+        "author": "Mei K, Roshkovan L, Pasyar P, Shapira N, Gang GJ, Stayman JW, Geagan M, Noël PB.",
+        "journal": "Proc SPIE Int Soc Opt Eng",
+        "year": "2023"
+      },
+      {
+        "title": "Image quality of conventional images of dual-layer SPECTRAL CT: A phantom study.",
+        "abstract": "",
+        "doi": "10.1002/mp.12959",
+        "pmcid": null,
+        "author": "van Ommen F, Bennink E, Vlassenbroek A, Dankbaar JW, Schilham AMR, Viergever MA, de Jong HWAM.",
+        "journal": "Med Phys",
+        "year": "2018"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_philips_access": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Pre- and post-procedural cardiac imaging (computed tomography and magnetic resonance imaging) in electrophysiology: a clinical consensus statement of the European Heart Rhythm Association and European Association of Cardiovascular Imaging of the European Society of Cardiology.",
+        "abstract": "",
+        "doi": "10.1093/europace/euae108",
+        "pmcid": "PMC11104536",
+        "author": "Deneke T, Kutyifa V, Hindricks G, Sommer P, Zeppenfeld K, Zeppenfeld K, Carbucicchio C, Pürerfellner H, Heinzel FR, Traykov VB, De Riva M, Pontone G, Lehmkuhl L, Haugaa K, Sarkozy A, Gimelli A, Tondo C, Ernst S, Antz M, Westwood M.",
+        "journal": "Europace",
+        "year": "2024"
+      },
+      {
+        "title": "Cardiac Computed Tomography in Structural Heart Interventions: From Preprocedural Planning to Procedural Strategy.",
+        "abstract": "",
+        "doi": "10.31083/rcm46998",
+        "pmcid": "PMC12781025",
+        "author": "Mitsis A, Kyriakou M, Fouseki A, Myrianthopoulos K, Hadjicosti M, Christodoulou E, Kadoglou NP, Eftychiou C.",
+        "journal": "Rev Cardiovasc Med",
+        "year": "2025"
+      },
+      {
+        "title": "The Role of Quantitative Ultrasound in Monitoring Neoadjuvant Chemotherapy in Breast Cancer: A Narrative Review.",
+        "abstract": "",
+        "doi": "10.3390/cancers17223676",
+        "pmcid": "PMC12650719",
+        "author": "Piotrzkowska-Wróblewska H.",
+        "journal": "Cancers (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Evaluation of the Frequency of Anatomic Variations of the Paranasal Sinus Region by Using Multidetector Computed Tomography: A Hospital-Based Cross-Sectional Study.",
+        "abstract": "",
+        "doi": "10.1002/hsr2.70535",
+        "pmcid": "PMC11882386",
+        "author": "Ali B, Nadeem Z, Naeem M, Arif K, Zaman A, Noor A, Zahid MH, Mustafa R, Akilimali A, Ago JL.",
+        "journal": "Health Sci Rep",
+        "year": "2025"
+      },
+      {
+        "title": "Technical note: Phantom-based training framework for convolutional neural network CT noise reduction.",
+        "abstract": "",
+        "doi": "10.1002/mp.16093",
+        "pmcid": "PMC9931634",
+        "author": "Huber NR, Missert AD, Gong H, Leng S, Yu L, McCollough CH.",
+        "journal": "Med Phys",
+        "year": "2023"
+      },
+      {
+        "title": "Explained Deep Learning Framework for COVID-19 Detection in Volumetric CT Images Aligned with the British Society of Thoracic Imaging Reporting Guidance: A Pilot Study.",
+        "abstract": "",
+        "doi": "10.1007/s10278-025-01444-3",
+        "pmcid": "PMC12701185",
+        "author": "Fouad S, Fouad S, Usman M, Kabir R, Rajasekaran A, Morlese J, Nagori P, Bhatia B.",
+        "journal": "J Imaging Inform Med",
+        "year": "2025"
+      },
+      {
+        "title": "Annotation-Efficient Deep Learning Model for Pancreatic Cancer Diagnosis and Classification Using CT Images: A Retrospective Diagnostic Study.",
+        "abstract": "",
+        "doi": "10.3390/cancers15133392",
+        "pmcid": "PMC10340780",
+        "author": "Viriyasaranon T, Chun JW, Koh YH, Cho JH, Jung MK, Kim SH, Kim HJ, Lee WJ, Choi JH, Woo SM.",
+        "journal": "Cancers (Basel)",
+        "year": "2023"
+      },
+      {
+        "title": "Transcaval Access and Closure Best Practices.",
+        "abstract": "",
+        "doi": "10.1016/j.jcin.2022.12.005",
+        "pmcid": "PMC9989507",
+        "author": "Lederman RJ, Greenbaum AB, Khan JM, Bruce CG, Babaliaros VC, Rogers T.",
+        "journal": "JACC Cardiovasc Interv",
+        "year": "2023"
+      },
+      {
+        "title": "Comparing residence-based to actual path-based methods for defining adolescents' environmental exposures using granular spatial data.",
+        "abstract": "",
+        "doi": "10.1016/j.healthplace.2017.11.007",
+        "pmcid": "PMC5807191",
+        "author": "Culyba AJ, Guo W, Branas CC, Miller E, Wiebe DJ.",
+        "journal": "Health Place",
+        "year": "2018"
+      },
+      {
+        "title": "EANM'16.",
+        "abstract": "",
+        "doi": "10.1007/s00259-016-3484-4",
+        "pmcid": "PMC7103113",
+        "author": "",
+        "journal": "Eur J Nucl Med Mol Imaging",
+        "year": "2016"
+      },
+      {
+        "title": "European Association of Nuclear Medicine October 22 - 30, 2020 Virtual.",
+        "abstract": "",
+        "doi": "10.1007/s00259-020-04988-4",
+        "pmcid": "PMC7498986",
+        "author": "",
+        "journal": "Eur J Nucl Med Mol Imaging",
+        "year": "2020"
+      },
+      {
+        "title": "Abstracts from the BNOS 2017 Meeting June 21-23, 2017 John McIntyre Conference Centre, Edinburgh",
+        "abstract": "",
+        "doi": null,
+        "pmcid": "PMC5791714",
+        "author": "",
+        "journal": "Neuro Oncol",
+        "year": "2018"
+      },
+      {
+        "title": "Abstracts of CIRSE (Cardiovascular and Interventional Radiological Society of Europe) 2010. October 2-6, 2010. Valencia, Spain.",
+        "abstract": "",
+        "doi": "10.1007/s00270-010-9954-3",
+        "pmcid": "PMC7103095",
+        "author": "",
+        "journal": "Cardiovasc Intervent Radiol",
+        "year": "2010"
+      },
+      {
+        "title": "ESICM LIVES 2019 : Berlin, Germany. 28 September - 2 October 2019.",
+        "abstract": "",
+        "doi": "10.1186/s40635-019-0265-y",
+        "pmcid": "PMC6763544",
+        "author": "",
+        "journal": "Intensive Care Med Exp",
+        "year": "2019"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_canon_genesis": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Super resolution deep learning reconstruction for coronary CT angiography: A structured phantom study.",
+        "abstract": "",
+        "doi": "10.1016/j.ejro.2024.100570",
+        "pmcid": "PMC11140562",
+        "author": "Higaki T, Tatsugami F, Ohana M, Nakamura Y, Kawashita I, Awai K.",
+        "journal": "Eur J Radiol Open",
+        "year": "2024"
+      },
+      {
+        "title": "Improving Image Quality in Computed Tomography-Guided Biopsy Using Deep Learning Reconstruction.",
+        "abstract": "",
+        "doi": "10.7759/cureus.87213",
+        "pmcid": "PMC12317372",
+        "author": "Tsunou K, Ishii H.",
+        "journal": "Cureus",
+        "year": "2025"
+      },
+      {
+        "title": "Evaluation of Nonlinear Pixel-Wise Squaring for Enhancing Low-Contrast Resolution in CT Imaging.",
+        "abstract": "",
+        "doi": "10.7759/cureus.97479",
+        "pmcid": "PMC12720051",
+        "author": "Kawai S, Hojo N, Abe K, Omino T, Kyogoku S, Suzuki M.",
+        "journal": "Cureus",
+        "year": "2025"
+      },
+      {
+        "title": "Impact of contrast enhancement boost and super-resolution deep learning reconstruction on pediatric congenital heart disease CTA scans: ultra-low contrast dose.",
+        "abstract": "",
+        "doi": "10.1186/s12880-025-02015-2",
+        "pmcid": "PMC12625121",
+        "author": "Zhou X, Li J, Ke T, Xiong D, Liu F, Tan N, Duan X, Du X, Zhou F, Shen W, Qian R, Li G, Zheng G, Tang L, Liao C.",
+        "journal": "BMC Med Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "Super-Resolution Deep Learning Reconstruction Improves Image Quality of Dynamic Myocardial Computed Tomography Perfusion Imaging.",
+        "abstract": "",
+        "doi": "10.3390/tomography12010007",
+        "pmcid": "PMC12845698",
+        "author": "Kobayashi Y, Tanabe Y, Morikawa T, Yoshida K, Ohara K, Hosokawa T, Kouchi T, Nakano S, Yamaguchi O, Kido T.",
+        "journal": "Tomography",
+        "year": "2026"
+      },
+      {
+        "title": "The impact of post-processing images of abdominal CT small vessels using contrast enhancement boost technique: a retrospective study.",
+        "abstract": "",
+        "doi": "10.21037/qims-2025-406",
+        "pmcid": "PMC12332709",
+        "author": "Lin Q, Li D, Li Y, Duan H, Tian Y, Li K, Xie J, Zhang X.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2025"
+      },
+      {
+        "title": "Application of deep learning reconstruction at prone position chest scanning of early interstitial lung disease.",
+        "abstract": "",
+        "doi": "10.1186/s12880-025-01871-2",
+        "pmcid": "PMC12366325",
+        "author": "Zhao R, Wang Y, Wang J, Wang Z, Xiao R, Ming Y, Piao S, Wang J, Song L, Xu Y, Ma Z, Fan P, Sui X, Song W.",
+        "journal": "BMC Med Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "Deep learning image reconstruction optimizes coronary artery calcium quantification.",
+        "abstract": "",
+        "doi": "10.3389/fcvm.2026.1639920",
+        "pmcid": "PMC13076571",
+        "author": "Zhou T, Liu M, Wu T, Zhang M, Dong J, Ma Z, Li Y, Ba X.",
+        "journal": "Front Cardiovasc Med",
+        "year": "2026"
+      },
+      {
+        "title": "Dual imaging agent for magnetic particle imaging and computed tomography.",
+        "abstract": "",
+        "doi": "10.1039/d3na00105a",
+        "pmcid": "PMC10228371",
+        "author": "Liu S, Heshmat A, Andrew J, Barreto I, Rinaldi-Ramos CM.",
+        "journal": "Nanoscale Adv",
+        "year": "2023"
+      },
+      {
+        "title": "Improved image quality and diagnostic performance of coronary computed tomography angiography-derived fractional flow reserve with super-resolution deep learning reconstruction.",
+        "abstract": "",
+        "doi": "10.21037/qims-24-2075",
+        "pmcid": "PMC12397712",
+        "author": "Zou LM, Xu C, Xu M, Xu KT, Wang M, Wang Y, Wang YN.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2025"
+      },
+      {
+        "title": "Application of deep learning reconstruction combined with time-resolved post-processing method to improve image quality in CTA derived from low-dose cerebral CT perfusion data.",
+        "abstract": "",
+        "doi": "10.1186/s12880-025-01623-2",
+        "pmcid": "PMC12042446",
+        "author": "Tong J, Su T, Chen Y, Zhang X, Yao M, Wang Y, Liu H, Xu M, Wang J, Jin Z.",
+        "journal": "BMC Med Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "Myocardial extracellular volume fraction in cardiac CT: comparison of deep learning reconstruction and iterative reconstruction.",
+        "abstract": "",
+        "doi": "10.21037/jtd-2025-1-2494",
+        "pmcid": "PMC13190014",
+        "author": "Wu H, Niu K, Liu L, Ma Z, Song D, Shen J, Yu J, Qin J, Wu J.",
+        "journal": "J Thorac Dis",
+        "year": "2026"
+      },
+      {
+        "title": "Evaluation of four computed tomography reconstruction algorithms using a coronary artery phantom.",
+        "abstract": "",
+        "doi": "10.21037/qims-23-1204",
+        "pmcid": "PMC11007503",
+        "author": "Sawamura S, Kato S, Funama Y, Oda S, Mochizuki H, Inagaki S, Takeuchi Y, Morioka T, Izumi T, Ota Y, Kawagoe H, Cheng S, Nakayama N, Fukui K, Tsutsumi T, Iwasawa T, Utsunomiya D.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2024"
+      },
+      {
+        "title": "Physical evaluation of an ultra-high-resolution CT scanner.",
+        "abstract": "",
+        "doi": "10.1007/s00330-019-06635-5",
+        "pmcid": "PMC7160079",
+        "author": "Oostveen LJ, Boedeker KL, Brink M, Prokop M, de Lange F, Sechopoulos I.",
+        "journal": "Eur Radiol",
+        "year": "2020"
+      },
+      {
+        "title": "Effect of body position on cerebral perfusion: a comparison of supine and seated positions assessed using conventional and upright CT perfusion.",
+        "abstract": "",
+        "doi": "10.1186/s41747-026-00747-6",
+        "pmcid": "PMC13246991",
+        "author": "Mizutani K, Yamada Y, Yamada M, Yokoyama Y, Kosugi K, Yoshida K, Takahashi S, Akiyama T, Toda M, Jinzaki M.",
+        "journal": "Eur Radiol Exp",
+        "year": "2026"
+      },
+      {
+        "title": "Vertebral vascular canal dysplasia in cats: signalment, CT and MRI characteristics, and prevalence.",
+        "abstract": "",
+        "doi": "10.3389/fvets.2025.1642066",
+        "pmcid": "PMC12353702",
+        "author": "Van Koulil Q, Santifort KM, Willems DS, Bolen G, De Decker S, Bernardini M, Bergknut N, Van Soens I.",
+        "journal": "Front Vet Sci",
+        "year": "2025"
+      },
+      {
+        "title": "Low-contrast lesion detection in neck CT: a multireader study comparing deep learning, iterative, and filtered back projection reconstructions using realistic phantoms.",
+        "abstract": "",
+        "doi": "10.1186/s41747-024-00486-6",
+        "pmcid": "PMC11269546",
+        "author": "Bellmann Q, Peng Y, Genske U, Yan L, Wagner M, Jahnke P.",
+        "journal": "Eur Radiol Exp",
+        "year": "2024"
+      },
+      {
+        "title": "Effect of a new deep learning image reconstruction algorithm for abdominal computed tomography imaging on image quality and dose reduction compared with two iterative reconstruction algorithms: a phantom study.",
+        "abstract": "",
+        "doi": "10.21037/qims-21-215",
+        "pmcid": "PMC8666764",
+        "author": "Greffier J, Dabli D, Hamard A, Belaouni A, Akessoul P, Frandon J, Beregi JP.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2022"
+      },
+      {
+        "title": "Automatic Quantification of Local Plaque Thickness Differences as Assessed by Serial Coronary Computed Tomography Angiography Using Scan-Quality-Based Vessel-Specific Thresholds.",
+        "abstract": "",
+        "doi": "10.1007/s40119-023-00341-6",
+        "pmcid": "PMC10899547",
+        "author": "van Driest FY, Broersen A, van der Geest RJ, Wouter Jukema J, Scholte AJHA, Dijkstra J.",
+        "journal": "Cardiol Ther",
+        "year": "2024"
+      },
+      {
+        "title": "Ultra-high resolution computed tomography of joints: practical recommendations for acquisition protocol optimization.",
+        "abstract": "",
+        "doi": "10.21037/qims-21-217",
+        "pmcid": "PMC8408802",
+        "author": "Gondim Teixeira PA, Villani N, Ait Idir M, Germain E, Lombard C, Gillet R, Blum A.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2021"
+      },
+      {
+        "title": "Comparison of different iterative reconstruction algorithms with contrast-enhancement boost technique on the image quality of CT pulmonary angiography for obese patients.",
+        "abstract": "",
+        "doi": "10.1186/s12880-024-01447-6",
+        "pmcid": "PMC11488249",
+        "author": "Ye M, Wang L, Xing Y, Li Y, Zhao Z, Xu M, Liu W.",
+        "journal": "BMC Med Imaging",
+        "year": "2024"
+      },
+      {
+        "title": "Feasibility Study of Triple-low CCTA for Coronary Artery Disease Screening Combining Contrast Enhancement Boost and Deep Learning Reconstruction.",
+        "abstract": "",
+        "doi": "10.31083/rcm31334",
+        "pmcid": "PMC12230822",
+        "author": "Wu Z, Chen M, Wei Y, Shen C, Han W, Xu R, Zhou Z, Xu J.",
+        "journal": "Rev Cardiovasc Med",
+        "year": "2025"
+      },
+      {
+        "title": "Model-Based Iterative Reconstruction (MBIR) for ASPECT Scoring in Acute Stroke Patients Selection: Comparison to rCBV and Follow-Up Imaging.",
+        "abstract": "",
+        "doi": "10.3390/tomography8030104",
+        "pmcid": "PMC9149901",
+        "author": "Dissaux B, Cheddad El Aouni M, Ognard J, Gentric JC.",
+        "journal": "Tomography",
+        "year": "2022"
+      },
+      {
+        "title": "Dark-Blood Computed Tomography Angiography Combined With Deep Learning Reconstruction for Cervical Artery Wall Imaging in Takayasu Arteritis.",
+        "abstract": "",
+        "doi": "10.3348/kjr.2023.1078",
+        "pmcid": "PMC10973741",
+        "author": "Su T, Zhang Z, Chen Y, Wang Y, Li Y, Xu M, Wang J, Li J, Tian X, Jin Z.",
+        "journal": "Korean J Radiol",
+        "year": "2024"
+      },
+      {
+        "title": "Impact of a reduced iodine load with deep learning reconstruction on abdominal MDCT.",
+        "abstract": "",
+        "doi": "10.1097/md.0000000000034579",
+        "pmcid": "PMC10476859",
+        "author": "Ludes G, Ohana M, Labani A, Meyer N, Moliére S, Roy C.",
+        "journal": "Medicine (Baltimore)",
+        "year": "2023"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_canon_prime_sp": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Dose-Dependent Analysis of Image Quality in Pediatric Head CT Scans Across Different Scanners to Optimize Clinical Protocols Using Phantom-Based Assessment.",
+        "abstract": "",
+        "doi": "10.3390/tomography11110119",
+        "pmcid": "PMC12656656",
+        "author": "Kuwahara H, Ojima M, Kawamura T, Saitou D, Andou K, Ariga E, Hasegawa K, Kai M.",
+        "journal": "Tomography",
+        "year": "2025"
+      },
+      {
+        "title": "Clinical Significance of Whole-Body Computed Tomography Scans in Pediatric Out-of-Hospital Cardiac Arrest Patients Without Prehospital Return of Spontaneous Circulation.",
+        "abstract": "",
+        "doi": "10.3390/diseases12100261",
+        "pmcid": "PMC11506920",
+        "author": "Ishida M, Tanaka T, Morichi S, Uesugi H, Nakazawa H, Watanabe S, Nakai M, Yamanaka G, Homma H, Saito K.",
+        "journal": "Diseases",
+        "year": "2024"
+      },
+      {
+        "title": "Enhanced Malignancy Prediction of Small Lung Nodules in Different Populations Using Transfer Learning on Low-Dose Computed Tomography.",
+        "abstract": "",
+        "doi": "10.3390/diagnostics15121460",
+        "pmcid": "PMC12192116",
+        "author": "Chen JR, Hou KY, Wang YC, Lin SP, Mo YH, Peng SC, Lu CF.",
+        "journal": "Diagnostics (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "Boiling Time to Estimated Stunning and Death of Decapod Crustaceans of Different Sizes and Shapes.",
+        "abstract": "",
+        "doi": "10.3390/ani14223277",
+        "pmcid": "PMC11591275",
+        "author": "Lauridsen H, Alstrup AKO.",
+        "journal": "Animals (Basel)",
+        "year": "2024"
+      },
+      {
+        "title": "Channelized hotelling observer-based low-contrast detectability on the ACR CT accreditation phantom: Part II. Repeatability study.",
+        "abstract": "",
+        "doi": "10.1002/mp.16961",
+        "pmcid": "PMC10939955",
+        "author": "Fan M, Zhou Z, McCollough C, Yu L.",
+        "journal": "Med Phys",
+        "year": "2024"
+      },
+      {
+        "title": "Ante-mortem diagnosis of unilateral pulmonary vein stenosis in a cat: a case report.",
+        "abstract": "",
+        "doi": "10.1186/s13028-025-00803-y",
+        "pmcid": "PMC12020107",
+        "author": "Aoki T, Miyamoto T, Kizaki K, Ueshima A, Iwasaki K, Kusaka T, Terui H.",
+        "journal": "Acta Vet Scand",
+        "year": "2025"
+      },
+      {
+        "title": "Image quality in ultra-low-dose chest CT versus chest x-rays guiding paediatric cystic fibrosis care.",
+        "abstract": "",
+        "doi": "10.1007/s00330-025-11835-3",
+        "pmcid": "PMC12712111",
+        "author": "Moore N, O'Regan P, Young R, Curran G, Waldron M, O'Mahony A, Suleiman ME, Murphy MJ, Maher M, England A, McEntee MF.",
+        "journal": "Eur Radiol",
+        "year": "2026"
+      },
+      {
+        "title": "Heterochronic maturation of anatomical plugs for protecting the airway in rorqual whales (Balaenopteridae).",
+        "abstract": "",
+        "doi": "10.1098/rsos.220459",
+        "pmcid": "PMC9748495",
+        "author": "Lauridsen H, Bie Thøstesen C, Pedersen CCE, Ringgaard S, Elstrup M, Møller PR, Johansson DK, Alstrup AKO.",
+        "journal": "R Soc Open Sci",
+        "year": "2022"
+      },
+      {
+        "title": "Training and validation of a deep learning U-net architecture general model for automated segmentation of inner ear from CT.",
+        "abstract": "",
+        "doi": "10.1186/s41747-024-00508-3",
+        "pmcid": "PMC11393264",
+        "author": "Lim J, Abily A, Ben Salem D, Gaillandre L, Attye A, Ognard J.",
+        "journal": "Eur Radiol Exp",
+        "year": "2024"
+      },
+      {
+        "title": "Regional ventilation dynamics of electrical impedance tomography validated with four-dimensional computed tomography: single-center, prospective, observational study.",
+        "abstract": "",
+        "doi": "10.1186/s13054-024-05130-8",
+        "pmcid": "PMC11484113",
+        "author": "Katayama S, Tonai K, Nakamura K, Tsuji M, Uchimasu S, Shono A, Sanui M.",
+        "journal": "Crit Care",
+        "year": "2024"
+      },
+      {
+        "title": "A Methodological Framework for AI-Assisted Diagnosis of Ovarian Masses Using CT and MR Imaging.",
+        "abstract": "",
+        "doi": "10.3390/jpm15020076",
+        "pmcid": "PMC11856859",
+        "author": "Adusumilli P, Ravikumar N, Hall G, Scarsbrook AF.",
+        "journal": "J Pers Med",
+        "year": "2025"
+      },
+      {
+        "title": "Establishing scanning protocols for a CT lung cancer screening trial in the UK.",
+        "abstract": "",
+        "doi": "10.1259/bjr.20201343",
+        "pmcid": "PMC8631017",
+        "author": "Iball GR, Darby M, Gabe R, Crosbie PAJ, Callister MEJ.",
+        "journal": "Br J Radiol",
+        "year": "2021"
+      },
+      {
+        "title": "Primary Teeth-Derived Demineralized Dentin Matrix Autograft for Unilateral Maxillary Alveolar Cleft during Mixed Dentition.",
+        "abstract": "",
+        "doi": "10.3390/jfb13030153",
+        "pmcid": "PMC9506084",
+        "author": "Matsuzawa Y, Okubo N, Tanaka S, Kashiwazaki H, Kitagawa Y, Ohiro Y, Mikoya T, Akazawa T, Murata M.",
+        "journal": "J Funct Biomater",
+        "year": "2022"
+      },
+      {
+        "title": "The curious case of the Dana platypus and what it can teach us about how lead shotgun pellets behave in fluid preserved museum specimens and may limit their scientific value.",
+        "abstract": "",
+        "doi": "10.1371/journal.pone.0309845",
+        "pmcid": "PMC11488718",
+        "author": "Lauridsen H, Johansson DK, Pedersen CCE, Hansen K, Krols M, Gregersen KM, Jæger JN, Williams CJA, Sandgreen DM, Alstrup AKO, Bertelsen MF, Møller PR.",
+        "journal": "PLoS One",
+        "year": "2024"
+      },
+      {
+        "title": "Deep-Learning for Epicardial Adipose Tissue Assessment With Computed Tomography: Implications for Cardiovascular Risk Prediction.",
+        "abstract": "",
+        "doi": "10.1016/j.jcmg.2022.11.018",
+        "pmcid": "PMC10663979",
+        "author": "West HW, Siddique M, Williams MC, Volpe L, Desai R, Lyasheva M, Thomas S, Dangas K, Kotanidis CP, Tomlins P, Mahon C, Kardos A, Adlam D, Graby J, Rodrigues JCL, Shirodaria C, Deanfield J, Mehta NN, Neubauer S, Channon KM, Desai MY, Nicol ED, Newby DE, Antoniades C, ORFAN Investigators.",
+        "journal": "JACC Cardiovasc Imaging",
+        "year": "2023"
+      },
+      {
+        "title": "Pulmonary Artery Pseudoaneurysms Embolization: Bicentric Experience and Review of the Literature.",
+        "abstract": "",
+        "doi": "10.3390/jcm12113796",
+        "pmcid": "PMC10253550",
+        "author": "Fontana F, Piacentino F, Curti M, Ierardi AM, Coppola A, Macchi E, De Marchi G, Faiella E, Santucci D, Moramarco LP, Del Grande F, Piffaretti G, Tozzi M, Imperatori A, Carcano G, Basile A, D'Angelo F, Carrafiello G, Venturini M.",
+        "journal": "J Clin Med",
+        "year": "2023"
+      },
+      {
+        "title": "Investigation of post-therapeutic image-based thyroid dosimetry using quantitative SPECT/CT, iodine biokinetics, and the MIRD's voxel S values in Graves' disease.",
+        "abstract": "",
+        "doi": "10.1186/s40658-020-0274-7",
+        "pmcid": "PMC6987275",
+        "author": "Fujita N, Koshiba Y, Abe S, Kato K.",
+        "journal": "EJNMMI Phys",
+        "year": "2020"
+      },
+      {
+        "title": "Localization Strategy Prior to Radiofrequency Ablation for Primary and Secondary Hyperparathyroidism.",
+        "abstract": "",
+        "doi": "10.3390/biomedicines11030672",
+        "pmcid": "PMC10045656",
+        "author": "Lee CY, Chang YH, Chiang PL, Wang CK, Lin AN, Chen CC, Chen YF, Chi SY, Chou FF, Lin WC.",
+        "journal": "Biomedicines",
+        "year": "2023"
+      },
+      {
+        "title": "Comparison of Radiography and Computed Tomography for Evaluation of Third Carpal Bone Fractures in Horses.",
+        "abstract": "",
+        "doi": "10.3390/ani13091459",
+        "pmcid": "PMC10177357",
+        "author": "Steel C, Ahern B, Zedler S, Vallance S, Galuppo L, Richardson J, Whitton C, Young A.",
+        "journal": "Animals (Basel)",
+        "year": "2023"
+      },
+      {
+        "title": "Impact of Iterative Reconstruction Algorithms on Image Quality and Radiation Dose in Computed Tomography Scan of Patients with Malignant Pancreatic Lesions.",
+        "abstract": "",
+        "doi": "10.4103/jmss.jmss_81_20",
+        "pmcid": "PMC8804595",
+        "author": "Asemanrafat M, Chaparian A, Lotfi M, Rasekhi A.",
+        "journal": "J Med Signals Sens",
+        "year": "2022"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_canon_lightning": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Intramedullary Hemangioblastoma in the Cervical Spinal Cord of a Dog.",
+        "abstract": "",
+        "doi": "10.1155/crve/9197786",
+        "pmcid": "PMC12554915",
+        "author": "Arai K, Kushige H, Sakai O, Yoshitake R, Kutara K, Sugimoto K, Akashi N, Nakamura S, Sugiyama A.",
+        "journal": "Case Rep Vet Med",
+        "year": "2025"
+      },
+      {
+        "title": "Effects of convolution filter with beam hardening correction on computed tomography image quality.",
+        "abstract": "",
+        "doi": "10.1016/j.ejmp.2023.102599",
+        "pmcid": null,
+        "author": "Marques JB, Renha SK, Mendonça Pereira H, Lima TVM, Simões RFP.",
+        "journal": "Phys Med",
+        "year": "2023"
+      },
+      {
+        "title": "Analysis of the precision of modulation transfer function measurements with a circular edge: influence of object circularity.",
+        "abstract": "",
+        "doi": "10.1117/1.jmi.10.4.043503",
+        "pmcid": "PMC10465802",
+        "author": "Maruyama S.",
+        "journal": "J Med Imaging (Bellingham)",
+        "year": "2023"
+      },
+      {
+        "title": "Suspected fibrocartilaginous embolus in Asian small-clawed otter (Aonyx cinereus).",
+        "abstract": "",
+        "doi": "10.1292/jvms.24-0462",
+        "pmcid": "PMC11903358",
+        "author": "Tanaka T, Ito K, Miyagawa Y, Morishita M, Tomihari M, Hasegawa T.",
+        "journal": "J Vet Med Sci",
+        "year": "2025"
+      },
+      {
+        "title": "Photon-Counting Detector CT Scan of Dinosaur Fossils: Initial Experience.",
+        "abstract": "",
+        "doi": "10.3390/jimaging11060180",
+        "pmcid": "PMC12193894",
+        "author": "Wakabayashi T, Takata K, Kawabe S, Shimada M, Mugitani T, Yachida T, Maruyama R, Kanai S, Takeuchi K, Kotsuji T, Tateishi T, Hyodoh H, Tsujikawa T.",
+        "journal": "J Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "Gross Anatomical Description and CT Scan of the Dromedary Paranasal Sinuses.",
+        "abstract": "",
+        "doi": "10.1002/vms3.70408",
+        "pmcid": "PMC12073924",
+        "author": "Kabkia BD, Ouertani L, Lamari A, Magnibo GN, Khalifa AB.",
+        "journal": "Vet Med Sci",
+        "year": "2025"
+      },
+      {
+        "title": "Time-resolved imaging of contrast kinetics magnetic resonance angiography for the assessment of vascular characteristics in intracranial and extracranial tumors in veterinary patients.",
+        "abstract": "",
+        "doi": "10.3389/fvets.2025.1579582",
+        "pmcid": "PMC12135079",
+        "author": "Hong S, Kim S, Yoon J, Choi J.",
+        "journal": "Front Vet Sci",
+        "year": "2025"
+      },
+      {
+        "title": "Radiation Dose Estimation and Lifetime Attributable Risk of Radiation-Induced Cancer from Chest CT in COVID-19 Patients.",
+        "abstract": "",
+        "doi": "10.1007/s11845-025-04046-8",
+        "pmcid": "PMC12578716",
+        "author": "Mansour HH, A Karim NK, Osman ND, Hami R, Alajerami YS.",
+        "journal": "Ir J Med Sci",
+        "year": "2025"
+      },
+      {
+        "title": "Computed tomographic features of clinically suspected rhinitis in domestic rabbits (Oryctolagus cuniculus).",
+        "abstract": "",
+        "doi": "10.1002/vetr.5126",
+        "pmcid": "PMC12124104",
+        "author": "Slusarek A, Muffat-Es-Jacques P, Coutant T, Pignon C, Léchenault G, Mortier J.",
+        "journal": "Vet Rec",
+        "year": "2025"
+      },
+      {
+        "title": "A Practical Weakly Supervised Framework for Dose-Up Translation of Low-Enhanced CT Under Clinical Acquisition Variability.",
+        "abstract": "",
+        "doi": "10.3390/jimaging12050190",
+        "pmcid": "PMC13208032",
+        "author": "Lee JB, Lim SH, Jung YJ, Kim JH, Lee HG.",
+        "journal": "J Imaging",
+        "year": "2026"
+      },
+      {
+        "title": "Case Report: Palliative radiotherapy monitoring using computed tomography and diffusion-weighted magnetic resonance imaging in a cat with ceruminous gland adenocarcinoma.",
+        "abstract": "",
+        "doi": "10.3389/fvets.2025.1682168",
+        "pmcid": "PMC12598641",
+        "author": "Kim J, Kim S, Hong S, Kim E, Yoon J, Choi J.",
+        "journal": "Front Vet Sci",
+        "year": "2025"
+      },
+      {
+        "title": "Digital removal of dermal denticle layer using geometric AI from 3D CT scans of shark craniofacial structures enhances anatomical precision.",
+        "abstract": "",
+        "doi": "10.1038/s41598-025-04442-1",
+        "pmcid": "PMC12137745",
+        "author": "Kim SW, Yuen AHL, Kim HW, Lee S, Lee SB, Lee YM, Jung WJ, Poon CTC, Park D, Kim S, Kim SG, Kang JW, Kwon J, Jo SJ, Giri SS, Park H, Seo JP, Kim DS, Kim BY, Park SC.",
+        "journal": "Sci Rep",
+        "year": "2025"
+      },
+      {
+        "title": "Development of a three-dimensional dose evaluation method for computed tomography.",
+        "abstract": "",
+        "doi": "10.1002/acm2.13897",
+        "pmcid": "PMC9924120",
+        "author": "Katsuda T, Gotanda R, Gotanda T, Kuwano T, Tanki N, Yabunaka K.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2023"
+      },
+      {
+        "title": "State-of-the-art mobile head CT scanner delivers nearly the same image quality as a conventional stationary CT scanner.",
+        "abstract": "",
+        "doi": "10.1038/s41598-024-56089-z",
+        "pmcid": "PMC10944493",
+        "author": "Goertz L, Al-Sewaidi Y, Habib M, Zopfs D, Reichardt B, Ranft A, Kabbasch C.",
+        "journal": "Sci Rep",
+        "year": "2024"
+      },
+      {
+        "title": "Computed Tomographic Characteristics of Feline Renal Cell Carcinoma and Renal Lymphoma: A Comparative Analysis.",
+        "abstract": "",
+        "doi": "10.3390/vetsci12040360",
+        "pmcid": "PMC12031452",
+        "author": "Shin C, Eom K, Kim J, Nam A, Joo Y, Jung I, Park J, Park NW, Lee M, Lee DG, Yeo S, Yu H.",
+        "journal": "Vet Sci",
+        "year": "2025"
+      },
+      {
+        "title": "Clinical Utility of Magnetic Resonance Urethrography in Assessment of Canine Urethra.",
+        "abstract": "",
+        "doi": "10.1111/jvim.70236",
+        "pmcid": "PMC12442442",
+        "author": "Kang Y, Baek J, Hong S, Kim S, Kim E, Yoon J, Choi J.",
+        "journal": "J Vet Intern Med",
+        "year": "2025"
+      },
+      {
+        "title": "Comparison of computed tomography perfusion and magnetic resonance dynamic susceptibility contrast perfusion-weighted imaging in canine brain.",
+        "abstract": "",
+        "doi": "10.3389/fvets.2024.1298215",
+        "pmcid": "PMC10961344",
+        "author": "Lee S, Park S, Hong S, Kim S, Yoon J, Choi J.",
+        "journal": "Front Vet Sci",
+        "year": "2024"
+      },
+      {
+        "title": "Fast field echo resembling CT using restricted echo-spacing (FRACTURE) MR sequence can provide craniocervical region images comparable to a CT in dogs.",
+        "abstract": "",
+        "doi": "10.3389/fbioe.2024.1297675",
+        "pmcid": "PMC10927716",
+        "author": "Lee D, Kim E, Woo H, Jeon CY, Yoon J, Choi J.",
+        "journal": "Front Bioeng Biotechnol",
+        "year": "2024"
+      },
+      {
+        "title": "Combining non-contrast enhanced magnetic resonance thoracic ductography with vascular contrast-enhanced computed tomography to identify the canine thoracic duct.",
+        "abstract": "",
+        "doi": "10.4314/ovj.v10i1.11",
+        "pmcid": "PMC7193886",
+        "author": "Kutara K, Kanda T, Maeta N, Mochizuki Y, Ono F, Itoh Y, Asanuma T.",
+        "journal": "Open Vet J",
+        "year": "2020"
+      },
+      {
+        "title": "Fast field echo resembling a CT using restricted echo-spacing (FRACTURE) sequence for shoulder joint in normal dogs.",
+        "abstract": "",
+        "doi": "10.3389/fvets.2024.1298133",
+        "pmcid": "PMC10861672",
+        "author": "Ryu S, Park S, Kim E, Woo H, Jeon CY, Yoon J, Choi J.",
+        "journal": "Front Vet Sci",
+        "year": "2024"
+      },
+      {
+        "title": "An investigation into the effect of changing the computed tomography slice reconstruction interval on the spatial replication accuracy of three-dimensional printed anatomical models constructed by fused deposition modelling.",
+        "abstract": "",
+        "doi": "10.1002/jmrs.382",
+        "pmcid": "PMC7063250",
+        "author": "Searle B, Starkey D.",
+        "journal": "J Med Radiat Sci",
+        "year": "2020"
+      },
+      {
+        "title": "CARS 2022—Computer Assisted Radiology and Surgery Proceedings of the 36th International Congress and Exhibition Tokyo, Japan, June 7–11, 2022",
+        "abstract": "",
+        "doi": null,
+        "pmcid": "PMC9131311",
+        "author": "",
+        "journal": "Int J Comput Assist Radiol Surg",
+        "year": "2022"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_united_uct_860": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Transcatheter aortic valve implantation (TAVI) planning CT on 8-cm detector scanners: Proper dose control by combined use of two deep-learning reconstruction algorithms.",
+        "abstract": "",
+        "doi": "10.1002/acm2.70224",
+        "pmcid": "PMC12396921",
+        "author": "Shao Q, Zhou Y, Li J, Zhang G, Li K, Ding Z, Zhou R, Zhang J, Zheng X, Du Y.",
+        "journal": "J Appl Clin Med Phys",
+        "year": "2025"
+      },
+      {
+        "title": "Artificial Intelligence Iterative Reconstruction Algorithm Combined with Low-Dose Aortic CTA for Preoperative Access Assessment of Transcatheter Aortic Valve Implantation: A Prospective Cohort Study.",
+        "abstract": "",
+        "doi": "10.1007/s10278-025-01622-3",
+        "pmcid": "PMC13103143",
+        "author": "Li Q, Liu D, Li K, Li J, Zhou Y.",
+        "journal": "J Imaging Inform Med",
+        "year": "2026"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_united_uct_780": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Quantitative metrics of CT images may magnify the potential of radiation dose reduction.",
+        "abstract": "",
+        "doi": "10.1097/md.0000000000045575",
+        "pmcid": "PMC12582768",
+        "author": "Zeng L, Xia C, Xu X, Zeng W, Zhang Y, Li Z.",
+        "journal": "Medicine (Baltimore)",
+        "year": "2025"
+      },
+      {
+        "title": "Commercial AI platforms improve reproducibility but fail to meet clinical precision thresholds for intracranial aneurysm measurement: implications for serial surveillance.",
+        "abstract": "",
+        "doi": "10.1186/s12880-026-02209-2",
+        "pmcid": "PMC12977671",
+        "author": "Yin C, Hu L, Duan S, Deng X.",
+        "journal": "BMC Med Imaging",
+        "year": "2026"
+      },
+      {
+        "title": "Low-dose corticomedullary phase CT urography with artificial intelligence iterative reconstruction for bladder cancer evaluation.",
+        "abstract": "",
+        "doi": "10.1093/bjr/tqaf315",
+        "pmcid": "PMC13017341",
+        "author": "Liu H, Jiang X, Wang T, Zhang G, Zhao M, Xiang W, Peng H.",
+        "journal": "Br J Radiol",
+        "year": "2026"
+      },
+      {
+        "title": "3D computed tomography intravascular endoscopy.",
+        "abstract": "",
+        "doi": "10.5114/pjr.2023.131000",
+        "pmcid": "PMC10551738",
+        "author": "Huseinagić H, Efendić A, Rušidović I.",
+        "journal": "Pol J Radiol",
+        "year": "2023"
+      },
+      {
+        "title": "Radiomics Analysis of Whole-Kidney Non-Contrast CT for Early Identification of Chronic Kidney Disease Stages 1-3.",
+        "abstract": "",
+        "doi": "10.3390/bioengineering12050454",
+        "pmcid": "PMC12109281",
+        "author": "Zhang G, Zhang P, Xia Y, Shi F, Zhang Y, Ding D.",
+        "journal": "Bioengineering (Basel)",
+        "year": "2025"
+      },
+      {
+        "title": "A T2-weighted MRI grading system for preoperative prediction of visceral pleural invasion in small non-small cell lung cancers.",
+        "abstract": "",
+        "doi": "10.3389/fonc.2025.1682929",
+        "pmcid": "PMC12695614",
+        "author": "Zhang N, Liu B, Feng H, Li Y, Gu X, Xu Q, Yang L, Wang X, Zhai Y, Shi G.",
+        "journal": "Front Oncol",
+        "year": "2025"
+      },
+      {
+        "title": "[Feasibility Study of Ultra-High-Resolution Low-Dose Temporal Bone CT with 1 024×1 024 Reconstruction Matrix Size].",
+        "abstract": "",
+        "doi": "10.12182/20210860202",
+        "pmcid": "PMC10408841",
+        "author": "Zeng LM, Huang T, Liu JL, Deng H, Cao LB, Li X, Ding G, Dai H, Li ZL.",
+        "journal": "Sichuan Da Xue Xue Bao Yi Xue Ban",
+        "year": "2021"
+      },
+      {
+        "title": "Preliminary Study on Immediate Postoperative CT Images and Values of the Modular Polyetheretherketone Based Total Knee Arthroplasty: An Observational First-in-Human Trial.",
+        "abstract": "",
+        "doi": "10.3389/fsurg.2022.809699",
+        "pmcid": "PMC8882580",
+        "author": "Cai Z, Qu X, Zhao Y, Yuan Z, Zheng L, Long T, Yao Q, Yue B, Wang Y.",
+        "journal": "Front Surg",
+        "year": "2022"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_united_uct_528": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Clinical value and radiographic features of low dose CT scans compared to X rays in diagnosing mycoplasma pneumonia in children.",
+        "abstract": "",
+        "doi": "10.1038/s41598-025-94006-0",
+        "pmcid": "PMC11914611",
+        "author": "Xiao S, Zeng S, Kou Y.",
+        "journal": "Sci Rep",
+        "year": "2025"
+      },
+      {
+        "title": "Improved deep learning model for differentiating novel coronavirus pneumonia and influenza pneumonia",
+        "abstract": "",
+        "doi": "10.1101/2020.03.24.20043117",
+        "pmcid": null,
+        "author": "Zhou M, Chen Y, Yang D, Xu Y, Yao W, Huang J, Jin X, Pan Z, Tan J, Wang L, Xia Y, Zou L, Xu X, Wei J, Guan M, Feng J, Zhang H, Qu J.",
+        "journal": "",
+        "year": "2020"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_neusoft_neuviz_glory": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "A phantom study comparing low-dose CT physical image quality from five different CT scanners.",
+        "abstract": "",
+        "doi": "10.21037/qims-21-245",
+        "pmcid": "PMC8666789",
+        "author": "Li Y, Jiang Y, Liu H, Yu X, Chen S, Ma D, Gao J, Wu Y.",
+        "journal": "Quant Imaging Med Surg",
+        "year": "2022"
+      },
+      {
+        "title": "A Review of Factors Affecting Radiation Dose and Image Quality in Coronary CTA Performed with Wide-Detector CT.",
+        "abstract": "",
+        "doi": "10.3390/tomography10110127",
+        "pmcid": "PMC11598146",
+        "author": "Fan Y, Qin T, Sun Q, Wang M, Liang B.",
+        "journal": "Tomography",
+        "year": "2024"
+      }
+    ],
+    "extracted_mtf10": null
+  },
+  "ct_neusoft_neuviz_128": {
+    "has_papers": true,
+    "papers": [
+      {
+        "title": "Evaluation of Radiation Dose and Image Quality in Clinical Routine Protocols from Three Different CT Scanners.",
+        "abstract": "",
+        "doi": "10.3390/jimaging11030070",
+        "pmcid": "PMC11942822",
+        "author": "Prabsattroo T, Phaorod J, Tathuwan P, Tongluan K, Punikhom P, Maharantawong T, Sudchai W.",
+        "journal": "J Imaging",
+        "year": "2025"
+      },
+      {
+        "title": "The Dose Optimization and Evaluation of Image Quality in the Adult Brain Protocols of Multi-Slice Computed Tomography: A Phantom Study.",
+        "abstract": "",
+        "doi": "10.3390/jimaging9120264",
+        "pmcid": "PMC10743697",
+        "author": "Prabsattroo T, Wachirasirikul K, Tansangworn P, Punikhom P, Sudchai W.",
+        "journal": "J Imaging",
+        "year": "2023"
+      },
+      {
+        "title": "Multi-modal and Multi-view Cervical Spondylosis Imaging Dataset.",
+        "abstract": "",
+        "doi": "10.1038/s41597-025-05403-z",
+        "pmcid": "PMC12219229",
+        "author": "Yu QS, Shan JY, Ma J, Gao G, Tao BZ, Qiao GY, Zhang JN, Wang T, Zhao YF, Qin XL, Yin YH.",
+        "journal": "Sci Data",
+        "year": "2025"
+      },
+      {
+        "title": "Diagnostic value of combined CT artificial intelligence (AI) system and lung cancer biomarkers in pulmonary nodule evaluation.",
+        "abstract": "",
+        "doi": "10.3934/publichealth.2025059",
+        "pmcid": "PMC12795762",
+        "author": "Wang L, You S, Zhou J, Liang M, Hu R.",
+        "journal": "AIMS Public Health",
+        "year": "2025"
+      },
+      {
+        "title": "Evaluating the accuracy of hand models obtained from two 3D scanning techniques.",
+        "abstract": "",
+        "doi": "10.1038/s41598-020-68457-6",
+        "pmcid": "PMC7367881",
+        "author": "Yu F, Zeng L, Pan D, Sui X, Tang J.",
+        "journal": "Sci Rep",
+        "year": "2020"
+      },
+      {
+        "title": "ECR 2019: Book of Abstracts : Vienna, Austria. February 27 - March 3, 2019.",
+        "abstract": "",
+        "doi": "10.1186/s13244-019-0713-y",
+        "pmcid": "PMC6396437",
+        "author": "",
+        "journal": "Insights Imaging",
+        "year": "2019"
+      }
+    ],
+    "extracted_mtf10": null
+  }
+}
