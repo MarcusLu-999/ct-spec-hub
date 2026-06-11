@@ -47,7 +47,7 @@ function App() {
   const [activeDetailProduct, setActiveDetailProduct] = useState(null);
   
   const [isMobile, setIsMobile] = useState(false);
-  const [isCompact, setIsCompact] = useState(false);
+  const [zoomLevel, setZoomLevel] = useState(1.0);
 
   useEffect(() => {
     const handleResize = () => {
@@ -58,12 +58,18 @@ function App() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Auto compact logic on mobile when comparing > 2 products
+  // Auto compact zoom logic on mobile when comparing multiple products
   useEffect(() => {
-    if (isMobile && compareList.length > 2) {
-      setIsCompact(true);
+    if (isMobile) {
+      if (compareList.length > 3) {
+        setZoomLevel(0.65); // 4 products: 65% zoom on mobile
+      } else if (compareList.length === 3) {
+        setZoomLevel(0.75); // 3 products: 75% zoom on mobile
+      } else {
+        setZoomLevel(1.0);   // 2 products: 100%
+      }
     } else {
-      setIsCompact(false);
+      setZoomLevel(1.0);
     }
   }, [compareList.length, isMobile]);
 
@@ -380,26 +386,34 @@ function App() {
 
             <div className="compare-table-header-controls">
               <h3 className="glass-title-small">Specification Comparison</h3>
-              <div className="view-density-toggle">
-                <span className="density-label">🔍 视图缩放 (Zoom):</span>
+              <div className="zoom-slider-control">
+                <span className="zoom-icon">🔍</span>
+                <span className="zoom-label">视图缩放:</span>
+                <input 
+                  type="range" 
+                  min="45" 
+                  max="100" 
+                  step="5"
+                  value={Math.round(zoomLevel * 100)} 
+                  onChange={(e) => setZoomLevel(Number(e.target.value) / 100)}
+                  className="zoom-range-input"
+                  title="拖动滑块调节对比表格的缩放大小"
+                />
+                <span className="zoom-value">{Math.round(zoomLevel * 100)}%</span>
                 <button 
-                  className={`density-btn ${!isCompact ? 'active' : ''}`} 
-                  onClick={() => setIsCompact(false)}
-                  title="标准视图"
+                  className="zoom-reset-btn" 
+                  onClick={() => setZoomLevel(isMobile ? (compareProducts.length > 3 ? 0.65 : compareProducts.length === 3 ? 0.75 : 1.0) : 1.0)}
+                  title="重置缩放"
                 >
-                  100%
-                </button>
-                <button 
-                  className={`density-btn ${isCompact ? 'active' : ''}`} 
-                  onClick={() => setIsCompact(true)}
-                  title="紧凑缩放视图"
-                >
-                  80% (紧凑)
+                  重置
                 </button>
               </div>
             </div>
 
-            <div className={`compare-table-wrapper glass-panel ${isCompact ? 'compact-view' : ''}`}>
+            <div 
+              className="compare-table-wrapper glass-panel" 
+              style={{ '--table-zoom': zoomLevel }}
+            >
               <table className="compare-table">
                 <thead>
                   <tr>
