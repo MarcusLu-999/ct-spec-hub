@@ -134,6 +134,50 @@ function App() {
     });
   }, [searchText, filterMfg, filterCategory, filterRows]);
 
+  const groupedProducts = useMemo(() => {
+    const groups = {};
+    
+    const getSortWeight = (product) => {
+      const isPhotonCounting = 
+        product.description?.toLowerCase().includes('photon-counting') ||
+        product.description?.toLowerCase().includes('photon counting') ||
+        product.features?.some(f => f.toLowerCase().includes('photon-counting') || f.toLowerCase().includes('photon counting')) ||
+        product.id?.includes('spcct') ||
+        product.id?.includes('naeotom_alpha') ||
+        product.id?.includes('photonova');
+        
+      if (isPhotonCounting) return 1;
+      if (product.category === 'High-end') return 2;
+      if (product.category === 'Mid-range') return 3;
+      if (product.category === 'Entry-level') return 4;
+      return 5;
+    };
+    
+    const getSlices = (p) => p.specifications?.['成像链与物理硬件 (Imaging Chain)']?.max_reconstructed_slices?.value || 0;
+
+    manufacturersData.forEach(mfg => {
+      const mfgProducts = filteredProducts.filter(p => p.manufacturer_id === mfg.id);
+      if (mfgProducts.length > 0) {
+        mfgProducts.sort((a, b) => {
+          const weightA = getSortWeight(a);
+          const weightB = getSortWeight(b);
+          if (weightA !== weightB) {
+            return weightA - weightB;
+          }
+          const slicesA = getSlices(a);
+          const slicesB = getSlices(b);
+          if (slicesA !== slicesB) {
+            return slicesB - slicesA;
+          }
+          return (b.release_year || 0) - (a.release_year || 0);
+        });
+        groups[mfg.id] = mfgProducts;
+      }
+    });
+    
+    return groups;
+  }, [filteredProducts]);
+
   const toggleCompare = (productId) => {
     setCompareList(prev => {
       if (prev.includes(productId)) {
@@ -511,7 +555,7 @@ function App() {
           <section className="product-section animate-fade-in">
             <div className="section-header">
               <h2 className="section-title">Equipment Catalog</h2>
-              <p className="section-subtitle">Showing {filteredProducts.length} high-end systems</p>
+              <p className="section-subtitle">Showing {filteredProducts.length} high-end systems grouped by manufacturer</p>
             </div>
             
             {filteredProducts.length === 0 ? (
@@ -522,70 +566,101 @@ function App() {
                 <button className="glass-btn primary-btn" onClick={resetFilters}>Reset All Filters</button>
               </div>
             ) : (
-              <div className="product-grid">
-                {filteredProducts.map(product => {
-                  const mfg = getManufacturer(product.manufacturer_id);
-                  const inCompare = isInCompare(product.id);
+              <div className="mfg-groups-container">
+                {manufacturersData.map(mfg => {
+                  const mfgProducts = groupedProducts[mfg.id];
+                  if (!mfgProducts || mfgProducts.length === 0) return null;
+                  
                   return (
-                    <div key={product.id} className={`product-card glass-panel hover-lift ${inCompare ? 'product-card--selected' : ''}`}>
-                      <div className="card-header">
-                        <span className="mfg-badge">{mfg ? mfg.name_en : ''}</span>
-                        <div className="card-header-right">
-                          <span className="completeness-badge" title="Data completeness relative to the most detailed model in database">
-                            📊 {productCompletenessScores[product.id]}%
-                          </span>
-                          <span className="category-badge">{product.category}</span>
+                    <div key={mfg.id} className="mfg-section animate-fade-in">
+                      <div className="mfg-section-header glass-panel">
+                        <div className="mfg-info-wrapper">
+                          {mfg.logo_url ? (
+                            <img src={mfg.logo_url} alt={mfg.name_en} className="mfg-logo-img" />
+                          ) : (
+                            <div className="mfg-logo-placeholder">
+                              {mfg.name_en.slice(0, 2).toUpperCase()}
+                            </div>
+                          )}
+                          <div className="mfg-text-details">
+                            <h3 className="mfg-name">
+                              <span className="mfg-cn">{mfg.name_cn}</span>
+                              <span className="mfg-en">{mfg.name_en}</span>
+                            </h3>
+                            {mfg.description && <p className="mfg-desc">{mfg.description}</p>}
+                          </div>
+                        </div>
+                        <div className="mfg-badge-count">
+                          {mfgProducts.length} Systems
                         </div>
                       </div>
                       
-                      <div className="card-body">
-                        <h3 className="model-title gradient-text">{product.model_name}</h3>
-                        <p className="description">{product.description}</p>
-                        
-                        <div className="specs-grid">
-                          {(() => {
-                             const allFlatSpecs = [];
-                             Object.values(product.specifications).forEach(cat => {
-                                Object.values(cat).forEach(spec => {
-                                  if (spec && spec.value !== null && spec.value !== undefined && spec.value !== '') {
-                                    allFlatSpecs.push(spec);
-                                  }
-                                });
-                             });
-                             // Show the most impressive specs first
-                             return allFlatSpecs.slice(0, 4).map((spec, idx) => (
-                               <div key={idx} className="spec-item">
-                                 <span className="spec-label">{spec.label}</span>
-                                 <span className="spec-value">
-                                   {spec.value} <span className="spec-unit">{spec.unit}</span>
-                                 </span>
-                               </div>
-                             ));
-                          })()}
-                        </div>
-                      </div>
+                      <div className="product-grid">
+                        {mfgProducts.map(product => {
+                          const inCompare = isInCompare(product.id);
+                          return (
+                            <div key={product.id} className={`product-card glass-panel hover-lift ${inCompare ? 'product-card--selected' : ''}`}>
+                              <div className="card-header">
+                                <span className="mfg-badge">{mfg.name_en}</span>
+                                <div className="card-header-right">
+                                  <span className="completeness-badge" title="Data completeness relative to the most detailed model in database">
+                                    📊 {productCompletenessScores[product.id]}%
+                                  </span>
+                                  <span className="category-badge">{product.category}</span>
+                                </div>
+                              </div>
+                              
+                              <div className="card-body">
+                                <h3 className="model-title gradient-text">{product.model_name}</h3>
+                                <p className="description">{product.description}</p>
+                                
+                                <div className="specs-grid">
+                                  {(() => {
+                                     const allFlatSpecs = [];
+                                     Object.values(product.specifications).forEach(cat => {
+                                        Object.values(cat).forEach(spec => {
+                                          if (spec && spec.value !== null && spec.value !== undefined && spec.value !== '') {
+                                            allFlatSpecs.push(spec);
+                                          }
+                                        });
+                                     });
+                                     return allFlatSpecs.slice(0, 4).map((spec, idx) => (
+                                       <div key={idx} className="spec-item">
+                                         <span className="spec-label">{spec.label}</span>
+                                         <span className="spec-value">
+                                           {spec.value} <span className="spec-unit">{spec.unit}</span>
+                                         </span>
+                                       </div>
+                                     ));
+                                  })()}
+                                </div>
+                              </div>
 
-                      <div className="card-footer">
-                        <div className="card-tags">
-                          {product.features.slice(0, 2).map((f, i) => (
-                            <span key={i} className="feature-tag-sm">{f}</span>
-                          ))}
-                        </div>
-                        <div className="card-actions">
-                          <button
-                            className="details-btn glass-btn"
-                            onClick={() => setActiveDetailProduct(product)}
-                          >
-                            🔍 Details
-                          </button>
-                          <button
-                            className={`compare-btn ${inCompare ? 'compare-btn--active' : ''}`}
-                            onClick={() => toggleCompare(product.id)}
-                            disabled={!inCompare && compareList.length >= 4}
-                          >
-                            {inCompare ? '✓ Selected' : '+ Compare'}
-                          </button>
-                        </div>
+                              <div className="card-footer">
+                                <div className="card-tags">
+                                  {product.features.slice(0, 2).map((f, i) => (
+                                    <span key={i} className="feature-tag-sm">{f}</span>
+                                  ))}
+                                </div>
+                                <div className="card-actions">
+                                  <button
+                                    className="details-btn glass-btn"
+                                    onClick={() => setActiveDetailProduct(product)}
+                                  >
+                                    🔍 Details
+                                  </button>
+                                  <button
+                                    className={`compare-btn ${inCompare ? 'compare-btn--active' : ''}`}
+                                    onClick={() => toggleCompare(product.id)}
+                                    disabled={!inCompare && compareList.length >= 4}
+                                  >
+                                    {inCompare ? '✓ Selected' : '+ Compare'}
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          );
+                        })}
                       </div>
                     </div>
                   );
@@ -809,6 +884,36 @@ function App() {
           </div>
         </div>
       )}
+
+      <footer className="app-footer glass-panel">
+        <div className="footer-content">
+          <div className="footer-brand">
+            <h4>CT-SpecHub</h4>
+            <p>高阶 CT 扫描仪技术规格参考平台 (Premium CT Scanner Technical Reference Platform)</p>
+          </div>
+          <div className="footer-divider"></div>
+          <div className="footer-contact">
+            <h5>联系作者 (Contact Me)</h5>
+            <div className="contact-methods">
+              <a 
+                href="mailto:xingyu.lu@united-imaging.com" 
+                className="contact-link glass-btn"
+                title="点击发送邮件或在飞书搜索此账号联系我"
+              >
+                <span className="contact-icon">💬</span>
+                <span className="contact-text">
+                  飞书 / 邮件: <strong className="email-highlight">xingyu.lu@united-imaging.com</strong>
+                </span>
+                <span className="click-hint">点击联系 ↗</span>
+              </a>
+            </div>
+            <p className="contact-note">可以在飞书（Feishu）直接搜索上述账号进行沟通。</p>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <p>&copy; {new Date().getFullYear()} CT-SpecHub. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 }
