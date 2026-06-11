@@ -52,19 +52,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 58,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 192,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 384,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -92,9 +92,9 @@
           "label": "散热率"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 240,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": 120,
@@ -260,19 +260,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 38,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -300,9 +300,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -463,19 +463,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 60,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 576,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 288,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -503,9 +503,9 @@
           "label": "散热率"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 240,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": 120,
@@ -671,19 +671,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 38,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -711,9 +711,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 160,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -874,19 +874,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 38,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -914,9 +914,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 160,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -1082,19 +1082,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 80,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 128,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 256,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -1122,9 +1122,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -1285,19 +1285,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 38,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -1325,9 +1325,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 75,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -1488,19 +1488,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 22,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 32,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 64,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -1528,9 +1528,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 75,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -1691,19 +1691,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 22,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 32,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 64,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -1731,9 +1731,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 50,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -1894,19 +1894,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 11,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 16,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 32,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -1934,9 +1934,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 32,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -2096,19 +2096,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 160,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 256,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 512,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -2136,9 +2136,9 @@
           "label": "散热率"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 130,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -2301,19 +2301,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -2341,9 +2341,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 72,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -2503,19 +2503,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 80,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 128,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 256,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -2543,9 +2543,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -2705,19 +2705,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -2745,9 +2745,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 72,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -2912,19 +2912,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 160,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 320,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 640,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -2952,9 +2952,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -3516,19 +3516,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 160,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 256,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 512,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -3556,9 +3556,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -3723,19 +3723,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 20,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 32,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 64,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -3763,9 +3763,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 72,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -3925,19 +3925,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -3965,9 +3965,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 72,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -4127,19 +4127,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -4167,9 +4167,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 80,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -4333,19 +4333,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 20,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 16,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 32,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -4373,9 +4373,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 28,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -4538,19 +4538,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 160,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 320,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 640,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -4578,9 +4578,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -4744,19 +4744,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 80,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 160,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -4784,9 +4784,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 72,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
@@ -4949,19 +4949,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 16,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
-          "unit": "",
-          "label": "physical_detector_rows"
+          "value": 16,
+          "unit": "排",
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
-          "unit": "",
-          "label": "max_reconstructed_slices"
+          "value": 32,
+          "unit": "层",
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -4989,9 +4989,9 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 32,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
           "value": null,
