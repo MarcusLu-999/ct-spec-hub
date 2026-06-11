@@ -1620,3 +1620,124 @@ body {
   }
 }
 
+/* --- Header Layout & Navigation --- */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.header-brand-group {
+  text-align: left;
+}
+.header-brand-group h1 {
+  margin: 0 0 6px 0 !important;
+}
+.header-nav {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.nav-btn {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(56, 189, 248, 0.4);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+.nav-btn--active {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.12) 0%, rgba(129, 140, 248, 0.12) 100%);
+  border-color: var(--accent-blue);
+  color: var(--text-primary);
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+}
+
+/* --- Data Sources Page --- */
+.sources-section {
+  padding: 40px;
+  margin-bottom: 24px;
+}
+.sources-doc-content {
+  color: var(--text-primary);
+  line-height: 1.8;
+}
+.sources-doc-content h3 {
+  font-size: 1.35rem;
+  margin: 36px 0 16px 0;
+  color: var(--text-primary);
+  border-left: 4px solid var(--accent-blue);
+  padding-left: 14px;
+  background: linear-gradient(90deg, rgba(56, 189, 248, 0.04) 0%, transparent 100%);
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.sources-doc-content h3:first-of-type {
+  margin-top: 20px;
+}
+.sources-doc-content p {
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+  font-size: 0.98rem;
+}
+.sources-doc-content ul, .sources-doc-content ol {
+  padding-left: 24px;
+  margin-bottom: 28px;
+}
+.sources-doc-content li {
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  font-size: 0.98rem;
+}
+.sources-doc-content strong {
+  color: var(--text-primary);
+}
+.sources-doc-content code {
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid var(--border-light);
+  color: var(--accent-blue);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+  .header-brand-group {
+    text-align: center;
+  }
+  .header-nav {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    margin-top: 0;
+    gap: 8px;
+  }
+  .nav-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 12px;
+  }
+  .sources-section {
+    padding: 24px;
+  }
+}
+

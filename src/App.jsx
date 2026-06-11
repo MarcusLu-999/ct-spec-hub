@@ -41,6 +41,7 @@ function App() {
   const [filterRows, setFilterRows] = useState('all');
   const [compareList, setCompareList] = useState([]);
   const [showCompare, setShowCompare] = useState(false);
+  const [showSources, setShowSources] = useState(false);
   const [expandedCategories, setExpandedCategories] = useState({});
   const [showQuickSelect, setShowQuickSelect] = useState(false);
   const [drawerSearch, setDrawerSearch] = useState('');
@@ -240,43 +241,68 @@ function App() {
 
       <header className="app-header glass-panel">
         <div className="header-content">
-          <h1>
-            <span className="gradient-text">CT-SpecHub</span>
-          </h1>
-          <p>Global CT Scanner Database & Comparison Engine</p>
+          <div className="header-brand-group" onClick={() => { setShowCompare(false); setShowSources(false); }} style={{ cursor: 'pointer' }}>
+            <h1>
+              <span className="gradient-text">CT-SpecHub</span>
+            </h1>
+            <p>Global CT Scanner Database & Comparison Engine</p>
+          </div>
+          <nav className="header-nav">
+            <button 
+              className={`nav-btn ${!showCompare && !showSources ? 'nav-btn--active' : ''}`} 
+              onClick={() => { setShowCompare(false); setShowSources(false); }}
+            >
+              🖥️ 产品目录 (Catalog)
+            </button>
+            <button 
+              className={`nav-btn ${showCompare && !showSources ? 'nav-btn--active' : ''}`} 
+              onClick={() => { setShowCompare(true); setShowSources(false); }}
+            >
+              📊 参数对比 (Compare)
+            </button>
+            <button 
+              className={`nav-btn ${showSources ? 'nav-btn--active' : ''}`} 
+              onClick={() => { setShowCompare(false); setShowSources(true); }}
+            >
+              📖 数据来源 (Sources)
+            </button>
+          </nav>
         </div>
       </header>
 
-      <div className="dashboard-stats">
-        <div className="stat-card glass-panel">
-          <h3>{productsData.length}</h3>
-          <p>Global Models</p>
-        </div>
-        <div className="stat-card glass-panel">
-          <h3>{manufacturersData.length}</h3>
-          <p>Manufacturers</p>
-        </div>
-        <div className="stat-card glass-panel">
-          <h3>{filteredProducts.length}</h3>
-          <p>Filtered Results</p>
-        </div>
-        {compareList.length > 0 && (
-          <div className="stat-card glass-panel stat-card--accent hover-lift" onClick={() => {
-            const nextShow = !showCompare;
-            setShowCompare(nextShow);
-            if (nextShow) {
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }
-          }}>
-            <div className="compare-indicator">
-              <h3>{compareList.length} <span className="text-sm">/ 4</span></h3>
-            </div>
-            <p className="font-semibold">{showCompare ? '← View Catalog' : 'Compare Now →'}</p>
+      {!showSources && (
+        <div className="dashboard-stats">
+          <div className="stat-card glass-panel">
+            <h3>{productsData.length}</h3>
+            <p>Global Models</p>
           </div>
-        )}
-      </div>
+          <div className="stat-card glass-panel">
+            <h3>{manufacturersData.length}</h3>
+            <p>Manufacturers</p>
+          </div>
+          <div className="stat-card glass-panel">
+            <h3>{filteredProducts.length}</h3>
+            <p>Filtered Results</p>
+          </div>
+          {compareList.length > 0 && (
+            <div className="stat-card glass-panel stat-card--accent hover-lift" onClick={() => {
+              const nextShow = !showCompare;
+              setShowCompare(nextShow);
+              setShowSources(false);
+              if (nextShow) {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }
+            }}>
+              <div className="compare-indicator">
+                <h3>{compareList.length} <span className="text-sm">/ 4</span></h3>
+              </div>
+              <p className="font-semibold">{showCompare ? '← View Catalog' : 'Compare Now →'}</p>
+            </div>
+          )}
+        </div>
+      )}
 
-      {!showCompare && (
+      {!showCompare && !showSources && (
         <div className="filter-bar glass-panel">
           <div className="filter-group">
             <span className="filter-icon">🔍</span>
@@ -325,11 +351,40 @@ function App() {
       )}
 
       <main className="app-main">
-        {showCompare && compareProducts.length >= 2 ? (
+        {showSources ? (
+          <section className="sources-section glass-panel animate-fade-in">
+            <h2 className="section-title gradient-text">数据来源与抓取策略 (Data Sources & Crawling Strategy)</h2>
+            <div className="sources-doc-content">
+              <h3>1. 数据来源 (Data Sources)</h3>
+              <p>CT-SpecHub 平台的数据来源于多个权威渠道，确保设备参数的客观性与严谨性：</p>
+              <ul>
+                <li><strong>官方技术白皮书与规格表 (Official Datasheets)</strong>: 搜集并整理了西门子、GE、联影、飞利浦、佳能、东软等全球六大厂商官方发布的产品手册和详细规格白皮书。</li>
+                <li><strong>国家药监局 (NMPA) 医疗器械注册证信息</strong>: 从国家药品监督管理局数据库提取官方备案的“结构及组成”与“产品技术要求”，作为成像层数、发生器功率、管球容量等核心硬件性能的法定依据。</li>
+                <li><strong>FDA 510(k) 申报及批准数据</strong>: 对接美国 FDA 510(k) 注册数据库（代码 JAK），通过 openFDA API 自动拉取关联的 K-Number 申报文档，获取公开的底层硬件工程参数。</li>
+                <li><strong>Europe PMC 学术文献库</strong>: 自动匹配各型号设备在临床试验或物理测试中的学术文献，用于校验物理实测空间分辨率、对比度检测限等前沿临床指标。</li>
+                <li><strong>Frank's Hospital Workshop 服务手册</strong>: 爬取医疗设备维护社区，建立各机型服务手册（Service Manuals）和工程电路文档的映射索引。</li>
+              </ul>
+
+              <h3>2. 抓取与富化策略 (Crawling & Enrichment Strategy)</h3>
+              <p>为了保证数据库的完整度并消除信息孤岛，平台采取了如下的智能网络爬取与富化策略：</p>
+              <ul>
+                <li><strong>定向多源爬虫 (Targeted Crawling)</strong>: 基于 Python + HTTP 异步库定向抓取各厂商全球分支机构官网（特别是对数据公开度极高的厂商日本官网）的二级页面，提取原始 HTML 参数矩阵并进行清洗结构化。</li>
+                <li><strong>可信度分层与冲突消解逻辑 (Trust Hierarchy & Conflict Resolution)</strong>:
+                  <ol>
+                    <li>优先信任<strong>官方产品规格书（Datasheet）</strong>及<strong>药监局准入证（NMPA/FDA）</strong>，将其设为数据源的第一优先级。</li>
+                    <li>若不同国家或不同批次的采购招标文件存在配置偏离（如选配大容量发生器或低配置层数），保留平台最大硬件上限作为数据库基准。</li>
+                    <li>对于多源比对中存在的不确定性或偏离，自动导出至差异对比报告 <code>unresolved_discrepancies.txt</code>，而不做主观过度推导。</li>
+                  </ol>
+                </li>
+                <li><strong>增量日志与 Schema 校验 (Validation & Logging)</strong>: 每次更新均通过自动化脚本执行 JSON 强约束校验，核对各维度数据完整度（Completeness Score），并在本地及线上生产环境同步记录数据更新流。</li>
+              </ul>
+            </div>
+          </section>
+        ) : showCompare && compareProducts.length >= 2 ? (
           <section className="compare-section animate-fade-in">
             <div className="compare-header-row">
               <h2 className="section-title gradient-text">Multi-dimensional Benchmarking</h2>
-              <button className="clear-compare-btn glass-btn" onClick={() => { setCompareList([]); setShowCompare(false); }}>
+              <button className="clear-compare-btn glass-btn" onClick={() => { setCompareList([]); setShowCompare(false); setShowSources(false); }}>
                 ✕ Clear All
               </button>
             </div>
@@ -548,7 +603,7 @@ function App() {
               <div className="empty-icon">📊</div>
               <h3>Select More Models</h3>
               <p>Please select at least 2 models to begin benchmarking.</p>
-              <button className="glass-btn primary-btn" onClick={() => setShowCompare(false)}>← Back to Catalog</button>
+              <button className="glass-btn primary-btn" onClick={() => { setShowCompare(false); setShowSources(false); }}>← Back to Catalog</button>
             </div>
           </section>
         ) : (
@@ -672,7 +727,7 @@ function App() {
       </main>
 
       {/* Mobile Floating Action Buttons */}
-      {!showCompare && (
+      {!showCompare && !showSources && (
         <div className="mobile-fab-container">
           <button className="mobile-fab-btn mobile-fab-secondary glass-panel hover-lift" onClick={() => setShowQuickSelect(true)}>
             <span className="fab-icon">🔍</span>
@@ -681,6 +736,7 @@ function App() {
           {compareList.length > 0 && (
             <button className="mobile-fab-btn mobile-fab-primary hover-lift animate-pulse-subtle" onClick={() => {
               setShowCompare(true);
+              setShowSources(false);
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}>
               <span className="fab-icon">📊</span>
@@ -748,6 +804,7 @@ function App() {
                 disabled={compareList.length < 2}
                 onClick={() => {
                   setShowCompare(true);
+                  setShowSources(false);
                   setShowQuickSelect(false);
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
@@ -896,18 +953,18 @@ function App() {
             <h5>联系作者 (Contact Me)</h5>
             <div className="contact-methods">
               <a 
-                href="mailto:xingyu.lu@united-imaging.com" 
+                href="mailto:lxymark999@gmail.com" 
                 className="contact-link glass-btn"
-                title="点击发送邮件或在飞书搜索此账号联系我"
+                title="点击发送邮件联系我"
               >
-                <span className="contact-icon">💬</span>
+                <span className="contact-icon">📧</span>
                 <span className="contact-text">
-                  飞书 / 邮件: <strong className="email-highlight">xingyu.lu@united-imaging.com</strong>
+                  电子邮件 (Email): <strong className="email-highlight">lxymark999@gmail.com</strong>
                 </span>
-                <span className="click-hint">点击联系 ↗</span>
+                <span className="click-hint">点击发送 ↗</span>
               </a>
             </div>
-            <p className="contact-note">可以在飞书（Feishu）直接搜索上述账号进行沟通。</p>
+            <p className="contact-note">如有任何技术交流、数据纠错或业务合作意向，欢迎随时来信。</p>
           </div>
         </div>
         <div className="footer-bottom">
