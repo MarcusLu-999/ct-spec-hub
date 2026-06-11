@@ -3068,7 +3068,7 @@
     "category": "High-end",
     "release_year": 2023,
     "status": "active",
-    "description": "Ultra-premium 320-row CT with a 82cm ultra-wide bore and 600 lb table capacity.",
+    "description": "640-slice CT scanner with a 16cm Z-axis detector coverage, 0.25s rotation speed, 82cm ultra-wide bore, and 318kg table load capacity.",
     "specifications": {
       "物理几何与机械参数 (Physical Geometry)": {
         "bore_size": {
@@ -3077,7 +3077,7 @@
           "label": "机架孔径"
         },
         "rotation_speed": {
-          "value": 0.235,
+          "value": 0.25,
           "unit": "s",
           "label": "最快转速"
         },
@@ -3114,19 +3114,19 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": null,
-          "unit": "",
-          "label": "detector_z_coverage"
+          "value": 160,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": null,
+          "value": 320,
           "unit": "",
-          "label": "physical_detector_rows"
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
+          "value": 640,
           "unit": "",
-          "label": "max_reconstructed_slices"
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -3169,9 +3169,9 @@
           "label": "最大管电流"
         },
         "min_kv": {
-          "value": null,
+          "value": 60,
           "unit": "kV",
-          "label": "min_kv"
+          "label": "最小管电压"
         },
         "kv_steps": {
           "value": null,
@@ -5306,7 +5306,7 @@
     "category": "Mid-range",
     "release_year": 2018,
     "status": "active",
-    "description": "Mainstream 64-row (128-slice) CT optimized for high throughput and robust clinical performance.",
+    "description": "Mainstream 160-slice CT scanner with a Z-Detector, 0.3s rotation speed, and high-precision cardiovascular imaging.",
     "specifications": {
       "物理几何与机械参数 (Physical Geometry)": {
         "bore_size": {
@@ -5315,7 +5315,7 @@
           "label": "孔径"
         },
         "rotation_speed": {
-          "value": 0.35,
+          "value": 0.3,
           "unit": "s",
           "label": "最快转速"
         },
@@ -5357,14 +5357,14 @@
           "label": "detector_z_coverage"
         },
         "physical_detector_rows": {
-          "value": null,
+          "value": 80,
           "unit": "",
-          "label": "physical_detector_rows"
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
+          "value": 160,
           "unit": "",
-          "label": "max_reconstructed_slices"
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -5392,14 +5392,14 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": null,
-          "unit": "",
-          "label": "max_generator_power"
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": 100,
           "unit": "kW",
-          "label": "generator_power_single"
+          "label": "发生器单管最大功率"
         },
         "tube_current_max": {
           "value": null,
@@ -5508,7 +5508,7 @@
     "category": "Entry-level",
     "release_year": 2019,
     "status": "active",
-    "description": "Accessible 32-slice CT scanner prioritizing economic value, stability, and intelligent workflows.",
+    "description": "Accessible 80-slice CT scanner prioritizing economic value, stability, and intelligent workflows.",
     "specifications": {
       "物理几何与机械参数 (Physical Geometry)": {
         "bore_size": {
@@ -5559,14 +5559,14 @@
           "label": "detector_z_coverage"
         },
         "physical_detector_rows": {
-          "value": null,
+          "value": 40,
           "unit": "",
-          "label": "physical_detector_rows"
+          "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": null,
+          "value": 80,
           "unit": "",
-          "label": "max_reconstructed_slices"
+          "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
           "value": null,
@@ -5702,6 +5702,620 @@
       "Z-Detector"
     ],
     "fda_510k_number": "K183143"
+  },
+  {
+    "id": "ct_united_uct_520",
+    "manufacturer_id": "mfg_united",
+    "model_name": "uCT 520",
+    "category": "Entry-level",
+    "release_year": 2016,
+    "status": "active",
+    "description": "AI-empowered 40-slice CT scanner designed for high-resolution 3D isotropic imaging and low-dose workflow.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 70,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.7,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 205,
+          "unit": "kg",
+          "label": "检查床最大承重"
+        },
+        "gantry_tilt": {
+          "value": 30,
+          "unit": "°",
+          "label": "机架倾角"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "",
+          "label": "detector_z_coverage"
+        },
+        "physical_detector_rows": {
+          "value": 20,
+          "unit": "",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 40,
+          "unit": "",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": null,
+          "unit": "",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "",
+          "label": "max_generator_power"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": 70,
+          "unit": "kV",
+          "label": "最小管电压"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 350,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "uDose 智能曝光剂量控制",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "KARL 3D 迭代重建",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 11,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.2 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380-480V, 3-Phase",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "10 kW (普通空调加配新风)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.0 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "AI Empowered Workflow",
+      "KARL 3D Iterative Recon",
+      "uDose 3D Dose Modulation",
+      "70kV Scan Mode"
+    ],
+    "fda_510k_number": "K183143",
+    "clinical_trials": [],
+    "service_manuals": []
+  },
+  {
+    "id": "ct_united_uct_550",
+    "manufacturer_id": "mfg_united",
+    "model_name": "uCT 550",
+    "category": "Mid-range",
+    "release_year": 2021,
+    "status": "active",
+    "description": "Intelligent 80-slice CT scanner featuring a Z-Detector, 5.3 MHU tube heat capacity, 50 kW generator, and deep-learning-based DELTA reconstruction.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 70,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.5,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 205,
+          "unit": "kg",
+          "label": "检查床最大承重"
+        },
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "Z-Detector (完全集成集成电路设计)",
+          "unit": "",
+          "label": "探测器材料/技术分代"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "",
+          "label": "detector_z_coverage"
+        },
+        "physical_detector_rows": {
+          "value": 40,
+          "unit": "",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 80,
+          "unit": "",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 5.3,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": 815,
+          "unit": "kHU/min",
+          "label": "球管最大散热速率"
+        },
+        "max_generator_power": {
+          "value": 50,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": 50,
+          "unit": "kW",
+          "label": "发生器单管最大功率"
+        },
+        "tube_current_max": {
+          "value": 420,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "min_kv": {
+          "value": 70,
+          "unit": "kV",
+          "label": "最小管电压"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 350,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "uDose 智能曝光剂量控制 / Organ-Based Auto ALARA mA",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "KARL 3D 迭代重建 / DELTA深度学习重建",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": "DELTA (3D深度学习神经网络重建) / uAI Vision",
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 12,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.2 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380-480V, 3-Phase",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "12 kW (扫描间HVAC空调温控)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.0 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "Z-Detector",
+      "DELTA Reconstruction",
+      "uAI Vision",
+      "5.3 MHU Tube Capacity"
+    ],
+    "fda_510k_number": "K183143",
+    "clinical_trials": [],
+    "service_manuals": []
+  },
+  {
+    "id": "ct_united_uct_760",
+    "manufacturer_id": "mfg_united",
+    "model_name": "uCT 760",
+    "category": "Mid-range",
+    "release_year": 2019,
+    "status": "active",
+    "description": "Mainstream 128-slice CT scanner featuring high-precision imaging and intelligent low-dose workflow with KARL 3D iterative denoising.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 76,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.5,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 205,
+          "unit": "kg",
+          "label": "检查床最大承重"
+        },
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "",
+          "label": "detector_z_coverage"
+        },
+        "physical_detector_rows": {
+          "value": 64,
+          "unit": "",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 128,
+          "unit": "",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": null,
+          "unit": "",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器单管最大功率"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": 70,
+          "unit": "kV",
+          "label": "最小管电压"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 175,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "uDose 3D剂量调制 / Auto ALARA kVp",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "KARL 3D 迭代重建",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 12,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.2 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380-480V, 3-Phase",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "16 kW (暖通恒温温控)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.5 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "KARL 3D Iterative Denoising",
+      "Auto ALARA kVp",
+      "uDose 3D Modulation"
+    ],
+    "fda_510k_number": "K253173",
+    "clinical_trials": [],
+    "service_manuals": []
   },
   {
     "id": "ct_neusoft_neuviz_glory",
