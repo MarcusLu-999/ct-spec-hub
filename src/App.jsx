@@ -42,8 +42,22 @@ function App() {
   const [compareList, setCompareList] = useState([]);
   const [showCompare, setShowCompare] = useState(false);
   const [expandedCategories, setExpandedCategories] = useState({});
+  const [showQuickSelect, setShowQuickSelect] = useState(false);
+  const [drawerSearch, setDrawerSearch] = useState('');
 
   const getManufacturer = (id) => manufacturersData.find(m => m.id === id);
+
+  const filteredDrawerProducts = useMemo(() => {
+    return productsData.filter(p => {
+      const matchSearch = drawerSearch === '' ||
+        p.model_name.toLowerCase().includes(drawerSearch.toLowerCase()) ||
+        p.description.toLowerCase().includes(drawerSearch.toLowerCase()) ||
+        (getManufacturer(p.manufacturer_id)?.name_cn || '').includes(drawerSearch) ||
+        (getManufacturer(p.manufacturer_id)?.name_en || '').toLowerCase().includes(drawerSearch.toLowerCase()) ||
+        p.features.some(f => f.toLowerCase().includes(drawerSearch.toLowerCase()));
+      return matchSearch;
+    });
+  }, [drawerSearch]);
 
   const categories = useMemo(() => [...new Set(productsData.map(p => p.category))], []);
   const rowOptions = useMemo(() => {
@@ -305,7 +319,7 @@ function App() {
               <table className="compare-table">
                 <thead>
                   <tr>
-                    <th>Specification</th>
+                    <th className="spec-label-col spec-header-corner">Specification</th>
                     {compareProducts.map(p => {
                       const mfg = getManufacturer(p.manufacturer_id);
                       return (
@@ -470,6 +484,82 @@ function App() {
           </section>
         )}
       </main>
+
+      {/* Mobile Floating Action Button */}
+      {!showCompare && (
+        <button className="mobile-fab glass-panel hover-lift" onClick={() => setShowQuickSelect(true)}>
+          <span className="fab-icon">📊</span>
+          <span className="fab-text">Quick Select ({compareList.length}/4)</span>
+        </button>
+      )}
+
+      {/* Quick Select Drawer Component */}
+      {showQuickSelect && (
+        <div className="drawer-overlay animate-fade-in" onClick={() => setShowQuickSelect(false)}>
+          <div className="drawer-content glass-panel" onClick={e => e.stopPropagation()}>
+            <div className="drawer-header">
+              <h3>Quick Select Scanners</h3>
+              <button className="drawer-close-btn" onClick={() => setShowQuickSelect(false)}>✕</button>
+            </div>
+            
+            <p className="drawer-subtitle">Select up to 4 models to compare ({compareList.length}/4)</p>
+            
+            <div className="drawer-search-wrapper">
+              <span className="drawer-search-icon">🔍</span>
+              <input
+                type="text"
+                className="drawer-search-input"
+                placeholder="Search scanner name or brand..."
+                value={drawerSearch}
+                onChange={e => setDrawerSearch(e.target.value)}
+              />
+              {drawerSearch && (
+                <button className="drawer-search-clear" onClick={() => setDrawerSearch('')}>✕</button>
+              )}
+            </div>
+            
+            <div className="drawer-list">
+              {filteredDrawerProducts.map(product => {
+                const mfg = getManufacturer(product.manufacturer_id);
+                const inCompare = isInCompare(product.id);
+                return (
+                  <div key={product.id} className={`drawer-item ${inCompare ? 'drawer-item--selected' : ''}`} onClick={() => toggleCompare(product.id)}>
+                    <div className="drawer-item-info">
+                      <span className="drawer-item-mfg">{mfg ? mfg.name_en : ''}</span>
+                      <span className="drawer-item-model">{product.model_name}</span>
+                      <span className="drawer-item-category">{product.category}</span>
+                    </div>
+                    <div className="drawer-item-checkbox">
+                      <input
+                        type="checkbox"
+                        checked={inCompare}
+                        onChange={() => {}} // handled by parent onClick
+                        disabled={!inCompare && compareList.length >= 4}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+              {filteredDrawerProducts.length === 0 && (
+                <div className="drawer-empty">No matching scanners found.</div>
+              )}
+            </div>
+            
+            <div className="drawer-footer">
+              <button 
+                className="glass-btn primary-btn drawer-compare-btn" 
+                disabled={compareList.length < 2}
+                onClick={() => {
+                  setShowCompare(true);
+                  setShowQuickSelect(false);
+                }}
+              >
+                📊 Compare Selected ({compareList.length})
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

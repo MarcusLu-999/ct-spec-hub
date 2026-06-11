@@ -566,3 +566,350 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(148, 163, 184, 0.5);
 }
+
+/* --- Mobile Responsive & Sticky Comparison Table --- */
+
+/* Enable horizontal scroll on table wrapper and max height for vertical sticky header */
+.compare-table-wrapper {
+  overflow: auto;
+  max-height: 80vh;
+}
+
+.compare-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* Ensure sticky columns have solid backgrounds to avoid overlapping text during scroll */
+.compare-table th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #1e293b !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.spec-label-col {
+  position: sticky;
+  left: 0;
+  z-index: 5;
+  background-color: #1e293b !important;
+  box-shadow: 4px 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* The intersection of sticky header and sticky column (top-left cell) */
+.spec-header-corner {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  background-color: #1e293b !important;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Sticky left for the category accordion headers */
+.category-header {
+  position: sticky;
+  left: 0;
+  z-index: 4;
+  background: #334155 !important;
+  text-align: left;
+}
+
+/* --- Mobile Floating Action Button (FAB) --- */
+.mobile-fab {
+  display: none;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(56, 189, 248, 0.4);
+  color: white;
+  padding: 14px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.mobile-fab .fab-icon {
+  font-size: 1.2rem;
+}
+
+/* --- Quick Select Drawer (Mobile) --- */
+.drawer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.drawer-content {
+  width: 100%;
+  max-height: 85vh;
+  border-radius: 24px 24px 0 0;
+  border-bottom: none;
+  padding: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: rgba(30, 41, 59, 0.95);
+  box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.5);
+  animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.drawer-header h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--text-primary), var(--accent-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.drawer-close-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+.drawer-close-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+}
+
+.drawer-subtitle {
+  margin: 0 0 16px 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.drawer-search-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+.drawer-search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+}
+.drawer-search-input {
+  width: 100%;
+  padding: 12px 40px 12px 40px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border-light);
+  border-radius: 10px;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  outline: none;
+  box-sizing: border-box;
+}
+.drawer-search-input:focus {
+  border-color: var(--accent-blue);
+}
+.drawer-search-clear {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.drawer-list {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding-right: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.drawer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(15, 23, 42, 0.3);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.drawer-item:hover {
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(56, 189, 248, 0.3);
+}
+.drawer-item--selected {
+  background: rgba(56, 189, 248, 0.08);
+  border-color: var(--accent-blue);
+}
+
+.drawer-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.drawer-item-mfg {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+.drawer-item-model {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.drawer-item-category {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.drawer-item-checkbox input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.drawer-empty {
+  text-align: center;
+  padding: 40px 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.drawer-footer {
+  padding-top: 12px;
+  border-top: 1px solid var(--border-light);
+}
+.drawer-compare-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* --- Mobile Responsiveness Media Queries --- */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 16px;
+  }
+  
+  .app-header {
+    padding: 24px 16px;
+    margin-bottom: 20px;
+  }
+  .app-header h1 {
+    font-size: 2rem;
+  }
+  .app-header p {
+    font-size: 0.95rem;
+  }
+
+  /* Show floating Quick Select FAB */
+  .mobile-fab {
+    display: flex;
+  }
+
+  /* Optimize search and filter bar for mobile */
+  .filter-bar {
+    gap: 12px;
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+  .filter-group {
+    min-width: 100%;
+  }
+  .filter-select-wrapper {
+    flex-grow: 1;
+  }
+  .filter-select {
+    width: 100%;
+    min-width: unset;
+  }
+
+  /* Catalog grid adjustments */
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .product-card {
+    padding: 18px;
+  }
+  .specs-grid {
+    padding: 12px;
+    gap: 12px;
+  }
+  .spec-value {
+    font-size: 1rem;
+  }
+
+  /* Radar chart height adjustment */
+  .radar-wrapper {
+    height: 350px;
+  }
+
+  /* Table styles overrides for mobile side-by-side horizontal swiping */
+  .compare-table th {
+    min-width: 140px; /* column width on mobile */
+    padding: 12px;
+  }
+  .compare-table td {
+    padding: 12px;
+  }
+  .th-model-name {
+    font-size: 1rem;
+  }
+  .spec-label-col {
+    width: 120px; /* lock left column size */
+    min-width: 120px;
+    font-size: 0.85rem;
+    padding: 12px 8px !important;
+  }
+  .indented {
+    padding-left: 16px !important; /* reduce indent on mobile */
+  }
+  .spec-val-number {
+    font-size: 0.95rem;
+  }
+  .best-badge {
+    right: 8px;
+    top: 6px;
+  }
+}
