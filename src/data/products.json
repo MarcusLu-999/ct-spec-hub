@@ -232,7 +232,10 @@
         "肺癌筛查 (Lung Cancer Screening)"
       ],
       "cleared_software_features": [],
-      "reconstruction_algorithms": [],
+      "reconstruction_algorithms": [
+        "FIRST (前向投影模型迭代重建)",
+        "KARL 3D (迭代重建)"
+      ],
       "extracted_technical_specs": {},
       "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: January 31, 2017 See PRA Statement below. 510(k) Number (if known) K142955 Device Name SOMATOM Force Indications for Use (Describe) This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information.",
       "device_description_summary": ": Siemens SOMATOM Computed Tomography System family scanners are whole body X-ray computed tomography systems wh ich feature a continuously rotating tube-detector system and functions according to the fan beam principle. The SOMATOM Computed Tomography System fam ily scanners vary in configurations from 6 to 192 slices, and are intended to produce cross sectional images of the body by computer reconstruction of x-ray transmission data from either the same axial plane taken at different angles or spiral planes taken at different angles. The system software is a command-bas ed program used for patient management, data management, X-ray scan control, image reconstruction, and image archive/evaluation. The systems described in this submission provide pre-defined low dose scan modes similar to the modes used for The National Lung Screening Trial (NLST), and the features as recommend by the study. This allows use of these systems for screening in the same way the CT systems were used for NLST. The computer system delivered with the CT scanner is able to run post processing applications optionally."
@@ -466,10 +469,14 @@
       "cleared_software_features": [
         "myExam Companion (AI工作流)",
         "myNeedle Companion (介入穿刺导航)",
-        "Syngo CT (临床后处理系统)"
+        "Syngo CT (临床后处理系统)",
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
       ],
       "reconstruction_algorithms": [
-        "ADMIRE (基于模型迭代重建)"
+        "ADMIRE (基于模型迭代重建)",
+        "FIRST (前向投影模型迭代重建)",
+        "KARL 3D (迭代重建)"
       ],
       "extracted_technical_specs": {},
       "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
@@ -704,11 +711,14 @@
       "cleared_software_features": [
         "myExam Companion (AI工作流)",
         "myNeedle Companion (介入穿刺导航)",
-        "Syngo CT (临床后处理系统)"
+        "Syngo CT (临床后处理系统)",
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
       ],
       "reconstruction_algorithms": [
         "SAFIRE (正弦图确定迭代重建)",
-        "ADMIRE (基于模型迭代重建)"
+        "ADMIRE (基于模型迭代重建)",
+        "KARL 3D (迭代重建)"
       ],
       "extracted_technical_specs": {},
       "indications_for_use_summary": "Form Approved: 0MB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. I DEPARTMENT OF HEAL TH AND HUMAN SERVICES =============== Submission Number (if known) Device Name I NAEOTOM Alpha Indications for Use (Describe) This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained staff as an aid in diagnosis and treatment as well as for diagnostic and therapeutic interventions. This CT system can be used for low dose lung cancer screening in high risk populations*. * As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information.",
@@ -950,7 +960,8 @@
       ],
       "reconstruction_algorithms": [
         "SAFIRE (正弦图确定迭代重建)",
-        "ADMIRE (基于模型迭代重建)"
+        "ADMIRE (基于模型迭代重建)",
+        "KARL 3D (迭代重建)"
       ],
       "extracted_technical_specs": {},
       "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K250822 Device Name SOMATOM go.Now; SOMATOM go.Up; SOMATOM go.All; SOMATOM go.Top; SOMATOM go.Sim; SOMATOM go.Open Pro; SOMATOM Pro.Pulse Indications for Use (Describe) This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of X-ray transmission data. The images delivered by the system can be used by a trained staff as an aid in diagnosis, treatment, and radiation therapy planning as well as for diagnostic and therapeutic interventions. This CT system can be used for low dose lung cancer screening in high risk populations*. * As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information.",
@@ -1183,6 +1194,7 @@
       ],
       "cleared_clinical_indications": [
         "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
         "肿瘤/放疗定位 (Oncology/RT Simulation)",
         "肺癌筛查 (Lung Cancer Screening)"
       ],
@@ -1191,10 +1203,11 @@
       ],
       "reconstruction_algorithms": [
         "SAFIRE (正弦图确定迭代重建)",
-        "ADMIRE (基于模型迭代重建)"
+        "ADMIRE (基于模型迭代重建)",
+        "KARL 3D (迭代重建)"
       ],
       "extracted_technical_specs": {},
-      "indications_for_use_summary": "and fundamental scientific technology remain unchanged from the predicate devices. The Indication for Use and technological characteristics are similar for the subject and predicate devices. Any differences in technological characteristics between the subject device and predicate devices do not raise different questions of safety and effectiveness. As such, Siemens believes that the subject device is substantially equivalent to the predicate devices. 7. Nonclinical Testing The features described in this premarket notification are supported with verification and validation testing. Non clinical tests, including dosimetry and image performance, were conducted for the SOMATOM Drive during product development. The risk analysis was completed and risk control implemented to mitigate identified hazards. The test results show that all of the software specifications have met the acceptance criteria. Verification and validation testing of the device was found acceptable to support the claim of",
+      "indications_for_use_summary": "and fundamental scientific technology remain unchanged from the predicate devices. The Indication for Use and",
       "device_description_summary": ": The Siemens SOMATOM Drive is a Computed Tomography X- ray System, which features two continuously rotating tube-detector systems and functions according to the fan beam principle. The SOMATOM Drive produces CT images in DICOM format, which can be used by post-processing applications commercially distributed by Siemens and other vendors. The computer system delivered with the CT scanner is able to run the post processing applications optionally. syngo CT VA62A (SOMARIS/7 VA62A) is a command-based program used for patient management, data management, X-ray scan control, image reconstruction, and image archive/evaluation available on the SOMATOM Drive CT system. 5. Indication for Use: This computed tomography system is intended to generate and process cross- sectional images of patients by computer reconstruction of X-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. This CT system can be used for low dose lung cancer screening in high risk populations.* Page 2 of 5 *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl..."
     }
   },
@@ -1433,10 +1446,14 @@
       "cleared_software_features": [
         "myExam Companion (AI工作流)",
         "myNeedle Companion (介入穿刺导航)",
-        "Syngo CT (临床后处理系统)"
+        "Syngo CT (临床后处理系统)",
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
       ],
       "reconstruction_algorithms": [
-        "ADMIRE (基于模型迭代重建)"
+        "ADMIRE (基于模型迭代重建)",
+        "FIRST (前向投影模型迭代重建)",
+        "KARL 3D (迭代重建)"
       ],
       "extracted_technical_specs": {},
       "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
@@ -1685,10 +1702,14 @@
       "cleared_software_features": [
         "myExam Companion (AI工作流)",
         "myNeedle Companion (介入穿刺导航)",
-        "Syngo CT (临床后处理系统)"
+        "Syngo CT (临床后处理系统)",
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
       ],
       "reconstruction_algorithms": [
-        "ADMIRE (基于模型迭代重建)"
+        "ADMIRE (基于模型迭代重建)",
+        "FIRST (前向投影模型迭代重建)",
+        "KARL 3D (迭代重建)"
       ],
       "extracted_technical_specs": {},
       "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
@@ -1937,10 +1958,14 @@
       "cleared_software_features": [
         "myExam Companion (AI工作流)",
         "myNeedle Companion (介入穿刺导航)",
-        "Syngo CT (临床后处理系统)"
+        "Syngo CT (临床后处理系统)",
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
       ],
       "reconstruction_algorithms": [
-        "ADMIRE (基于模型迭代重建)"
+        "ADMIRE (基于模型迭代重建)",
+        "FIRST (前向投影模型迭代重建)",
+        "KARL 3D (迭代重建)"
       ],
       "extracted_technical_specs": {},
       "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
@@ -2189,10 +2214,14 @@
       "cleared_software_features": [
         "myExam Companion (AI工作流)",
         "myNeedle Companion (介入穿刺导航)",
-        "Syngo CT (临床后处理系统)"
+        "Syngo CT (临床后处理系统)",
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
       ],
       "reconstruction_algorithms": [
-        "ADMIRE (基于模型迭代重建)"
+        "ADMIRE (基于模型迭代重建)",
+        "FIRST (前向投影模型迭代重建)",
+        "KARL 3D (迭代重建)"
       ],
       "extracted_technical_specs": {},
       "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
@@ -2440,10 +2469,14 @@
       "cleared_software_features": [
         "myExam Companion (AI工作流)",
         "myNeedle Companion (介入穿刺导航)",
-        "Syngo CT (临床后处理系统)"
+        "Syngo CT (临床后处理系统)",
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
       ],
       "reconstruction_algorithms": [
-        "ADMIRE (基于模型迭代重建)"
+        "ADMIRE (基于模型迭代重建)",
+        "FIRST (前向投影模型迭代重建)",
+        "KARL 3D (迭代重建)"
       ],
       "extracted_technical_specs": {},
       "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
@@ -2653,7 +2686,40 @@
     "fda_510k_number": "K250941",
     "clinical_trials": [
       "NCT07192965"
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K250941",
+      "submitter": "GE Medical Systems, LLC 3000 N. Grandview Blvd. Waukesha, Wisconsin 53188. Primary Contact: Haibo He Sr. Regulatory Affairs Leader Email: haibo.he1@geh ealthcare.com Secondary Contacts: Helen Peng Sr. Regulatory Affairs Director Phone: 262-424-8222 Email: hong.peng@gehealthcare.com Proposed",
+      "predicate_devices": [
+        "K133640",
+        "K163213",
+        "K183202",
+        "K201745",
+        "K203617"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
+      ],
+      "reconstruction_algorithms": [
+        "ASiR / ASiR-V (自适应统计迭代重建)",
+        "DLIR / TrueFidelity (深度学习重建算法)",
+        "uLearn (深度学习重建算法)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {
+        "机架孔径 (Bore Size)": "80 cm"
+      },
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K250941 Device Name Revolution Vibe Indications for Use (Describe) The system is intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission projection data from the same axial plane taken at different angles. The system may acquire data using Axial, Cine, Helical, Cardiac, and Gated CT scan techniques from patients of all ages. These images may be obtained either with or without contrast. This device may include signal analysis and display equipment, patient and equipment supports, components and accessories. This device may include data and image processing to produce images in a variety of trans-axial and reformatted planes. Further, the images can be post processed to produce additional imaging planes or analysis results. The system is indicated for head, whole body, cardiac, and vascular X-ray Computed Tomography applications. The device output is a valuable medical tool for the diagnosis of disease, trauma, or abnormality and for planning, guiding, and monitoring therapy. If the spectral imaging option is included on the...",
+      "device_description_summary": "This proposed device Revolution Vibe is a general purpose, premium multi- slice CT Scanning system consisting of a gantry, table, system cabinet, scanner desktop, power distribution unit, and associated accessories. It has been optimized for cardiac performance while still delivering exceptional imaging quality across the entire body. Revolution Vibe is a modified dual energy CT system based on its predicate device Revolution Apex Elite (K213715). Compared to the predicate, the most notable change in Revolution Vibe is the modified detector design together with corresponding software changes which is optimized for cardiac imaging providing capability to image the whole heart in one single rotation same as the predicate. Revolution Vibe offers an accessible whole heart coverage, full cardiac capability CT scanner which can deliver outstanding routine head and body imaging capabilities. The detector of Revolution Vibe uses the same GEHC’s Gemstone scintillator with 256 x 0.625 mm row providing up to 16 cm of coverage in Z direction within 32 cm scan field of view, and 64 x 0.625 mm row providing up to 4 cm of coverage in Z direction within 50 cm scan field of view. The available g..."
+    }
   },
   {
     "id": "ct_ge_revolution_apex",
@@ -2881,7 +2947,40 @@
         "expiry_date": "2028-10-17",
         "spec_delta": "Expert configuration variant, featuring high-thermal capacity Performix tube, rapid kV switching, and advanced clinical packages for complex cases."
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K250941",
+      "submitter": "GE Medical Systems, LLC 3000 N. Grandview Blvd. Waukesha, Wisconsin 53188. Primary Contact: Haibo He Sr. Regulatory Affairs Leader Email: haibo.he1@geh ealthcare.com Secondary Contacts: Helen Peng Sr. Regulatory Affairs Director Phone: 262-424-8222 Email: hong.peng@gehealthcare.com Proposed",
+      "predicate_devices": [
+        "K133640",
+        "K163213",
+        "K183202",
+        "K201745",
+        "K203617"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
+      ],
+      "reconstruction_algorithms": [
+        "ASiR / ASiR-V (自适应统计迭代重建)",
+        "DLIR / TrueFidelity (深度学习重建算法)",
+        "uLearn (深度学习重建算法)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {
+        "机架孔径 (Bore Size)": "80 cm"
+      },
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K250941 Device Name Revolution Vibe Indications for Use (Describe) The system is intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission projection data from the same axial plane taken at different angles. The system may acquire data using Axial, Cine, Helical, Cardiac, and Gated CT scan techniques from patients of all ages. These images may be obtained either with or without contrast. This device may include signal analysis and display equipment, patient and equipment supports, components and accessories. This device may include data and image processing to produce images in a variety of trans-axial and reformatted planes. Further, the images can be post processed to produce additional imaging planes or analysis results. The system is indicated for head, whole body, cardiac, and vascular X-ray Computed Tomography applications. The device output is a valuable medical tool for the diagnosis of disease, trauma, or abnormality and for planning, guiding, and monitoring therapy. If the spectral imaging option is included on the...",
+      "device_description_summary": "This proposed device Revolution Vibe is a general purpose, premium multi- slice CT Scanning system consisting of a gantry, table, system cabinet, scanner desktop, power distribution unit, and associated accessories. It has been optimized for cardiac performance while still delivering exceptional imaging quality across the entire body. Revolution Vibe is a modified dual energy CT system based on its predicate device Revolution Apex Elite (K213715). Compared to the predicate, the most notable change in Revolution Vibe is the modified detector design together with corresponding software changes which is optimized for cardiac imaging providing capability to image the whole heart in one single rotation same as the predicate. Revolution Vibe offers an accessible whole heart coverage, full cardiac capability CT scanner which can deliver outstanding routine head and body imaging capabilities. The detector of Revolution Vibe uses the same GEHC’s Gemstone scintillator with 256 x 0.625 mm row providing up to 16 cm of coverage in Z direction within 32 cm scan field of view, and 64 x 0.625 mm row providing up to 4 cm of coverage in Z direction within 50 cm scan field of view. The available g..."
+    }
   },
   {
     "id": "ct_ge_revolution_altitude_plus_pro",
@@ -3095,7 +3194,40 @@
         "expiry_date": "2031-04-26",
         "spec_delta": "Standard Revolution Altitude Plus Pro configuration, featuring advanced smart positioning, Quantix high-output tube, and AI-driven image reconstruction."
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K250941",
+      "submitter": "GE Medical Systems, LLC 3000 N. Grandview Blvd. Waukesha, Wisconsin 53188. Primary Contact: Haibo He Sr. Regulatory Affairs Leader Email: haibo.he1@geh ealthcare.com Secondary Contacts: Helen Peng Sr. Regulatory Affairs Director Phone: 262-424-8222 Email: hong.peng@gehealthcare.com Proposed",
+      "predicate_devices": [
+        "K133640",
+        "K163213",
+        "K183202",
+        "K201745",
+        "K203617"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
+      ],
+      "reconstruction_algorithms": [
+        "ASiR / ASiR-V (自适应统计迭代重建)",
+        "DLIR / TrueFidelity (深度学习重建算法)",
+        "uLearn (深度学习重建算法)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {
+        "机架孔径 (Bore Size)": "80 cm"
+      },
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K250941 Device Name Revolution Vibe Indications for Use (Describe) The system is intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission projection data from the same axial plane taken at different angles. The system may acquire data using Axial, Cine, Helical, Cardiac, and Gated CT scan techniques from patients of all ages. These images may be obtained either with or without contrast. This device may include signal analysis and display equipment, patient and equipment supports, components and accessories. This device may include data and image processing to produce images in a variety of trans-axial and reformatted planes. Further, the images can be post processed to produce additional imaging planes or analysis results. The system is indicated for head, whole body, cardiac, and vascular X-ray Computed Tomography applications. The device output is a valuable medical tool for the diagnosis of disease, trauma, or abnormality and for planning, guiding, and monitoring therapy. If the spectral imaging option is included on the...",
+      "device_description_summary": "This proposed device Revolution Vibe is a general purpose, premium multi- slice CT Scanning system consisting of a gantry, table, system cabinet, scanner desktop, power distribution unit, and associated accessories. It has been optimized for cardiac performance while still delivering exceptional imaging quality across the entire body. Revolution Vibe is a modified dual energy CT system based on its predicate device Revolution Apex Elite (K213715). Compared to the predicate, the most notable change in Revolution Vibe is the modified detector design together with corresponding software changes which is optimized for cardiac imaging providing capability to image the whole heart in one single rotation same as the predicate. Revolution Vibe offers an accessible whole heart coverage, full cardiac capability CT scanner which can deliver outstanding routine head and body imaging capabilities. The detector of Revolution Vibe uses the same GEHC’s Gemstone scintillator with 256 x 0.625 mm row providing up to 16 cm of coverage in Z direction within 32 cm scan field of view, and 64 x 0.625 mm row providing up to 4 cm of coverage in Z direction within 50 cm scan field of view. The available g..."
+    }
   },
   {
     "id": "ct_ge_revolution_ascend",
@@ -3297,7 +3429,40 @@
       "TrueFidelity DLIR",
       "75cm wide bore"
     ],
-    "fda_510k_number": "K250941"
+    "fda_510k_number": "K250941",
+    "fda_clearance_details": {
+      "fda_510k_number": "K250941",
+      "submitter": "GE Medical Systems, LLC 3000 N. Grandview Blvd. Waukesha, Wisconsin 53188. Primary Contact: Haibo He Sr. Regulatory Affairs Leader Email: haibo.he1@geh ealthcare.com Secondary Contacts: Helen Peng Sr. Regulatory Affairs Director Phone: 262-424-8222 Email: hong.peng@gehealthcare.com Proposed",
+      "predicate_devices": [
+        "K133640",
+        "K163213",
+        "K183202",
+        "K201745",
+        "K203617"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
+      ],
+      "reconstruction_algorithms": [
+        "ASiR / ASiR-V (自适应统计迭代重建)",
+        "DLIR / TrueFidelity (深度学习重建算法)",
+        "uLearn (深度学习重建算法)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {
+        "机架孔径 (Bore Size)": "80 cm"
+      },
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K250941 Device Name Revolution Vibe Indications for Use (Describe) The system is intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission projection data from the same axial plane taken at different angles. The system may acquire data using Axial, Cine, Helical, Cardiac, and Gated CT scan techniques from patients of all ages. These images may be obtained either with or without contrast. This device may include signal analysis and display equipment, patient and equipment supports, components and accessories. This device may include data and image processing to produce images in a variety of trans-axial and reformatted planes. Further, the images can be post processed to produce additional imaging planes or analysis results. The system is indicated for head, whole body, cardiac, and vascular X-ray Computed Tomography applications. The device output is a valuable medical tool for the diagnosis of disease, trauma, or abnormality and for planning, guiding, and monitoring therapy. If the spectral imaging option is included on the...",
+      "device_description_summary": "This proposed device Revolution Vibe is a general purpose, premium multi- slice CT Scanning system consisting of a gantry, table, system cabinet, scanner desktop, power distribution unit, and associated accessories. It has been optimized for cardiac performance while still delivering exceptional imaging quality across the entire body. Revolution Vibe is a modified dual energy CT system based on its predicate device Revolution Apex Elite (K213715). Compared to the predicate, the most notable change in Revolution Vibe is the modified detector design together with corresponding software changes which is optimized for cardiac imaging providing capability to image the whole heart in one single rotation same as the predicate. Revolution Vibe offers an accessible whole heart coverage, full cardiac capability CT scanner which can deliver outstanding routine head and body imaging capabilities. The detector of Revolution Vibe uses the same GEHC’s Gemstone scintillator with 256 x 0.625 mm row providing up to 16 cm of coverage in Z direction within 32 cm scan field of view, and 64 x 0.625 mm row providing up to 4 cm of coverage in Z direction within 50 cm scan field of view. The available g..."
+    }
   },
   {
     "id": "ct_philips_spectral_7500",
@@ -3499,7 +3664,23 @@
       "NanoPanel Prism",
       "Precise Image AI"
     ],
-    "fda_510k_number": "K091195"
+    "fda_510k_number": "K091195",
+    "fda_clearance_details": {
+      "fda_510k_number": "K091195",
+      "submitter": "Philips Medical Systems (Cleveland), Inc. 595 Miner Road Cleveland, OH 44143 (440) 483-3000 Contact: Michael A. Chilbert, Ph.D., P.E. Telephone: 440 483 3284 FAX: 440 483 4918 Email: Michael~chilbert~philips.com Date of Summary: February 25, 2009 2.",
+      "predicate_devices": [
+        "K012009",
+        "K083498"
+      ],
+      "cleared_clinical_indications": [
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "of the device The MX 16-slice CT system can be used as a Whole Body Computed Tomography X-ray System featuring a continuously rotating x-ray tube and detector array with multislice capability up to 16 slices simultaneously. The acquired x-ray transmission data is reconstructed by computer into cross-sectional images of the body from the same axial plane taken at different angles. The system is suitable for all patients. 6. Comparison to Predicate Devices In the opinion of Philips Medical Systems (Cleveland), Inc., the \"Philips MX 16-slice\" CT scanner is of comparable type and substantially equivalent to the legally marketed devices because it has the similar",
+      "device_description_summary": "The MX 16-slice CT System, phase II is a Whole Body Computed Tomography X-Ray System featuring a continuously rotating X-ray tube and detectors gantry and multi-slice capability. The acquired x-ray transmission data is reconstructed by computer into cross- sectional images of the body taken at different angles and planes. This device also includes signal analysis and display equipment, patient and equipment supports, components and accessories. 111-1 5."
+    }
   },
   {
     "id": "ct_philips_incisive",
@@ -3706,7 +3887,23 @@
       "NCT07619404",
       "NCT05020262",
       "NCT07317453"
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K091195",
+      "submitter": "Philips Medical Systems (Cleveland), Inc. 595 Miner Road Cleveland, OH 44143 (440) 483-3000 Contact: Michael A. Chilbert, Ph.D., P.E. Telephone: 440 483 3284 FAX: 440 483 4918 Email: Michael~chilbert~philips.com Date of Summary: February 25, 2009 2.",
+      "predicate_devices": [
+        "K012009",
+        "K083498"
+      ],
+      "cleared_clinical_indications": [
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "of the device The MX 16-slice CT system can be used as a Whole Body Computed Tomography X-ray System featuring a continuously rotating x-ray tube and detector array with multislice capability up to 16 slices simultaneously. The acquired x-ray transmission data is reconstructed by computer into cross-sectional images of the body from the same axial plane taken at different angles. The system is suitable for all patients. 6. Comparison to Predicate Devices In the opinion of Philips Medical Systems (Cleveland), Inc., the \"Philips MX 16-slice\" CT scanner is of comparable type and substantially equivalent to the legally marketed devices because it has the similar",
+      "device_description_summary": "The MX 16-slice CT System, phase II is a Whole Body Computed Tomography X-Ray System featuring a continuously rotating X-ray tube and detectors gantry and multi-slice capability. The acquired x-ray transmission data is reconstructed by computer into cross- sectional images of the body taken at different angles and planes. This device also includes signal analysis and display equipment, patient and equipment supports, components and accessories. 111-1 5."
+    }
   },
   {
     "id": "ct_canon_aquilion_one_prism",
@@ -3908,7 +4105,33 @@
       "16cm Coverage",
       "Deep Learning Spectral"
     ],
-    "fda_510k_number": "K192828"
+    "fda_510k_number": "K192828",
+    "fda_clearance_details": {
+      "fda_510k_number": "K192828",
+      "submitter": "’S NAME: Canon Medical Systems Corporation 1385 Shimoishigami Otawara‐Shi, Tochigi‐ken, Japan 324‐8550 2. OFFICIAL CORRESPONDENT: Naofumi Watanabe Senior Manager, Regulatory Affairs and Vigilance 3. ESTABLISHMENT REGISTRATION: 9614698 4.",
+      "predicate_devices": [
+        "K132813",
+        "K163213",
+        "K183046",
+        "K192188"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [
+        "AIDR 3D (自适应迭代剂量降低重建)",
+        "FIRST (前向投影模型迭代重建)",
+        "AiCE (深度学习重建算法)",
+        "KARL 3D (迭代重建)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "stated in the enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA). You may, therefore, market the device, subject to the general controls provisions of the Act. Although this letter refers to your product as a device, please be aware that some cleared products may instead be combination products. The 510(k) Premarket Notification Database located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination product submissions. The general controls provisions of the Act include requirements for annual registration, listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We remind you, however, that device labeling must be truthful and not misleading. If your device is classified (see above) into either class ...",
+      "device_description_summary": ": Aquilion ONE (TSX‐306A/3) V10.0 with Spectral Imaging System is a whole body multi‐slice helical CT scanner, consisting of a gantry, couch and a console used for data processing and display. This device captures cross sectional volume data sets used to perform specialized studies, using indicated software/hardware, by a trained and qualified physician. This system is based upon the technology and materials of previously marketed Canon CT systems. 13."
+    }
   },
   {
     "id": "ct_united_uct_960_plus",
@@ -4540,7 +4763,40 @@
         "expiry_date": "2028-09-11",
         "spec_delta": "Equipped with high-thermal capacity Performix tube, enhanced power modules for high-throughput heavy duty scanning"
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K250941",
+      "submitter": "GE Medical Systems, LLC 3000 N. Grandview Blvd. Waukesha, Wisconsin 53188. Primary Contact: Haibo He Sr. Regulatory Affairs Leader Email: haibo.he1@geh ealthcare.com Secondary Contacts: Helen Peng Sr. Regulatory Affairs Director Phone: 262-424-8222 Email: hong.peng@gehealthcare.com Proposed",
+      "predicate_devices": [
+        "K133640",
+        "K163213",
+        "K183202",
+        "K201745",
+        "K203617"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
+      ],
+      "reconstruction_algorithms": [
+        "ASiR / ASiR-V (自适应统计迭代重建)",
+        "DLIR / TrueFidelity (深度学习重建算法)",
+        "uLearn (深度学习重建算法)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {
+        "机架孔径 (Bore Size)": "80 cm"
+      },
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K250941 Device Name Revolution Vibe Indications for Use (Describe) The system is intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission projection data from the same axial plane taken at different angles. The system may acquire data using Axial, Cine, Helical, Cardiac, and Gated CT scan techniques from patients of all ages. These images may be obtained either with or without contrast. This device may include signal analysis and display equipment, patient and equipment supports, components and accessories. This device may include data and image processing to produce images in a variety of trans-axial and reformatted planes. Further, the images can be post processed to produce additional imaging planes or analysis results. The system is indicated for head, whole body, cardiac, and vascular X-ray Computed Tomography applications. The device output is a valuable medical tool for the diagnosis of disease, trauma, or abnormality and for planning, guiding, and monitoring therapy. If the spectral imaging option is included on the...",
+      "device_description_summary": "This proposed device Revolution Vibe is a general purpose, premium multi- slice CT Scanning system consisting of a gantry, table, system cabinet, scanner desktop, power distribution unit, and associated accessories. It has been optimized for cardiac performance while still delivering exceptional imaging quality across the entire body. Revolution Vibe is a modified dual energy CT system based on its predicate device Revolution Apex Elite (K213715). Compared to the predicate, the most notable change in Revolution Vibe is the modified detector design together with corresponding software changes which is optimized for cardiac imaging providing capability to image the whole heart in one single rotation same as the predicate. Revolution Vibe offers an accessible whole heart coverage, full cardiac capability CT scanner which can deliver outstanding routine head and body imaging capabilities. The detector of Revolution Vibe uses the same GEHC’s Gemstone scintillator with 256 x 0.625 mm row providing up to 16 cm of coverage in Z direction within 32 cm scan field of view, and 64 x 0.625 mm row providing up to 4 cm of coverage in Z direction within 50 cm scan field of view. The available g..."
+    }
   },
   {
     "id": "ct_ge_revolution_eagle",
@@ -4751,7 +5007,40 @@
         "expiry_date": "2027-08-09",
         "spec_delta": "Standard Revolution Eagle configuration, optimized for clinical routine scanning and efficient workflow throughput."
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K250941",
+      "submitter": "GE Medical Systems, LLC 3000 N. Grandview Blvd. Waukesha, Wisconsin 53188. Primary Contact: Haibo He Sr. Regulatory Affairs Leader Email: haibo.he1@geh ealthcare.com Secondary Contacts: Helen Peng Sr. Regulatory Affairs Director Phone: 262-424-8222 Email: hong.peng@gehealthcare.com Proposed",
+      "predicate_devices": [
+        "K133640",
+        "K163213",
+        "K183202",
+        "K201745",
+        "K203617"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
+      ],
+      "reconstruction_algorithms": [
+        "ASiR / ASiR-V (自适应统计迭代重建)",
+        "DLIR / TrueFidelity (深度学习重建算法)",
+        "uLearn (深度学习重建算法)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {
+        "机架孔径 (Bore Size)": "80 cm"
+      },
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K250941 Device Name Revolution Vibe Indications for Use (Describe) The system is intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission projection data from the same axial plane taken at different angles. The system may acquire data using Axial, Cine, Helical, Cardiac, and Gated CT scan techniques from patients of all ages. These images may be obtained either with or without contrast. This device may include signal analysis and display equipment, patient and equipment supports, components and accessories. This device may include data and image processing to produce images in a variety of trans-axial and reformatted planes. Further, the images can be post processed to produce additional imaging planes or analysis results. The system is indicated for head, whole body, cardiac, and vascular X-ray Computed Tomography applications. The device output is a valuable medical tool for the diagnosis of disease, trauma, or abnormality and for planning, guiding, and monitoring therapy. If the spectral imaging option is included on the...",
+      "device_description_summary": "This proposed device Revolution Vibe is a general purpose, premium multi- slice CT Scanning system consisting of a gantry, table, system cabinet, scanner desktop, power distribution unit, and associated accessories. It has been optimized for cardiac performance while still delivering exceptional imaging quality across the entire body. Revolution Vibe is a modified dual energy CT system based on its predicate device Revolution Apex Elite (K213715). Compared to the predicate, the most notable change in Revolution Vibe is the modified detector design together with corresponding software changes which is optimized for cardiac imaging providing capability to image the whole heart in one single rotation same as the predicate. Revolution Vibe offers an accessible whole heart coverage, full cardiac capability CT scanner which can deliver outstanding routine head and body imaging capabilities. The detector of Revolution Vibe uses the same GEHC’s Gemstone scintillator with 256 x 0.625 mm row providing up to 16 cm of coverage in Z direction within 32 cm scan field of view, and 64 x 0.625 mm row providing up to 4 cm of coverage in Z direction within 50 cm scan field of view. The available g..."
+    }
   },
   {
     "id": "ct_ge_discovery_rt",
@@ -4967,7 +5256,21 @@
         "expiry_date": "2023-12-09",
         "spec_delta": "Oncology-specific large-bore gantry, respiratory gating compatibility, and specialized metal artifact reduction packages."
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K172828",
+      "submitter": "Double Medical Technology Inc. No. 18, Shanbianhong East Road, Haicang District, Xiamen, 361026, P. R. China Tel: 86-592-6885068 Fax: 86-592-6087671 Email: intl_ra@double-medical.com; zuoyan@double-medical.com",
+      "predicate_devices": [
+        "K100089",
+        "K133053"
+      ],
+      "cleared_clinical_indications": [],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": ": Substantially equivalent (SE) to the predicate devices Materials: Substantially equivalent (SE) to the predicate devices Design Features: Substantially equivalent (SE) to the predicate devices Non-Clinical Performance Data Non-Clinical tests were conducted to verify that the proposed device met all design specifications as was Substantially Equivalent (SE) to the predicate device. The test results demonstrated that the proposed device conforms to ASTM F2077 Test Methods For Intervertebral Body Fusion Devices and ASTM F2267 Standard Test Method for Measuring Load Induced Subsidence of Intervertebral Body Fusion Device Under Static Axial Compression, including:  Static axial compression test  Static compression shear test  Dynamic axial compression test  Dynamic compression shear test  Subsidence Test K172828 Page 2 of 3 Clinical Performance Data No clinical performance data is included in this submission. Conclusion The proposed device is compared to the predicate devices in respect of safety and effectiveness. The information provided within this premarket notification demonstrates that proposed device is determined to be Substantially Equivalent (SE) to the predicate dev...",
+      "device_description_summary": "Double Medical Cage System consists of cages of various lengths and heights, which can be inserted between two vertebral bodies to give support during interbody fusion surgeries. The cages consist of main bodies and marker pins. The main bodies are made K172828 Page 1 of 3 Polyetheretherketone (PEEK) Polymers for Surgical Implant Applications. Marker pins are made of Ti-6Al-4V following ASTM F 1472-14 Standard Specification for Wrought Titanium-6Aluminum-4Vanadium Alloy for Surgical Implant Applications. Indication for Use Double Medical Cage System is indicated for use in patients with degenerative disc disease (DDD) at one or two levels from L2 to L5 whose condition requires the use of interbody fusion combined with supplemental fixation. DDD is defined as back pain of discogenic origin with degeneration of the disc confirmed by history and radiographic studies. These patients should be skeletally mature and have had six months of non-operative treatment. The Cage should be packed with autogenous bone graft (i.e. autograft). Comparison with the Predicate Device The rationale for"
+    }
   },
   {
     "id": "ct_ge_revolution_frontier",
@@ -5183,7 +5486,22 @@
         "expiry_date": "2023-05-17",
         "spec_delta": "Equipped with high-performance Gemstone detector and Gemstone Spectral Imaging (GSI) package for material decomposition."
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K170941",
+      "submitter": "Kaneka Corporation Medical",
+      "predicate_devices": [
+        "K163372"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "The RX NC Takeru PTCA Balloon Dilatation Catheter is indicated for balloon dilatation of the stenotic portion in the coronary artery or bypass graft stenosis for the purpose of myocardial perfusion. This product is also indicated for the post-delivery expansion of balloon expandable stents.",
+      "device_description_summary": ": RX NC Takeru PTCA Balloon Dilatation Catheter (RX NC Takeru) is a rapid exchange type of balloon dilation catheter, which consists of a distal tube, guidewire transition tube, balloon, radiopaque markers, mid tube, proximal tube, core wire, hub, and strain relief. A balloon is attached to the distal end of the catheter, and it can be inflated and deflated using the inflation device connected to the hub at the proximal end. RX NC Takeru has a guidewire lumen at the distal end of the catheter through which a guidewire can be inserted, and also an opening along the guidewire transition tube to the guidewire port for the exit of a guidewire. The maximum compatible diameter of a guidewire used together with RX NC Takeru in a PTCA procedure is 0.014 inches. Additionally, guiding catheters with a diameter of 5 or 6 Fr have been deemed to be compatible with RX NC Takeru. The nominal inflated balloon diameters range from 2.0 mm to 5.0 mm with balloon working lengths of 6 mm to 30 mm. The catheter working length is 1450 mm. K170941 Kaneka Corporation RX NC Takeru PTCA Balloon Dilatation Catheter"
+    }
   },
   {
     "id": "ct_ge_revolution_maxima",
@@ -5408,7 +5726,40 @@
         "expiry_date": "2027-10-24",
         "spec_delta": "Cost-effective standardized configuration variant focusing on high clinical efficiency and fast baseline scanning"
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K250941",
+      "submitter": "GE Medical Systems, LLC 3000 N. Grandview Blvd. Waukesha, Wisconsin 53188. Primary Contact: Haibo He Sr. Regulatory Affairs Leader Email: haibo.he1@geh ealthcare.com Secondary Contacts: Helen Peng Sr. Regulatory Affairs Director Phone: 262-424-8222 Email: hong.peng@gehealthcare.com Proposed",
+      "predicate_devices": [
+        "K133640",
+        "K163213",
+        "K183202",
+        "K201745",
+        "K203617"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
+      ],
+      "reconstruction_algorithms": [
+        "ASiR / ASiR-V (自适应统计迭代重建)",
+        "DLIR / TrueFidelity (深度学习重建算法)",
+        "uLearn (深度学习重建算法)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {
+        "机架孔径 (Bore Size)": "80 cm"
+      },
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K250941 Device Name Revolution Vibe Indications for Use (Describe) The system is intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission projection data from the same axial plane taken at different angles. The system may acquire data using Axial, Cine, Helical, Cardiac, and Gated CT scan techniques from patients of all ages. These images may be obtained either with or without contrast. This device may include signal analysis and display equipment, patient and equipment supports, components and accessories. This device may include data and image processing to produce images in a variety of trans-axial and reformatted planes. Further, the images can be post processed to produce additional imaging planes or analysis results. The system is indicated for head, whole body, cardiac, and vascular X-ray Computed Tomography applications. The device output is a valuable medical tool for the diagnosis of disease, trauma, or abnormality and for planning, guiding, and monitoring therapy. If the spectral imaging option is included on the...",
+      "device_description_summary": "This proposed device Revolution Vibe is a general purpose, premium multi- slice CT Scanning system consisting of a gantry, table, system cabinet, scanner desktop, power distribution unit, and associated accessories. It has been optimized for cardiac performance while still delivering exceptional imaging quality across the entire body. Revolution Vibe is a modified dual energy CT system based on its predicate device Revolution Apex Elite (K213715). Compared to the predicate, the most notable change in Revolution Vibe is the modified detector design together with corresponding software changes which is optimized for cardiac imaging providing capability to image the whole heart in one single rotation same as the predicate. Revolution Vibe offers an accessible whole heart coverage, full cardiac capability CT scanner which can deliver outstanding routine head and body imaging capabilities. The detector of Revolution Vibe uses the same GEHC’s Gemstone scintillator with 256 x 0.625 mm row providing up to 16 cm of coverage in Z direction within 32 cm scan field of view, and 64 x 0.625 mm row providing up to 4 cm of coverage in Z direction within 50 cm scan field of view. The available g..."
+    }
   },
   {
     "id": "ct_ge_revolution_aspire_plus",
@@ -5619,7 +5970,40 @@
         "expiry_date": "2028-11-19",
         "spec_delta": "Standard Revolution Aspire Plus configuration, featuring high-throughput hardware, automated workflows, and smart positioning assistance."
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K250941",
+      "submitter": "GE Medical Systems, LLC 3000 N. Grandview Blvd. Waukesha, Wisconsin 53188. Primary Contact: Haibo He Sr. Regulatory Affairs Leader Email: haibo.he1@geh ealthcare.com Secondary Contacts: Helen Peng Sr. Regulatory Affairs Director Phone: 262-424-8222 Email: hong.peng@gehealthcare.com Proposed",
+      "predicate_devices": [
+        "K133640",
+        "K163213",
+        "K183202",
+        "K201745",
+        "K203617"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
+      ],
+      "reconstruction_algorithms": [
+        "ASiR / ASiR-V (自适应统计迭代重建)",
+        "DLIR / TrueFidelity (深度学习重建算法)",
+        "uLearn (深度学习重建算法)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {
+        "机架孔径 (Bore Size)": "80 cm"
+      },
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K250941 Device Name Revolution Vibe Indications for Use (Describe) The system is intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission projection data from the same axial plane taken at different angles. The system may acquire data using Axial, Cine, Helical, Cardiac, and Gated CT scan techniques from patients of all ages. These images may be obtained either with or without contrast. This device may include signal analysis and display equipment, patient and equipment supports, components and accessories. This device may include data and image processing to produce images in a variety of trans-axial and reformatted planes. Further, the images can be post processed to produce additional imaging planes or analysis results. The system is indicated for head, whole body, cardiac, and vascular X-ray Computed Tomography applications. The device output is a valuable medical tool for the diagnosis of disease, trauma, or abnormality and for planning, guiding, and monitoring therapy. If the spectral imaging option is included on the...",
+      "device_description_summary": "This proposed device Revolution Vibe is a general purpose, premium multi- slice CT Scanning system consisting of a gantry, table, system cabinet, scanner desktop, power distribution unit, and associated accessories. It has been optimized for cardiac performance while still delivering exceptional imaging quality across the entire body. Revolution Vibe is a modified dual energy CT system based on its predicate device Revolution Apex Elite (K213715). Compared to the predicate, the most notable change in Revolution Vibe is the modified detector design together with corresponding software changes which is optimized for cardiac imaging providing capability to image the whole heart in one single rotation same as the predicate. Revolution Vibe offers an accessible whole heart coverage, full cardiac capability CT scanner which can deliver outstanding routine head and body imaging capabilities. The detector of Revolution Vibe uses the same GEHC’s Gemstone scintillator with 256 x 0.625 mm row providing up to 16 cm of coverage in Z direction within 32 cm scan field of view, and 64 x 0.625 mm row providing up to 4 cm of coverage in Z direction within 50 cm scan field of view. The available g..."
+    }
   },
   {
     "id": "ct_ge_revolution_act",
@@ -5830,7 +6214,26 @@
         "expiry_date": "2020-06-14",
         "spec_delta": "Standard 16/32 slice entry configuration, designed for high reliability, low maintenance, and optimized cost-efficiency."
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K143242",
+      "submitter": "GE Medical Systems, LLC",
+      "predicate_devices": [
+        "K020114",
+        "K091956",
+        "K100900",
+        "K121727",
+        "K923277"
+      ],
+      "cleared_clinical_indications": [
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": ": Joint replacement is indicated for patients suffering from disability due to: • degenerative, post- traumatic or rheumatoid arthritis; • avascular necrosis of the femoral condyle; • post- traumatic loss of joint configuration, particularly when there is patellofemoral erosion, dysfunction or prior patellectomy; • moderate valgus, va rus or flexion deformities; • treatment of fractures that are unmanageable using other techniques. This device may also be indicated in the salvage of previously failed surgical attempts. This device is intended to be used for cemented applications. Predicate Devices: 3DKNEE System - K020114 & K091956 Foundation Knee System - K923277 Foundation PS Knee System - K933539 Movation Knee System - K100900 & K121727 Comparable Features to Predicate Device(s): This device is comparable to the current 3DKNEE System in indications, material, dimensions, surgical implantation technique, and intended use. This device has the same implant packaging and sterilization as the 3DKNEE System. Non-Clinical Testing: FEA to assess load conditions, patella subluxation, contact area/contact stress, tibial-femoral contact area, and tibial-femoral subluxation testing. All ...",
+      "device_description_summary": "Refer to PDF summary."
+    }
   },
   {
     "id": "ct_ge_optima_660",
@@ -6032,7 +6435,26 @@
       "ASiR",
       "Volara Digital DAS"
     ],
-    "fda_510k_number": "K123596"
+    "fda_510k_number": "K123596",
+    "fda_clearance_details": {
+      "fda_510k_number": "K123596",
+      "submitter": "GE Healthcare (GE Hangwei Medical System Co.,Ltd) No.2 North Yongchang Road Beijing Economic & Technological Development Area Beijing, China 100176 Primary",
+      "predicate_devices": [
+        "K082816"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [
+        "ASiR / ASiR-V (自适应统计迭代重建)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "as other GE Computed Tomography X-ray Systems and the same intended use and indications for use as the unmodified device. The system completed all design controls activities including risk management, verification and validation testing per GE's quality management system. 1 5-2 GE Medical Systems, LLC 5 10(k) Premarket Notification Submission for: Optima CT520",
+      "device_description_summary": ": The Optima CT520 CT Scanner System is composed of a gantry, patient table, operator console, and line voltage adaptor. It also includes image acquisition hardware, image acquisition and reconstruction software, associated accessories and connections/interfaces to accessories. The system generates images through the computer reconstruction of data acquired at different angles and planes of the rotating gantry. The gantry can rotate at up to 0.8 seconds per rotation, and can acquire up to 16 slices/rows of data per rotation with a maximum total collimation coverage of 20mm in the z direction. The system can be operated in Axial, Cine, Helical, Cardiac and Gated acquisition modes. To improve the siting footprint, the power distribution unit (PDU) has been integrated into the gantry base; except for standalone line voltage adaptor, if needed. The PDU components' function and performance remain the same. This change has been fully tested and certified by a NRTL to continue to meet all applicable JEC/UL safety standards. The Optima CT520 represents evolutionary modifications to the predicate device (BrightSpeed Elite Select CT System (K082816)). The modifications include hardware up..."
+    }
   },
   {
     "id": "ct_ge_optima_ct520",
@@ -6234,7 +6656,7 @@
       "ASiR",
       "Volara Digital DAS"
     ],
-    "fda_510k_number": "K133596",
+    "fda_510k_number": "K123596",
     "nmpa_registrations": [
       {
         "registration_number": "国械注准20193061811",
@@ -6243,7 +6665,26 @@
         "expiry_date": "2024-12-04",
         "spec_delta": "Standard 16/32-slice configuration variant of the classic Optima CT520 platform."
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K123596",
+      "submitter": "GE Healthcare (GE Hangwei Medical System Co.,Ltd) No.2 North Yongchang Road Beijing Economic & Technological Development Area Beijing, China 100176 Primary",
+      "predicate_devices": [
+        "K082816"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [
+        "ASiR / ASiR-V (自适应统计迭代重建)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "as other GE Computed Tomography X-ray Systems and the same intended use and indications for use as the unmodified device. The system completed all design controls activities including risk management, verification and validation testing per GE's quality management system. 1 5-2 GE Medical Systems, LLC 5 10(k) Premarket Notification Submission for: Optima CT520",
+      "device_description_summary": ": The Optima CT520 CT Scanner System is composed of a gantry, patient table, operator console, and line voltage adaptor. It also includes image acquisition hardware, image acquisition and reconstruction software, associated accessories and connections/interfaces to accessories. The system generates images through the computer reconstruction of data acquired at different angles and planes of the rotating gantry. The gantry can rotate at up to 0.8 seconds per rotation, and can acquire up to 16 slices/rows of data per rotation with a maximum total collimation coverage of 20mm in the z direction. The system can be operated in Axial, Cine, Helical, Cardiac and Gated acquisition modes. To improve the siting footprint, the power distribution unit (PDU) has been integrated into the gantry base; except for standalone line voltage adaptor, if needed. The PDU components' function and performance remain the same. This change has been fully tested and certified by a NRTL to continue to meet all applicable JEC/UL safety standards. The Optima CT520 represents evolutionary modifications to the predicate device (BrightSpeed Elite Select CT System (K082816)). The modifications include hardware up..."
+    }
   },
   {
     "id": "ct_ge_optima_ct620",
@@ -6454,7 +6895,24 @@
         "expiry_date": "2024-08-14",
         "spec_delta": "Equipped with ASiR-V reconstruction engine and options for fast energy/spectral imaging."
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K153596",
+      "submitter": "GE Medical Systems, LLC",
+      "predicate_devices": [
+        "K010814",
+        "K083799"
+      ],
+      "cleared_clinical_indications": [],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
+      ],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "/ Indications for Use The ARK™ Oxcarbazepine Metabolite Assay is a homogeneous enzyme immunoassay intended for the quantitative determination of Oxcarbazepine Metabolite in human serum on automate d clinical chemistry analyzers. The measurements obtained are used in monitoring levels of Oxcarbazepine Metabolite to help ensure appropriate therapy. The ARK™ Oxcarbazepine Metabolite Calibrator is intended for use in calibration of the ARK Oxcarbazepine Metabolite Assay. The ARK™ Oxcarbazepine Metabolite Control is an assayed quality control material intended for use in quality control of the ARK Oxcarbazepine Metabolite Assay. For prescription use only. Caution: Federal Law restricts this device to sal e by or on the order of a licensed practitioner. Summary and Explanation Oxcarbazepine [10, 11 -dihydro-10-oxo-5H-dibenzo[b,f]azepine-5-carboxamide] and eslicarbazapine [ (S)-10-acetoxy-10,11-dihydro-5H-dibenz[b,f]azepine- 5-carboxamide] are prodrugs that a re metabolized to an active metabolite (10,11 -dihydro-10-hydroxy-5H- dibenz[b,f]azepine-5-carboxamide). Oxcarbazepine Metabolite is often called 10 -monohydroxy derivative (MHD) or referred to as licarbazepine. Oxcarbazepine ( Tr...",
+      "device_description_summary": "The ARK Oxcarbazepine Metabolite Assay is a homogeneous immunoassay based on competition be tween drug in the specimen and Oxcarbazepine Metabolite labeled with the enzyme glucose-6-phosphate dehydrogenase (G6PDH) for binding to the antibody reagent. As the latter binds antibody, enzyme activity decreases. In the presence of drug from the specime n, enzyme activity increases and is directly proportional to the drug concentration. Active enzyme converts the coenzyme nicotinamide adenine dinucleotide (NAD) to NADH that is measured spectrophotometrically as a rate of change in absorbance. Endogenous s erum G6PDH does not interfere with the results because the coenyzme NAD functions only with the bacterial enzyme used in the assay. The ARK Oxcarbazepine Metabolite Assay consists of reagents R1 anti -Oxcarbazepine Metabolite polyclonal antibody with subst rate and R2 Oxcarbazepine Metabolite labeled with bacterial G6PDH enzyme. The ARK Oxcarbazepine Metabolite Calibrator consists of a six-level set to calibrate the assay, and the ARK Oxcarbazepine Metabolite Control consists of a three - level set used for quality control of the assay. 807.92 (a)(5):"
+    }
   },
   {
     "id": "ct_ge_optima_ct670",
@@ -6665,7 +7123,18 @@
         "expiry_date": "2022-08-24",
         "spec_delta": "Standard large-bore configuration featuring 8.0 MHU Performix tube for heavy workloads."
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K173596",
+      "submitter": "GE Medical Systems, LLC",
+      "predicate_devices": [],
+      "cleared_clinical_indications": [],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "Refer to PDF summary.",
+      "device_description_summary": "Refer to PDF summary."
+    }
   },
   {
     "id": "ct_ge_optima_ct680",
@@ -6876,7 +7345,25 @@
         "expiry_date": "2022-08-14",
         "spec_delta": "Flagship Optima configuration, including GSI spectral package and high heat capacity tube for demanding clinical departments."
       }
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K173597",
+      "submitter": "Submitter: Veronica Padharia Regulatory Affairs Specialist Siemens Medical Solutions USA, Inc. Molecular Imaging 810 Innovation Drive Knoxville, TN 37932 Name / Address of Manufacturer(s) Siemens Medical Solutions USA, Inc. Molecular Imaging 2501 N. Barrington Road Hoffman Estates, IL 60192 Telephone Number: (630) 877-5761 Fax Number: (865) 218-3019 Date of Submission: November 21st, 2017 Identification of the product",
+      "predicate_devices": [
+        "K150843",
+        "K162339"
+      ],
+      "cleared_clinical_indications": [],
+      "cleared_software_features": [
+        "Syngo CT (临床后处理系统)",
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)"
+      ],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": ": A picture archiving and communications system is a device that provides one or more capabilities relating to the acceptance, transfer, display, storage, and digital processing of medical images. Its hardware components may include workstations, digitizers, communications devices, computers, video monitors, magnetic, optical disk, or other digital data storage devices, and hardcopy devices. The software components may provide functions for performing operations related to image manipulation, enhancement, compression or quantification. Indications for Use: The Scenium display and analysis software has been developed to aid the clinician in the assessment and quantification of pathologies taken from PET and SPECT scans. The software is deployed via medical imaging workplaces and is organized as a series of workflows which are specific to use with particular drug and disease combinations. The software aids in the assessment of human brain scans enabling automated analysis through quantification of mean pixel values located within standard regions of interest. It facilitates comparison with existing databases of normal patients and normal parameters derived from these databases, de...",
+      "device_description_summary": ": Scenium VE10 display and analysis software enables visualization and appropriate rendering of multimodality data, providing a number of features which enable the user to process acquired image data. Scenium VE10 consists of three workflows: - Database Comparison - Ratio Analysis - Subtraction These workflows are used to assist the clinician with the visual evaluation, assessment and quantification of pathologies, such as dementia (i.e., Alzheimer’s), movement disorders (i.e., Parkinson’s) and seizure analysis (i.e., Epilepsy). The modifications made to the Scenium VE10 software (K162339) to create the Scenium VE20 software include: ∂ The ability to create and support normal databases in the Striatal Analysis workflow o DaTSCAN-SPECT normals database ∂ Improvements related to the analysis screen for reporting in Striatal Analysis In addition, workflow structures changed within the VE20 release. Previously, the three workflows (Database Comparison, Ratio Analysis, and Subtraction) encompassed the Scenium software. Ratio Analysis has since been split into two separate workflows. Now, the following four workflows exist within Scenium VE20: - Database Comparison - Striatal Analysis..."
+    }
   },
   {
     "id": "ct_philips_iqon",
@@ -7082,7 +7569,23 @@
     "clinical_trials": [
       "NCT02747095",
       "NCT05181059"
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K091195",
+      "submitter": "Philips Medical Systems (Cleveland), Inc. 595 Miner Road Cleveland, OH 44143 (440) 483-3000 Contact: Michael A. Chilbert, Ph.D., P.E. Telephone: 440 483 3284 FAX: 440 483 4918 Email: Michael~chilbert~philips.com Date of Summary: February 25, 2009 2.",
+      "predicate_devices": [
+        "K012009",
+        "K083498"
+      ],
+      "cleared_clinical_indications": [
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "of the device The MX 16-slice CT system can be used as a Whole Body Computed Tomography X-ray System featuring a continuously rotating x-ray tube and detector array with multislice capability up to 16 slices simultaneously. The acquired x-ray transmission data is reconstructed by computer into cross-sectional images of the body from the same axial plane taken at different angles. The system is suitable for all patients. 6. Comparison to Predicate Devices In the opinion of Philips Medical Systems (Cleveland), Inc., the \"Philips MX 16-slice\" CT scanner is of comparable type and substantially equivalent to the legally marketed devices because it has the similar",
+      "device_description_summary": "The MX 16-slice CT System, phase II is a Whole Body Computed Tomography X-Ray System featuring a continuously rotating X-ray tube and detectors gantry and multi-slice capability. The acquired x-ray transmission data is reconstructed by computer into cross- sectional images of the body taken at different angles and planes. This device also includes signal analysis and display equipment, patient and equipment supports, components and accessories. 111-1 5."
+    }
   },
   {
     "id": "ct_philips_access",
@@ -7287,7 +7790,23 @@
     "fda_510k_number": "K091195",
     "clinical_trials": [
       "NCT00747981"
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K091195",
+      "submitter": "Philips Medical Systems (Cleveland), Inc. 595 Miner Road Cleveland, OH 44143 (440) 483-3000 Contact: Michael A. Chilbert, Ph.D., P.E. Telephone: 440 483 3284 FAX: 440 483 4918 Email: Michael~chilbert~philips.com Date of Summary: February 25, 2009 2.",
+      "predicate_devices": [
+        "K012009",
+        "K083498"
+      ],
+      "cleared_clinical_indications": [
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "of the device The MX 16-slice CT system can be used as a Whole Body Computed Tomography X-ray System featuring a continuously rotating x-ray tube and detector array with multislice capability up to 16 slices simultaneously. The acquired x-ray transmission data is reconstructed by computer into cross-sectional images of the body from the same axial plane taken at different angles. The system is suitable for all patients. 6. Comparison to Predicate Devices In the opinion of Philips Medical Systems (Cleveland), Inc., the \"Philips MX 16-slice\" CT scanner is of comparable type and substantially equivalent to the legally marketed devices because it has the similar",
+      "device_description_summary": "The MX 16-slice CT System, phase II is a Whole Body Computed Tomography X-Ray System featuring a continuously rotating X-ray tube and detectors gantry and multi-slice capability. The acquired x-ray transmission data is reconstructed by computer into cross- sectional images of the body taken at different angles and planes. This device also includes signal analysis and display equipment, patient and equipment supports, components and accessories. 111-1 5."
+    }
   },
   {
     "id": "ct_canon_genesis",
@@ -7493,7 +8012,33 @@
     "clinical_trials": [
       "NCT06956924",
       "NCT04209972"
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K192828",
+      "submitter": "’S NAME: Canon Medical Systems Corporation 1385 Shimoishigami Otawara‐Shi, Tochigi‐ken, Japan 324‐8550 2. OFFICIAL CORRESPONDENT: Naofumi Watanabe Senior Manager, Regulatory Affairs and Vigilance 3. ESTABLISHMENT REGISTRATION: 9614698 4.",
+      "predicate_devices": [
+        "K132813",
+        "K163213",
+        "K183046",
+        "K192188"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [
+        "AIDR 3D (自适应迭代剂量降低重建)",
+        "FIRST (前向投影模型迭代重建)",
+        "AiCE (深度学习重建算法)",
+        "KARL 3D (迭代重建)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "stated in the enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA). You may, therefore, market the device, subject to the general controls provisions of the Act. Although this letter refers to your product as a device, please be aware that some cleared products may instead be combination products. The 510(k) Premarket Notification Database located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination product submissions. The general controls provisions of the Act include requirements for annual registration, listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We remind you, however, that device labeling must be truthful and not misleading. If your device is classified (see above) into either class ...",
+      "device_description_summary": ": Aquilion ONE (TSX‐306A/3) V10.0 with Spectral Imaging System is a whole body multi‐slice helical CT scanner, consisting of a gantry, couch and a console used for data processing and display. This device captures cross sectional volume data sets used to perform specialized studies, using indicated software/hardware, by a trained and qualified physician. This system is based upon the technology and materials of previously marketed Canon CT systems. 13."
+    }
   },
   {
     "id": "ct_canon_prime_sp",
@@ -7698,7 +8243,28 @@
     "fda_510k_number": "K233334",
     "clinical_trials": [
       "NCT05836935"
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K233334",
+      "submitter": "’S NAME: Fumiaki Teshima Senior Manager, Quality Assurance Department Canon Medical Systems Corporation 1385 Shimoishigami Otawara-Shi, Tochigi-ken, Japan 324-8550 2. ESTABLISHMENT REGISTRATION: 9614698 3. OFFICIAL CORRESPONDENT/",
+      "predicate_devices": [
+        "K191283",
+        "K192832",
+        "K231281"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [
+        "AiCE (深度学习重建算法)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": ": This device is indicated to acquire and display cross sectional volumes of the whole body, to include the head. The Aquilion Serve SP has the capability to provide volume sets. These volume sets can be used to perform specialized studies, using indicated software/hardware, by a trained and qualified physician. AiCE (Advanced Intelligent Clear-IQ Engine) is a noise reduction algorithm that improves image quality and reduces image noise by employing Deep Convolutional Neural Network methods for abdomen, pelvis, lung, cardiac, extremities, head and inner ear applications. 14.",
+      "device_description_summary": ": Aquilion Serve SP (TSX-307B/1) V1.3 is a whole body multi-slice helical CT scanner, consisting of a gantry, couch and a console used for data processing and display. This device captures cross sectional volume data sets used to perform specialized studies, using indicated software/hardware, by a trained and qualified physician. This system is based upon the technology and materials of previously marketed Canon CT systems. Aquilion Serve SP (TSX-307B/1) V1.3 is equipped with SilverBeam Filter which is a beam shaping filter that leverages the photon-attenuating properties of silver to selectively remove low energy photons from a polychromatic X-ray beam, leaving an energy spectrum optimized for high contrast CT applications. 13."
+    }
   },
   {
     "id": "ct_canon_lightning",
@@ -7900,7 +8466,28 @@
       "AIDR 3D Enhanced",
       "Compact design"
     ],
-    "fda_510k_number": "K201836"
+    "fda_510k_number": "K201836",
+    "fda_clearance_details": {
+      "fda_510k_number": "K201836",
+      "submitter": "Canon Medical Systems",
+      "predicate_devices": [
+        "K170019",
+        "K192832"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [
+        "AIDR 3D (自适应迭代剂量降低重建)",
+        "AiCE (深度学习重建算法)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "stated in the enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA). You may, therefore, market the device, subject to the general controls provisions of the Act. Although this letter refers to your product as a device, please be aware that some cleared products may instead be combination products. The 510(k) Premarket Notification Database located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination product submissions. The general controls provisions of the Act include requirements for annual registration, listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We remind you, however, that device labeling must be truthful and not misleading. If your device is classified (see above) into either class ...",
+      "device_description_summary": ": Aquilion Lightning (TSX‐036A/7) V10.2 with AiCE‐i. The Aquilion Lightning (TSX‐036A/7) V10.2 with AiCE‐i is an 80‐row CT system that is a whole body, multi‐slice helical CT scanner, consisting of a gantry, couch and console used for data processing and display. This device captures cross sectional volume data sets used to perform specialized studies, using indicated software/hardware, by a trained and qualified physician. This system is based upon the technology and materials of previously marketed Canon CT systems. In addition, the subject device incorporates the latest reconstruction technology, AiCE‐i (Advanced intelligent Clear‐IQ Engine ‐ integrated), intended to reduce image noise and improve image quality by utilizing Deep Convolutional Neural Network (DCNN) methods. This reconstruction algorithm is predicated on AiCE reconstruction algorithm previously 510(k) cleared per K192832 on the Canon CT scanner Aquilion Prime SP (TSX‐303B/8) V10.2 with AiCE‐i, which serves as a reference predicate for this submission. The DCNN methods can more fully explore the statistical properties of the signal and noise. By learning to differentiate structure from noise, the algorithm produ..."
+    }
   },
   {
     "id": "ct_united_uct_860",
@@ -8303,7 +8890,27 @@
       "Liquid Metal Tube",
       "KARL 3D Iterative Recon"
     ],
-    "fda_510k_number": "K253173"
+    "fda_510k_number": "K253173",
+    "fda_clearance_details": {
+      "fda_510k_number": "K253173",
+      "submitter": "Identification Shanghai United Imaging Healthcare Co.,Ltd. No.2258 Chengbei Rd. Jiading District, 201807, Shanghai, China",
+      "predicate_devices": [
+        "K241079"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {
+        "机架孔径 (Bore Size)": "70 cm"
+      },
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K253173 Device Name uCT 780 with uWS-CT-Dual Energy Analysis Indications for Use (Describe) uCT 780 is a computed tomography x-ray system intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission data taken at different angles and planes and indicated for the whole body (including head, neck, cardiac and vascular). uCT 780 is intended to be used for low dose CT lung cancer screening for the early detection of lung nodules that may represent cancer. The screening must be performed within the established inclusion criteria of programs / protocols that have been approved and published by either a governmental body or professional medical society. * Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. uWS-CT-Dual Energy Analysis is a post-processing software package that accepts UIH CT images acquired using different tube voltages and/or tube currents of the same anatomical location. The various materia...",
+      "device_description_summary": ": The Computed Tomography X-ray system, uCT 780, is intended to produce cross- sectional images of the patient by computer reconstruction of X-ray transmission data taken at different angles and planes. These images may be obtained either with or without contrast. This 510(k) is to request modifications for the cleared Computed Tomography X- ray system uCT 780. uCT 780 has been previously cleared by FDA via K241079.The modification performed on the uCT 780 (K241079) in this submission is due to the addition of a new high voltage generator. At the same time, we introduce a mobile configuration which supports installation in vehicles. A summary of the modified hardware is provided below:  A new model of high voltage generator uXG 100 has been introduced in the mobile configuration, and the predicate model CT140N80X4889 is still used in other non-mobile configurations.  A tilt lock has been introduced to the gantry and a horizontal movement lock has been introduced to the standard config patient table, and the system software has been updated to include the relevant controls and prompts.  PSC has been modified, including adding a shock-absorbing base, strengthening the sheet met..."
+    }
   },
   {
     "id": "ct_united_uct_528",
@@ -8505,7 +9112,30 @@
       "Compact footprint",
       "Z-Detector"
     ],
-    "fda_510k_number": "K183143"
+    "fda_510k_number": "K183143",
+    "fda_clearance_details": {
+      "fda_510k_number": "K183143",
+      "submitter": ", and a person is not required to respond to, a collection of information unless it displays a currently valid OMB number.” ,\u0012\u0019\u0014\u0012\u0015\u0014 Shanghai United Imaging Healthcare Co., Ltd. Tel: +86 (21) 67076888 Fax ：+86 (21) 67076889 www.united-imaging.com Page 1 of 9 510 (k) SUMMARY 1. Date of Preparation N ovember 10, 2018 2. Sponsor Identification Shanghai United Imaging Healthcare Co.,Ltd. No.2258 Chengbei Rd. Jiading District, 201807, Shanghai, China Co ntact Person: Shumei Wang Positi on: QM&RA VP Tel: +86-021-67076888-6776 Fax: +86-021-67076889 Email: shumei.wang@united-imaging.com 3. Identification of Pr oposed",
+      "predicate_devices": [
+        "K181414"
+      ],
+      "cleared_clinical_indications": [
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)",
+        "uDose (智能剂量调制)"
+      ],
+      "reconstruction_algorithms": [
+        "FIRST (前向投影模型迭代重建)",
+        "KARL 3D (迭代重建)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "stated in the enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA). You may, therefore, market the device, subject to the general controls provisions of the Act. Although this letter refers to your product as a device, please be aware that some cleared products may instead be combination products. The 510(k) Premarket Notification Database located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination product submissions. The general controls provisions of the Act include requirements for annual registration, listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We remind you, however, that device labeling must be truthful and not misleading. If your device is classified (see above) into either class ...",
+      "device_description_summary": ": The uCT 520/uCT 528 is a multi-slice X-ray computed tomography scanner which features a continuously rotating tube-detector system and functions according to the fan beam principle. The system provides the filter back-projection (FBP) algorithm to reconstruct images in DICOM format, which can be used by post-processing applications. The system consists of the Gantry, X-ray System, Data Management System, Patient Table, Console, Power Supply Cabinet, Image Processing Computer, and Software. The system software is a program used for patient management, data management, X- ray scan control, image reconstruction, and image archive. A motorized patient table moves the patient through a circular opening in the Gantry. As the patient passes through the Gantry, a source of x rays rotates around the inside of the circular opening. Detectors on the exit side of the patient record the X rays exiting the section of the patient's body being irradiated as an X-ray \"snapshot\". Many different \"snapshots\" (angles) are collected during one complete rotation. The data are sent to a computer to reconstruct all of the individual \"snapshots\" into a cross- sectional image (slice) of the internal org..."
+    }
   },
   {
     "id": "ct_united_uct_520",
@@ -8710,7 +9340,30 @@
     ],
     "fda_510k_number": "K183143",
     "clinical_trials": [],
-    "service_manuals": []
+    "service_manuals": [],
+    "fda_clearance_details": {
+      "fda_510k_number": "K183143",
+      "submitter": ", and a person is not required to respond to, a collection of information unless it displays a currently valid OMB number.” ,\u0012\u0019\u0014\u0012\u0015\u0014 Shanghai United Imaging Healthcare Co., Ltd. Tel: +86 (21) 67076888 Fax ：+86 (21) 67076889 www.united-imaging.com Page 1 of 9 510 (k) SUMMARY 1. Date of Preparation N ovember 10, 2018 2. Sponsor Identification Shanghai United Imaging Healthcare Co.,Ltd. No.2258 Chengbei Rd. Jiading District, 201807, Shanghai, China Co ntact Person: Shumei Wang Positi on: QM&RA VP Tel: +86-021-67076888-6776 Fax: +86-021-67076889 Email: shumei.wang@united-imaging.com 3. Identification of Pr oposed",
+      "predicate_devices": [
+        "K181414"
+      ],
+      "cleared_clinical_indications": [
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)",
+        "uDose (智能剂量调制)"
+      ],
+      "reconstruction_algorithms": [
+        "FIRST (前向投影模型迭代重建)",
+        "KARL 3D (迭代重建)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "stated in the enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA). You may, therefore, market the device, subject to the general controls provisions of the Act. Although this letter refers to your product as a device, please be aware that some cleared products may instead be combination products. The 510(k) Premarket Notification Database located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination product submissions. The general controls provisions of the Act include requirements for annual registration, listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We remind you, however, that device labeling must be truthful and not misleading. If your device is classified (see above) into either class ...",
+      "device_description_summary": ": The uCT 520/uCT 528 is a multi-slice X-ray computed tomography scanner which features a continuously rotating tube-detector system and functions according to the fan beam principle. The system provides the filter back-projection (FBP) algorithm to reconstruct images in DICOM format, which can be used by post-processing applications. The system consists of the Gantry, X-ray System, Data Management System, Patient Table, Console, Power Supply Cabinet, Image Processing Computer, and Software. The system software is a program used for patient management, data management, X- ray scan control, image reconstruction, and image archive. A motorized patient table moves the patient through a circular opening in the Gantry. As the patient passes through the Gantry, a source of x rays rotates around the inside of the circular opening. Detectors on the exit side of the patient record the X rays exiting the section of the patient's body being irradiated as an X-ray \"snapshot\". Many different \"snapshots\" (angles) are collected during one complete rotation. The data are sent to a computer to reconstruct all of the individual \"snapshots\" into a cross- sectional image (slice) of the internal org..."
+    }
   },
   {
     "id": "ct_united_uct_550",
@@ -8915,7 +9568,30 @@
     ],
     "fda_510k_number": "K183143",
     "clinical_trials": [],
-    "service_manuals": []
+    "service_manuals": [],
+    "fda_clearance_details": {
+      "fda_510k_number": "K183143",
+      "submitter": ", and a person is not required to respond to, a collection of information unless it displays a currently valid OMB number.” ,\u0012\u0019\u0014\u0012\u0015\u0014 Shanghai United Imaging Healthcare Co., Ltd. Tel: +86 (21) 67076888 Fax ：+86 (21) 67076889 www.united-imaging.com Page 1 of 9 510 (k) SUMMARY 1. Date of Preparation N ovember 10, 2018 2. Sponsor Identification Shanghai United Imaging Healthcare Co.,Ltd. No.2258 Chengbei Rd. Jiading District, 201807, Shanghai, China Co ntact Person: Shumei Wang Positi on: QM&RA VP Tel: +86-021-67076888-6776 Fax: +86-021-67076889 Email: shumei.wang@united-imaging.com 3. Identification of Pr oposed",
+      "predicate_devices": [
+        "K181414"
+      ],
+      "cleared_clinical_indications": [
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [
+        "Smart Dose (智能剂量控制)",
+        "Smart mA (智能电流调节)",
+        "uDose (智能剂量调制)"
+      ],
+      "reconstruction_algorithms": [
+        "FIRST (前向投影模型迭代重建)",
+        "KARL 3D (迭代重建)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "stated in the enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA). You may, therefore, market the device, subject to the general controls provisions of the Act. Although this letter refers to your product as a device, please be aware that some cleared products may instead be combination products. The 510(k) Premarket Notification Database located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination product submissions. The general controls provisions of the Act include requirements for annual registration, listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We remind you, however, that device labeling must be truthful and not misleading. If your device is classified (see above) into either class ...",
+      "device_description_summary": ": The uCT 520/uCT 528 is a multi-slice X-ray computed tomography scanner which features a continuously rotating tube-detector system and functions according to the fan beam principle. The system provides the filter back-projection (FBP) algorithm to reconstruct images in DICOM format, which can be used by post-processing applications. The system consists of the Gantry, X-ray System, Data Management System, Patient Table, Console, Power Supply Cabinet, Image Processing Computer, and Software. The system software is a program used for patient management, data management, X- ray scan control, image reconstruction, and image archive. A motorized patient table moves the patient through a circular opening in the Gantry. As the patient passes through the Gantry, a source of x rays rotates around the inside of the circular opening. Detectors on the exit side of the patient record the X rays exiting the section of the patient's body being irradiated as an X-ray \"snapshot\". Many different \"snapshots\" (angles) are collected during one complete rotation. The data are sent to a computer to reconstruct all of the individual \"snapshots\" into a cross- sectional image (slice) of the internal org..."
+    }
   },
   {
     "id": "ct_united_uct_760",
@@ -9119,7 +9795,27 @@
     ],
     "fda_510k_number": "K253173",
     "clinical_trials": [],
-    "service_manuals": []
+    "service_manuals": [],
+    "fda_clearance_details": {
+      "fda_510k_number": "K253173",
+      "submitter": "Identification Shanghai United Imaging Healthcare Co.,Ltd. No.2258 Chengbei Rd. Jiading District, 201807, Shanghai, China",
+      "predicate_devices": [
+        "K241079"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {
+        "机架孔径 (Bore Size)": "70 cm"
+      },
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K253173 Device Name uCT 780 with uWS-CT-Dual Energy Analysis Indications for Use (Describe) uCT 780 is a computed tomography x-ray system intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission data taken at different angles and planes and indicated for the whole body (including head, neck, cardiac and vascular). uCT 780 is intended to be used for low dose CT lung cancer screening for the early detection of lung nodules that may represent cancer. The screening must be performed within the established inclusion criteria of programs / protocols that have been approved and published by either a governmental body or professional medical society. * Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. uWS-CT-Dual Energy Analysis is a post-processing software package that accepts UIH CT images acquired using different tube voltages and/or tube currents of the same anatomical location. The various materia...",
+      "device_description_summary": ": The Computed Tomography X-ray system, uCT 780, is intended to produce cross- sectional images of the patient by computer reconstruction of X-ray transmission data taken at different angles and planes. These images may be obtained either with or without contrast. This 510(k) is to request modifications for the cleared Computed Tomography X- ray system uCT 780. uCT 780 has been previously cleared by FDA via K241079.The modification performed on the uCT 780 (K241079) in this submission is due to the addition of a new high voltage generator. At the same time, we introduce a mobile configuration which supports installation in vehicles. A summary of the modified hardware is provided below:  A new model of high voltage generator uXG 100 has been introduced in the mobile configuration, and the predicate model CT140N80X4889 is still used in other non-mobile configurations.  A tilt lock has been introduced to the gantry and a horizontal movement lock has been introduced to the standard config patient table, and the system software has been updated to include the relevant controls and prompts.  PSC has been modified, including adding a shock-absorbing base, strengthening the sheet met..."
+    }
   },
   {
     "id": "ct_neusoft_neuviz_glory",
@@ -9522,7 +10218,32 @@
       "ClearView",
       "O-Dose"
     ],
-    "fda_510k_number": "K151383"
+    "fda_510k_number": "K151383",
+    "fda_clearance_details": {
+      "fda_510k_number": "K151383",
+      "submitter": "Contact : Tian Yuehui Title : Manager of Q&R Department Tel : 86-24-83660646 Fax : 86-24-83660563 E-Mail : tianyh@neusoft.com Summary prepared :September 16, 2015 510(k) Page 2 of 6 Safety and Effectiveness information Indications for use: The NeuViz 128 Multi-Slice CT Scanner System can be used as a whole body computed tomography X-ray system featuring a continuously rotating X-ray tube and detector array. The acquired X-RAY transmission data is reconstructed by computer into cross-sectional images of the body from either the same axial plane taken at different angles or spiral planes taken at different angles.",
+      "predicate_devices": [
+        "K033326",
+        "K121792",
+        "K133373"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [
+        "ClearView / NeuSentry (智能剂量调制)"
+      ],
+      "reconstruction_algorithms": [
+        "ClearView (迭代重建)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: January 31, 2017 See PRA Statement below. 510(k) Number (if known) Device Name NeuViz 128 Multi-Slice CT Scanner System Indications for Use (Describe) The NeuViz 128 Multi-Slice CT Scanner System can be used as a whole body computed tomography X-ray system featuring a continuously rotating X-ray tube and detector array. The acquired X-RAY transmission data is reconstructed by computer into cross-sectional images of the body from either the same axial plane taken at different angles or spiral planes taken at different angles.",
+      "device_description_summary": ": The NeuViz 128 Multi-slice CT Scanner System is composed of a gantry, a patient couch, an operator console and includes image acquisition hardware and software, and associated accessories. It is designed to be a head and whole body X-ray computed tomography scanner which features a continuously rotating tube-detector system and functions according to the fan beam principle. The system provides the filter back-projection (FBP) and iterative\u0003reconstruction\u0003 algorithm(ClearView cleared in K133373) to\u0003reconstruct images. The end user can choose to apply either ClearView or the FBP to the acquired raw data. The system software is an interactive program used for X-ray scan control, image reconstruction, and image archive/evaluation. It provides the following digital image processing and visualization tools: z Support following scan speed:0.374s ǃ0.5sǃ0.6sǃ0.8sǃ1.0sǃ1.5sǃ2.0s. z Surview scan z Dual surview z Spiral scan z Axial scan z Image reconstruction z Plan scan z Patient information management z Patient information registration z Protocol selection z Bolus Tracking z CCT scan z Cardiac scan z Multi-phase scan z Tube Warm-up z Film z Report z 2D z DICOM Viewer z Home z MPR z 3D ..."
+    }
   },
   {
     "id": "ct_ge_photonova_spectra",
@@ -9727,7 +10448,40 @@
       "NVIDIA accelerated computing"
     ],
     "fda_510k_number": "K253520",
-    "clinical_trials": []
+    "clinical_trials": [],
+    "fda_clearance_details": {
+      "fda_510k_number": "K253520",
+      "submitter": "GE Medical Systems, LLC",
+      "predicate_devices": [
+        "K13640",
+        "K201745",
+        "K213715",
+        "K213999",
+        "K233750"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [
+        "Spectral Diagnostic (光谱能谱工作流)"
+      ],
+      "reconstruction_algorithms": [
+        "ASiR / ASiR-V (自适应统计迭代重建)",
+        "DLIR / TrueFidelity (深度学习重建算法)",
+        "Precise Image (深度学习重建算法)",
+        "AiCE (深度学习重建算法)",
+        "uLearn (深度学习重建算法)",
+        "NeuAI / NeuRec (深度学习重建算法)",
+        "FBP (滤波反投影)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K253520 Device Name Photonova Spectra, Photonova Spectra Select Indications for Use (Describe) The Photonova Spectra, Photonova Spectra Select system is a silicon-based spectral photon counting detector X-ray Computed Tomography scanner. The system is intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission projection data from the same axial plane taken at different angles. The system acquires multi-energy data in every scan and natively generates high resolution monochromatic images and material density maps to facilitate visualizing and analyzing information about anatomical and pathological structures. The system is indicated for head, whole body, cardiac, and vascular CT applications. The system is indicated for patients of all ages. The images can be post-processed to produce additional imaging planes or analysis results. The system is indicated for lung cancer screening for patients meeting the established inclusion criteria of programs/protocols that have been published by either a governmental body or professional ...",
+      "device_description_summary": "Photonova Spectra is the next iteration of the predicate, the Revolution Apex platform (K213715), introducing a new Deep Silicon (dSi) photon counting detector for CT imaging. Photonova Spectra aims to realize an improvement in both spatial resolution and spectral imaging performance relative to traditional Energy Integrating Detector (EID) systems for diagnostic CT. With photon -counting detectors that can better discriminate energies, spectral CT imaging can natively provide valuable information about tiss ue composition and material density without the need for active filtration or kVp modulation by performing material decomposition directly from native multi-energy data. The Photonova Spectra system is an ultra-premium multi-slice CT scanning system comprised of a gantry, a detector, an x -ray tube, a power distribution unit (PDU), a table, a system cabinet, a scanner desktop computer and user interface, and associated accessories. It is designed as a volumetric CT scanner to provide advanced imaging capability for a range of clinical applications. Compared to the predicate Revolution Apex, the key differences of the Photonova Spectra System consist of a Deep Silicon ( dSi) ..."
+    }
   },
   {
     "id": "ct_united_uct_ultima",
@@ -10800,7 +11554,9 @@
         "Syngo CT (临床后处理系统)"
       ],
       "reconstruction_algorithms": [
-        "IRIS (图像空间迭代重建)"
+        "IRIS (图像空间迭代重建)",
+        "FIRST (前向投影模型迭代重建)",
+        "KARL 3D (迭代重建)"
       ],
       "extracted_technical_specs": {},
       "indications_for_use_summary": "510(k) Number (if known) Device Name Form Approved: OMB No. 0910-0120 Expiration Date: January 31, 2017 See PRA Statement below. K140912 SOMATOM Scope/Scope Power Indications for Use (Describe) The SOMATOM Scope and SOMATOM Scope Power are intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission data from either the same axial plane taken at different angles or spiral planes\" taken at different angles. (*spiral planes: the axial planes resulted from the continuous rotation of detectors and x-ray tube, and the simultaneous translation of the patient.)",
