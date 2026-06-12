@@ -630,13 +630,6 @@ function App() {
                     <div key={mfg.id} className="mfg-section animate-fade-in">
                       <div className="mfg-section-header glass-panel">
                         <div className="mfg-info-wrapper">
-                          {mfg.logo_url ? (
-                            <img src={mfg.logo_url} alt={mfg.name_en} className="mfg-logo-img" />
-                          ) : (
-                            <div className="mfg-logo-placeholder">
-                              {mfg.name_en.slice(0, 2).toUpperCase()}
-                            </div>
-                          )}
                           <div className="mfg-text-details">
                             <h3 className="mfg-name">
                               <span className="mfg-cn">{mfg.name_cn}</span>
