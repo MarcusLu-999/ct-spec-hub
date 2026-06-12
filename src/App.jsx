@@ -217,6 +217,7 @@ function App() {
   useMemo(() => {
     const initExp = {};
     Object.keys(allCategories).forEach(cat => initExp[cat] = true);
+    initExp["FDA 510(k) Details"] = true;
     setExpandedCategories(initExp);
   }, [allCategories]);
 
@@ -583,6 +584,122 @@ function App() {
                     </React.Fragment>
                   ))}
 
+                  <tr className="compare-category-row" onClick={() => toggleCategory("FDA 510(k) Details")}>
+                    <td colSpan={compareProducts.length + 1} className="category-header">
+                      <span className={`accordion-icon ${expandedCategories["FDA 510(k) Details"] ? 'expanded' : ''}`}>▼</span>
+                      🛡️ FDA 510(k) Clearance Details (FDA 510k 准入与性能详情)
+                    </td>
+                  </tr>
+                  {expandedCategories["FDA 510(k) Details"] && (
+                    <>
+                      <tr className="spec-row hover-highlight">
+                        <td className="spec-label-col indented">510(k) Clearance Number</td>
+                        {compareProducts.map(p => (
+                          <td key={p.id}>
+                            {p.fda_510k_number ? (
+                              <a 
+                                href={`https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=${p.fda_510k_number}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="detail-link"
+                              >
+                                {p.fda_510k_number} ↗
+                              </a>
+                            ) : (
+                              <span className="text-slate-500">—</span>
+                            )}
+                          </td>
+                        ))}
+                      </tr>
+                      <tr className="spec-row hover-highlight">
+                        <td className="spec-label-col indented">Submitter (申请单位)</td>
+                        {compareProducts.map(p => (
+                          <td key={p.id} className="text-sm text-slate-300">
+                            {p.fda_clearance_details?.submitter || "—"}
+                          </td>
+                        ))}
+                      </tr>
+                      <tr className="spec-row hover-highlight">
+                        <td className="spec-label-col indented">Predicate Devices (前代参考)</td>
+                        {compareProducts.map(p => (
+                          <td key={p.id}>
+                            {p.fda_clearance_details?.predicate_devices?.length > 0 ? (
+                              <div className="predicate-badges" style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', justifyContent: 'center' }}>
+                                {p.fda_clearance_details.predicate_devices.map((pred, i) => (
+                                  <a
+                                    key={i}
+                                    href={`https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=${pred}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="predicate-badge"
+                                  >
+                                    {pred}
+                                  </a>
+                                ))}
+                              </div>
+                            ) : (
+                              <span className="text-slate-500">—</span>
+                            )}
+                          </td>
+                        ))}
+                      </tr>
+                      <tr className="spec-row hover-highlight">
+                        <td className="spec-label-col indented">Clinical Indications (获批临床适用)</td>
+                        {compareProducts.map(p => (
+                          <td key={p.id}>
+                            {p.fda_clearance_details?.cleared_clinical_indications?.length > 0 ? (
+                              <div className="fda-tags-container" style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', justifyContent: 'center' }}>
+                                {p.fda_clearance_details.cleared_clinical_indications.map((tag, i) => (
+                                  <span key={i} className="fda-tag clinical-tag" style={{ fontSize: '0.75rem', padding: '2px 6px' }}>
+                                    {tag}
+                                  </span>
+                                ))}
+                              </div>
+                            ) : (
+                              <span className="text-slate-500">—</span>
+                            )}
+                          </td>
+                        ))}
+                      </tr>
+                      <tr className="spec-row hover-highlight">
+                        <td className="spec-label-col indented">Software Features (获批软件特性)</td>
+                        {compareProducts.map(p => (
+                          <td key={p.id}>
+                            {p.fda_clearance_details?.cleared_software_features?.length > 0 ? (
+                              <div className="fda-tags-container" style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', justifyContent: 'center' }}>
+                                {p.fda_clearance_details.cleared_software_features.map((tag, i) => (
+                                  <span key={i} className="fda-tag software-tag" style={{ fontSize: '0.75rem', padding: '2px 6px' }}>
+                                    {tag}
+                                  </span>
+                                ))}
+                              </div>
+                            ) : (
+                              <span className="text-slate-500">—</span>
+                            )}
+                          </td>
+                        ))}
+                      </tr>
+                      <tr className="spec-row hover-highlight">
+                        <td className="spec-label-col indented">Reconstruction Algorithms (获批重建算法)</td>
+                        {compareProducts.map(p => (
+                          <td key={p.id}>
+                            {p.fda_clearance_details?.reconstruction_algorithms?.length > 0 ? (
+                              <div className="fda-tags-container" style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', justifyContent: 'center' }}>
+                                {p.fda_clearance_details.reconstruction_algorithms.map((tag, i) => (
+                                  <span key={i} className="fda-tag algo-tag" style={{ fontSize: '0.75rem', padding: '2px 6px' }}>
+                                    {tag}
+                                  </span>
+                                ))}
+                              </div>
+                            ) : (
+                              <span className="text-slate-500">—</span>
+                            )}
+                          </td>
+                        ))}
+                      </tr>
+                    </>
+                  )}
+
                   <tr>
                     <td className="spec-label-col">Key Features</td>
                     {compareProducts.map(p => (
@@ -881,6 +998,131 @@ function App() {
                   );
                 })}
               </div>
+
+              {activeDetailProduct.fda_clearance_details && (
+                <div className="detail-spec-category fda-clearance-card" style={{ marginTop: '20px', marginBottom: '24px' }}>
+                  <h4 className="detail-category-title fda-title" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <span>🛡️</span> FDA 510(k) Clearance & Parameters (FDA 510k 准入与提取详情)
+                  </h4>
+                  
+                  <div className="fda-details-grid" style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '12px' }}>
+                    {activeDetailProduct.fda_clearance_details.submitter && (
+                      <div className="fda-detail-row">
+                        <span className="fda-detail-label">Submitter (申请机构)</span>
+                        <span className="fda-detail-value">{activeDetailProduct.fda_clearance_details.submitter}</span>
+                      </div>
+                    )}
+                    
+                    {activeDetailProduct.fda_clearance_details.predicate_devices && activeDetailProduct.fda_clearance_details.predicate_devices.length > 0 && (
+                      <div className="fda-detail-row">
+                        <span className="fda-detail-label">Predicate Devices (对比前代)</span>
+                        <span className="fda-detail-value">
+                          <div className="predicate-badges" style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '4px' }}>
+                            {activeDetailProduct.fda_clearance_details.predicate_devices.map((pred, idx) => (
+                              <a
+                                key={idx}
+                                href={`https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=${pred}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="predicate-badge"
+                              >
+                                {pred} ↗
+                              </a>
+                            ))}
+                          </div>
+                        </span>
+                      </div>
+                    )}
+
+                    {activeDetailProduct.fda_clearance_details.cleared_clinical_indications && activeDetailProduct.fda_clearance_details.cleared_clinical_indications.length > 0 && (
+                      <div className="fda-detail-row">
+                        <span className="fda-detail-label">Cleared Clinical Indications (获批临床适用)</span>
+                        <span className="fda-detail-value">
+                          <div className="fda-tags-container" style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '4px' }}>
+                            {activeDetailProduct.fda_clearance_details.cleared_clinical_indications.map((ind, idx) => (
+                              <span key={idx} className="fda-tag clinical-tag">
+                                🩺 {ind}
+                              </span>
+                            ))}
+                          </div>
+                        </span>
+                      </div>
+                    )}
+
+                    {activeDetailProduct.fda_clearance_details.cleared_software_features && activeDetailProduct.fda_clearance_details.cleared_software_features.length > 0 && (
+                      <div className="fda-detail-row">
+                        <span className="fda-detail-label">Cleared Software Features (获批软件特性)</span>
+                        <span className="fda-detail-value">
+                          <div className="fda-tags-container" style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '4px' }}>
+                            {activeDetailProduct.fda_clearance_details.cleared_software_features.map((feat, idx) => (
+                              <span key={idx} className="fda-tag software-tag">
+                                💻 {feat}
+                              </span>
+                            ))}
+                          </div>
+                        </span>
+                      </div>
+                    )}
+
+                    {activeDetailProduct.fda_clearance_details.reconstruction_algorithms && activeDetailProduct.fda_clearance_details.reconstruction_algorithms.length > 0 && (
+                      <div className="fda-detail-row">
+                        <span className="fda-detail-label">Reconstruction Algorithms (重建算法)</span>
+                        <span className="fda-detail-value">
+                          <div className="fda-tags-container" style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '4px' }}>
+                            {activeDetailProduct.fda_clearance_details.reconstruction_algorithms.map((algo, idx) => (
+                              <span key={idx} className="fda-tag algo-tag">
+                                🧬 {algo}
+                              </span>
+                            ))}
+                          </div>
+                        </span>
+                      </div>
+                    )}
+
+                    {activeDetailProduct.fda_clearance_details.extracted_technical_specs && Object.keys(activeDetailProduct.fda_clearance_details.extracted_technical_specs).length > 0 && (
+                      <div className="fda-detail-row">
+                        <span className="fda-detail-label">Extracted Technical Specs (FDA提取指标)</span>
+                        <span className="fda-detail-value">
+                          <div className="fda-tech-specs" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '4px' }}>
+                            {Object.entries(activeDetailProduct.fda_clearance_details.extracted_technical_specs).map(([specKey, specVal]) => (
+                              <div key={specKey} className="fda-tech-spec-item">
+                                <span className="fda-tech-key">{specKey}:</span>
+                                <span className="fda-tech-val">{specVal}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </span>
+                      </div>
+                    )}
+                  </div>
+
+                  {activeDetailProduct.fda_clearance_details.indications_for_use_summary && (
+                    <div className="fda-summary-block" style={{ marginTop: '16px', borderTop: '1px solid var(--border-light)', paddingTop: '12px' }}>
+                      <details className="fda-details-accordion">
+                        <summary className="fda-accordion-summary">
+                          <strong>Indications for Use (临床适用证摘要)</strong>
+                        </summary>
+                        <p className="fda-accordion-content">
+                          {activeDetailProduct.fda_clearance_details.indications_for_use_summary}
+                        </p>
+                      </details>
+                    </div>
+                  )}
+
+                  {activeDetailProduct.fda_clearance_details.device_description_summary && (
+                    <div className="fda-summary-block" style={{ marginTop: '12px', borderTop: '1px solid var(--border-light)', paddingTop: '12px' }}>
+                      <details className="fda-details-accordion">
+                        <summary className="fda-accordion-summary">
+                          <strong>Device Description (申报设备描述)</strong>
+                        </summary>
+                        <p className="fda-accordion-content">
+                          {activeDetailProduct.fda_clearance_details.device_description_summary}
+                        </p>
+                      </details>
+                    </div>
+                  )}
+                </div>
+              )}
 
               {activeDetailProduct.features && activeDetailProduct.features.length > 0 && (
                 <div className="detail-spec-category">

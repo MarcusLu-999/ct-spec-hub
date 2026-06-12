@@ -10776,7 +10776,7 @@
       "UFC detector technology",
       "e-Mode energy saving"
     ],
-    "fda_510k_number": "K132890",
+    "fda_510k_number": "K140912",
     "nmpa_registrations": [
       {
         "registration_number": "国械注准20143062064",
@@ -10787,20 +10787,24 @@
       }
     ],
     "fda_clearance_details": {
-      "fda_510k_number": "K132890",
-      "submitter": "Siemens Medical Solutions USA, Inc.",
+      "fda_510k_number": "K140912",
+      "submitter": "Siemens Medical Solutions USA, Inc. 51 Valley Stream Parkway Malvern, PA 19355",
       "predicate_devices": [
-        "K014002",
-        "K082536",
-        "K97002",
-        "K980919"
+        "K042328",
+        "K050297"
       ],
-      "cleared_clinical_indications": [],
-      "cleared_software_features": [],
-      "reconstruction_algorithms": [],
+      "cleared_clinical_indications": [
+        "全身成像 (Whole Body Imaging)"
+      ],
+      "cleared_software_features": [
+        "Syngo CT (临床后处理系统)"
+      ],
+      "reconstruction_algorithms": [
+        "IRIS (图像空间迭代重建)"
+      ],
       "extracted_technical_specs": {},
-      "indications_for_use_summary": ": The Suprapubic Catheter and Introducer Sct is indicated for drainage of the bladder through a needle puncture or stab wound over the bladder. For use no greater than 29 days. Environment of Use: Hospitals, sub-acute settings POP Page 101 of 109 CON Q<4- 00 CICN 0.0 C 0 '0 z 0 u - _ - -. 0 -a _ 0000S~s .E C C) ~ C t r 'I tsL~ = flto 4 ) .C ucj C.. .0 ~' rl~-~C 0)0 - ~ C. 0 (I '0 0) C00) '00.-C) ooE .0 4) 0.0.. CO 0 ) .~ ~ coo .~ ~ 35.c - ~ ,2u~~'0 - u0)t'~.0 0 4) ~0~CZ ~ ~~ecoo- u~-~~j -~ a ~ ~ ~e 0 u~ -~ 2 0) C'0L .0 C 4) '0 C 4. 0)0) C - o.a C> .. .~ .00 .~ C' .Sv 00 00 00 .0 C ... 0J.~ b CO~ ~ ~ 0) .0 - *-C.'e 0 ) ~C'~-00~' _ 4) L cooL. '0.0.0 00 0 C ... '00) .C cU ~ '0*0~5 ~ 20 3-ut .~'0 'fl I- -~ CO N ~Z. Ci~ . L~ 10 (N .0 0) '0 o 0. 0 10'0 I -~ 0 L 0)00 o. 4 - C 4) .0 '0 .0 4- - '0 C '0 .00)'. 0 -0 o a o 0 '0 C) ~ 00 00 .0C *- U ~ !n ~ 0. ~0 \"a so.0 C) 0 eu = 4) CO Eu OAt) d.E~ '0.0 .0 oO eN 30) 0 0 .0 - 0)~ ~ 0) .-- 0 ~. ud) o ~ ~ ~ 0* - F-.Eo.n~ C.-eZ ~- c.EC- CCQOZ?0 C ---- - 0 I. IL. C 04 C. u c V ->4)- CO.2 ~ oo IL - ~i 2 U 4) 4) ~I .~s)~' ~ C 0) ~ S A?0S C0 o .~ ~ 0.04 L. .~ C 41 c .-.- ~ *~ 01. - Lz) 0. *~ ~ K132 890 Page 3 of 9 510(k) Summary Page 3 of 9 19-Dec-20 13",
-      "device_description_summary": ": Suprapubic catheters are Foley catheters that are placed with an introducer through a needle puncture or stab wound over the bladder to allow bladder irrigation and!/ or drainage of the bladder. They are available in two (2) tip styles, closed and open tip. The introducer kit includes a number of components including: Scalpel, Syringe, 18 gauge needle, Dilator and Peelable sheath, and Guidewire"
+      "indications_for_use_summary": "510(k) Number (if known) Device Name Form Approved: OMB No. 0910-0120 Expiration Date: January 31, 2017 See PRA Statement below. K140912 SOMATOM Scope/Scope Power Indications for Use (Describe) The SOMATOM Scope and SOMATOM Scope Power are intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission data from either the same axial plane taken at different angles or spiral planes\" taken at different angles. (*spiral planes: the axial planes resulted from the continuous rotation of detectors and x-ray tube, and the simultaneous translation of the patient.)",
+      "device_description_summary": ": The SOMATOM Scope and SOMATOM Scope Power configured with software version syngo ® CT VC28 (SOMARIS/5 VC28) are whole body X-ray computed tomography scanners which operate with SOMARIS/5 software. SOMARIS/5 is a windows based program used for patient management, data management, X-ray scan control, image reconstruction, and image archive/evaluation. The SOMATOM Scope and SOMATOM Scope Power configured with software version syngo ® CT VC28 (SOMARIS/5 VC28) are able to transfer the acquired CT image data for image evaluation, using the DICOM standard. New software version syngo® CT VC28 supports the addition of eCockpit, eStart, eMode, eSleep, a Table Footswitch, Adaptive Signal Boost, and Gantry tilt Speed up. eCockpit The SOMATOM Scope and SOMATOM Scope Power will support a marketed bundle of features designed to support more efficient usage of system tube power. These features will be marketed under the name, “eCockpit,” and comprised of the following: x eMode ECO Mode (eMode) is a software feature, which uses pre-set values to reduce tube power (mA) and increase scan time, while keeping the dose unchanged. With this reduction in tube power, tube life can be increased. There ..."
     }
   }
 ]

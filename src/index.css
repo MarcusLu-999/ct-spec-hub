@@ -1741,3 +1741,160 @@ body {
   }
 }
 
+/* --- FDA Clearance Details Styling --- */
+.fda-clearance-card {
+  background: rgba(15, 23, 42, 0.45) !important;
+  border: 1px solid rgba(129, 140, 248, 0.25) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.fda-title {
+  color: var(--accent-purple) !important;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.fda-detail-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed rgba(148, 163, 184, 0.1);
+}
+
+.fda-detail-row:last-child {
+  border-bottom: none;
+}
+
+.fda-detail-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.fda-detail-value {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+/* Badges & Tags */
+.predicate-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  color: var(--accent-blue);
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.predicate-badge:hover {
+  background: rgba(56, 189, 248, 0.18);
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 8px rgba(56, 189, 248, 0.2);
+}
+
+.fda-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.clinical-tag {
+  background: rgba(129, 140, 248, 0.12);
+  border: 1px solid rgba(129, 140, 248, 0.3);
+  color: var(--accent-purple);
+}
+
+.software-tag {
+  background: rgba(52, 211, 153, 0.12);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  color: var(--accent-emerald);
+}
+
+.algo-tag {
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  color: var(--accent-blue);
+}
+
+.fda-tech-spec-item {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px 8px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+  font-size: 0.8rem;
+}
+
+.fda-tech-key {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.fda-tech-val {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Accordion */
+.fda-details-accordion {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.fda-accordion-summary {
+  cursor: pointer;
+  padding: 4px 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  list-style: none; /* Hide default arrow in modern browsers */
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.fda-accordion-summary::-webkit-details-marker {
+  display: none; /* Hide default arrow in Safari */
+}
+
+.fda-accordion-summary::before {
+  content: '▶';
+  font-size: 0.75rem;
+  transition: transform 0.2s ease;
+  color: var(--text-muted);
+}
+
+.fda-details-accordion[open] .fda-accordion-summary::before {
+  transform: rotate(90deg);
+}
+
+.fda-accordion-summary:hover {
+  color: var(--accent-blue);
+}
+
+.fda-accordion-content {
+  margin: 8px 0 0 0;
+  padding: 12px;
+  background: rgba(15, 23, 42, 0.5);
+  border-left: 3px solid var(--accent-purple);
+  border-radius: 0 8px 8px 0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+
