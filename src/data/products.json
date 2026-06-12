@@ -47,7 +47,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "UFC (StellarInfinity)",
           "unit": "",
           "label": "detector_material"
         },
@@ -67,7 +67,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vectron",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -205,7 +205,38 @@
       "NCT07049549",
       "NCT00442338",
       "NCT06812338"
-    ]
+    ],
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20223061086",
+        "model_suffix": "SOMATOM Force / Force Velo",
+        "approval_date": "2022-08-10",
+        "expiry_date": "2027-08-09",
+        "spec_delta": "Domestic flagship dual-source configuration featuring two Vectron X-ray tubes, StellarInfinity detectors, and myExam Companion workflow."
+      }
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K142955",
+      "submitter": "Siemens Medical Solutions USA, Inc. 40 Liberty Boulevard Mail code 65-1A Malvern, PA 19355",
+      "predicate_devices": [
+        "K081022",
+        "K113287",
+        "K120579",
+        "K121072",
+        "K122471"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: January 31, 2017 See PRA Statement below. 510(k) Number (if known) K142955 Device Name SOMATOM Force Indications for Use (Describe) This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information.",
+      "device_description_summary": ": Siemens SOMATOM Computed Tomography System family scanners are whole body X-ray computed tomography systems wh ich feature a continuously rotating tube-detector system and functions according to the fan beam principle. The SOMATOM Computed Tomography System fam ily scanners vary in configurations from 6 to 192 slices, and are intended to produce cross sectional images of the body by computer reconstruction of x-ray transmission data from either the same axial plane taken at different angles or spiral planes taken at different angles. The system software is a command-bas ed program used for patient management, data management, X-ray scan control, image reconstruction, and image archive/evaluation. The systems described in this submission provide pre-defined low dose scan modes similar to the modes used for The National Lung Screening Trial (NLST), and the features as recommend by the study. This allows use of these systems for screening in the same way the CT systems were used for NLST. The computer system delivered with the CT scanner is able to run post processing applications optionally."
+    }
   },
   {
     "id": "ct_siemens_somatom_xcite",
@@ -255,7 +286,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "UFC (Stellar)",
           "unit": "",
           "label": "detector_material"
         },
@@ -275,7 +306,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vectron",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -408,7 +439,42 @@
       "82cm large bore",
       "myExam Companion AI"
     ],
-    "fda_510k_number": "K211373"
+    "fda_510k_number": "K211373",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20223061762",
+        "model_suffix": "SOMATOM X.cite",
+        "approval_date": "2022-12-12",
+        "expiry_date": "2027-12-11",
+        "spec_delta": "Domestic 82cm large-bore single-source CT platform featuring myExam Companion intelligent interface and high-power Vectron tube."
+      }
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K211373",
+      "submitter": "Siemens Medical Solutions USA, Inc. 810 Innovation Drive Knoxville, TN 37932",
+      "predicate_devices": [
+        "K190578",
+        "K200524"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [
+        "myExam Companion (AI工作流)",
+        "myNeedle Companion (介入穿刺导航)",
+        "Syngo CT (临床后处理系统)"
+      ],
+      "reconstruction_algorithms": [
+        "ADMIRE (基于模型迭代重建)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
+      "device_description_summary": "S iemens intends to update software version, SOMARIS/10 syngo CT VA40 for Siemens SOMATOM Computed Tomography (CT) Scanner Systems with unmodified mobile workflow options. This update also includes optional hardware for CT guided intervention workflow for the X. platform supporting CT Scanner Systems. SOMATOM go.Platform is comprised of the following 6 CT scanners and optional mobile workflow: • SOMATOM go.Up • SOMATOM go.Now • SOMATOM go.Top • SOMATOM go.All • SOMATOM go.Sim • SOMATOM go.Open Pro • Scan&GO Software (optional mobile workflow component) S OMATOM X. platform is comprised of the following 2 CT scanners and optional mobile workflow: • SOMATOM X.cite • SOMATOM X.ceed (new CT Scanner Model) • Scan&GO Software (optional mobile workflow component) T he subject device SOMATOM go. platform and SOMATOM X. platform with SOMARIS/10 syngo CT VA40 are Computed Tomography X-ray Systems which feature one continuously rotating tube-detector system and function according to the fan beam principle. The SOMATOM go. platform and SOMATOM X. platform with software SOMARIS/10 syngo CT VA40 produces CT images in DICOM format. These images can be used by trained staff for post-processing ..."
+    }
   },
   {
     "id": "ct_siemens_naeotom_alpha",
@@ -458,7 +524,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "CZT (碲锌镉光子计数)",
           "unit": "",
           "label": "detector_material"
         },
@@ -478,7 +544,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vectron",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -616,7 +682,38 @@
       "NCT07603167",
       "NCT06017973",
       "NCT05904418"
-    ]
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K233657",
+      "submitter": "Siemens Medical Solutions USA, Inc. 810 Innovation Drive Knoxville, TN 37932 Establishment Registration Number: 1034973 I mporter/Distributor Siemens Medical Solutions USA, Inc. 40 Liberty Boulevard Malvern, PA 19355 Establishment Registration Number: 2240869 Lo cation of Manufacturing Site Siemens Healthcare GmbH Siemensstr. 1 -OR- Rittigfeld 1 D-91301 Forchheim, Germany Establishment Registration Number: 3004977335 N ote: Descriptions in this submission use the short company name Siemens. Brand name on all products is Siemens Healthineers. S ubmitter",
+      "predicate_devices": [
+        "K191040",
+        "K220450",
+        "K220814",
+        "K221727",
+        "K230421"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)",
+        "急诊与创伤 (Emergency/Trauma)"
+      ],
+      "cleared_software_features": [
+        "myExam Companion (AI工作流)",
+        "myNeedle Companion (介入穿刺导航)",
+        "Syngo CT (临床后处理系统)"
+      ],
+      "reconstruction_algorithms": [
+        "SAFIRE (正弦图确定迭代重建)",
+        "ADMIRE (基于模型迭代重建)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "Form Approved: 0MB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. I DEPARTMENT OF HEAL TH AND HUMAN SERVICES =============== Submission Number (if known) Device Name I NAEOTOM Alpha Indications for Use (Describe) This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained staff as an aid in diagnosis and treatment as well as for diagnostic and therapeutic interventions. This CT system can be used for low dose lung cancer screening in high risk populations*. * As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information.",
+      "device_description_summary": "Siemens intends to market a new software version, SOMARIS/10 syngo CT VB10, for the Dual Source CT system NAEOTOM Alpha based on the SOMARIS/10 platform. The subject device NAEOTOM Alpha with software version SOMARIS/10 syngo CT VB10 is a Computed Tomography X-ray system which features two continuously rotating tube-detector systems, denominated as A- and B-systems respectively (dual source CT scanner system). The detectors’ function is based on photon-counting technology. The NAEOTOM Alpha with SOMARIS/10 syngo CT VB10 produces CT images in DICOM format, which can be used by trained staff for post- processing applications commercially distributed by Siemens and other vendors as an aid in diagnosis and treatment as well as for diagnostic and therapeutic interventions. The computer system delivered with the CT scanner is able to run optional post-processing applications. Only trained and qualified users, certified in accordance with country-specific regulations, are authorized to operate the system. For example, physicians, radiologists, or technologists. The user must have the necessary U.S. qualifications in order to diagnose or treat the patient with the use of the images deli..."
+    }
   },
   {
     "id": "ct_siemens_somatom_propulse",
@@ -666,7 +763,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "UFC (Stellar)",
           "unit": "",
           "label": "detector_material"
         },
@@ -686,7 +783,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Athlon DS",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -819,7 +916,46 @@
       "Intelligent Volume Reconstruction",
       "Air-cooled gantry"
     ],
-    "fda_510k_number": "K250822"
+    "fda_510k_number": "K250822",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20243061277",
+        "model_suffix": "SOMATOM Pro.Pulse",
+        "approval_date": "2024-07-17",
+        "expiry_date": "2029-07-16",
+        "spec_delta": "Domestic dual-source CT featuring myExam Companion intelligent AI workflow, air-cooled gantry, and 86ms temporal resolution."
+      }
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K250822",
+      "submitter": "Siemens Medical Solutions USA, Inc. 810 Innovation Drive Knoxville, TN 37932 Establishment Registration Number: 1034973 Importer/Distributor Siemens Medical Solutions USA, Inc. 40 Liberty Boulevard Malvern, PA 19355 Establishment Registration Number: 2240869 Location of Manufacturing Site (1) Siemens Healthineers AG Siemensstr. 1 -OR- Rittigfeld 1 D-91301 Forchheim, Germany Establishment Registration Number: 3004977335 Location of Manufacturing Site (2) SIEMENS SHANGHAI, MEDICAL EQUIPMENT LTD 278 Zhou Zhu Rd Shanghai, CHINA, 201318 Establishment Registration Number: 3003202425 Note: Descriptions in this submission use the short company name Siemens. It covers both manufacturing locations and names as listed above. Brand name on all products is Siemens Healthineers. K250822 Siemens Healthineers AG page 2 of 65 Submitter",
+      "predicate_devices": [
+        "K232206",
+        "K233650"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [
+        "CARE Dose4D (智能剂量调制)",
+        "CARE kV (智能电压调整)",
+        "myExam Companion (AI工作流)",
+        "myNeedle Companion (介入穿刺导航)",
+        "FAST (工作流加速)",
+        "Syngo CT (临床后处理系统)"
+      ],
+      "reconstruction_algorithms": [
+        "SAFIRE (正弦图确定迭代重建)",
+        "ADMIRE (基于模型迭代重建)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "Form Approved: OMB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. 510(k) Number (if known) K250822 Device Name SOMATOM go.Now; SOMATOM go.Up; SOMATOM go.All; SOMATOM go.Top; SOMATOM go.Sim; SOMATOM go.Open Pro; SOMATOM Pro.Pulse Indications for Use (Describe) This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of X-ray transmission data. The images delivered by the system can be used by a trained staff as an aid in diagnosis, treatment, and radiation therapy planning as well as for diagnostic and therapeutic interventions. This CT system can be used for low dose lung cancer screening in high risk populations*. * As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information.",
+      "device_description_summary": "Siemens intends to market a new software version, SOMARIS/10 syngo CT VB20 for the following SOMATOM Computed Tomography (CT) Scanner Systems: a) Single Source CT Scanner systems (SOMATOM go. Platform): • SOMATOM go.Now • SOMATOM go.Up • SOMATOM go.All • SOMATOM go.Top • SOMATOM go.Sim • SOMATOM go.Open Pro In this submission, the above listed CT scanner systems are jointly referred to as subject devices by “SOMATOM go. Platform” CT scanner systems. b) Dual Source CT Scanner system: • SOMATOM Pro.Pulse The above listed subject devices with SOMARIS/10 syngo CT VB20 are Computed Tomography X-ray Systems which feature one (Single Source) or two (Dual Source) continuously rotating tube-detector system and function according to the fan beam principle. The SOMATOM go. Platform and the SOMATOM Pro.Pulse with software SOMARIS/10 syngo CT VB20 produce CT images in DICOM format, which can be used by trained staff for software applications, e.g. post-processing applications, commercially distributed by Siemens Healthcare and other vendors as an aid in diagnosis, treatment preparation and therapy planning support (including, but not limited to, Brachytherapy, Particle including Proton Thera..."
+    }
   },
   {
     "id": "ct_siemens_somatom_drive",
@@ -869,7 +1005,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "UFC (Stellar)",
           "unit": "",
           "label": "detector_material"
         },
@@ -889,7 +1025,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Straton MX Sigma",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -1027,7 +1163,40 @@
       "NCT04401748",
       "NCT07141160",
       "NCT07257146"
-    ]
+    ],
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20223060766",
+        "model_suffix": "SOMATOM Drive",
+        "approval_date": "2022-06-07",
+        "expiry_date": "2027-06-06",
+        "spec_delta": "Domestic high-performance dual-source configuration equipped with two Straton MX Sigma tubes and Stellar detectors."
+      }
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K161196",
+      "submitter": "Siemens Medical Solutions USA, Inc.",
+      "predicate_devices": [
+        "K133589",
+        "K142955",
+        "K143416"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [
+        "Syngo CT (临床后处理系统)"
+      ],
+      "reconstruction_algorithms": [
+        "SAFIRE (正弦图确定迭代重建)",
+        "ADMIRE (基于模型迭代重建)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "and fundamental scientific technology remain unchanged from the predicate devices. The Indication for Use and technological characteristics are similar for the subject and predicate devices. Any differences in technological characteristics between the subject device and predicate devices do not raise different questions of safety and effectiveness. As such, Siemens believes that the subject device is substantially equivalent to the predicate devices. 7. Nonclinical Testing The features described in this premarket notification are supported with verification and validation testing. Non clinical tests, including dosimetry and image performance, were conducted for the SOMATOM Drive during product development. The risk analysis was completed and risk control implemented to mitigate identified hazards. The test results show that all of the software specifications have met the acceptance criteria. Verification and validation testing of the device was found acceptable to support the claim of",
+      "device_description_summary": ": The Siemens SOMATOM Drive is a Computed Tomography X- ray System, which features two continuously rotating tube-detector systems and functions according to the fan beam principle. The SOMATOM Drive produces CT images in DICOM format, which can be used by post-processing applications commercially distributed by Siemens and other vendors. The computer system delivered with the CT scanner is able to run the post processing applications optionally. syngo CT VA62A (SOMARIS/7 VA62A) is a command-based program used for patient management, data management, X-ray scan control, image reconstruction, and image archive/evaluation available on the SOMATOM Drive CT system. 5. Indication for Use: This computed tomography system is intended to generate and process cross- sectional images of patients by computer reconstruction of X-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. This CT system can be used for low dose lung cancer screening in high risk populations.* Page 2 of 5 *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl..."
+    }
   },
   {
     "id": "ct_siemens_somatom_xceed",
@@ -1077,7 +1246,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "UFC (Stellar)",
           "unit": "",
           "label": "detector_material"
         },
@@ -1097,7 +1266,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Vectron",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -1230,7 +1399,49 @@
       "StellarInfinity detector",
       "Vectron X-ray tube"
     ],
-    "fda_510k_number": "K211373"
+    "fda_510k_number": "K211373",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20243062628",
+        "model_suffix": "Base / Standard",
+        "approval_date": "2024-12-23",
+        "expiry_date": "2029-12-22",
+        "spec_delta": "Premium single-source CT featuring Vectron tube, 82cm bore, and myNeedle Companion for intervention."
+      },
+      {
+        "registration_number": "国械注准20243061653",
+        "model_suffix": "Alternative / Subsidiary Config",
+        "approval_date": "2024-09-02",
+        "expiry_date": "2029-09-01",
+        "spec_delta": "High-resolution single-source configuration variant optimizing emergency and high-speed diagnostic scan speeds."
+      }
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K211373",
+      "submitter": "Siemens Medical Solutions USA, Inc. 810 Innovation Drive Knoxville, TN 37932",
+      "predicate_devices": [
+        "K190578",
+        "K200524"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [
+        "myExam Companion (AI工作流)",
+        "myNeedle Companion (介入穿刺导航)",
+        "Syngo CT (临床后处理系统)"
+      ],
+      "reconstruction_algorithms": [
+        "ADMIRE (基于模型迭代重建)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
+      "device_description_summary": "S iemens intends to update software version, SOMARIS/10 syngo CT VA40 for Siemens SOMATOM Computed Tomography (CT) Scanner Systems with unmodified mobile workflow options. This update also includes optional hardware for CT guided intervention workflow for the X. platform supporting CT Scanner Systems. SOMATOM go.Platform is comprised of the following 6 CT scanners and optional mobile workflow: • SOMATOM go.Up • SOMATOM go.Now • SOMATOM go.Top • SOMATOM go.All • SOMATOM go.Sim • SOMATOM go.Open Pro • Scan&GO Software (optional mobile workflow component) S OMATOM X. platform is comprised of the following 2 CT scanners and optional mobile workflow: • SOMATOM X.cite • SOMATOM X.ceed (new CT Scanner Model) • Scan&GO Software (optional mobile workflow component) T he subject device SOMATOM go. platform and SOMATOM X. platform with SOMARIS/10 syngo CT VA40 are Computed Tomography X-ray Systems which feature one continuously rotating tube-detector system and function according to the fan beam principle. The SOMATOM go. platform and SOMATOM X. platform with software SOMARIS/10 syngo CT VA40 produces CT images in DICOM format. These images can be used by trained staff for post-processing ..."
+    }
   },
   {
     "id": "ct_siemens_somatom_gotop",
@@ -1280,7 +1491,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "UFC (Stellar)",
           "unit": "",
           "label": "detector_material"
         },
@@ -1300,7 +1511,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Athlon",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -1433,7 +1644,56 @@
       "Athlon X-ray tube",
       "myExam Companion"
     ],
-    "fda_510k_number": "K211373"
+    "fda_510k_number": "K211373",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20183060594",
+        "model_suffix": "Base / Standard",
+        "approval_date": "2018-05-18",
+        "expiry_date": "2023-05-17",
+        "spec_delta": "Standard 128-slice premium configuration featuring advanced cardiac and dual-energy imaging."
+      },
+      {
+        "registration_number": "国械注准20213060347",
+        "model_suffix": "Consolidated",
+        "approval_date": "2021-05-12",
+        "expiry_date": "2026-05-11",
+        "spec_delta": "Consolidated registration certificate for the entire SOMATOM go. platform including go.Top configuration with syngo CT software."
+      },
+      {
+        "registration_number": "国械注准20263061216",
+        "model_suffix": "Consolidated Renewal",
+        "approval_date": "2026-06-08",
+        "expiry_date": "2031-06-07",
+        "spec_delta": "Renewed consolidated series certificate supporting the latest AI-driven mobile tablet workflow and syngo CT software upgrades."
+      }
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K211373",
+      "submitter": "Siemens Medical Solutions USA, Inc. 810 Innovation Drive Knoxville, TN 37932",
+      "predicate_devices": [
+        "K190578",
+        "K200524"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [
+        "myExam Companion (AI工作流)",
+        "myNeedle Companion (介入穿刺导航)",
+        "Syngo CT (临床后处理系统)"
+      ],
+      "reconstruction_algorithms": [
+        "ADMIRE (基于模型迭代重建)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
+      "device_description_summary": "S iemens intends to update software version, SOMARIS/10 syngo CT VA40 for Siemens SOMATOM Computed Tomography (CT) Scanner Systems with unmodified mobile workflow options. This update also includes optional hardware for CT guided intervention workflow for the X. platform supporting CT Scanner Systems. SOMATOM go.Platform is comprised of the following 6 CT scanners and optional mobile workflow: • SOMATOM go.Up • SOMATOM go.Now • SOMATOM go.Top • SOMATOM go.All • SOMATOM go.Sim • SOMATOM go.Open Pro • Scan&GO Software (optional mobile workflow component) S OMATOM X. platform is comprised of the following 2 CT scanners and optional mobile workflow: • SOMATOM X.cite • SOMATOM X.ceed (new CT Scanner Model) • Scan&GO Software (optional mobile workflow component) T he subject device SOMATOM go. platform and SOMATOM X. platform with SOMARIS/10 syngo CT VA40 are Computed Tomography X-ray Systems which feature one continuously rotating tube-detector system and function according to the fan beam principle. The SOMATOM go. platform and SOMATOM X. platform with software SOMARIS/10 syngo CT VA40 produces CT images in DICOM format. These images can be used by trained staff for post-processing ..."
+    }
   },
   {
     "id": "ct_siemens_somatom_goall",
@@ -1483,7 +1743,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "UFC (Stellar)",
           "unit": "",
           "label": "detector_material"
         },
@@ -1503,7 +1763,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Athlon",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -1636,7 +1896,56 @@
       "Mobile tablet-based workflow",
       "Guide&GO interventions"
     ],
-    "fda_510k_number": "K211373"
+    "fda_510k_number": "K211373",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20183060596",
+        "model_suffix": "Base / Standard",
+        "approval_date": "2018-05-18",
+        "expiry_date": "2023-05-17",
+        "spec_delta": "Standard 64-slice advanced configuration featuring specialized clinical applications."
+      },
+      {
+        "registration_number": "国械注准20213060347",
+        "model_suffix": "Consolidated",
+        "approval_date": "2021-05-12",
+        "expiry_date": "2026-05-11",
+        "spec_delta": "Consolidated registration certificate for the entire SOMATOM go. platform including go.All configuration."
+      },
+      {
+        "registration_number": "国械注准20263061216",
+        "model_suffix": "Consolidated Renewal",
+        "approval_date": "2026-06-08",
+        "expiry_date": "2031-06-07",
+        "spec_delta": "Renewed consolidated series certificate supporting the latest AI-driven mobile tablet workflow."
+      }
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K211373",
+      "submitter": "Siemens Medical Solutions USA, Inc. 810 Innovation Drive Knoxville, TN 37932",
+      "predicate_devices": [
+        "K190578",
+        "K200524"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [
+        "myExam Companion (AI工作流)",
+        "myNeedle Companion (介入穿刺导航)",
+        "Syngo CT (临床后处理系统)"
+      ],
+      "reconstruction_algorithms": [
+        "ADMIRE (基于模型迭代重建)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
+      "device_description_summary": "S iemens intends to update software version, SOMARIS/10 syngo CT VA40 for Siemens SOMATOM Computed Tomography (CT) Scanner Systems with unmodified mobile workflow options. This update also includes optional hardware for CT guided intervention workflow for the X. platform supporting CT Scanner Systems. SOMATOM go.Platform is comprised of the following 6 CT scanners and optional mobile workflow: • SOMATOM go.Up • SOMATOM go.Now • SOMATOM go.Top • SOMATOM go.All • SOMATOM go.Sim • SOMATOM go.Open Pro • Scan&GO Software (optional mobile workflow component) S OMATOM X. platform is comprised of the following 2 CT scanners and optional mobile workflow: • SOMATOM X.cite • SOMATOM X.ceed (new CT Scanner Model) • Scan&GO Software (optional mobile workflow component) T he subject device SOMATOM go. platform and SOMATOM X. platform with SOMARIS/10 syngo CT VA40 are Computed Tomography X-ray Systems which feature one continuously rotating tube-detector system and function according to the fan beam principle. The SOMATOM go. platform and SOMATOM X. platform with software SOMARIS/10 syngo CT VA40 produces CT images in DICOM format. These images can be used by trained staff for post-processing ..."
+    }
   },
   {
     "id": "ct_siemens_somatom_goup",
@@ -1686,7 +1995,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "UFC (Stellar)",
           "unit": "",
           "label": "detector_material"
         },
@@ -1706,7 +2015,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Chronon",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -1839,7 +2148,56 @@
       "Mobile tablet-based workflow",
       "Stellar detector"
     ],
-    "fda_510k_number": "K211373"
+    "fda_510k_number": "K211373",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20173061353",
+        "model_suffix": "Base / Standard",
+        "approval_date": "2017-06-16",
+        "expiry_date": "2022-06-15",
+        "spec_delta": "Standard 64-slice routine CT platform featuring mobile workflow."
+      },
+      {
+        "registration_number": "国械注准20213060347",
+        "model_suffix": "Consolidated",
+        "approval_date": "2021-05-12",
+        "expiry_date": "2026-05-11",
+        "spec_delta": "Consolidated registration certificate for the entire SOMATOM go. platform including go.Up configuration."
+      },
+      {
+        "registration_number": "国械注准20263061216",
+        "model_suffix": "Consolidated Renewal",
+        "approval_date": "2026-06-08",
+        "expiry_date": "2031-06-07",
+        "spec_delta": "Renewed consolidated series certificate supporting the latest AI-driven mobile tablet workflow."
+      }
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K211373",
+      "submitter": "Siemens Medical Solutions USA, Inc. 810 Innovation Drive Knoxville, TN 37932",
+      "predicate_devices": [
+        "K190578",
+        "K200524"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [
+        "myExam Companion (AI工作流)",
+        "myNeedle Companion (介入穿刺导航)",
+        "Syngo CT (临床后处理系统)"
+      ],
+      "reconstruction_algorithms": [
+        "ADMIRE (基于模型迭代重建)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
+      "device_description_summary": "S iemens intends to update software version, SOMARIS/10 syngo CT VA40 for Siemens SOMATOM Computed Tomography (CT) Scanner Systems with unmodified mobile workflow options. This update also includes optional hardware for CT guided intervention workflow for the X. platform supporting CT Scanner Systems. SOMATOM go.Platform is comprised of the following 6 CT scanners and optional mobile workflow: • SOMATOM go.Up • SOMATOM go.Now • SOMATOM go.Top • SOMATOM go.All • SOMATOM go.Sim • SOMATOM go.Open Pro • Scan&GO Software (optional mobile workflow component) S OMATOM X. platform is comprised of the following 2 CT scanners and optional mobile workflow: • SOMATOM X.cite • SOMATOM X.ceed (new CT Scanner Model) • Scan&GO Software (optional mobile workflow component) T he subject device SOMATOM go. platform and SOMATOM X. platform with SOMARIS/10 syngo CT VA40 are Computed Tomography X-ray Systems which feature one continuously rotating tube-detector system and function according to the fan beam principle. The SOMATOM go. platform and SOMATOM X. platform with software SOMARIS/10 syngo CT VA40 produces CT images in DICOM format. These images can be used by trained staff for post-processing ..."
+    }
   },
   {
     "id": "ct_siemens_somatom_gonow",
@@ -1889,7 +2247,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "UFC (Stellar)",
           "unit": "",
           "label": "detector_material"
         },
@@ -1909,7 +2267,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Chronon",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -2041,7 +2399,56 @@
       "Tablet-based mobile operation",
       "AI-powered automation"
     ],
-    "fda_510k_number": "K211373"
+    "fda_510k_number": "K211373",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20173061355",
+        "model_suffix": "Base / Standard",
+        "approval_date": "2017-06-16",
+        "expiry_date": "2022-06-15",
+        "spec_delta": "Standard 32-slice configuration variant of the SOMATOM go.Now routine CT platform."
+      },
+      {
+        "registration_number": "国械注准20213060347",
+        "model_suffix": "Consolidated",
+        "approval_date": "2021-05-12",
+        "expiry_date": "2026-05-11",
+        "spec_delta": "Consolidated registration certificate for the entire SOMATOM go. platform including go.Now configuration with updated software version."
+      },
+      {
+        "registration_number": "国械注准20263061216",
+        "model_suffix": "Consolidated Renewal",
+        "approval_date": "2026-06-08",
+        "expiry_date": "2031-06-07",
+        "spec_delta": "Renewed consolidated series certificate supporting the latest AI-driven mobile tablet workflow."
+      }
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K211373",
+      "submitter": "Siemens Medical Solutions USA, Inc. 810 Innovation Drive Knoxville, TN 37932",
+      "predicate_devices": [
+        "K190578",
+        "K200524"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)",
+        "儿科成像 (Pediatric Imaging)",
+        "全身成像 (Whole Body Imaging)",
+        "肿瘤/放疗定位 (Oncology/RT Simulation)",
+        "肺癌筛查 (Lung Cancer Screening)"
+      ],
+      "cleared_software_features": [
+        "myExam Companion (AI工作流)",
+        "myNeedle Companion (介入穿刺导航)",
+        "Syngo CT (临床后处理系统)"
+      ],
+      "reconstruction_algorithms": [
+        "ADMIRE (基于模型迭代重建)"
+      ],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": "This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained physician as an aid in diagnosis. The images delivered by the system can be used by trained staff as an aid in diagnosis, treatment preparation and radiation therapy planning. This CT system can be used for low dose lung cancer screening in high risk populations.* *As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information. VI.",
+      "device_description_summary": "S iemens intends to update software version, SOMARIS/10 syngo CT VA40 for Siemens SOMATOM Computed Tomography (CT) Scanner Systems with unmodified mobile workflow options. This update also includes optional hardware for CT guided intervention workflow for the X. platform supporting CT Scanner Systems. SOMATOM go.Platform is comprised of the following 6 CT scanners and optional mobile workflow: • SOMATOM go.Up • SOMATOM go.Now • SOMATOM go.Top • SOMATOM go.All • SOMATOM go.Sim • SOMATOM go.Open Pro • Scan&GO Software (optional mobile workflow component) S OMATOM X. platform is comprised of the following 2 CT scanners and optional mobile workflow: • SOMATOM X.cite • SOMATOM X.ceed (new CT Scanner Model) • Scan&GO Software (optional mobile workflow component) T he subject device SOMATOM go. platform and SOMATOM X. platform with SOMARIS/10 syngo CT VA40 are Computed Tomography X-ray Systems which feature one continuously rotating tube-detector system and function according to the fan beam principle. The SOMATOM go. platform and SOMATOM X. platform with software SOMARIS/10 syngo CT VA40 produces CT images in DICOM format. These images can be used by trained staff for post-processing ..."
+    }
   },
   {
     "id": "ct_ge_revolution_apex_elite",
@@ -2091,7 +2498,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gemstone Clarity",
           "unit": "",
           "label": "detector_material"
         },
@@ -2111,7 +2518,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Quantix 160",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -2249,6 +2656,448 @@
     ]
   },
   {
+    "id": "ct_ge_revolution_apex",
+    "manufacturer_id": "mfg_ge",
+    "model_name": "Revolution Apex (国产系列)",
+    "category": "High-end",
+    "release_year": 2023,
+    "status": "active",
+    "description": "GE's flagship wide-coverage domestic CT platform featuring Apex Essential, Plus, and Expert configurations, powered by Quantix 160 tube and Gemstone Clarity Detector.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 80,
+          "unit": "cm",
+          "label": "机架孔径"
+        },
+        "rotation_speed": {
+          "value": 0.23,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 306,
+          "unit": "kg",
+          "label": "检查床最大承重"
+        },
+        "gantry_tilt": {
+          "value": 0,
+          "unit": "°",
+          "label": "机架倾角"
+        },
+        "scan_range": {
+          "value": 1850,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": 437,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "Gemstone Clarity",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 160,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 256,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 512,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "Quantix 160",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 6.8,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": 33,
+          "unit": "MHU",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "Water-cooled",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": 3400,
+          "unit": "kHU/min",
+          "label": "散热率"
+        },
+        "max_generator_power": {
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": 1300,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "min_kv": {
+          "value": 70,
+          "unit": "kV",
+          "label": "最低管电压"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 29,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "Smart mA / Organ Dose Modulation (ODM)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "ASiR-V",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": "TrueFidelity DL (深度学习神经网络重建)",
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": "Gemstone Spectral Imaging (GSI) / fast kV switching",
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 15,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.0 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": 60,
+          "unit": "fps",
+          "label": "最快重建速度"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "480V, 3-Phase (高瞬时瞬态功率补偿)",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "24 kW (带冷水机组双回路设计)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "3.0 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "TrueFidelity DLIR",
+      "160mm Coverage",
+      "Quantix Tube"
+    ],
+    "fda_510k_number": "K250941",
+    "clinical_trials": [
+      "NCT07192965"
+    ],
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20253060230",
+        "model_suffix": "Apex Essential",
+        "approval_date": "2025-03-24",
+        "expiry_date": "2030-03-23",
+        "spec_delta": "Essential configuration variant of the domestic Apex platform, featuring a 160mm Gemstone detector and standard Quantix 160 tube, optimized for standard high-end clinical workloads."
+      },
+      {
+        "registration_number": "国械注准20243062502",
+        "model_suffix": "Apex Plus",
+        "approval_date": "2024-06-25",
+        "expiry_date": "2029-06-24",
+        "spec_delta": "Plus configuration variant, featuring enhanced reconstruction speeds, optimized cardiac/spectral packages, and standard Smart mA dose modulation."
+      },
+      {
+        "registration_number": "国械注准20233061731",
+        "model_suffix": "Apex Expert",
+        "approval_date": "2023-10-18",
+        "expiry_date": "2028-10-17",
+        "spec_delta": "Expert configuration variant, featuring high-thermal capacity Performix tube, rapid kV switching, and advanced clinical packages for complex cases."
+      }
+    ]
+  },
+  {
+    "id": "ct_ge_revolution_altitude_plus_pro",
+    "manufacturer_id": "mfg_ge",
+    "model_name": "Revolution Altitude Plus Pro",
+    "category": "High-end",
+    "release_year": 2026,
+    "status": "active",
+    "description": "GE's latest advanced high-throughput CT platform featuring the Altitude gantry, Quantix tube technology, and smart clinical AI workflow integration.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 80,
+          "unit": "cm",
+          "label": "机架孔径"
+        },
+        "rotation_speed": {
+          "value": 0.23,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 306,
+          "unit": "kg",
+          "label": "检查床最大承重"
+        },
+        "gantry_tilt": {
+          "value": 0,
+          "unit": "°",
+          "label": "机架倾角"
+        },
+        "scan_range": {
+          "value": 1850,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": 437,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "Gemstone Clarity",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 160,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 256,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 512,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "Quantix 160",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 6.8,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": 33,
+          "unit": "MHU",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "Water-cooled",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": 3400,
+          "unit": "kHU/min",
+          "label": "散热率"
+        },
+        "max_generator_power": {
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": 1300,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "min_kv": {
+          "value": 70,
+          "unit": "kV",
+          "label": "最低管电压"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 29,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "Smart mA / Organ Dose Modulation (ODM)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "ASiR-V",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": "TrueFidelity DL (深度学习神经网络重建)",
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": "Gemstone Spectral Imaging (GSI) / fast kV switching",
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 15,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.0 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": 60,
+          "unit": "fps",
+          "label": "最快重建速度"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "480V, 3-Phase (高瞬时瞬态功率补偿)",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "24 kW (带冷水机组双回路设计)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "3.0 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "TrueFidelity DLIR",
+      "160mm Coverage",
+      "Quantix Tube"
+    ],
+    "fda_510k_number": "K250941",
+    "clinical_trials": [
+      "NCT07192965"
+    ],
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20263060875",
+        "model_suffix": "Revolution Altitude Plus Pro",
+        "approval_date": "2026-04-27",
+        "expiry_date": "2031-04-26",
+        "spec_delta": "Standard Revolution Altitude Plus Pro configuration, featuring advanced smart positioning, Quantix high-output tube, and AI-driven image reconstruction."
+      }
+    ]
+  },
+  {
     "id": "ct_ge_revolution_ascend",
     "manufacturer_id": "mfg_ge",
     "model_name": "Revolution Ascend",
@@ -2296,7 +3145,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "HiLight (Clarity)",
           "unit": "",
           "label": "detector_material"
         },
@@ -2316,7 +3165,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Performix 40 Plus",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -3511,7 +4360,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "Gemstone",
           "unit": "",
           "label": "detector_material"
         },
@@ -3531,7 +4380,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Performix HD",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -3668,16 +4517,39 @@
       "NCT02813473",
       "NCT02538861",
       "NCT03851276"
+    ],
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20203060827",
+        "model_suffix": "Base / Standard",
+        "approval_date": "2020-10-10",
+        "expiry_date": "2025-10-09",
+        "spec_delta": "Standard 160mm Gemstone detector, standard Quantix tube & 100kW generator"
+      },
+      {
+        "registration_number": "国械注准20203060996",
+        "model_suffix": "ES (Evolutionary System)",
+        "approval_date": "2020-11-15",
+        "expiry_date": "2025-11-14",
+        "spec_delta": "Pre-packaged with TrueFidelity DLIR reconstruction engine and advanced cardiac/spectral software suites"
+      },
+      {
+        "registration_number": "国械注准20233061565",
+        "model_suffix": "Power (High-Output)",
+        "approval_date": "2023-09-12",
+        "expiry_date": "2028-09-11",
+        "spec_delta": "Equipped with high-thermal capacity Performix tube, enhanced power modules for high-throughput heavy duty scanning"
+      }
     ]
   },
   {
-    "id": "ct_ge_revolution_maxima",
+    "id": "ct_ge_revolution_eagle",
     "manufacturer_id": "mfg_ge",
-    "model_name": "Revolution Maxima",
+    "model_name": "Revolution Eagle",
     "category": "Mid-range",
-    "release_year": 2019,
+    "release_year": 2022,
     "status": "active",
-    "description": "Versatile 64-slice CT with AI-based auto-positioning for optimized workflow.",
+    "description": "Mid-high range high-throughput CT scanner featuring fast rotation, advanced dose modulation, and reliable clinical performance.",
     "specifications": {
       "物理几何与机械参数 (Physical Geometry)": {
         "bore_size": {
@@ -3718,7 +4590,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "HiLight (Clarity)",
           "unit": "",
           "label": "detector_material"
         },
@@ -3738,7 +4610,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Performix 40 Plus",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -3870,7 +4742,1095 @@
       "ASiR-V",
       "Liquid Metal Bearing"
     ],
-    "fda_510k_number": "K250941"
+    "fda_510k_number": "K250941",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20223061116",
+        "model_suffix": "Revolution Eagle",
+        "approval_date": "2022-08-10",
+        "expiry_date": "2027-08-09",
+        "spec_delta": "Standard Revolution Eagle configuration, optimized for clinical routine scanning and efficient workflow throughput."
+      }
+    ]
+  },
+  {
+    "id": "ct_ge_discovery_rt",
+    "manufacturer_id": "mfg_ge",
+    "model_name": "Discovery RT",
+    "category": "Radiotherapy",
+    "release_year": 2018,
+    "status": "active",
+    "description": "Dedicated large-bore oncology simulation and planning CT system with integrated respiratory gating and metal artifact reduction (MAR).",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 80,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.5,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 227,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "gantry_tilt": {
+          "value": 0,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": 2000,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "HiLight (Clarity)",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "Performix Pro",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 8.0,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": 30,
+          "unit": "MHU",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "Water-cooled",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": 740,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 29,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "Smart mA / Organ Dose Modulation (ODM)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "ASiR-V",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 14,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.0 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "480V, 3-Phase (高瞬时瞬态功率补偿)",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "24 kW (带冷水机组双回路设计)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "3.0 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "160mm Coverage",
+      "One-beat Cardiac",
+      "Gemstone Clarity"
+    ],
+    "fda_510k_number": "K172828",
+    "clinical_trials": [
+      "NCT02813473",
+      "NCT02538861",
+      "NCT03851276"
+    ],
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20183061774",
+        "model_suffix": "Discovery RT",
+        "approval_date": "2018-12-10",
+        "expiry_date": "2023-12-09",
+        "spec_delta": "Oncology-specific large-bore gantry, respiratory gating compatibility, and specialized metal artifact reduction packages."
+      }
+    ]
+  },
+  {
+    "id": "ct_ge_revolution_frontier",
+    "manufacturer_id": "mfg_ge",
+    "model_name": "Revolution Frontier",
+    "category": "High-end",
+    "release_year": 2018,
+    "status": "active",
+    "description": "High-end gemstone spectral CT scanner featuring single-source fast kV switching for advanced material decomposition and vascular imaging.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 80,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.35,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 227,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "gantry_tilt": {
+          "value": 0,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": 2000,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "Gemstone Clarity",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "Performix HD Plus",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 8.0,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": 30,
+          "unit": "MHU",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "Water-cooled",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": 100,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": 740,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 29,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "Smart mA / Organ Dose Modulation (ODM)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "ASiR-V",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 14,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.0 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "480V, 3-Phase (高瞬时瞬态功率补偿)",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "24 kW (带冷水机组双回路设计)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "3.0 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "160mm Coverage",
+      "One-beat Cardiac",
+      "Gemstone Clarity"
+    ],
+    "fda_510k_number": "K170941",
+    "clinical_trials": [
+      "NCT02813473",
+      "NCT02538861",
+      "NCT03851276"
+    ],
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20183060559",
+        "model_suffix": "Revolution Frontier / Revolution Frontier ES",
+        "approval_date": "2018-05-18",
+        "expiry_date": "2023-05-17",
+        "spec_delta": "Equipped with high-performance Gemstone detector and Gemstone Spectral Imaging (GSI) package for material decomposition."
+      }
+    ]
+  },
+  {
+    "id": "ct_ge_revolution_maxima",
+    "manufacturer_id": "mfg_ge",
+    "model_name": "Revolution Maxima",
+    "category": "Mid-range",
+    "release_year": 2019,
+    "status": "active",
+    "description": "Versatile 64-slice CT with AI-based auto-positioning for optimized workflow.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 72,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.35,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 205,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "gantry_tilt": {
+          "value": 30,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": 1800,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "HiLight (Clarity)",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "Performix 40 Plus",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 6.3,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "Water-cooled",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": 72,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": 560,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 175,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "Smart mA / Organ Dose Modulation (ODM)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "ASiR-V (自适应统计迭代重建)",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 12,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.2 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380-480V, 3-Phase",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "16 kW (暖通恒温温控设计)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.5 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "AI Auto Positioning",
+      "ASiR-V",
+      "Liquid Metal Bearing"
+    ],
+    "fda_510k_number": "K250941",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20193060525",
+        "model_suffix": "Base / Standard",
+        "approval_date": "2019-05-22",
+        "expiry_date": "2024-05-21",
+        "spec_delta": "Standard Revolution Maxima configurations, optimized for high-throughput routine clinical scanning"
+      },
+      {
+        "registration_number": "国械注准20223060072",
+        "model_suffix": "Maxima M (China Customized)",
+        "approval_date": "2022-01-20",
+        "expiry_date": "2027-01-19",
+        "spec_delta": "China-customized M-class configuration, featuring optimized baseline scanning workflows for high-volume hospitals"
+      },
+      {
+        "registration_number": "国械注准20223061430",
+        "model_suffix": "Maxima Select (Cost-Effective)",
+        "approval_date": "2022-10-25",
+        "expiry_date": "2027-10-24",
+        "spec_delta": "Cost-effective standardized configuration variant focusing on high clinical efficiency and fast baseline scanning"
+      }
+    ]
+  },
+  {
+    "id": "ct_ge_revolution_aspire_plus",
+    "manufacturer_id": "mfg_ge",
+    "model_name": "Revolution Aspire Plus",
+    "category": "Mid-range",
+    "release_year": 2023,
+    "status": "active",
+    "description": "GE's mid-range high-efficiency CT scanner, optimized for high throughput and standardized clinical workflows with intelligent AI-assisted positioning.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 72,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.35,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 205,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "gantry_tilt": {
+          "value": 30,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": 1800,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "HiLight (Clarity)",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "Performix 40 Plus",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 6.3,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "Water-cooled",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": 72,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": 560,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 175,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "Smart mA / Organ Dose Modulation (ODM)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "ASiR-V (自适应统计迭代重建)",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 12,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.2 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380-480V, 3-Phase",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "16 kW (暖通恒温温控设计)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.5 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "AI Auto Positioning",
+      "ASiR-V",
+      "Liquid Metal Bearing"
+    ],
+    "fda_510k_number": "K250941",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20233061760",
+        "model_suffix": "Revolution Aspire Plus",
+        "approval_date": "2023-11-20",
+        "expiry_date": "2028-11-19",
+        "spec_delta": "Standard Revolution Aspire Plus configuration, featuring high-throughput hardware, automated workflows, and smart positioning assistance."
+      }
+    ]
+  },
+  {
+    "id": "ct_ge_revolution_act",
+    "manufacturer_id": "mfg_ge",
+    "model_name": "Revolution ACT 系列",
+    "category": "Mid-range",
+    "release_year": 2015,
+    "status": "active",
+    "description": "GE's classic entry-level 16-slice/32-slice CT scanner series, highly popular in primary care clinics and community hospitals for its reliability and efficiency.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 70,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.79,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 205,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "gantry_tilt": {
+          "value": 30,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": 1800,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": 20,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "HiLight (Clarity)",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 20,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 16,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 32,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "MX135CT",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 3.5,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": 8.0,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "Water-cooled",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": 32,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": 260,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 175,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "Smart mA / Organ Dose Modulation (ODM)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "ASiR-V (自适应统计迭代重建)",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 12,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.2 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380-480V, 3-Phase",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "16 kW (暖通恒温温控设计)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.5 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "AI Auto Positioning",
+      "ASiR-V",
+      "Liquid Metal Bearing"
+    ],
+    "fda_510k_number": "K143242",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20153062261",
+        "model_suffix": "Revolution ACT / ACTs / ACT EL",
+        "approval_date": "2015-06-15",
+        "expiry_date": "2020-06-14",
+        "spec_delta": "Standard 16/32 slice entry configuration, designed for high reliability, low maintenance, and optimized cost-efficiency."
+      }
+    ]
   },
   {
     "id": "ct_ge_optima_660",
@@ -3920,7 +5880,7 @@
       },
       "成像链与物理硬件 (Imaging Chain)": {
         "detector_material": {
-          "value": null,
+          "value": "HiLight",
           "unit": "",
           "label": "detector_material"
         },
@@ -3940,7 +5900,7 @@
           "label": "单圈最大重建层数"
         },
         "x_ray_tube_model": {
-          "value": null,
+          "value": "Performix 40",
           "unit": "",
           "label": "x_ray_tube_model"
         },
@@ -4073,6 +6033,850 @@
       "Volara Digital DAS"
     ],
     "fda_510k_number": "K123596"
+  },
+  {
+    "id": "ct_ge_optima_ct520",
+    "manufacturer_id": "mfg_ge",
+    "model_name": "Optima CT520",
+    "category": "Entry-level",
+    "release_year": 2013,
+    "status": "active",
+    "description": "Entry-level 16-slice/32-slice CT scanner, optimized for routine diagnostics, low dose, and high cost-efficiency.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 70,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.35,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 227,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "gantry_tilt": {
+          "value": 30,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": 1700,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "HiLight",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 20,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 16,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 32,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "Solarix 350",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 3.5,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "Water-cooled",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": 53.2,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": 600,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 175,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "Smart mA / Organ Dose Modulation (ODM)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "ASiR (第一代统计迭代重建)",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 11,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.2 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380-480V, 3-Phase",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "10 kW (普通空调加配新风)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.0 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "Compact Footprint",
+      "ASiR",
+      "Volara Digital DAS"
+    ],
+    "fda_510k_number": "K133596",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20193061811",
+        "model_suffix": "Optima CT520",
+        "approval_date": "2019-12-05",
+        "expiry_date": "2024-12-04",
+        "spec_delta": "Standard 16/32-slice configuration variant of the classic Optima CT520 platform."
+      }
+    ]
+  },
+  {
+    "id": "ct_ge_optima_ct620",
+    "manufacturer_id": "mfg_ge",
+    "model_name": "Optima CT620",
+    "category": "Mid-range",
+    "release_year": 2016,
+    "status": "active",
+    "description": "Mainstream 64-slice/128-slice CT scanner featuring advanced ASiR reconstruction and GSI Xtream spectral capability.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 70,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.35,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 227,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "gantry_tilt": {
+          "value": 30,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": 1700,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "HiLight",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "Performix 40",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 6.3,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "Water-cooled",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": 72,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": 600,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 175,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "Smart mA / Organ Dose Modulation (ODM)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "ASiR (第一代统计迭代重建)",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 11,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.2 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380-480V, 3-Phase",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "10 kW (普通空调加配新风)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.0 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "Compact Footprint",
+      "ASiR",
+      "Volara Digital DAS"
+    ],
+    "fda_510k_number": "K153596",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20193060821",
+        "model_suffix": "Optima CT620 / Revolution Ace ES",
+        "approval_date": "2019-08-15",
+        "expiry_date": "2024-08-14",
+        "spec_delta": "Equipped with ASiR-V reconstruction engine and options for fast energy/spectral imaging."
+      }
+    ]
+  },
+  {
+    "id": "ct_ge_optima_ct670",
+    "manufacturer_id": "mfg_ge",
+    "model_name": "Optima CT670",
+    "category": "Mid-range",
+    "release_year": 2017,
+    "status": "active",
+    "description": "High-throughput mid-range CT scanner designed for advanced oncology and vascular imaging with a large bore configuration.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 70,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.35,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 227,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "gantry_tilt": {
+          "value": 30,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": 1700,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "HiLight",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "Performix 40",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 8.0,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "Water-cooled",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": 72,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": 600,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 175,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "Smart mA / Organ Dose Modulation (ODM)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "ASiR (第一代统计迭代重建)",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 11,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.2 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380-480V, 3-Phase",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "10 kW (普通空调加配新风)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.0 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "Compact Footprint",
+      "ASiR",
+      "Volara Digital DAS"
+    ],
+    "fda_510k_number": "K173596",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20173064522",
+        "model_suffix": "Optima CT670",
+        "approval_date": "2017-08-25",
+        "expiry_date": "2022-08-24",
+        "spec_delta": "Standard large-bore configuration featuring 8.0 MHU Performix tube for heavy workloads."
+      }
+    ]
+  },
+  {
+    "id": "ct_ge_optima_ct680",
+    "manufacturer_id": "mfg_ge",
+    "model_name": "Optima CT680 Expert",
+    "category": "High-end",
+    "release_year": 2017,
+    "status": "active",
+    "description": "Premium mid-high range spectral CT scanner, optimized for advanced energy imaging and fast cardiac scans.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 70,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.35,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 227,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "gantry_tilt": {
+          "value": 30,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": 1700,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "HiLight",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 64,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "Performix 40",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 8.0,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "Water-cooled",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": 72,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": 600,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 175,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "Smart mA / Organ Dose Modulation (ODM)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "ASiR (第一代统计迭代重建)",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 11,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "2.2 mm @ 0.3%",
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380-480V, 3-Phase",
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "10 kW (普通空调加配新风)",
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.0 mm Pb (铅当量)",
+          "unit": "",
+          "label": "推荐防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "Compact Footprint",
+      "ASiR",
+      "Volara Digital DAS"
+    ],
+    "fda_510k_number": "K173597",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20173064521",
+        "model_suffix": "Optima CT680 Expert",
+        "approval_date": "2017-08-15",
+        "expiry_date": "2022-08-14",
+        "spec_delta": "Flagship Optima configuration, including GSI spectral package and high heat capacity tube for demanding clinical departments."
+      }
+    ]
   },
   {
     "id": "ct_philips_iqon",
@@ -7538,5 +10342,465 @@
     ],
     "fda_510k_number": "",
     "clinical_trials": []
+  },
+  {
+    "id": "ct_siemens_somatom_perspective",
+    "manufacturer_id": "mfg_siemens",
+    "model_name": "SOMATOM Perspective",
+    "category": "Routine",
+    "release_year": 2012,
+    "status": "active",
+    "description": "A versatile helical CT scanner designed for high daily throughput and clinical efficiency, featuring e-mode and optimized dose reduction technology.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 72,
+          "unit": "cm",
+          "label": "机架孔径"
+        },
+        "rotation_speed": {
+          "value": 0.48,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 200,
+          "unit": "kg",
+          "label": "检查床最大承重"
+        },
+        "gantry_tilt": {
+          "value": 30,
+          "unit": "°",
+          "label": "机架倾角"
+        },
+        "scan_range": {
+          "value": 1600,
+          "unit": "mm",
+          "label": "扫描范围"
+        },
+        "max_scan_speed": {
+          "value": 150,
+          "unit": "mm/s",
+          "label": "扫描速度"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床左右滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "UFC",
+          "unit": "",
+          "label": "探测器晶体材质"
+        },
+        "detector_z_coverage": {
+          "value": 38.4,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 32,
+          "unit": "排",
+          "label": "探测器物理排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 64,
+          "unit": "层",
+          "label": "最大单圈重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "DURA 688 MV",
+          "unit": "",
+          "label": "X射线球管型号"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 6.0,
+          "unit": "MHU",
+          "label": "球管物理热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": 15.0,
+          "unit": "MHU",
+          "label": "等效热容量"
+        },
+        "cooling_system_type": {
+          "value": "Air-cooled",
+          "unit": "",
+          "label": "散热系统类型"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "球管散热率"
+        },
+        "max_generator_power": {
+          "value": 55,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "单球管发生器功率"
+        },
+        "tube_current_max": {
+          "value": 450,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "min_kv": {
+          "value": 80,
+          "unit": "kV",
+          "label": "最低管电压"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "管电压调节步长"
+        },
+        "temporal_resolution": {
+          "value": 300,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "每排通道数"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "采样率"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "CARE Dose4D",
+          "unit": "",
+          "label": "剂量调制技术"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "SAFIRE",
+          "unit": "",
+          "label": "迭代/模型算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱成像机制"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": "0.30 mm",
+          "unit": "",
+          "label": "空间分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 13,
+          "unit": "lp/cm",
+          "label": "MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "3.0 mm @ 0.3%",
+          "unit": "",
+          "label": "低对比度分辨率"
+        },
+        "recon_speed": {
+          "value": 20,
+          "unit": "fps",
+          "label": "重建速度"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380-480V, 3-Phase",
+          "unit": "",
+          "label": "配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "8.5 kW",
+          "unit": "",
+          "label": "扫描室散热要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.0 mm Pb",
+          "unit": "",
+          "label": "防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "e-mode dose optimization",
+      "Slim, space-saving design",
+      "UFC detector technology"
+    ],
+    "fda_510k_number": "K113287",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20173060430",
+        "model_suffix": "Base / Standard",
+        "approval_date": "2017-02-23",
+        "expiry_date": "2022-02-22",
+        "spec_delta": "Standard configuration variant of the SOMATOM Perspective routine CT platform."
+      },
+      {
+        "registration_number": "国械注准20173060432",
+        "model_suffix": "Alternative Configuration",
+        "approval_date": "2017-02-23",
+        "expiry_date": "2022-02-22",
+        "spec_delta": "Equipped with advanced cardiac evaluation and dose reduction options for routine imaging."
+      }
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K113287",
+      "submitter": "Siemens Medical Solutions USA, Inc.",
+      "predicate_devices": [
+        "K050297"
+      ],
+      "cleared_clinical_indications": [
+        "心脏成像 (Cardiac Imaging)"
+      ],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": ": The Siemens SOMATOM Perspective system is intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission data from either the same axial plane taken at different angles or spiral planes* taken at different angles. In addition the SOMATOM Perspective is able to produce additional image planes and analysis results by executing optional post- processing features, which operate on DICOM images. For cardiac imaging, which is an option on the system, a new reconstruction algorithm (iTRIM - Iterative Temporal Resolution Improvement Method) is used. iTRIM improves the temporal resolution of cardiac CT images compared to conventional cardiac CT image reconstruction. Actual re sults obtained with iTRIM can vary depending on the particular clinical situation. Siemens Medical Solutions, INC. USA 510(k) for SOMATOM PROJECT P68 CT System SIEMENS The images and results delivered by the SOMATOM Perspective can be used by a trained physician as an aid in diagnosis. (*spiral planes: the axial planes resulting from the continuous rotation of detectors and x-ray tube, and the simultaneous translation of the patient.) 6.",
+      "device_description_summary": ": Similar to the predicate device (Siemens SOMATOM Emotion 16 premarket notification K(050297, clearance date 03/01/2005), Siemens SOMATOM Perspective is a Computed Tomography X- ray System, which features a continuously rotating tube-detector system and functions according to the fan beam principle. The system software is a command-based program used for patient management, data management, X-ray scan control, image reconstruction, and image archive/evaluation. The SOMATOM Perspective system produces CT images in DICOM format, which can be used by post processing applications commercially distributed by Siemens and other vendors. SOMATOM Perspective operates with software version SOMARIS/5 which is a Wndows Xp01) based program used for patient management, data management, X-ray scan control, image reconstruction, and image archive/evaluation. The key software new features for SOMATOM Perspective are iTRIM (Iterative Temporal Resolution Improvement Method) to improve the temporal resolution to a value of about 80% of that of conventionally reconstructed images, and ECO Mode (eMode) to increase the tube life by reducing the tube power. The computer system delivered with the CT sc..."
+    }
+  },
+  {
+    "id": "ct_siemens_somatom_scope",
+    "manufacturer_id": "mfg_siemens",
+    "model_name": "SOMATOM Scope",
+    "category": "Entry-level",
+    "release_year": 2014,
+    "status": "active",
+    "description": "An entry-level 16-slice CT scanner focusing on daily clinical essentials, offering high economic efficiency and low cost of ownership.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 70,
+          "unit": "cm",
+          "label": "机架孔径"
+        },
+        "rotation_speed": {
+          "value": 0.6,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": 200,
+          "unit": "kg",
+          "label": "检查床最大承重"
+        },
+        "gantry_tilt": {
+          "value": 30,
+          "unit": "°",
+          "label": "机架倾角"
+        },
+        "scan_range": {
+          "value": 1600,
+          "unit": "mm",
+          "label": "扫描范围"
+        },
+        "max_scan_speed": {
+          "value": 100,
+          "unit": "mm/s",
+          "label": "扫描速度"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床左右滑动位移"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "UFC",
+          "unit": "",
+          "label": "探测器晶体材质"
+        },
+        "detector_z_coverage": {
+          "value": 19.2,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": 24,
+          "unit": "排",
+          "label": "探测器物理排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 16,
+          "unit": "层",
+          "label": "最大单圈重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "DURA 422 MV",
+          "unit": "",
+          "label": "X射线球管型号"
+        },
+        "anode_heat_capacity_physical": {
+          "value": 5.0,
+          "unit": "MHU",
+          "label": "球管物理热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": 9.0,
+          "unit": "MHU",
+          "label": "等效热容量"
+        },
+        "cooling_system_type": {
+          "value": "Air-cooled",
+          "unit": "",
+          "label": "散热系统类型"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "球管散热率"
+        },
+        "max_generator_power": {
+          "value": 50,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "单球管发生器功率"
+        },
+        "tube_current_max": {
+          "value": 350,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "min_kv": {
+          "value": 80,
+          "unit": "kV",
+          "label": "最低管电压"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "管电压调节步长"
+        },
+        "temporal_resolution": {
+          "value": 500,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "每排通道数"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "采样率"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "CARE Dose4D",
+          "unit": "",
+          "label": "剂量调制技术"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "IRIS",
+          "unit": "",
+          "label": "迭代/模型算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱成像机制"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": "0.35 mm",
+          "unit": "",
+          "label": "空间分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": 10,
+          "unit": "lp/cm",
+          "label": "MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": "4.0 mm @ 0.3%",
+          "unit": "",
+          "label": "低对比度分辨率"
+        },
+        "recon_speed": {
+          "value": 15,
+          "unit": "fps",
+          "label": "重建速度"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": "380V, 3-Phase",
+          "unit": "",
+          "label": "配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": "8.5 kW",
+          "unit": "",
+          "label": "扫描室散热要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": "2.0 mm Pb",
+          "unit": "",
+          "label": "防护铅当量"
+        }
+      }
+    },
+    "features": [
+      "Economic cost-efficiency",
+      "UFC detector technology",
+      "e-Mode energy saving"
+    ],
+    "fda_510k_number": "K132890",
+    "nmpa_registrations": [
+      {
+        "registration_number": "国械注准20143062064",
+        "model_suffix": "SOMATOM Scope",
+        "approval_date": "2014-06-25",
+        "expiry_date": "2019-06-24",
+        "spec_delta": "Standard 16-slice entry configuration designed for low cost of ownership and daily routine clinical workloads."
+      }
+    ],
+    "fda_clearance_details": {
+      "fda_510k_number": "K132890",
+      "submitter": "Siemens Medical Solutions USA, Inc.",
+      "predicate_devices": [
+        "K014002",
+        "K082536",
+        "K97002",
+        "K980919"
+      ],
+      "cleared_clinical_indications": [],
+      "cleared_software_features": [],
+      "reconstruction_algorithms": [],
+      "extracted_technical_specs": {},
+      "indications_for_use_summary": ": The Suprapubic Catheter and Introducer Sct is indicated for drainage of the bladder through a needle puncture or stab wound over the bladder. For use no greater than 29 days. Environment of Use: Hospitals, sub-acute settings POP Page 101 of 109 CON Q<4- 00 CICN 0.0 C 0 '0 z 0 u - _ - -. 0 -a _ 0000S~s .E C C) ~ C t r 'I tsL~ = flto 4 ) .C ucj C.. .0 ~' rl~-~C 0)0 - ~ C. 0 (I '0 0) C00) '00.-C) ooE .0 4) 0.0.. CO 0 ) .~ ~ coo .~ ~ 35.c - ~ ,2u~~'0 - u0)t'~.0 0 4) ~0~CZ ~ ~~ecoo- u~-~~j -~ a ~ ~ ~e 0 u~ -~ 2 0) C'0L .0 C 4) '0 C 4. 0)0) C - o.a C> .. .~ .00 .~ C' .Sv 00 00 00 .0 C ... 0J.~ b CO~ ~ ~ 0) .0 - *-C.'e 0 ) ~C'~-00~' _ 4) L cooL. '0.0.0 00 0 C ... '00) .C cU ~ '0*0~5 ~ 20 3-ut .~'0 'fl I- -~ CO N ~Z. Ci~ . L~ 10 (N .0 0) '0 o 0. 0 10'0 I -~ 0 L 0)00 o. 4 - C 4) .0 '0 .0 4- - '0 C '0 .00)'. 0 -0 o a o 0 '0 C) ~ 00 00 .0C *- U ~ !n ~ 0. ~0 \"a so.0 C) 0 eu = 4) CO Eu OAt) d.E~ '0.0 .0 oO eN 30) 0 0 .0 - 0)~ ~ 0) .-- 0 ~. ud) o ~ ~ ~ 0* - F-.Eo.n~ C.-eZ ~- c.EC- CCQOZ?0 C ---- - 0 I. IL. C 04 C. u c V ->4)- CO.2 ~ oo IL - ~i 2 U 4) 4) ~I .~s)~' ~ C 0) ~ S A?0S C0 o .~ ~ 0.04 L. .~ C 41 c .-.- ~ *~ 01. - Lz) 0. *~ ~ K132 890 Page 3 of 9 510(k) Summary Page 3 of 9 19-Dec-20 13",
+      "device_description_summary": ": Suprapubic catheters are Foley catheters that are placed with an introducer through a needle puncture or stab wound over the bladder to allow bladder irrigation and!/ or drainage of the bladder. They are available in two (2) tip styles, closed and open tip. The introducer kit includes a number of components including: Scalpel, Syringe, 18 gauge needle, Dilator and Peelable sheath, and Guidewire"
+    }
   }
 ]

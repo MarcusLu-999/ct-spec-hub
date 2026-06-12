@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .vercel
+
+# Local FDA PDF cache
+public/fda_summaries/
