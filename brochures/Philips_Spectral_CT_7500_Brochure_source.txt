@@ -1,4 +1,0 @@
-Source URL: https://www.documents.philips.com/assets/20210518/fb15822f7be34df4a781ad2c00f339cf.pdf
-Error: HTTP Error 404: Not Found
-Document Type: Official Brochure
-Status: Verified online, stored metadata locally.
