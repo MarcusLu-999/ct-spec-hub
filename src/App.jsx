@@ -781,15 +781,30 @@ function App() {
                                 
                                 <div className="specs-grid">
                                   {(() => {
-                                     const allFlatSpecs = [];
-                                     Object.values(product.specifications).forEach(cat => {
-                                        Object.values(cat).forEach(spec => {
-                                          if (spec && spec.value !== null && spec.value !== undefined && spec.value !== '') {
-                                            allFlatSpecs.push(spec);
-                                          }
-                                        });
+                                     const targetKeys = ['bore_size', 'rotation_speed', 'detector_z_coverage', 'physical_detector_rows'];
+                                     const specsToShow = [];
+                                     
+                                     targetKeys.forEach(k => {
+                                       for (const cat of Object.values(product.specifications)) {
+                                         if (cat[k] && cat[k].value !== null && cat[k].value !== undefined && cat[k].value !== '') {
+                                           specsToShow.push(cat[k]);
+                                           break;
+                                         }
+                                       }
                                      });
-                                     return allFlatSpecs.slice(0, 4).map((spec, idx) => (
+
+                                     // Fallback: fill with other specs if we don't have 4
+                                     if (specsToShow.length < 4) {
+                                       Object.values(product.specifications).forEach(cat => {
+                                          Object.values(cat).forEach(spec => {
+                                            if (spec && spec.value !== null && spec.value !== undefined && spec.value !== '' && !specsToShow.includes(spec) && specsToShow.length < 4) {
+                                              specsToShow.push(spec);
+                                            }
+                                          });
+                                       });
+                                     }
+
+                                     return specsToShow.map((spec, idx) => (
                                        <div key={idx} className="spec-item">
                                          <span className="spec-label">{spec.label}</span>
                                          <span className="spec-value">
