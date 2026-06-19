@@ -1,0 +1,4 @@
+Source: No datasheet/PDS available for United Imaging uCT 960+.
+Status: NO_PUBLIC_DATASHEET
+Reason: No FDA 510(k) on record. UI has not registered uCT 960+ (ATLAS) with US FDA; it is a China/Asia-market product. No public datasheet/PDS found via Yahoo search. The brochure (public/brochures/) is the best available public document.
+Document Type: Datasheet/PDS (UNAVAILABLE)

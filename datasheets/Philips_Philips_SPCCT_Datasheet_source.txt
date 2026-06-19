@@ -1,0 +1,4 @@
+Source: No datasheet/PDS available for Philips Philips SPCCT.
+Status: NO_PUBLIC_DATASHEET
+Reason: No FDA 510(k). SPCCT (Spectral Photon-Counting CT) is a research/concept platform, not a released commercial product. No datasheet exists.
+Document Type: Datasheet/PDS (UNAVAILABLE)

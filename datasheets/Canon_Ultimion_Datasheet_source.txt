@@ -1,0 +1,4 @@
+Source: No datasheet/PDS available for Canon Ultimion.
+Status: NO_PUBLIC_DATASHEET
+Reason: No FDA 510(k). Ultimion is Canon newly-announced (2026) CT. Too new for public datasheet/510k. Only a Nikkei press release exists.
+Document Type: Datasheet/PDS (UNAVAILABLE)

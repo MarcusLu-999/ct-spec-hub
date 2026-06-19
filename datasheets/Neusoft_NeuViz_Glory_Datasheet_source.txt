@@ -1,0 +1,8 @@
+Source: No datasheet/PDS available for Neusoft NeuViz Glory.
+Status: NO_PUBLIC_DATASHEET
+Reason: No FDA 510(k) on record for this model (only NeuViz 128 has K151383). Neusoft does not
+publicly host a technical datasheet for NeuViz Glory. Yahoo search found only
+distributor brochure/spec sheets (brief 2-3pp). The CMDE review report for a related Neusoft CT
+(NeuViz P10, public/nmpa_technical_requirements/Neusoft_NeuViz_P10_NMPA.pdf) contains some
+technical specs but is for a different model.
+Document Type: Datasheet/PDS (UNAVAILABLE)

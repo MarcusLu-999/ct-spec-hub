@@ -1,0 +1,13 @@
+Source: No CMDE review report found for Siemens SOMATOM Force.
+Status: NO_PUBLIC_NMPA_PDF
+NMPA Registration Number(s): 国械注准20223061086
+Notes: NMPA stopped publishing Product Technical Requirements (产品技术要求) on the official
+certificate detail page after 2021. The free public source for technical content is CMDE review
+reports (cmde.org.cn), but CMDE selectively publishes these (only single-digit CT reports per year).
+Extensive search via Yahoo site:cmde.org.cn found NO CMDE review report matching this model's
+registration number(s). The certificate metadata (structure/composition, performance indicators summary)
+is viewable on the NMPA data query page but the Product Technical Requirements PDF itself is not
+publicly downloadable. Obtaining the stamped original requires paid YAOZH VIP or contacting the
+registrar directly. WebFetch/curl access to NMPA query API (app1.nmpa.gov.cn) is blocked by network
+SSL MITM in this environment.
+Document Type: CMDE Review Report (UNAVAILABLE) / Product Technical Requirements (NOT PUBLIC)

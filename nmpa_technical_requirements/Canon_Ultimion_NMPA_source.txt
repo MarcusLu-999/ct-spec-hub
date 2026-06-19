@@ -1,0 +1,8 @@
+Source: No NMPA registration certificate number on record for Canon Ultimion.
+Status: NO_NMPA_REGISTRATION_FOUND
+Notes: This model has no NMPA registration number in the project data. It may be: (a) an imported
+model not separately registered in China, (b) covered under a parent/family registration, or
+(c) not yet marketed in China. NMPA query API (app1.nmpa.gov.cn) is blocked by network SSL MITM
+in this environment, so the registration could not be looked up directly. No CMDE review report
+was found via Yahoo site:cmde.org.cn search either.
+Document Type: NMPA Registration (NOT FOUND / NOT APPLICABLE)

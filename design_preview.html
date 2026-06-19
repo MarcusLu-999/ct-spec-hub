@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Now - Design Previews</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+        }
+
+        .preview-container {
+            flex: 1;
+            position: relative;
+            border-right: 2px dashed #ccc;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .preview-container:last-child {
+            border-right: none;
+        }
+
+        .header {
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            z-index: 10;
+        }
+
+        .dummy-content {
+            padding: 20px;
+            color: #9ca3af;
+        }
+
+        .dummy-card {
+            background: white;
+            height: 150px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        /* Option 1: FAB */
+        .opt1-fab {
+            position: absolute;
+            bottom: 40px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: #2563eb;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+            cursor: pointer;
+            transition: transform 0.2s, width 0.2s;
+            overflow: hidden;
+        }
+
+        .opt1-fab:hover {
+            transform: scale(1.05);
+            width: 140px;
+            border-radius: 30px;
+        }
+
+        .opt1-icon {
+            font-size: 24px;
+            font-weight: bold;
+            position: absolute;
+            transition: opacity 0.2s;
+        }
+
+        .opt1-fab:hover .opt1-icon {
+            opacity: 0;
+        }
+
+        .opt1-text {
+            opacity: 0;
+            white-space: nowrap;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+
+        .opt1-fab:hover .opt1-text {
+            opacity: 1;
+        }
+
+        .opt1-badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: #ef4444;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #f3f4f6;
+        }
+
+        /* Option 2: Sidebar Widget */
+        .opt2-widget {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            background: white;
+            width: 220px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            overflow: hidden;
+            border: 1px solid #e5e7eb;
+        }
+
+        .opt2-header {
+            background: #1f2937;
+            color: white;
+            padding: 12px 16px;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .opt2-badge {
+            background: #3b82f6;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+
+        .opt2-list {
+            padding: 12px 16px;
+        }
+
+        .opt2-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #374151;
+        }
+        
+        .opt2-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .opt2-remove {
+            color: #ef4444;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .opt2-action {
+            padding: 16px;
+            background: #f9fafb;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .opt2-btn {
+            width: 100%;
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .opt2-btn:hover { background: #1d4ed8; }
+
+        /* Option 3: Vertical Tab */
+        .opt3-tab {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            background: #2563eb;
+            color: white;
+            padding: 16px 8px;
+            border-radius: 8px 0 0 8px;
+            box-shadow: -4px 0 12px rgba(0,0,0,0.1);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            transition: background 0.2s;
+        }
+
+        .opt3-tab:hover {
+            background: #1d4ed8;
+        }
+
+        .opt3-text {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+
+        .opt3-badge {
+            background: #ef4444;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Option 1 Preview -->
+    <div class="preview-container">
+        <div class="header">
+            <h2>Option 1: Floating Action Button</h2>
+            <p>Sleek, minimal, expands on hover</p>
+        </div>
+        <div class="dummy-content">
+            <div class="dummy-card"></div>
+            <div class="dummy-card"></div>
+            <div class="dummy-card"></div>
+        </div>
+
+        <div class="opt1-fab">
+            <div class="opt1-icon">VS</div>
+            <div class="opt1-text">Compare Now</div>
+            <div class="opt1-badge">3</div>
+        </div>
+    </div>
+
+    <!-- Option 2 Preview -->
+    <div class="preview-container">
+        <div class="header">
+            <h2>Option 2: Sidebar Widget</h2>
+            <p>Highly informative, shows exact models</p>
+        </div>
+        <div class="dummy-content">
+            <div class="dummy-card"></div>
+            <div class="dummy-card"></div>
+            <div class="dummy-card"></div>
+        </div>
+
+        <div class="opt2-widget">
+            <div class="opt2-header">
+                <span>Compare</span>
+                <span class="opt2-badge">3</span>
+            </div>
+            <div class="opt2-list">
+                <div class="opt2-item"><span>GE Optima CT520</span> <span class="opt2-remove">×</span></div>
+                <div class="opt2-item"><span>SOMATOM Pro</span> <span class="opt2-remove">×</span></div>
+                <div class="opt2-item"><span>Aquilion ONE</span> <span class="opt2-remove">×</span></div>
+            </div>
+            <div class="opt2-action">
+                <button class="opt2-btn">Compare Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 3 Preview -->
+    <div class="preview-container">
+        <div class="header">
+            <h2>Option 3: Vertical Tab</h2>
+            <p>Space-efficient, edge-aligned</p>
+        </div>
+        <div class="dummy-content">
+            <div class="dummy-card"></div>
+            <div class="dummy-card"></div>
+            <div class="dummy-card"></div>
+        </div>
+
+        <div class="opt3-tab">
+            <div class="opt3-badge">3</div>
+            <div class="opt3-text">COMPARE</div>
+        </div>
+    </div>
+
+</body>
+</html>

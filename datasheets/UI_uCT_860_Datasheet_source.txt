@@ -1,0 +1,4 @@
+Source: No datasheet/PDS available for United Imaging uCT 860.
+Status: NO_PUBLIC_DATASHEET
+Reason: No FDA 510(k) on record and no public datasheet found. uCT 860 appears only in Chinese procurement documents. See also NMPA note - no public brochure/datasheet exists.
+Document Type: Datasheet/PDS (UNAVAILABLE)

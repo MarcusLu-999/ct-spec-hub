@@ -1,0 +1,4 @@
+Source: No datasheet/PDS available for United Imaging uCT Ultima.
+Status: NO_PUBLIC_DATASHEET
+Reason: No FDA 510(k). uCT Ultima is UI newest photon-counting CT (NMPA-approved Aug 2025). A CMDE review report IS available (public/nmpa_technical_requirements/UI_uCT_Ultima_NMPA.pdf) which contains technical specs - use that as the technical document. No separate marketing datasheet published yet.
+Document Type: Datasheet/PDS (UNAVAILABLE)
