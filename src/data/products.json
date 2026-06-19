@@ -5158,7 +5158,7 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": "Dual Energy (双能高低电压切换)",
+          "value": "不支持",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
@@ -10464,7 +10464,7 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": "Dual Energy (双能高低电压切换)",
+          "value": "不支持",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
@@ -10715,7 +10715,7 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": "Dual Energy (双能高低电压切换)",
+          "value": "不支持",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
@@ -11818,7 +11818,7 @@
           "label": "深度学习重建算法"
         },
         "spectral_imaging_mechanism": {
-          "value": "Dual Energy (双能高低电压切换)",
+          "value": "不支持",
           "unit": "",
           "label": "能谱/光谱成像技术路径"
         }
@@ -14062,5 +14062,265 @@
       "indications_for_use_summary": "510(k) Number (if known) Device Name Form Approved: OMB No. 0910-0120 Expiration Date: January 31, 2017 See PRA Statement below. K140912 SOMATOM Scope/Scope Power Indications for Use (Describe) The SOMATOM Scope and SOMATOM Scope Power are intended to produce cross-sectional images of the body by computer reconstruction of x-ray transmission data from either the same axial plane taken at different angles or spiral planes\" taken at different angles. (*spiral planes: the axial planes resulted from the continuous rotation of detectors and x-ray tube, and the simultaneous translation of the patient.)",
       "device_description_summary": ": The SOMATOM Scope and SOMATOM Scope Power configured with software version syngo ® CT VC28 (SOMARIS/5 VC28) are whole body X-ray computed tomography scanners which operate with SOMARIS/5 software. SOMARIS/5 is a windows based program used for patient management, data management, X-ray scan control, image reconstruction, and image archive/evaluation. The SOMATOM Scope and SOMATOM Scope Power configured with software version syngo ® CT VC28 (SOMARIS/5 VC28) are able to transfer the acquired CT image data for image evaluation, using the DICOM standard. New software version syngo® CT VC28 supports the addition of eCockpit, eStart, eMode, eSleep, a Table Footswitch, Adaptive Signal Boost, and Gantry tilt Speed up. eCockpit The SOMATOM Scope and SOMATOM Scope Power will support a marketed bundle of features designed to support more efficient usage of system tube power. These features will be marketed under the name, “eCockpit,” and comprised of the following: x eMode ECO Mode (eMode) is a software feature, which uses pre-set values to reduce tube power (mA) and increase scan time, while keeping the dose unchanged. With this reduction in tube power, tube life can be increased. There ..."
     }
+  },
+  {
+    "id": "ct_united_uct_siriux",
+    "manufacturer_id": "mfg_united_imaging",
+    "model_name": "uCT SiriuX",
+    "category": "High-end",
+    "release_year": 2025,
+    "status": "active",
+    "description": "全球首创双宽体双源CT，双16cm宽体探测器+双球管，8ms全心时间分辨率，双源能谱成像(PureBeam锡滤过+SpeX技术)",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": null,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": 0.239,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 160,
+          "unit": "",
+          "label": "detector_z_coverage"
+        },
+        "physical_detector_rows": {
+          "value": null,
+          "unit": "",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": null,
+          "unit": "",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": "液态金属轴承球管 ×2",
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": null,
+          "unit": "",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": 34,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "载环集成散热",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器单管最大功率"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "tube_current_max"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": 63,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": null,
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": null,
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": "CardioCapture 2.0 + DeepMAC (深度学习运动/金属伪影校正)",
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": "Dual-Source Spectral (双源能谱, PureBeam锡滤过+SpeX技术)",
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        }
+      }
+    },
+    "features": [
+      "Dual wide-body dual-source",
+      "PureBeam tin filter",
+      "SpeX spectral",
+      "CardioCapture 2.0",
+      "DeepMAC",
+      "8ms temporal resolution"
+    ],
+    "fda_510k_number": "",
+    "fda_clearance_details": {},
+    "clinical_trials": [
+      "NCT07169201"
+    ],
+    "nmpa_registrations": []
   }
 ]
