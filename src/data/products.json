@@ -1816,7 +1816,7 @@
           "label": "焦点-探测器距离"
         },
         "system_total_weight": {
-          "value": null,
+          "value": 1700,
           "unit": "kg",
           "label": "系统总重"
         }
@@ -1999,7 +1999,7 @@
           "label": "工作湿度范围"
         },
         "noise_level_db": {
-          "value": null,
+          "value": 55,
           "unit": "dBA",
           "label": "系统噪声等级"
         }
@@ -2122,7 +2122,7 @@
           "label": "焦点-探测器距离"
         },
         "system_total_weight": {
-          "value": null,
+          "value": 1700,
           "unit": "kg",
           "label": "系统总重"
         }
@@ -2305,7 +2305,7 @@
           "label": "工作湿度范围"
         },
         "noise_level_db": {
-          "value": null,
+          "value": 55,
           "unit": "dBA",
           "label": "系统噪声等级"
         }
@@ -2428,7 +2428,7 @@
           "label": "焦点-探测器距离"
         },
         "system_total_weight": {
-          "value": null,
+          "value": 1700,
           "unit": "kg",
           "label": "系统总重"
         }
@@ -2611,7 +2611,7 @@
           "label": "工作湿度范围"
         },
         "noise_level_db": {
-          "value": null,
+          "value": 50,
           "unit": "dBA",
           "label": "系统噪声等级"
         }
@@ -2734,7 +2734,7 @@
           "label": "焦点-探测器距离"
         },
         "system_total_weight": {
-          "value": null,
+          "value": 1700,
           "unit": "kg",
           "label": "系统总重"
         }
@@ -2917,7 +2917,7 @@
           "label": "工作湿度范围"
         },
         "noise_level_db": {
-          "value": null,
+          "value": 50,
           "unit": "dBA",
           "label": "系统噪声等级"
         }
@@ -5101,9 +5101,9 @@
           "label": "generator_power_single"
         },
         "tube_current_max": {
-          "value": 1000,
+          "value": 833,
           "unit": "mA",
-          "label": "最大管电流"
+          "label": "最大管电流 (用户确认833mA，无公开文档佐证)"
         },
         "min_kv": {
           "value": 60,
@@ -7827,7 +7827,7 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": 227,
+          "value": 205,
           "unit": "kg",
           "label": "table_load_capacity"
         },
@@ -7837,7 +7837,7 @@
           "label": "gantry_tilt"
         },
         "scan_range": {
-          "value": 1700,
+          "value": 1600,
           "unit": "mm",
           "label": "scan_range"
         },
@@ -8936,7 +8936,7 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": 295,
+          "value": 204,
           "unit": "kg",
           "label": "table_load_capacity"
         },
@@ -9023,7 +9023,7 @@
           "label": "cooling_rate"
         },
         "max_generator_power": {
-          "value": 80,
+          "value": 120,
           "unit": "kW",
           "label": "发生器最大功率"
         },
@@ -9048,7 +9048,7 @@
           "label": "kv_steps"
         },
         "temporal_resolution": {
-          "value": 135,
+          "value": 34,
           "unit": "ms",
           "label": "时间分辨率"
         },
@@ -9058,7 +9058,7 @@
           "label": "channels_per_row"
         },
         "data_acquisition_rate": {
-          "value": null,
+          "value": 4800,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
         },
@@ -9761,7 +9761,7 @@
           "label": "最快转速"
         },
         "table_load_capacity": {
-          "value": 300,
+          "value": 220,
           "unit": "kg",
           "label": "table_load_capacity"
         },
@@ -12199,7 +12199,7 @@
           "label": "gantry_tilt"
         },
         "scan_range": {
-          "value": 1770,
+          "value": 1650,
           "unit": "mm",
           "label": "scan_range"
         },
@@ -12301,7 +12301,7 @@
           "label": "kv_steps"
         },
         "temporal_resolution": {
-          "value": 175,
+          "value": 62.3,
           "unit": "ms",
           "label": "时间分辨率"
         },
