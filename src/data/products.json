@@ -43,6 +43,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": 4.75,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -130,6 +145,16 @@
           "value": 4608,
           "unit": "views/rot",
           "label": "最高采样率"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -156,8 +181,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.3,
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -174,6 +199,21 @@
           "value": 60,
           "unit": "fps",
           "label": "最快重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -191,6 +231,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": 70,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -285,6 +335,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": 2412,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -354,7 +419,7 @@
           "label": "min_kv"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
           "label": "kv_steps"
         },
@@ -372,6 +437,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -398,8 +473,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.3,
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -416,6 +491,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -433,6 +523,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": 68,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -527,6 +627,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -614,6 +729,16 @@
           "value": 4608,
           "unit": "views/rot",
           "label": "最高采样率"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -640,8 +765,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.11,
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -658,6 +783,21 @@
           "value": 60,
           "unit": "fps",
           "label": "最快重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -675,6 +815,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -769,6 +919,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -838,7 +1003,7 @@
           "label": "min_kv"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
           "label": "kv_steps"
         },
@@ -856,6 +1021,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -882,8 +1057,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.33,
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -900,6 +1075,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -917,6 +1107,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -1012,6 +1212,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": 4.75,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -1099,6 +1314,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -1143,6 +1368,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1160,6 +1400,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": 70,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -1255,6 +1505,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": 2420,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -1324,7 +1589,7 @@
           "label": "min_kv"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
           "label": "kv_steps"
         },
@@ -1342,6 +1607,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -1368,8 +1643,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.4,
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -1386,6 +1661,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1403,6 +1693,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": 68,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -1504,6 +1804,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": 50,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": 97.6,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -1573,7 +1888,7 @@
           "label": "min_kv"
         },
         "kv_steps": {
-          "value": null,
+          "value": 10,
           "unit": "kV",
           "label": "kv_steps"
         },
@@ -1591,6 +1906,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -1632,9 +1957,24 @@
           "label": "ACR 464 实测低对比分辨率"
         },
         "recon_speed": {
-          "value": null,
+          "value": 23,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": 10,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1652,6 +1992,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -1760,6 +2110,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -1847,6 +2212,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -1891,6 +2266,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1908,6 +2298,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -2016,6 +2416,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -2103,6 +2518,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -2147,6 +2572,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -2164,6 +2604,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -2272,6 +2722,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -2359,6 +2824,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -2403,6 +2878,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -2420,6 +2910,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -2527,6 +3027,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -2614,6 +3129,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -2658,6 +3183,21 @@
           "value": 60,
           "unit": "fps",
           "label": "最快重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -2675,6 +3215,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -2765,6 +3315,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -2852,6 +3417,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -2896,6 +3471,21 @@
           "value": 60,
           "unit": "fps",
           "label": "最快重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -2913,6 +3503,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -3026,6 +3626,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -3113,6 +3728,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -3157,6 +3782,21 @@
           "value": 60,
           "unit": "fps",
           "label": "最快重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -3174,6 +3814,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -3273,6 +3923,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -3360,6 +4025,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -3404,6 +4079,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -3421,6 +4111,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -3508,6 +4208,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -3595,6 +4310,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -3639,6 +4364,21 @@
           "value": 40,
           "unit": "fps",
           "label": "最快重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -3656,6 +4396,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -3726,6 +4476,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -3813,6 +4578,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -3857,6 +4632,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -3874,6 +4664,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -3949,6 +4749,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -4036,6 +4851,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -4080,6 +4905,21 @@
           "value": 70,
           "unit": "fps",
           "label": "最快重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4097,6 +4937,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -4177,6 +5027,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -4264,6 +5129,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -4308,6 +5183,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4325,6 +5215,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -4378,6 +5278,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -4465,6 +5380,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -4509,6 +5434,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4526,6 +5466,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -4579,6 +5529,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -4666,6 +5631,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -4710,6 +5685,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4727,6 +5717,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -4842,6 +5842,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -4929,6 +5944,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -4973,6 +5998,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4990,6 +6030,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -5086,6 +6136,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -5173,6 +6238,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -5217,6 +6292,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5234,6 +6324,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": 70,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -5316,6 +6416,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": 50,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -5403,6 +6518,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -5429,8 +6554,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.23,
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -5447,6 +6572,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5464,6 +6604,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -5547,6 +6697,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -5634,6 +6799,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -5678,6 +6853,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5695,6 +6885,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -5805,6 +7005,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -5892,6 +7107,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -5936,6 +7161,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5953,6 +7193,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -6049,6 +7299,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -6136,6 +7401,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -6180,6 +7455,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6197,6 +7487,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -6279,6 +7579,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": 50,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": 95,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -6366,6 +7681,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -6410,6 +7735,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": 31743,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6427,6 +7767,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -6500,6 +7850,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": 50,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -6587,6 +7952,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": 0.8,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -6613,8 +7988,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.31,
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -6631,6 +8006,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": 0.625,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": 3071,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6648,6 +8038,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -6730,6 +8130,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -6817,6 +8232,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -6861,6 +8286,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6878,6 +8318,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -6958,6 +8408,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -7045,6 +8510,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -7089,6 +8564,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -7106,6 +8596,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -7180,6 +8680,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -7267,6 +8782,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -7311,6 +8836,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -7328,6 +8868,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -7409,6 +8959,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": 500,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -7496,6 +9061,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -7540,6 +9115,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -7557,6 +9147,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -7631,6 +9231,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -7718,6 +9333,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -7762,6 +9387,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -7779,6 +9419,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -7852,6 +9502,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -7939,6 +9604,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -7983,6 +9658,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -8000,6 +9690,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -8081,9 +9781,24 @@
           "label": "max_scan_speed"
         },
         "lateral_slide_range": {
-          "value": null,
-          "unit": "",
+          "value": 4.2,
+          "unit": "cm",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -8171,6 +9886,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": 1,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -8215,6 +9940,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -8232,6 +9972,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -8310,6 +10060,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -8397,6 +10162,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -8441,6 +10216,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -8458,6 +10248,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -8533,6 +10333,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -8620,6 +10435,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -8664,6 +10489,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -8681,6 +10521,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -8734,6 +10584,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -8821,6 +10686,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -8865,6 +10740,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -8882,6 +10772,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -8956,6 +10856,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -9043,6 +10958,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": 0.8,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -9069,8 +10994,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.32,
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -9087,6 +11012,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": 0.55,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": 20,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -9104,6 +11044,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -9181,6 +11131,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -9268,6 +11233,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": 0.8,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -9294,8 +11269,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.32,
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -9312,6 +11287,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": 0.55,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": 20,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -9329,6 +11319,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -9409,6 +11409,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -9496,6 +11511,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": 0.8,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -9522,8 +11547,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": 0.32,
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -9540,6 +11565,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": 0.55,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": 20,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -9557,6 +11597,16 @@
           "value": "2.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -9637,6 +11687,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -9724,6 +11789,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -9768,6 +11843,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -9785,6 +11875,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -9861,6 +11961,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -9948,6 +12063,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -9992,6 +12117,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -10009,6 +12149,16 @@
           "value": "3.0 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -10062,6 +12212,21 @@
           "value": null,
           "unit": "",
           "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": 50,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -10149,6 +12314,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -10193,6 +12368,21 @@
           "value": null,
           "unit": "fps",
           "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": 10,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -10210,6 +12400,16 @@
           "value": "2.5 mm Pb (铅当量)",
           "unit": "",
           "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -10289,6 +12489,21 @@
           "value": null,
           "unit": "",
           "label": "床面横向滑动范围"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -10376,6 +12591,16 @@
           "value": 4608,
           "unit": "views/rot",
           "label": "投影采样率"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -10420,6 +12645,21 @@
           "value": 60,
           "unit": "fps",
           "label": "重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -10437,6 +12677,16 @@
           "value": "3.0 mm Pb",
           "unit": "",
           "label": "推荐铅屏蔽当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -10527,6 +12777,21 @@
           "value": null,
           "unit": "",
           "label": "床面横向滑动范围"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -10614,6 +12879,16 @@
           "value": 4608,
           "unit": "views/rot",
           "label": "投影采样率"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -10658,6 +12933,21 @@
           "value": 60,
           "unit": "fps",
           "label": "重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -10675,6 +12965,16 @@
           "value": "3.0 mm Pb",
           "unit": "",
           "label": "推荐铅屏蔽当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -10732,6 +13032,21 @@
           "value": null,
           "unit": "",
           "label": "床面横向滑动范围"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -10819,6 +13134,16 @@
           "value": 4608,
           "unit": "views/rot",
           "label": "投影采样率"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -10863,6 +13188,21 @@
           "value": 60,
           "unit": "fps",
           "label": "重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -10880,6 +13220,16 @@
           "value": "3.0 mm Pb",
           "unit": "",
           "label": "推荐铅屏蔽当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -10937,6 +13287,21 @@
           "value": null,
           "unit": "",
           "label": "床面横向滑动范围"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -11024,6 +13389,16 @@
           "value": 4608,
           "unit": "views/rot",
           "label": "投影采样率"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -11068,6 +13443,21 @@
           "value": 60,
           "unit": "fps",
           "label": "重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -11085,6 +13475,16 @@
           "value": "3.0 mm Pb",
           "unit": "",
           "label": "推荐铅屏蔽当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -11141,6 +13541,21 @@
           "value": null,
           "unit": "",
           "label": "检查床左右滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": 1990,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -11228,6 +13643,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "采样率"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -11272,6 +13697,21 @@
           "value": 20,
           "unit": "fps",
           "label": "重建速度"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -11289,6 +13729,16 @@
           "value": "2.0 mm Pb",
           "unit": "",
           "label": "防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": 68,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
@@ -11374,6 +13824,21 @@
           "value": null,
           "unit": "",
           "label": "检查床左右滑动位移"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -11461,6 +13926,16 @@
           "value": null,
           "unit": "views/rot",
           "label": "采样率"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
         }
       },
       "软件与算法代偿 (Software & Algorithms)": {
@@ -11505,6 +13980,21 @@
           "value": 15,
           "unit": "fps",
           "label": "重建速度"
+        },
+        "slice_thickness_range": {
+          "value": 19.2,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -11522,6 +14012,16 @@
           "value": "2.0 mm Pb",
           "unit": "",
           "label": "防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
         }
       }
     },
