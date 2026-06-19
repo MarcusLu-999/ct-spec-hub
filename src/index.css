@@ -1897,4 +1897,104 @@ body {
   word-break: break-word;
 }
 
+/* --- Desktop Fixed Sidebar Widget (Option 2 - smaller, bottom-right) --- */
+.desktop-compare-widget {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: rgba(30, 41, 59, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  width: 240px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4), 0 0 15px rgba(56, 189, 248, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.desktop-compare-widget-header {
+  background: rgba(15, 23, 42, 0.9);
+  color: white;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.desktop-compare-badge {
+  background: var(--accent-blue);
+  color: #0f172a;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.desktop-compare-widget-list {
+  padding: 8px 14px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.desktop-compare-widget-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.desktop-compare-widget-item:last-child {
+  border-bottom: none;
+}
+
+.desktop-compare-item-info {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-right: 8px;
+}
+
+.desktop-compare-item-mfg {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.desktop-compare-item-model {
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.desktop-compare-remove {
+  color: var(--text-muted);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+  padding: 2px;
+}
+.desktop-compare-remove:hover {
+  color: #ef4444;
+}
+
+.desktop-compare-widget-action {
+  padding: 12px 14px;
+  background: rgba(15, 23, 42, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.desktop-compare-btn-full {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
 

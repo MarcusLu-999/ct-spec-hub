@@ -836,6 +836,42 @@ function App() {
         )}
       </main>
 
+      {/* Desktop Fixed Sidebar Widget (Option 2 - smaller, bottom-right) */}
+      {!showCompare && !showSources && compareList.length > 0 && !isMobile && (
+        <div className="desktop-compare-widget animate-fade-in">
+          <div className="desktop-compare-widget-header">
+            <span>Compare Selected</span>
+            <span className="desktop-compare-badge">{compareList.length}</span>
+          </div>
+          <div className="desktop-compare-widget-list">
+            {compareProducts.map(product => {
+              const mfg = getManufacturer(product.manufacturer_id);
+              return (
+                <div key={product.id} className="desktop-compare-widget-item">
+                  <div className="desktop-compare-item-info">
+                    <span className="desktop-compare-item-mfg">{mfg?.name_en}</span>
+                    <span className="desktop-compare-item-model" title={product.model_name}>{product.model_name}</span>
+                  </div>
+                  <span className="desktop-compare-remove" onClick={(e) => { e.stopPropagation(); toggleCompare(product.id); }} title="Remove">✕</span>
+                </div>
+              );
+            })}
+          </div>
+          <div className="desktop-compare-widget-action">
+            <button 
+              className="glass-btn primary-btn desktop-compare-btn-full"
+              onClick={() => {
+                setShowCompare(true);
+                setShowSources(false);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+            >
+              Compare Now →
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* Mobile Floating Action Buttons */}
       {!showCompare && !showSources && (
         <div className="mobile-fab-container">
