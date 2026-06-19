@@ -14322,5 +14322,274 @@
       "NCT07169201"
     ],
     "nmpa_registrations": []
+  },
+  {
+    "id": "ct_philips_rembra",
+    "manufacturer_id": "mfg_philips",
+    "model_name": "Rembra",
+    "category": "Mid-range",
+    "release_year": 2025,
+    "status": "active",
+    "description": "Philips Rembra (CT 5400) 大孔径CT, 基于Incisive Host平台, 85cm孔径, NanoPanel Precise XD探测器, 106img/s AI重建, 面向急诊/创伤/肿瘤. FDA K252992.",
+    "specifications": {
+      "物理几何与机械参数 (Physical Geometry)": {
+        "bore_size": {
+          "value": 85,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "rotation_speed": {
+          "value": null,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "scan_range": {
+          "value": 2300,
+          "unit": "mm",
+          "label": "scan_range"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "max_scan_speed"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "max_sfov": {
+          "value": 60,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        }
+      },
+      "成像链与物理硬件 (Imaging Chain)": {
+        "detector_material": {
+          "value": "NanoPanel Precise XD",
+          "unit": "",
+          "label": "detector_material"
+        },
+        "detector_z_coverage": {
+          "value": 40,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "physical_detector_rows": {
+          "value": null,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "max_reconstructed_slices": {
+          "value": 128,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "anode_heat_capacity_physical": {
+          "value": null,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "cooling_system_type": {
+          "value": "未公开",
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "temporal_resolution": {
+          "value": null,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "dose_modulation_tech": {
+          "value": "AI Smart Workflow (未公开具体剂量调制名)",
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": "iDose4 (Incisive Host平台)",
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "deep_learning_reconstruction": {
+          "value": "Precise Spine / Precise Brain / Precise Intervention (AI重建)",
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "spectral_imaging_mechanism": {
+          "value": "不支持 (单层探测器, 非光谱)",
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "recon_speed": {
+          "value": 106,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        }
+      }
+    },
+    "features": [
+      "85cm Large Bore",
+      "NanoPanel Precise XD detector",
+      "Incisive Host Platform",
+      "AI Smart Workflow",
+      "Precise Spine/Brain/Intervention",
+      "OnPlan gantry control",
+      "4D CT pulmonary gating",
+      "EFOV 85cm"
+    ],
+    "fda_510k_number": "K252992",
+    "clinical_trials": [],
+    "fda_clearance_details": {
+      "fda_510k_number": "K252992",
+      "submitter": "Philips Healthcare (Suzhou) Co., Ltd. / Philips Israel (Haifa)",
+      "predicate_devices": [
+        "K232491 (CT 5300/Incisive)",
+        "K171850 (Philips CT Big Bore)",
+        "K240844 (Spectral CT 7500 RT)"
+      ],
+      "device_description_summary": "CT Rembra/Rembra RT/Areta RT. Based on CT 5300 (Incisive Host platform) with hardware/software modifications for oncology. 85cm bore, single-layer detector, 60cm SFOV, 85cm EFOV."
+    },
+    "nmpa_registrations": []
   }
 ]
