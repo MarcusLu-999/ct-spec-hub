@@ -5066,6 +5066,10 @@
           "value": null,
           "unit": "kg",
           "label": "系统总重"
+        },
+        "gantry_bore": {
+          "value": "82",
+          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -5095,8 +5099,8 @@
           "label": "x_ray_tube_model"
         },
         "anode_heat_capacity_physical": {
-          "value": null,
-          "unit": "",
+          "value": "30",
+          "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
@@ -12979,6 +12983,10 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": "0.2",
+          "unit": "mm"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -14227,7 +14235,7 @@
           "label": "kv_steps"
         },
         "temporal_resolution": {
-          "value": 63,
+          "value": "8",
           "unit": "ms",
           "label": "时间分辨率"
         },
@@ -15205,6 +15213,231 @@
       "extracted_technical_specs": {},
       "indications_for_use_summary": "Form Approved: 0MB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. I DEPARTMENT OF HEAL TH AND HUMAN SERVICES =============== Submission Number (if known) Device Name I NAEOTOM Alpha Indications for Use (Describe) This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained staff as an aid in diagnosis and treatment as well as for diagnostic and therapeutic interventions. This CT system can be used for low dose lung cancer screening in high risk populations*. * As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information.",
       "device_description_summary": "Siemens intends to market a new software version, SOMARIS/10 syngo CT VB10, for the Dual Source CT system NAEOTOM Alpha based on the SOMARIS/10 platform. The subject device NAEOTOM Alpha with software version SOMARIS/10 syngo CT VB10 is a Computed Tomography X-ray system which features two continuously rotating tube-detector systems, denominated as A- and B-systems respectively (dual source CT scanner system). The detectors’ function is based on photon-counting technology. The NAEOTOM Alpha with SOMARIS/10 syngo CT VB10 produces CT images in DICOM format, which can be used by trained staff for post- processing applications commercially distributed by Siemens and other vendors as an aid in diagnosis and treatment as well as for diagnostic and therapeutic interventions. The computer system delivered with the CT scanner is able to run optional post-processing applications. Only trained and qualified users, certified in accordance with country-specific regulations, are authorized to operate the system. For example, physicians, radiologists, or technologists. The user must have the necessary U.S. qualifications in order to diagnose or treat the patient with the use of the images deli..."
+    }
+  },
+  {
+    "id": "uct_868",
+    "model_name": "uCT 868",
+    "manufacturer_id": "mfg_united",
+    "specifications": {
+      "成像链与物理硬件 (Imaging Chain)": {
+        "physical_detector_rows": {
+          "value": "160",
+          "unit": "rows"
+        },
+        "max_reconstructed_slices": {
+          "value": "320",
+          "unit": "slices"
+        },
+        "anode_heat_capacity_physical": {
+          "value": "34",
+          "unit": "MHU"
+        }
+      },
+      "物理几何与机械参数 (Physical Geometry)": {
+        "rotation_speed": {
+          "value": "0.25",
+          "unit": "s"
+        },
+        "gantry_bore": {
+          "value": "82",
+          "unit": "cm"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {}
+    }
+  },
+  {
+    "id": "uct_788",
+    "model_name": "uCT 788",
+    "manufacturer_id": "mfg_united",
+    "specifications": {
+      "成像链与物理硬件 (Imaging Chain)": {
+        "physical_detector_rows": {
+          "value": "80",
+          "unit": "rows"
+        },
+        "max_reconstructed_slices": {
+          "value": "160",
+          "unit": "slices"
+        },
+        "generator_power_single": {
+          "value": "100",
+          "unit": "kW"
+        },
+        "anode_heat_capacity_physical": {
+          "value": "7.5",
+          "unit": "MHU"
+        }
+      },
+      "物理几何与机械参数 (Physical Geometry)": {
+        "rotation_speed": {
+          "value": "0.3",
+          "unit": "s"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "slice_thickness_min": {
+          "value": "0.5",
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "id": "uct_768",
+    "model_name": "uCT 768",
+    "manufacturer_id": "mfg_united",
+    "specifications": {
+      "成像链与物理硬件 (Imaging Chain)": {
+        "physical_detector_rows": {
+          "value": "64",
+          "unit": "rows"
+        },
+        "max_reconstructed_slices": {
+          "value": "128",
+          "unit": "slices"
+        }
+      },
+      "物理几何与机械参数 (Physical Geometry)": {},
+      "图像质量与物理实测 (Image Quality)": {}
+    }
+  },
+  {
+    "id": "uct_710",
+    "model_name": "uCT 710",
+    "manufacturer_id": "mfg_united",
+    "specifications": {
+      "成像链与物理硬件 (Imaging Chain)": {
+        "physical_detector_rows": {
+          "value": "60",
+          "unit": "rows"
+        },
+        "max_reconstructed_slices": {
+          "value": "120",
+          "unit": "slices"
+        }
+      },
+      "物理几何与机械参数 (Physical Geometry)": {},
+      "图像质量与物理实测 (Image Quality)": {}
+    }
+  },
+  {
+    "id": "uct_610_sim",
+    "model_name": "uCT 610 Sim",
+    "manufacturer_id": "mfg_united",
+    "specifications": {
+      "成像链与物理硬件 (Imaging Chain)": {},
+      "物理几何与机械参数 (Physical Geometry)": {
+        "gantry_bore": {
+          "value": "87",
+          "unit": "cm"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {}
+    }
+  },
+  {
+    "id": "uct_530",
+    "model_name": "uCT 530",
+    "manufacturer_id": "mfg_united",
+    "specifications": {
+      "成像链与物理硬件 (Imaging Chain)": {
+        "physical_detector_rows": {
+          "value": "40",
+          "unit": "rows"
+        },
+        "max_reconstructed_slices": {
+          "value": "40",
+          "unit": "slices"
+        },
+        "detector_z_coverage": {
+          "value": "22",
+          "unit": "mm"
+        },
+        "generator_power_single": {
+          "value": "50",
+          "unit": "kW"
+        },
+        "anode_heat_capacity_physical": {
+          "value": "5.3",
+          "unit": "MHU"
+        }
+      },
+      "物理几何与机械参数 (Physical Geometry)": {},
+      "图像质量与物理实测 (Image Quality)": {
+        "slice_thickness_min": {
+          "value": "0.55",
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "id": "uct_510",
+    "model_name": "uCT 510",
+    "manufacturer_id": "mfg_united",
+    "specifications": {
+      "成像链与物理硬件 (Imaging Chain)": {
+        "physical_detector_rows": {
+          "value": "16",
+          "unit": "rows"
+        },
+        "max_reconstructed_slices": {
+          "value": "16",
+          "unit": "slices"
+        }
+      },
+      "物理几何与机械参数 (Physical Geometry)": {},
+      "图像质量与物理实测 (Image Quality)": {}
+    }
+  },
+  {
+    "id": "uct_503e",
+    "model_name": "uCT 503e",
+    "manufacturer_id": "mfg_united",
+    "specifications": {
+      "成像链与物理硬件 (Imaging Chain)": {
+        "physical_detector_rows": {
+          "value": "40",
+          "unit": "rows"
+        },
+        "max_reconstructed_slices": {
+          "value": "40",
+          "unit": "slices"
+        }
+      },
+      "物理几何与机械参数 (Physical Geometry)": {},
+      "图像质量与物理实测 (Image Quality)": {}
+    }
+  },
+  {
+    "id": "uct_orion_plus",
+    "model_name": "uCT Orion Plus",
+    "manufacturer_id": "mfg_united",
+    "specifications": {
+      "成像链与物理硬件 (Imaging Chain)": {
+        "physical_detector_rows": {
+          "value": "40",
+          "unit": "rows"
+        },
+        "max_reconstructed_slices": {
+          "value": "80",
+          "unit": "slices"
+        }
+      },
+      "物理几何与机械参数 (Physical Geometry)": {},
+      "图像质量与物理实测 (Image Quality)": {}
+    }
+  },
+  {
+    "id": "uct_orion",
+    "model_name": "uCT Orion",
+    "manufacturer_id": "mfg_united",
+    "specifications": {
+      "成像链与物理硬件 (Imaging Chain)": {},
+      "物理几何与机械参数 (Physical Geometry)": {},
+      "图像质量与物理实测 (Image Quality)": {}
     }
   }
 ]
