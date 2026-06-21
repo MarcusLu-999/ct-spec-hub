@@ -3095,7 +3095,7 @@
           "label": "x_ray_tube_model"
         },
         "anode_heat_capacity_physical": {
-          "value": 6.8,
+          "value": "8.0",
           "unit": "MHU",
           "label": "物理阳极热容量"
         },
@@ -3120,7 +3120,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": "110",
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -3189,8 +3189,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": "0.23",
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
@@ -3383,7 +3383,7 @@
           "label": "x_ray_tube_model"
         },
         "anode_heat_capacity_physical": {
-          "value": 6.8,
+          "value": "8.0",
           "unit": "MHU",
           "label": "物理阳极热容量"
         },
@@ -3408,7 +3408,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": "110",
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -3477,8 +3477,8 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": null,
-          "unit": "",
+          "value": "0.23",
+          "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
         "spatial_resolution_acr_mtf10": {
