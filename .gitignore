@@ -28,6 +28,8 @@ dist-ssr
 # Local FDA PDF cache
 public/fda_summaries/
 public/brochures/
+public/nmpa_technical_requirements/
+public/datasheets/
 
 # Temporary development files
 *.csv

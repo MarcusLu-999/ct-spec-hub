@@ -58,10 +58,6 @@
           "value": 4.75,
           "unit": "kg",
           "label": "系统总重"
-        },
-        "gantry_bore": {
-          "value": "78",
-          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -96,7 +92,7 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": "50",
+          "value": 50,
           "unit": "MHU",
           "label": "等效阳极热容量"
         },
@@ -218,6 +214,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -510,6 +511,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -802,6 +808,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1094,6 +1105,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1231,10 +1247,6 @@
           "value": 4.75,
           "unit": "kg",
           "label": "系统总重"
-        },
-        "gantry_bore": {
-          "value": "78",
-          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -1269,7 +1281,7 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": "30",
+          "value": 30,
           "unit": "MHU",
           "label": "等效阳极热容量"
         },
@@ -1289,7 +1301,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": "100",
+          "value": 100,
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -1391,6 +1403,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1684,6 +1701,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -1827,10 +1849,6 @@
           "value": 1700,
           "unit": "kg",
           "label": "系统总重"
-        },
-        "gantry_bore": {
-          "value": "70",
-          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -1860,7 +1878,7 @@
           "label": "x_ray_tube_model"
         },
         "anode_heat_capacity_physical": {
-          "value": "7",
+          "value": 7,
           "unit": "MHU",
           "label": "物理阳极热容量"
         },
@@ -1885,7 +1903,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": "75",
+          "value": 75,
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -1905,9 +1923,9 @@
           "label": "kv_steps"
         },
         "temporal_resolution": {
-          "value": "165",
+          "value": 165,
           "unit": "ms",
-          "label": "时间分辨率"
+          "label": "时间分辨率 (单扇区)"
         },
         "channels_per_row": {
           "value": null,
@@ -1987,6 +2005,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -2137,10 +2160,6 @@
           "value": 1700,
           "unit": "kg",
           "label": "系统总重"
-        },
-        "gantry_bore": {
-          "value": "70",
-          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -2150,7 +2169,7 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": "22.4",
+          "value": 22.4,
           "unit": "mm",
           "label": "探测器Z轴覆盖"
         },
@@ -2170,7 +2189,7 @@
           "label": "x_ray_tube_model"
         },
         "anode_heat_capacity_physical": {
-          "value": "7",
+          "value": 7,
           "unit": "MHU",
           "label": "物理阳极热容量"
         },
@@ -2195,7 +2214,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": "75",
+          "value": 75,
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -2297,6 +2316,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -2447,10 +2471,6 @@
           "value": 1700,
           "unit": "kg",
           "label": "系统总重"
-        },
-        "gantry_bore": {
-          "value": "70",
-          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -2460,7 +2480,7 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": "22.4",
+          "value": 22.4,
           "unit": "mm",
           "label": "探测器Z轴覆盖"
         },
@@ -2505,7 +2525,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": "35",
+          "value": 35,
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -2607,6 +2627,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -2757,10 +2782,6 @@
           "value": 1700,
           "unit": "kg",
           "label": "系统总重"
-        },
-        "gantry_bore": {
-          "value": "70",
-          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -2770,7 +2791,7 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": "11.2",
+          "value": 11.2,
           "unit": "mm",
           "label": "探测器Z轴覆盖"
         },
@@ -2815,7 +2836,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": "35",
+          "value": 35,
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -2917,6 +2938,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -3095,12 +3121,12 @@
           "label": "x_ray_tube_model"
         },
         "anode_heat_capacity_physical": {
-          "value": "8.0",
+          "value": 8,
           "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": "33",
+          "value": 33,
           "unit": "MHU",
           "label": "等效阳极热容量"
         },
@@ -3120,7 +3146,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": "110",
+          "value": 110,
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -3140,7 +3166,7 @@
           "label": "kv_steps"
         },
         "temporal_resolution": {
-          "value": "24",
+          "value": 24,
           "unit": "ms",
           "label": "时间分辨率"
         },
@@ -3177,7 +3203,7 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": "DLIR 深度学习重建",
+          "value": "TrueFidelity DL (深度学习神经网络重建)",
           "unit": "",
           "label": "深度学习重建算法"
         },
@@ -3189,7 +3215,7 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": "0.23",
+          "value": 0.23,
           "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
@@ -3222,6 +3248,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -3383,12 +3414,12 @@
           "label": "x_ray_tube_model"
         },
         "anode_heat_capacity_physical": {
-          "value": "8.0",
+          "value": 8,
           "unit": "MHU",
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": "33",
+          "value": 33,
           "unit": "MHU",
           "label": "等效阳极热容量"
         },
@@ -3408,7 +3439,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": "110",
+          "value": 110,
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -3428,7 +3459,7 @@
           "label": "kv_steps"
         },
         "temporal_resolution": {
-          "value": "24",
+          "value": 24,
           "unit": "ms",
           "label": "时间分辨率"
         },
@@ -3465,7 +3496,7 @@
           "label": "混合/模型迭代重建算法"
         },
         "deep_learning_reconstruction": {
-          "value": "DLIR 深度学习重建",
+          "value": "TrueFidelity DL (深度学习神经网络重建)",
           "unit": "",
           "label": "深度学习重建算法"
         },
@@ -3477,7 +3508,7 @@
       },
       "图像质量与物理实测 (Image Quality)": {
         "spatial_resolution_advertised": {
-          "value": "0.23",
+          "value": 0.23,
           "unit": "mm",
           "label": "彩页标称高对比分辨率"
         },
@@ -3510,6 +3541,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -3821,6 +3857,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4118,6 +4159,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4403,6 +4449,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4671,6 +4722,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -4944,6 +5000,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5066,10 +5127,6 @@
           "value": null,
           "unit": "kg",
           "label": "系统总重"
-        },
-        "gantry_bore": {
-          "value": "82",
-          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -5099,7 +5156,7 @@
           "label": "x_ray_tube_model"
         },
         "anode_heat_capacity_physical": {
-          "value": "30",
+          "value": 30,
           "unit": "MHU",
           "label": "物理阳极热容量"
         },
@@ -5226,6 +5283,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5477,6 +5539,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -5737,6 +5804,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6053,6 +6125,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6347,6 +6424,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6627,6 +6709,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -6909,6 +6996,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -7217,6 +7309,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -7374,9 +7471,9 @@
           "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": "16",
+          "value": "16/32",
           "unit": "层",
-          "label": "单圈最大重建层数"
+          "label": "单圈最大重建层数 (16/32两种配置)"
         },
         "x_ray_tube_model": {
           "value": "MX135CT",
@@ -7511,6 +7608,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -7791,6 +7893,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -8062,6 +8169,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -8203,12 +8315,12 @@
           "label": "探测器Z轴覆盖"
         },
         "physical_detector_rows": {
-          "value": "62",
+          "value": 62,
           "unit": "排",
           "label": "物理探测器排数"
         },
         "max_reconstructed_slices": {
-          "value": "124",
+          "value": 124,
           "unit": "层",
           "label": "单圈最大重建层数"
         },
@@ -8345,6 +8457,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -8623,6 +8740,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -8895,6 +9017,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -9174,6 +9301,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -9446,6 +9578,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -9717,6 +9854,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -9999,6 +10141,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -10275,6 +10422,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -10548,6 +10700,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -10799,6 +10956,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -11071,6 +11233,11 @@
           "value": 20,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -11346,6 +11513,11 @@
           "value": 20,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -11624,6 +11796,11 @@
           "value": 20,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -11902,6 +12079,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -12176,6 +12358,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -12436,6 +12623,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -12722,6 +12914,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -13012,8 +13209,9 @@
           "label": "MTF 50% 分辨率"
         },
         "slice_thickness_min": {
-          "value": "0.2",
-          "unit": "mm"
+          "value": 0.2,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -13269,6 +13467,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -13524,6 +13727,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -13778,6 +13986,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -14061,6 +14274,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -14262,7 +14480,7 @@
           "label": "kv_steps"
         },
         "temporal_resolution": {
-          "value": "8",
+          "value": 63,
           "unit": "ms",
           "label": "时间分辨率"
         },
@@ -14344,6 +14562,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -14604,6 +14827,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -14657,298 +14885,6 @@
       "device_description_summary": "CT Rembra/Rembra RT/Areta RT. Based on CT 5300 (Incisive Host platform) with hardware/software modifications for oncology. 85cm bore, single-layer detector, 60cm SFOV, 85cm EFOV."
     },
     "nmpa_registrations": []
-  },
-  {
-    "id": "ct_siemens_naeotom_alpha_peak",
-    "manufacturer_id": "mfg_siemens",
-    "model_name": "NAEOTOM Alpha Peak",
-    "category": "High-end",
-    "release_year": 2021,
-    "status": "active",
-    "description": "Siemens NAEOTOM Alpha Peak Photon-counting CT.",
-    "specifications": {
-      "物理几何与机械参数 (Physical Geometry)": {
-        "bore_size": {
-          "value": null,
-          "unit": "cm",
-          "label": "机架孔径"
-        },
-        "rotation_speed": {
-          "value": null,
-          "unit": "s",
-          "label": "最快转速"
-        },
-        "table_load_capacity": {
-          "value": 340,
-          "unit": "kg",
-          "label": "检查床最大承重"
-        },
-        "gantry_tilt": {
-          "value": null,
-          "unit": "°",
-          "label": "机架倾角"
-        },
-        "scan_range": {
-          "value": null,
-          "unit": "mm",
-          "label": "最长扫描范围"
-        },
-        "max_scan_speed": {
-          "value": 737,
-          "unit": "mm/s",
-          "label": "最大扫描速度"
-        },
-        "lateral_slide_range": {
-          "value": null,
-          "unit": "",
-          "label": "检查床横向滑动位移"
-        },
-        "max_sfov": {
-          "value": null,
-          "unit": "cm",
-          "label": "最大扫描视野 (SFOV)"
-        },
-        "focus_to_detector": {
-          "value": null,
-          "unit": "cm",
-          "label": "焦点-探测器距离"
-        },
-        "system_total_weight": {
-          "value": null,
-          "unit": "kg",
-          "label": "系统总重"
-        }
-      },
-      "成像链与物理硬件 (Imaging Chain)": {
-        "detector_material": {
-          "value": "Photon-counting 2x6 cm",
-          "unit": "",
-          "label": "detector_material"
-        },
-        "detector_z_coverage": {
-          "value": 60,
-          "unit": "mm",
-          "label": "探测器Z轴覆盖"
-        },
-        "physical_detector_rows": {
-          "value": "2x288",
-          "unit": "排",
-          "label": "物理探测器排数"
-        },
-        "max_reconstructed_slices": {
-          "value": "2x144",
-          "unit": "层",
-          "label": "单圈最大重建层数"
-        },
-        "x_ray_tube_model": {
-          "value": "2 支 Vectron X 射线球管 (配备锡滤过器)",
-          "unit": "",
-          "label": "x_ray_tube_model"
-        },
-        "anode_heat_capacity_physical": {
-          "value": null,
-          "unit": "MHU",
-          "label": "物理阳极热容量"
-        },
-        "anode_heat_capacity_equivalent": {
-          "value": null,
-          "unit": "MHU",
-          "label": "等效阳极热容量"
-        },
-        "cooling_system_type": {
-          "value": null,
-          "unit": "",
-          "label": "球管冷却工程机制"
-        },
-        "cooling_rate": {
-          "value": null,
-          "unit": "kHU/min",
-          "label": "散热率"
-        },
-        "max_generator_power": {
-          "value": null,
-          "unit": "kW",
-          "label": "发生器最大功率"
-        },
-        "generator_power_single": {
-          "value": 120,
-          "unit": "kW",
-          "label": "单侧发生器功率"
-        },
-        "tube_current_max": {
-          "value": 1300,
-          "unit": "mA",
-          "label": "最大管电流"
-        },
-        "min_kv": {
-          "value": null,
-          "unit": "kV",
-          "label": "最低管电压"
-        },
-        "kv_steps": {
-          "value": "70, 90, 120, 140 kV; Sn 100, 140, 150 kV",
-          "unit": "",
-          "label": "kV 调节步进"
-        },
-        "temporal_resolution": {
-          "value": 66,
-          "unit": "ms",
-          "label": "时间分辨率"
-        },
-        "channels_per_row": {
-          "value": null,
-          "unit": "channels",
-          "label": "每排通道数"
-        },
-        "data_acquisition_rate": {
-          "value": null,
-          "unit": "views/rot",
-          "label": "最高采样率"
-        },
-        "inherent_filtration": {
-          "value": null,
-          "unit": "mm Al",
-          "label": "固有滤过"
-        },
-        "focal_spot_sizes": {
-          "value": null,
-          "unit": "mm",
-          "label": "球管焦点尺寸"
-        }
-      },
-      "软件与算法代偿 (Software & Algorithms)": {
-        "dose_modulation_tech": {
-          "value": null,
-          "unit": "",
-          "label": "剂量调制技术名称"
-        },
-        "iterative_reconstruction_algorithm": {
-          "value": null,
-          "unit": "",
-          "label": "混合/模型迭代重建算法"
-        },
-        "deep_learning_reconstruction": {
-          "value": null,
-          "unit": "",
-          "label": "深度学习重建算法"
-        },
-        "spectral_imaging_mechanism": {
-          "value": null,
-          "unit": "",
-          "label": "能谱/光谱成像技术路径"
-        }
-      },
-      "图像质量与物理实测 (Image Quality)": {
-        "spatial_resolution_advertised": {
-          "value": 0.11,
-          "unit": "mm",
-          "label": "彩页标称高对比分辨率"
-        },
-        "spatial_resolution_acr_mtf10": {
-          "value": null,
-          "unit": "lp/cm",
-          "label": "ACR 464 实测 MTF 10% 分辨率"
-        },
-        "low_contrast_resolution_acr": {
-          "value": null,
-          "unit": "",
-          "label": "ACR 464 实测低对比分辨率"
-        },
-        "recon_speed": {
-          "value": null,
-          "unit": "fps",
-          "label": "最快重建速度"
-        },
-        "slice_thickness_range": {
-          "value": "144x0.4 mm; 120x0.2 mm",
-          "unit": "",
-          "label": "层厚范围"
-        },
-        "ct_number_scale_hu": {
-          "value": null,
-          "unit": "HU",
-          "label": "CT值范围"
-        },
-        "spatial_resolution_mtf50": {
-          "value": null,
-          "unit": "lp/cm",
-          "label": "MTF 50% 分辨率"
-        }
-      },
-      "场地建设与配电要求 (Site Requirements)": {
-        "electrical_requirement": {
-          "value": null,
-          "unit": "",
-          "label": "电网配电要求"
-        },
-        "heat_dissipation_hvac": {
-          "value": null,
-          "unit": "",
-          "label": "扫描间HVAC最小制冷负荷"
-        },
-        "shielding_lead_equivalent": {
-          "value": null,
-          "unit": "",
-          "label": "推荐防护铅当量"
-        },
-        "humidity_range": {
-          "value": null,
-          "unit": "%",
-          "label": "工作湿度范围"
-        },
-        "noise_level_db": {
-          "value": null,
-          "unit": "dBA",
-          "label": "系统噪声等级"
-        }
-      }
-    },
-    "features": [
-      "Photon-counting detector",
-      "QuantaMax",
-      "Quantum Technology",
-      "Dual Source"
-    ],
-    "fda_510k_number": "K233657",
-    "clinical_trials": [
-      "NCT07603167",
-      "NCT06017973",
-      "NCT05904418"
-    ],
-    "fda_clearance_details": {
-      "fda_510k_number": "K233657",
-      "submitter": "Siemens Medical Solutions USA, Inc. 810 Innovation Drive Knoxville, TN 37932 Establishment Registration Number: 1034973 I mporter/Distributor Siemens Medical Solutions USA, Inc. 40 Liberty Boulevard Malvern, PA 19355 Establishment Registration Number: 2240869 Lo cation of Manufacturing Site Siemens Healthcare GmbH Siemensstr. 1 -OR- Rittigfeld 1 D-91301 Forchheim, Germany Establishment Registration Number: 3004977335 N ote: Descriptions in this submission use the short company name Siemens. Brand name on all products is Siemens Healthineers. S ubmitter",
-      "predicate_devices": [
-        "K191040",
-        "K220450",
-        "K220814",
-        "K221727",
-        "K230421"
-      ],
-      "cleared_clinical_indications": [
-        "心脏成像 (Cardiac Imaging)",
-        "儿科成像 (Pediatric Imaging)",
-        "全身成像 (Whole Body Imaging)",
-        "肿瘤/放疗定位 (Oncology/RT Simulation)",
-        "肺癌筛查 (Lung Cancer Screening)",
-        "急诊与创伤 (Emergency/Trauma)"
-      ],
-      "cleared_software_features": [
-        "myExam Companion (AI工作流)",
-        "myNeedle Companion (介入穿刺导航)",
-        "Syngo CT (临床后处理系统)",
-        "Smart Dose (智能剂量控制)",
-        "Smart mA (智能电流调节)"
-      ],
-      "reconstruction_algorithms": [
-        "SAFIRE (正弦图确定迭代重建)",
-        "ADMIRE (基于模型迭代重建)",
-        "KARL 3D (迭代重建)"
-      ],
-      "extracted_technical_specs": {},
-      "indications_for_use_summary": "Form Approved: 0MB No. 0910-0120 Expiration Date: 07/31/2026 See PRA Statement below. I DEPARTMENT OF HEAL TH AND HUMAN SERVICES =============== Submission Number (if known) Device Name I NAEOTOM Alpha Indications for Use (Describe) This computed tomography system is intended to generate and process cross-sectional images of patients by computer reconstruction of x-ray transmission data. The images delivered by the system can be used by a trained staff as an aid in diagnosis and treatment as well as for diagnostic and therapeutic interventions. This CT system can be used for low dose lung cancer screening in high risk populations*. * As defined by professional medical societies. Please refer to clinical literature, including the results of the National Lung Screening Trial (N Engl J Med 2011; 365:395-409) and subsequent literature, for further information.",
-      "device_description_summary": "Siemens intends to market a new software version, SOMARIS/10 syngo CT VB10, for the Dual Source CT system NAEOTOM Alpha based on the SOMARIS/10 platform. The subject device NAEOTOM Alpha with software version SOMARIS/10 syngo CT VB10 is a Computed Tomography X-ray system which features two continuously rotating tube-detector systems, denominated as A- and B-systems respectively (dual source CT scanner system). The detectors’ function is based on photon-counting technology. The NAEOTOM Alpha with SOMARIS/10 syngo CT VB10 produces CT images in DICOM format, which can be used by trained staff for post- processing applications commercially distributed by Siemens and other vendors as an aid in diagnosis and treatment as well as for diagnostic and therapeutic interventions. The computer system delivered with the CT scanner is able to run optional post-processing applications. Only trained and qualified users, certified in accordance with country-specific regulations, are authorized to operate the system. For example, physicians, radiologists, or technologists. The user must have the necessary U.S. qualifications in order to diagnose or treat the patient with the use of the images deli..."
-    }
   },
   {
     "id": "ct_siemens_naeotom_alpha_pro",
@@ -15165,6 +15101,11 @@
           "value": null,
           "unit": "lp/cm",
           "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
         }
       },
       "场地建设与配电要求 (Site Requirements)": {
@@ -15249,29 +15190,240 @@
     "specifications": {
       "成像链与物理硬件 (Imaging Chain)": {
         "physical_detector_rows": {
-          "value": "160",
+          "value": 160,
           "unit": "rows"
         },
         "max_reconstructed_slices": {
-          "value": "320",
+          "value": 320,
           "unit": "slices"
         },
         "anode_heat_capacity_physical": {
-          "value": "34",
+          "value": 34,
           "unit": "MHU"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "temporal_resolution": {
+          "value": null,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
         }
       },
       "物理几何与机械参数 (Physical Geometry)": {
         "rotation_speed": {
-          "value": "0.25",
+          "value": 0.25,
           "unit": "s"
         },
-        "gantry_bore": {
-          "value": "82",
-          "unit": "cm"
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "bore_size": {
+          "value": 82,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
         }
       },
-      "图像质量与物理实测 (Image Quality)": {}
+      "图像质量与物理实测 (Image Quality)": {
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "mm",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": null,
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "dose_modulation_tech": {
+          "value": null,
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        },
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        }
+      }
     },
     "description": "",
     "features": [],
@@ -15284,32 +15436,237 @@
     "specifications": {
       "成像链与物理硬件 (Imaging Chain)": {
         "physical_detector_rows": {
-          "value": "80",
+          "value": 80,
           "unit": "rows"
         },
         "max_reconstructed_slices": {
-          "value": "160",
+          "value": 160,
           "unit": "slices"
         },
         "generator_power_single": {
-          "value": "100",
+          "value": 100,
           "unit": "kW"
         },
         "anode_heat_capacity_physical": {
-          "value": "7.5",
+          "value": 7.5,
           "unit": "MHU"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "temporal_resolution": {
+          "value": null,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
         }
       },
       "物理几何与机械参数 (Physical Geometry)": {
         "rotation_speed": {
-          "value": "0.3",
+          "value": 0.3,
           "unit": "s"
+        },
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "bore_size": {
+          "value": null,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
         }
       },
       "图像质量与物理实测 (Image Quality)": {
         "slice_thickness_min": {
-          "value": "0.5",
-          "unit": "mm"
+          "value": 0.5,
+          "unit": "mm",
+          "label": "最小重建层厚"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "mm",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": null,
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "dose_modulation_tech": {
+          "value": null,
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        },
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
         }
       }
     },
@@ -15324,16 +15681,242 @@
     "specifications": {
       "成像链与物理硬件 (Imaging Chain)": {
         "physical_detector_rows": {
-          "value": "64",
+          "value": 64,
           "unit": "rows"
         },
         "max_reconstructed_slices": {
-          "value": "128",
+          "value": 128,
           "unit": "slices"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "temporal_resolution": {
+          "value": null,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "anode_heat_capacity_physical": {
+          "value": null,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
         }
       },
-      "物理几何与机械参数 (Physical Geometry)": {},
-      "图像质量与物理实测 (Image Quality)": {}
+      "物理几何与机械参数 (Physical Geometry)": {
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "bore_size": {
+          "value": null,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "rotation_speed": {
+          "value": null,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "mm",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": null,
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "dose_modulation_tech": {
+          "value": null,
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        },
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        }
+      }
     },
     "description": "",
     "features": [],
@@ -15346,16 +15929,242 @@
     "specifications": {
       "成像链与物理硬件 (Imaging Chain)": {
         "physical_detector_rows": {
-          "value": "60",
+          "value": 60,
           "unit": "rows"
         },
         "max_reconstructed_slices": {
-          "value": "120",
+          "value": 120,
           "unit": "slices"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "temporal_resolution": {
+          "value": null,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "anode_heat_capacity_physical": {
+          "value": null,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
         }
       },
-      "物理几何与机械参数 (Physical Geometry)": {},
-      "图像质量与物理实测 (Image Quality)": {}
+      "物理几何与机械参数 (Physical Geometry)": {
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "bore_size": {
+          "value": null,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "rotation_speed": {
+          "value": null,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "mm",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": null,
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "dose_modulation_tech": {
+          "value": null,
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        },
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        }
+      }
     },
     "description": "",
     "features": [],
@@ -15366,14 +16175,246 @@
     "model_name": "uCT 610 Sim",
     "manufacturer_id": "mfg_united",
     "specifications": {
-      "成像链与物理硬件 (Imaging Chain)": {},
-      "物理几何与机械参数 (Physical Geometry)": {
-        "gantry_bore": {
-          "value": "87",
-          "unit": "cm"
+      "成像链与物理硬件 (Imaging Chain)": {
+        "max_reconstructed_slices": {
+          "value": null,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        },
+        "physical_detector_rows": {
+          "value": null,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "temporal_resolution": {
+          "value": null,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "anode_heat_capacity_physical": {
+          "value": null,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
         }
       },
-      "图像质量与物理实测 (Image Quality)": {}
+      "物理几何与机械参数 (Physical Geometry)": {
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "bore_size": {
+          "value": 87,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "rotation_speed": {
+          "value": null,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "mm",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": null,
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "dose_modulation_tech": {
+          "value": null,
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        },
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        }
+      }
     },
     "description": "",
     "features": [],
@@ -15386,31 +16427,237 @@
     "specifications": {
       "成像链与物理硬件 (Imaging Chain)": {
         "physical_detector_rows": {
-          "value": "40",
+          "value": 40,
           "unit": "rows"
         },
         "max_reconstructed_slices": {
-          "value": "40",
+          "value": 40,
           "unit": "slices"
         },
         "detector_z_coverage": {
-          "value": "22",
+          "value": 22,
           "unit": "mm"
         },
         "generator_power_single": {
-          "value": "50",
+          "value": 50,
           "unit": "kW"
         },
         "anode_heat_capacity_physical": {
-          "value": "5.3",
+          "value": 5.3,
           "unit": "MHU"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "temporal_resolution": {
+          "value": null,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
         }
       },
-      "物理几何与机械参数 (Physical Geometry)": {},
+      "物理几何与机械参数 (Physical Geometry)": {
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "bore_size": {
+          "value": null,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "rotation_speed": {
+          "value": null,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        }
+      },
       "图像质量与物理实测 (Image Quality)": {
         "slice_thickness_min": {
-          "value": "0.55",
-          "unit": "mm"
+          "value": 0.55,
+          "unit": "mm",
+          "label": "最小重建层厚"
+        },
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "mm",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": null,
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "dose_modulation_tech": {
+          "value": null,
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        },
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
         }
       }
     },
@@ -15425,16 +16672,242 @@
     "specifications": {
       "成像链与物理硬件 (Imaging Chain)": {
         "physical_detector_rows": {
-          "value": "16",
+          "value": 16,
           "unit": "rows"
         },
         "max_reconstructed_slices": {
-          "value": "16",
+          "value": 16,
           "unit": "slices"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "temporal_resolution": {
+          "value": null,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "anode_heat_capacity_physical": {
+          "value": null,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
         }
       },
-      "物理几何与机械参数 (Physical Geometry)": {},
-      "图像质量与物理实测 (Image Quality)": {}
+      "物理几何与机械参数 (Physical Geometry)": {
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "bore_size": {
+          "value": null,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "rotation_speed": {
+          "value": null,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "mm",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": null,
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "dose_modulation_tech": {
+          "value": null,
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        },
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        }
+      }
     },
     "description": "",
     "features": [],
@@ -15447,16 +16920,242 @@
     "specifications": {
       "成像链与物理硬件 (Imaging Chain)": {
         "physical_detector_rows": {
-          "value": "40",
+          "value": 40,
           "unit": "rows"
         },
         "max_reconstructed_slices": {
-          "value": "40",
+          "value": 40,
           "unit": "slices"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "temporal_resolution": {
+          "value": null,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "anode_heat_capacity_physical": {
+          "value": null,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
         }
       },
-      "物理几何与机械参数 (Physical Geometry)": {},
-      "图像质量与物理实测 (Image Quality)": {}
+      "物理几何与机械参数 (Physical Geometry)": {
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "bore_size": {
+          "value": null,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "rotation_speed": {
+          "value": null,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "mm",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": null,
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "dose_modulation_tech": {
+          "value": null,
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        },
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        }
+      }
     },
     "description": "",
     "features": [],
@@ -15469,16 +17168,242 @@
     "specifications": {
       "成像链与物理硬件 (Imaging Chain)": {
         "physical_detector_rows": {
-          "value": "40",
+          "value": 40,
           "unit": "rows"
         },
         "max_reconstructed_slices": {
-          "value": "80",
+          "value": 80,
           "unit": "slices"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "temporal_resolution": {
+          "value": null,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "anode_heat_capacity_physical": {
+          "value": null,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
         }
       },
-      "物理几何与机械参数 (Physical Geometry)": {},
-      "图像质量与物理实测 (Image Quality)": {}
+      "物理几何与机械参数 (Physical Geometry)": {
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "bore_size": {
+          "value": null,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "rotation_speed": {
+          "value": null,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "mm",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": null,
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "dose_modulation_tech": {
+          "value": null,
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        },
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        }
+      }
     },
     "description": "",
     "features": [],
@@ -15489,9 +17414,246 @@
     "model_name": "uCT Orion",
     "manufacturer_id": "mfg_united",
     "specifications": {
-      "成像链与物理硬件 (Imaging Chain)": {},
-      "物理几何与机械参数 (Physical Geometry)": {},
-      "图像质量与物理实测 (Image Quality)": {}
+      "成像链与物理硬件 (Imaging Chain)": {
+        "max_reconstructed_slices": {
+          "value": null,
+          "unit": "层",
+          "label": "单圈最大重建层数"
+        },
+        "kv_steps": {
+          "value": null,
+          "unit": "kV",
+          "label": "kv_steps"
+        },
+        "focal_spot_sizes": {
+          "value": null,
+          "unit": "mm",
+          "label": "球管焦点尺寸"
+        },
+        "physical_detector_rows": {
+          "value": null,
+          "unit": "排",
+          "label": "物理探测器排数"
+        },
+        "cooling_system_type": {
+          "value": null,
+          "unit": "",
+          "label": "球管冷却工程机制"
+        },
+        "x_ray_tube_model": {
+          "value": null,
+          "unit": "",
+          "label": "x_ray_tube_model"
+        },
+        "min_kv": {
+          "value": null,
+          "unit": "kV",
+          "label": "min_kv"
+        },
+        "tube_current_max": {
+          "value": null,
+          "unit": "mA",
+          "label": "最大管电流"
+        },
+        "inherent_filtration": {
+          "value": null,
+          "unit": "mm Al",
+          "label": "固有滤过"
+        },
+        "max_generator_power": {
+          "value": null,
+          "unit": "kW",
+          "label": "发生器最大功率"
+        },
+        "channels_per_row": {
+          "value": null,
+          "unit": "channels",
+          "label": "channels_per_row"
+        },
+        "generator_power_single": {
+          "value": null,
+          "unit": "kW",
+          "label": "generator_power_single"
+        },
+        "anode_heat_capacity_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "等效阳极热容量"
+        },
+        "detector_z_coverage": {
+          "value": null,
+          "unit": "mm",
+          "label": "探测器Z轴覆盖"
+        },
+        "temporal_resolution": {
+          "value": null,
+          "unit": "ms",
+          "label": "时间分辨率"
+        },
+        "detector_material": {
+          "value": null,
+          "unit": "",
+          "label": "detector_material"
+        },
+        "data_acquisition_rate": {
+          "value": null,
+          "unit": "views/rot",
+          "label": "data_acquisition_rate"
+        },
+        "cooling_rate": {
+          "value": null,
+          "unit": "kHU/min",
+          "label": "cooling_rate"
+        },
+        "anode_heat_capacity_physical": {
+          "value": null,
+          "unit": "MHU",
+          "label": "物理阳极热容量"
+        }
+      },
+      "物理几何与机械参数 (Physical Geometry)": {
+        "gantry_tilt": {
+          "value": null,
+          "unit": "°",
+          "label": "gantry_tilt"
+        },
+        "table_load_capacity": {
+          "value": null,
+          "unit": "kg",
+          "label": "table_load_capacity"
+        },
+        "max_sfov": {
+          "value": null,
+          "unit": "cm",
+          "label": "最大扫描视野 (SFOV)"
+        },
+        "bore_size": {
+          "value": null,
+          "unit": "cm",
+          "label": "孔径"
+        },
+        "lateral_slide_range": {
+          "value": null,
+          "unit": "",
+          "label": "检查床横向滑动位移"
+        },
+        "system_total_weight": {
+          "value": null,
+          "unit": "kg",
+          "label": "系统总重"
+        },
+        "max_scan_speed": {
+          "value": null,
+          "unit": "mm/s",
+          "label": "最大扫描速度"
+        },
+        "focus_to_detector": {
+          "value": null,
+          "unit": "cm",
+          "label": "焦点-探测器距离"
+        },
+        "rotation_speed": {
+          "value": null,
+          "unit": "s",
+          "label": "最快转速"
+        },
+        "scan_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "scan_range"
+        }
+      },
+      "图像质量与物理实测 (Image Quality)": {
+        "ct_number_scale_hu": {
+          "value": null,
+          "unit": "HU",
+          "label": "CT值范围"
+        },
+        "recon_speed": {
+          "value": null,
+          "unit": "fps",
+          "label": "recon_speed"
+        },
+        "low_contrast_resolution_acr": {
+          "value": null,
+          "unit": "",
+          "label": "ACR 464 实测低对比分辨率"
+        },
+        "slice_thickness_range": {
+          "value": null,
+          "unit": "mm",
+          "label": "层厚范围"
+        },
+        "spatial_resolution_acr_mtf10": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "ACR 464 实测 MTF 10% 分辨率"
+        },
+        "spatial_resolution_advertised": {
+          "value": null,
+          "unit": "mm",
+          "label": "彩页标称高对比分辨率"
+        },
+        "spatial_resolution_mtf50": {
+          "value": null,
+          "unit": "lp/cm",
+          "label": "MTF 50% 分辨率"
+        },
+        "slice_thickness_min": {
+          "value": null,
+          "unit": "mm",
+          "label": "最小重建层厚"
+        }
+      },
+      "软件与算法代偿 (Software & Algorithms)": {
+        "deep_learning_reconstruction": {
+          "value": null,
+          "unit": "",
+          "label": "深度学习重建算法"
+        },
+        "iterative_reconstruction_algorithm": {
+          "value": null,
+          "unit": "",
+          "label": "混合/模型迭代重建算法"
+        },
+        "dose_modulation_tech": {
+          "value": null,
+          "unit": "",
+          "label": "剂量调制技术名称"
+        },
+        "spectral_imaging_mechanism": {
+          "value": null,
+          "unit": "",
+          "label": "能谱/光谱成像技术路径"
+        }
+      },
+      "场地建设与配电要求 (Site Requirements)": {
+        "noise_level_db": {
+          "value": null,
+          "unit": "dBA",
+          "label": "系统噪声等级"
+        },
+        "electrical_requirement": {
+          "value": null,
+          "unit": "",
+          "label": "电网配电要求"
+        },
+        "shielding_lead_equivalent": {
+          "value": null,
+          "unit": "",
+          "label": "推荐防护铅当量"
+        },
+        "humidity_range": {
+          "value": null,
+          "unit": "%",
+          "label": "工作湿度范围"
+        },
+        "heat_dissipation_hvac": {
+          "value": null,
+          "unit": "",
+          "label": "扫描间HVAC最小制冷负荷"
+        }
+      }
     },
     "description": "",
     "features": [],
