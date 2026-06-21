@@ -58,6 +58,10 @@
           "value": 4.75,
           "unit": "kg",
           "label": "系统总重"
+        },
+        "gantry_bore": {
+          "value": "78",
+          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -92,7 +96,7 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": 120,
+          "value": "50",
           "unit": "MHU",
           "label": "等效阳极热容量"
         },
@@ -1227,6 +1231,10 @@
           "value": 4.75,
           "unit": "kg",
           "label": "系统总重"
+        },
+        "gantry_bore": {
+          "value": "78",
+          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -1261,8 +1269,8 @@
           "label": "物理阳极热容量"
         },
         "anode_heat_capacity_equivalent": {
-          "value": 50,
-          "unit": "",
+          "value": "30",
+          "unit": "MHU",
           "label": "等效阳极热容量"
         },
         "cooling_system_type": {
@@ -1281,7 +1289,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": "100",
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -1819,6 +1827,10 @@
           "value": 1700,
           "unit": "kg",
           "label": "系统总重"
+        },
+        "gantry_bore": {
+          "value": "70",
+          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -1848,7 +1860,7 @@
           "label": "x_ray_tube_model"
         },
         "anode_heat_capacity_physical": {
-          "value": 6,
+          "value": "7",
           "unit": "MHU",
           "label": "物理阳极热容量"
         },
@@ -1873,7 +1885,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": "75",
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -1893,7 +1905,7 @@
           "label": "kv_steps"
         },
         "temporal_resolution": {
-          "value": 83,
+          "value": "165",
           "unit": "ms",
           "label": "时间分辨率"
         },
@@ -2125,6 +2137,10 @@
           "value": 1700,
           "unit": "kg",
           "label": "系统总重"
+        },
+        "gantry_bore": {
+          "value": "70",
+          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -2134,7 +2150,7 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": 22,
+          "value": "22.4",
           "unit": "mm",
           "label": "探测器Z轴覆盖"
         },
@@ -2154,7 +2170,7 @@
           "label": "x_ray_tube_model"
         },
         "anode_heat_capacity_physical": {
-          "value": 6,
+          "value": "7",
           "unit": "MHU",
           "label": "物理阳极热容量"
         },
@@ -2179,7 +2195,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": "75",
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -2431,6 +2447,10 @@
           "value": 1700,
           "unit": "kg",
           "label": "系统总重"
+        },
+        "gantry_bore": {
+          "value": "70",
+          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -2440,7 +2460,7 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": 22,
+          "value": "22.4",
           "unit": "mm",
           "label": "探测器Z轴覆盖"
         },
@@ -2485,7 +2505,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": "35",
           "unit": "kW",
           "label": "generator_power_single"
         },
@@ -2737,6 +2757,10 @@
           "value": 1700,
           "unit": "kg",
           "label": "系统总重"
+        },
+        "gantry_bore": {
+          "value": "70",
+          "unit": "cm"
         }
       },
       "成像链与物理硬件 (Imaging Chain)": {
@@ -2746,7 +2770,7 @@
           "label": "detector_material"
         },
         "detector_z_coverage": {
-          "value": 11,
+          "value": "11.2",
           "unit": "mm",
           "label": "探测器Z轴覆盖"
         },
@@ -2791,7 +2815,7 @@
           "label": "发生器最大功率"
         },
         "generator_power_single": {
-          "value": null,
+          "value": "35",
           "unit": "kW",
           "label": "generator_power_single"
         },
